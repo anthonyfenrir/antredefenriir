@@ -245,8 +245,8 @@
     "nom": "Warframe",
     "categorie": "Shooter-Looter",
     "image": "images/jeux/warframe.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "Réveillez-vous en tant que guerrier implacable et combattez aux côtés de vos amis dans ce jeu d'action en ligne gratuit basé sur un scénario original.",
+    "synopsis": "Réveillez-vous en tant que guerrier implacable et combattez aux côtés de vos amis dans ce jeu d'action en ligne gratuit basé sur un scénario original.",
+    "steam": "https://store.steampowered.com/app/230410/Warframe/",
     "autreLien": "",
     "tier": "A"
   }
