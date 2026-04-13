@@ -249,7 +249,7 @@ a {
   background: rgba(8, 26, 34, 0.78);
   box-shadow: var(--shadow);
 
-  min-height: 240px;
+  max-height: 200px;
 }
 
 .game-image {
