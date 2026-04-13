@@ -343,7 +343,7 @@ a {
 /* A = très bon */
 .tier-A {
   background: rgba(255, 0, 0, 0.15);
-  color: #00c8ff;
+  color: #ff0000;
   box-shadow: 0 0 10px rgba(255,0,0,0.4);
 }
 
