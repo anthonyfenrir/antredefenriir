@@ -344,18 +344,21 @@ a {
 .tier-A {
   background: rgba(0, 200, 255, 0.15);
   color: #00c8ff;
+  box-shadow: 0 0 10px rgba(0,200,255,0.4);
 }
 
 /* B = moyen */
 .tier-B {
   background: rgba(255, 200, 0, 0.15);
   color: #ffc800;
+  box-shadow: 0 0 10px rgba(255,200,0,0.4);
 }
 
 /* C = faible */
 .tier-C {
   background: rgba(180, 180, 180, 0.15);
   color: #aaa;
+  box-shadow: 0 0 10px rgba(180,180,180,0.4);
 }
 
 @media (max-width: 980px) {
