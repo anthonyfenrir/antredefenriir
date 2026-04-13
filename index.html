@@ -1,67 +1,93 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>L'Antre de FenriirCore</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(180deg, #0c0c0c, #050505);
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .container {
-      text-align: center;
-      width: 90%;
-      max-width: 400px;
-    }
-
-    h1 {
-      margin-bottom: 10px;
-    }
-
-    p {
-      opacity: 0.7;
-      margin-bottom: 30px;
-    }
-
-    .link {
-      display: block;
-      margin: 12px 0;
-      padding: 15px;
-      border-radius: 12px;
-      text-decoration: none;
-      color: white;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(0, 255, 255, 0.2);
-      transition: 0.3s;
-    }
-
-    .link:hover {
-      background: rgba(0, 255, 255, 0.1);
-      box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-      transform: scale(1.03);
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'Antre de FenrirCode</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">L'Antre de FenrirCode</a>
 
-<body>
-  <div class="container">
-    <h1>FenriirCore</h1>
-    <p>Entre dans mon univers</p>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Accueil</a>
+        <a href="jeux.html" class="nav-link">Les jeux de la meute</a>
+      </nav>
+    </div>
+  </header>
 
-    <a class="link" href="#">🎮 Twitch</a>
-    <a class="link" href="#">🎵 TikTok</a>
-    <a class="link" href="#">💬 Discord</a>
-    <a class="link" href="#">🛍️ Youtube</a>
-    
-  </div>
+  <main>
+    <section class="hero container">
+      <div class="hero-card">
+        <h1>Bienvenue dans la meute</h1>
+        <p>
+          Retrouve ici mes liens principaux, mon planning de stream
+          et l’univers gaming de la meute.
+        </p>
+      </div>
+    </section>
+
+    <section class="socials container">
+      <h2 class="section-title">Mes liens</h2>
+      <div class="social-grid">
+        <a class="social-btn youtube" href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a class="social-btn twitch" href="#" target="_blank" rel="noopener noreferrer">Twitch</a>
+        <a class="social-btn tiktok" href="#" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a class="social-btn discord" href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+      </div>
+    </section>
+
+    <section class="planning container">
+      <h2 class="section-title">Planning de stream</h2>
+
+      <div class="planning-grid">
+        <article class="day-card" data-day="1">
+          <h3>Lundi</h3>
+          <p class="time">13:00 - 15:00</p>
+          <p>Jeux n°1 du mois</p>
+        </article>
+
+        <article class="day-card" data-day="2">
+          <h3>Mardi</h3>
+          <p class="time">13:00 - 15:00</p>
+          <p>Jeux n°1 du mois</p>
+        </article>
+
+        <article class="day-card" data-day="3">
+          <h3>Mercredi</h3>
+          <p class="time">Off ou stream sauvage</p>
+          <p>Selon l’envie</p>
+        </article>
+
+        <article class="day-card" data-day="4">
+          <h3>Jeudi</h3>
+          <p class="time">13:00 - 15:00</p>
+          <p>Jeux n°2 du mois</p>
+        </article>
+
+        <article class="day-card" data-day="5">
+          <h3>Vendredi</h3>
+          <p class="time">13:00 - 15:00</p>
+          <p>Jeux n°2 du mois</p>
+        </article>
+
+        <article class="day-card" data-day="6">
+          <h3>Samedi</h3>
+          <p class="time">Off ou stream sauvage</p>
+          <p>Selon l’envie</p>
+        </article>
+
+        <article class="day-card" data-day="0">
+          <h3>Dimanche</h3>
+          <p class="time">Off ou stream sauvage</p>
+          <p>Selon l’envie</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
