@@ -241,7 +241,7 @@ a {
 
 .game-card {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 180px 1fr;
   gap: 20px;
   border: 1px solid rgba(11, 201, 231, 0.35);
   border-radius: 22px;
