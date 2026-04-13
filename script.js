@@ -83,7 +83,7 @@ function renderGames(games, activeCategory, container) {
                 <h2 class="game-title">${escapeHtml(game.nom)}</h2>
                 <span class="game-category">${escapeHtml(game.categorie)}</span>
               </div>
-              <div class="game-tier">Note : ${escapeHtml(String(game.tier))}/10</div>
+              <div class="game-tier">Tier : ${escapeHtml(String(game.tier))}</div>
             </div>
 
             <p class="game-synopsis">${escapeHtml(game.synopsis)}</p>
