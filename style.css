@@ -493,26 +493,35 @@ a {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 760px) {
   .header-inner {
-    flex-direction: column;
-    justify-content: center;
+    min-height: auto;
     padding: 14px 0;
-  }
-
-  .planning-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .day-card {
-    min-height: 150px;
-  }
-
-  .social-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .game-top {
     flex-direction: column;
+    align-items: stretch;
+  }
+
+  .brand {
+    justify-content: center;
+  }
+
+  .brand-logo {
+    width: 44px;
+    height: 44px;
+  }
+
+  .brand-text {
+    font-size: 1.05rem;
+    text-align: center;
+  }
+
+  .main-nav {
+    justify-content: center;
+  }
+
+  .nav-link {
+    min-height: 42px;
+    padding: 0 14px;
+    font-size: 0.85rem;
   }
 }
