@@ -290,9 +290,10 @@ a {
 }
 
 .game-synopsis {
-  color: var(--muted);
-  line-height: 1.7;
-  margin: 14px 0 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* 👈 au lieu de 4 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .game-links {
