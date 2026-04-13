@@ -326,6 +326,38 @@ a {
   color: var(--muted);
 }
 
+.tier-badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+/* S = top tier */
+.tier-S {
+  background: rgba(0, 255, 200, 0.15);
+  color: #00ffd5;
+  box-shadow: 0 0 10px rgba(0,255,200,0.4);
+}
+
+/* A = très bon */
+.tier-A {
+  background: rgba(0, 200, 255, 0.15);
+  color: #00c8ff;
+}
+
+/* B = moyen */
+.tier-B {
+  background: rgba(255, 200, 0, 0.15);
+  color: #ffc800;
+}
+
+/* C = faible */
+.tier-C {
+  background: rgba(180, 180, 180, 0.15);
+  color: #aaa;
+}
+
 @media (max-width: 980px) {
   .planning-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
