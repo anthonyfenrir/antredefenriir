@@ -1,0 +1,47 @@
+[
+  {
+    "nom": "Dofus",
+    "categorie": "MMORPG",
+    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Dofus",
+    "synopsis": "Un MMORPG tactique où progression, économie, donjons et optimisation prennent une place centrale.",
+    "steam": "",
+    "autreLien": "",
+    "note": 9
+  },
+  {
+    "nom": "Schedule I",
+    "categorie": "Simulation",
+    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Schedule+I",
+    "synopsis": "Une expérience de simulation au ton plus libre, avec de la gestion, de l'organisation et une ambiance marquée.",
+    "steam": "https://store.steampowered.com/",
+    "autreLien": "",
+    "note": 8
+  },
+  {
+    "nom": "Lethal Company",
+    "categorie": "Horreur",
+    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Lethal+Company",
+    "synopsis": "Un jeu coopératif tendu et chaotique où exploration, pression et imprévus créent des sessions mémorables.",
+    "steam": "https://store.steampowered.com/",
+    "autreLien": "",
+    "note": 8
+  },
+  {
+    "nom": "Borderlands 3",
+    "categorie": "Shooter-Looter",
+    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Borderlands+3",
+    "synopsis": "Un shooter-looter nerveux avec beaucoup de butin, des builds variés et un rythme parfait pour le coop.",
+    "steam": "https://store.steampowered.com/",
+    "autreLien": "",
+    "note": 8
+  },
+  {
+    "nom": "The Elder Scrolls V: Skyrim",
+    "categorie": "RPG",
+    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Skyrim",
+    "synopsis": "Un RPG culte à l'exploration massive, parfait pour les sessions chill, aventure et progression libre.",
+    "steam": "https://store.steampowered.com/",
+    "autreLien": "",
+    "note": 9
+  }
+]
