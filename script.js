@@ -35,12 +35,13 @@ async function initGamesPage() {
 
     let activeCategory = "Tous";
 
-    renderFilters(categories, activeCategory, filtersContainer, (selected) => {
+    const handleFilterClick = (selected) => {
       activeCategory = selected;
-      renderFilters(categories, activeCategory, filtersContainer, arguments.callee);
+      renderFilters(categories, activeCategory, filtersContainer, handleFilterClick);
       renderGames(games, activeCategory, gamesList);
-    });
+    };
 
+    renderFilters(categories, activeCategory, filtersContainer, handleFilterClick);
     renderGames(games, activeCategory, gamesList);
   } catch (error) {
     console.error(error);
