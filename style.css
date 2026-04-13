@@ -22,11 +22,19 @@ html {
 
 body {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Merriweather", serif;
   background:
     radial-gradient(circle at top, rgba(0, 217, 255, 0.08), transparent 30%),
     linear-gradient(180deg, #020508 0%, #03070b 100%);
   color: var(--text);
+}
+
+.hero-card h1,
+.section-title,
+.game-title,
+.logo,
+.nav-link {
+  font-family: "Cinzel", serif;
 }
 
 a {
