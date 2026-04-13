@@ -1,47 +1,253 @@
 [
   {
-    "nom": "Dofus",
-    "categorie": "MMORPG",
-    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Dofus",
-    "synopsis": "Un MMORPG tactique où progression, économie, donjons et optimisation prennent une place centrale.",
+    "nom": "Anomaly Compagny",
+    "categorie": "Horreur",
+    "image": "images/jeux/anomalycompagny.jpg",
+    "synopsis": "Dans ce jeu d’horreur coopératif à 4 joueurs, vous et votre équipe êtes envoyés pour évaluer la réalité. Mémorisez l’environnement. Repérez des anomalies troublantes. Décidez si la ligne temporelle est sûre. Une seule erreur — et tout recommence.",
+    "steam": "https://store.steampowered.com/app/3099190/Anomaly_Company/",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Baldur's Gate 3",
+    "categorie": "RPG",
+    "image": "images/jeux/baldur3.jpg",
+    "synopsis": "Constituez votre groupe et retournez aux Royaumes Oubliés dans une histoire d'amitié, de trahison, de sacrifice et de survie, sur fond d'attrait du pouvoir absolu.",
+    "steam": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Jeu 3",
+    "categorie": "Shooter-Looter",
+    "image": "images/jeux/jeu3.jpg",
+    "synopsis": "Description du jeu.",
     "steam": "",
     "autreLien": "",
-    "note": 9
+    "tier": "B"
   },
+
   {
-    "nom": "Schedule I",
+    "nom": "Jeu 4",
     "categorie": "Simulation",
-    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Schedule+I",
-    "synopsis": "Une expérience de simulation au ton plus libre, avec de la gestion, de l'organisation et une ambiance marquée.",
-    "steam": "https://store.steampowered.com/",
+    "image": "images/jeux/jeu4.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
     "autreLien": "",
-    "note": 8
+    "tier": "S"
   },
   {
-    "nom": "Lethal Company",
+    "nom": "Jeu 5",
     "categorie": "Horreur",
-    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Lethal+Company",
-    "synopsis": "Un jeu coopératif tendu et chaotique où exploration, pression et imprévus créent des sessions mémorables.",
-    "steam": "https://store.steampowered.com/",
+    "image": "images/jeux/jeu5.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
     "autreLien": "",
-    "note": 8
+    "tier": "A"
   },
   {
-    "nom": "Borderlands 3",
-    "categorie": "Shooter-Looter",
-    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Borderlands+3",
-    "synopsis": "Un shooter-looter nerveux avec beaucoup de butin, des builds variés et un rythme parfait pour le coop.",
-    "steam": "https://store.steampowered.com/",
+    "nom": "Jeu 6",
+    "categorie": "Gestion",
+    "image": "images/jeux/jeu6.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
     "autreLien": "",
-    "note": 8
+    "tier": "B"
+  },
+
+  {
+    "nom": "Jeu 7",
+    "categorie": "MMORPG",
+    "image": "images/jeux/jeu7.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "A"
   },
   {
-    "nom": "The Elder Scrolls V: Skyrim",
+    "nom": "Jeu 8",
     "categorie": "RPG",
-    "image": "https://placehold.co/800x500/07131a/00d9ff?text=Skyrim",
-    "synopsis": "Un RPG culte à l'exploration massive, parfait pour les sessions chill, aventure et progression libre.",
-    "steam": "https://store.steampowered.com/",
+    "image": "images/jeux/jeu8.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
     "autreLien": "",
-    "note": 9
+    "tier": "S"
+  },
+  {
+    "nom": "Jeu 9",
+    "categorie": "Shooter-Looter",
+    "image": "images/jeux/jeu9.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "C"
+  },
+
+  {
+    "nom": "Jeu 10",
+    "categorie": "Simulation",
+    "image": "images/jeux/jeu10.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Jeu 11",
+    "categorie": "Horreur",
+    "image": "images/jeux/jeu11.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Jeu 12",
+    "categorie": "Gestion",
+    "image": "images/jeux/jeu12.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "A"
+  },
+
+  {
+    "nom": "Jeu 13",
+    "categorie": "MMORPG",
+    "image": "images/jeux/jeu13.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Jeu 14",
+    "categorie": "RPG",
+    "image": "images/jeux/jeu14.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "A"
+  },
+  {
+    "nom": "Jeu 15",
+    "categorie": "Shooter-Looter",
+    "image": "images/jeux/jeu15.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "B"
+  },
+
+  {
+    "nom": "Jeu 16",
+    "categorie": "Simulation",
+    "image": "images/jeux/jeu16.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "C"
+  },
+  {
+    "nom": "Jeu 17",
+    "categorie": "Horreur",
+    "image": "images/jeux/jeu17.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Jeu 18",
+    "categorie": "Gestion",
+    "image": "images/jeux/jeu18.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "A"
+  },
+
+  {
+    "nom": "Jeu 19",
+    "categorie": "MMORPG",
+    "image": "images/jeux/jeu19.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Jeu 20",
+    "categorie": "RPG",
+    "image": "images/jeux/jeu20.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "A"
+  },
+  {
+    "nom": "Jeu 21",
+    "categorie": "Shooter-Looter",
+    "image": "images/jeux/jeu21.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "B"
+  },
+
+  {
+    "nom": "Jeu 22",
+    "categorie": "Simulation",
+    "image": "images/jeux/jeu22.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "A"
+  },
+  {
+    "nom": "Jeu 23",
+    "categorie": "Horreur",
+    "image": "images/jeux/jeu23.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Jeu 24",
+    "categorie": "Gestion",
+    "image": "images/jeux/jeu24.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "B"
+  },
+
+  {
+    "nom": "Jeu 25",
+    "categorie": "MMORPG",
+    "image": "images/jeux/jeu25.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "A"
+  },
+  {
+    "nom": "Jeu 26",
+    "categorie": "RPG",
+    "image": "images/jeux/jeu26.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Jeu 27",
+    "categorie": "Shooter-Looter",
+    "image": "images/jeux/jeu27.jpg",
+    "synopsis": "Description du jeu.",
+    "steam": "",
+    "autreLien": "",
+    "tier": "C"
   }
 ]
