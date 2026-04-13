@@ -18,236 +18,236 @@
     "tier": "S"
   },
   {
-    "nom": "Jeu 3",
-    "categorie": "Shooter-Looter",
-    "image": "images/jeux/jeu3.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "B"
-  },
-
-  {
-    "nom": "Jeu 4",
-    "categorie": "Simulation",
-    "image": "images/jeux/jeu4.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "S"
-  },
-  {
-    "nom": "Jeu 5",
-    "categorie": "Horreur",
-    "image": "images/jeux/jeu5.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "A"
-  },
-  {
-    "nom": "Jeu 6",
-    "categorie": "Gestion",
-    "image": "images/jeux/jeu6.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "B"
-  },
-
-  {
-    "nom": "Jeu 7",
+    "nom": "Black Desert",
     "categorie": "MMORPG",
-    "image": "images/jeux/jeu7.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
+    "image": "images/jeux/blackdesert.jpg",
+    "synopsis": "Joué par plus de 20 millions d'aventuriers, Black Desert Online est un MMORPG d'action en monde ouvert. Vivez des combats épiques, des batailles contre des boss mondiaux. Conquérez des châteaux, progressez dans des professions telles que la pêche, le commerce, l'artisanat, la cuisine et bien plus !",
+    "steam": "https://store.steampowered.com/app/582660/Black_Desert/",
+    "autreLien": "",
+    "tier": "B"
+  },
+
+  {
+    "nom": "Burglin' Gnomes",
+    "categorie": "Horreur",
+    "image": "images/jeux/burglingnomes.jpg",
+    "synopsis": "Un jeu coopératif en ligne où vous incarnez de petits gnomes semant le chaos en infiltrant des maisons. Évitez les dangers, détournez des objets du quotidien et accomplissez des missions pour satisfaire les exigences du Haut-Gnome. Fabriquez de l’équipement et améliorez votre repaire pour faciliter vos expéditions et les rendre encore plus efficaces.",
+    "steam": "https://store.steampowered.com/app/3844970/Burglin_Gnomes/",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Cities: Skylines",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/citysky.jpg",
+    "synopsis": "Cities: Skylines est une version moderne de la classique simulation de ville. Le jeu introduit de nouveaux éléments de gameplay pour reproduire les sensations et difficultés inhérentes à la création et à la gestion d'une vraie ville tout en développant certains aspects établis de la construction de ville.",
+    "steam": "https://store.steampowered.com/app/255710/Cities_Skylines/",
     "autreLien": "",
     "tier": "A"
   },
   {
-    "nom": "Jeu 8",
-    "categorie": "RPG",
-    "image": "images/jeux/jeu8.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
+    "nom": "Cities: Skylines II",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/citysky2.jpg",
+    "synopsis": "Bâtissez une ville et transformez-la en une métropole prospère grâce à un jeu de construction urbaine sans précédent. Utilisez votre créativité pour bâtir un monde sans limites et résoudre des problèmes dans une simulation profonde avec une économie vivante.",
+    "steam": "https://store.steampowered.com/app/949230/Cities_Skylines_II/",
     "autreLien": "",
-    "tier": "S"
-  },
-  {
-    "nom": "Jeu 9",
-    "categorie": "Shooter-Looter",
-    "image": "images/jeux/jeu9.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "C"
+    "tier": "A"
   },
 
   {
-    "nom": "Jeu 10",
+    "nom": "Climb The Backrooms",
+    "categorie": "Horreur",
+    "image": "images/jeux/climbthebackrooms.jpg",
+    "synopsis": "Progressez à travers les niveaux déformés des Backrooms en utilisant une manipulation d’objets basée sur la physique pour surmonter les obstacles, résoudre des énigmes déroutantes et percer des secrets inquiétants. Jouez en solo ou en coopération en ligne jusqu’à 4 joueurs, et grimpez toujours plus haut en faisant preuve de réflexion… tout en survivant à l’inconnu."
+    "steam": "https://store.steampowered.com/app/3575300/Climb_The_Backrooms/",
+    "autreLien": "",
+    "tier": "A"
+  },
+  {
+    "nom": "Coral Island",
     "categorie": "Simulation",
+    "image": "images/jeux/coralisland.jpg",
+    "synopsis": "Coral Island est un jeu de simulation agricole fun et relaxant, repensé en mode multijoueur ! Découvre la vie insulaire à ton rythme : jardine avec tes amis, élève des animaux, noue des relations, passe du temps avec des personnages hauts en couleur et plonge dans le royaume magique des Ondins.",
+    "steam": "https://store.steampowered.com/app/1158160/Coral_Island/",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Destiny 2",
+    "categorie": "Shooter-Looter",
+    "image": "images/jeux/destiny2.jpg",
+    "synopsis": "Destiny 2 est un MMO d'action avec un monde évolutif unique, auquel vous et vos amis pouvez jouer gratuitement, à tout moment et de n'importe où.",
+    "steam": "https://store.steampowered.com/app/1085660/Destiny_2/",
+    "autreLien": "",
+    "tier": "A"
+  },
+
+  {
+    "nom": "Dofus",
+    "categorie": "MMORPG",
     "image": "images/jeux/jeu10.jpg",
-    "synopsis": "Description du jeu.",
+    "synopsis": "Dofus est un jeu de rôle en ligne massivement multijoueur (MMORPG) français développé et édité par Ankama puis par sa filiale Ankama Games à sa création en 2004.",
     "steam": "",
-    "autreLien": "",
-    "tier": "B"
+    "autreLien": "https://www.dofus.com/fr",
+    "tier": "S"
   },
   {
-    "nom": "Jeu 11",
-    "categorie": "Horreur",
-    "image": "images/jeux/jeu11.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
+    "nom": "Enshrouded",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/enshrouded.jpg",
+    "synopsis": "Vous êtes le Flameborn, dernier espoir d'une race mourante. Survivez aux ravages d'une brume corruptrice, et reconquérez votre royaume perdu. Jetez-vous dans un vaste monde, affrontez des boss redoutables, bâtissez votre fief et forgez votre destin dans ce jeu d’action-survival coopératif pour 1-16.",
+    "steam": "https://store.steampowered.com/app/1203620/Enshrouded/",
     "autreLien": "",
     "tier": "S"
   },
   {
-    "nom": "Jeu 12",
-    "categorie": "Gestion",
-    "image": "images/jeux/jeu12.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "A"
-  },
-
-  {
-    "nom": "Jeu 13",
-    "categorie": "MMORPG",
-    "image": "images/jeux/jeu13.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "S"
-  },
-  {
-    "nom": "Jeu 14",
-    "categorie": "RPG",
-    "image": "images/jeux/jeu14.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "A"
-  },
-  {
-    "nom": "Jeu 15",
+    "nom": "The First Descendant",
     "categorie": "Shooter-Looter",
-    "image": "images/jeux/jeu15.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
+    "image": "images/jeux/firstdescendant.jpg",
+    "synopsis": "The First Descendant est un jeu de tir et de butin à la troisième personne développé avec l'Unreal Engine 5. Devenez un Légataire. Combattez pour sauver l'humanité. Effectuez des missions en solo et en coopération. Jusqu'à 4 joueurs peuvent affronter des boss géants. SOYEZ LE PREMIER LÉGATAIRE!",
+    "steam": "https://store.steampowered.com/app/2074920/The_First_Descendant/",
     "autreLien": "",
-    "tier": "B"
+    "tier": "S"
   },
 
   {
-    "nom": "Jeu 16",
+    "nom": "Lost Ark",
+    "categorie": "MMORPG",
+    "image": "images/jeux/lostark.jpg",
+    "synopsis":"Partez à l’aventure à la recherche de Lost Ark dans un monde vaste et vibrant : explorez de nouvelles terres, partez en quête de trésors oubliés et mettez vos compétences à l’épreuve dans des combats d’action dynamiques au cœur de ce RPG free-to-play riche en contenu.",
+    "steam": "https://store.steampowered.com/app/1599340/Lost_Ark/",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Medieval Dynasty",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/medievaldynasty.jpg",
+    "synopsis": "Chassez, survivez, bâtissez et menez vos gens dans le rude Moyen Âge : créez votre propre dynastie médiévale et garantissez sa pérennité ou mourez en essayant ! Jouez en solo ou collaborez avec des amis pour profiter d'une expérience médiévale complète.",
+    "steam": "https://store.steampowered.com/app/1129580/Medieval_Dynasty/",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "My Time at Sandrock",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/mytimesandrock.jpg",
+    "synopsis": "Voyagez dans la communauté désertique de Sandrock et jouez le rôle d'un.e jeune artisan.e. Utilisez vos outils pour rassembler des ressources, construire des machines et transformer votre atelier délabré en une installation de production bien huilée pour sauver la ville de la ruine économique!",
+    "steam": "https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/",
+    "autreLien": "",
+    "tier": "S"
+  },
+
+  {
+    "nom": "Nightingale",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/nightingale.jpg",
+    "synopsis": "Partez pour un voyage de survie et d'aventure, où mystères et dangers vous attendent dans les royaumes Fae de Nightingale ! Devenez un Realmwalker intrépide et aventurez-vous seul ou avec des amis: explorez, créez, construisez et combattez dans un monde visuellement époustouflant de Gaslamp Fantasy.",
+    "steam": "https://store.steampowered.com/app/1928980/Nightingale/",
+    "autreLien": "",
+    "tier": "A"
+  },
+  {
+    "nom": "The Outlast Trials",
+    "categorie": "Horreur",
+    "image": "images/jeux/outlastri.jpg",
+    "synopsis": "Red Barrels vous invite à replonger dans une terreur oppressante… cette fois entre amis. Affrontez les épreuves seul ou en équipe, survivez assez longtemps et terminez la thérapie pour que Murkoff vous laisse partir. Mais une question demeure : serez-vous encore le même après ça ?",
+    "steam": "https://store.steampowered.com/app/1304930/The_Outlast_Trials/",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Palia",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/palia.jpg",
+    "synopsis": "Palia est un monde foisonnant, conçu rien que pour vous. Fabriquez des choses, cuisinez des plats, pêchez et cultivez avec vos amis en profitant d’une vie de rêve, et plongez dans une aventure enchanteresse qui recèle de nombreux personnages charismatiques et un mystère à découvrir.",
+    "steam": "https://store.steampowered.com/app/2707930/Palia/",
+    "autreLien": "",
+    "tier": "A"
+  },
+
+  {
+    "nom": "Phasmophobia",
+    "categorie": "Horreur",
+    "image": "images/jeux/phasmophobia.jpg",
+    "synopsis": "Phasmophobia est un jeu d’horreur psychologique en coopération jusqu’à 4 joueurs. Face à une activité paranormale en hausse, vous et votre équipe devrez utiliser tout votre équipement de chasse aux fantômes pour récolter un maximum de preuves… sans y laisser votre santé mentale.",
+    "steam": "https://store.steampowered.com/app/739630/Phasmophobia/",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Resident Evil 6",
+    "categorie": "Horreur",
+    "image": "images/jeux/resident6.jpg",
+    "synopsis": "Mêlant action et survival horror, Resident Evil 6 s'annonce comme l'expérience horrifique de 2013.",
+    "steam": "https://store.steampowered.com/app/221040/Resident_Evil_6/",
+    "autreLien": "",
+    "tier": "B"
+  },
+  {
+    "nom": "Runes of Magic",
+    "categorie": "MMORPG",
+    "image": "images/jeux/runesofmagic.jpg",
+    "synopsis": "Tissez votre histoire héroïque dans un univers imprégné de magie au rythme trépidant. Sélectionnez votre race, élisez domicile et partez à la découverte du monde fabuleux de Taborea dans ce MMO classique gratuit !",
+    "steam": "https://store.steampowered.com/app/808290/Runes_of_Magic/",
+    "autreLien": "",
+    "tier": "A"
+  },
+
+  {
+    "nom": "Satisfactory",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/satisfactory.jpg",
+    "synopsis": "Satisfactory est un jeu de construction d’usines en vue à la première personne dans un monde ouvert avec une touche d’exploration et de combats. Jouez seul ou entre amis, explorez une planète inconnue, construisez des usines à plusieurs niveaux et des tapis roulants à l’infini !",
+    "steam": "https://store.steampowered.com/app/526870/Satisfactory/",
+    "autreLien": "",
+    "tier": "S"
+  },
+  {
+    "nom": "Sengoku Dynasty",
+    "categorie": "Gestion / Construction",
+    "image": "images/jeux/sengoku.jpg",
+    "synopsis": "Cap sur le Japon féodal avec Sengoku Dynasty : bâtissez des villages, développez votre communauté et forgez un monde ouvert via le combat ou l'économie. Régnez en souverain ou détendez-vous. Le choix n'appartient qu'à vous... ou jusqu'à 4 joueurs en coop multijoueur !",
+    "steam": "https://store.steampowered.com/app/1702010/Sengoku_Dynasty/",
+    "autreLien": "",
+    "tier": "A"
+  },
+  {
+    "nom": "The Elder Scrolls V: Skyrim",
+    "categorie": "RPG",
+    "image": "images/jeux/skyrim.jpg",
+    "synopsis": "Dans Skyrim, vous incarnez un inconnu qui tente de traverser la frontière et entrer dans le pays de Bordeciel, alors déchiré par une guerre civile et une invasion de dragons. Dernier « Enfant de dragon » et Dovahkiin, vous êtes le seul être capable de mettre fin à ces conflits. Vaste monde ouvert, Bordeciel offre aux joueuses et aux joueurs une liberté totale d’exploration, faisant de chaque partie une aventure unique.",
+    "steam": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+    "autreLien": "",
+    "tier": "S"
+  },
+
+  {
+    "nom": "Stardew Valley",
     "categorie": "Simulation",
-    "image": "images/jeux/jeu16.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "C"
-  },
-  {
-    "nom": "Jeu 17",
-    "categorie": "Horreur",
-    "image": "images/jeux/jeu17.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "B"
-  },
-  {
-    "nom": "Jeu 18",
-    "categorie": "Gestion",
-    "image": "images/jeux/jeu18.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "A"
-  },
-
-  {
-    "nom": "Jeu 19",
-    "categorie": "MMORPG",
-    "image": "images/jeux/jeu19.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
+    "image": "images/jeux/stardewvalley.jpg",
+    "synopsis": "Vous héritez de l’ancienne ferme de votre grand-père dans la vallée de Stardew. Armé d’outils usés et de quelques pièces, vous débutez une nouvelle vie. Saurez-vous apprendre à vivre de la terre et transformer ces champs envahis par la nature en un foyer prospère ?",
+    "steam": "https://store.steampowered.com/app/413150/Stardew_Valley/",
     "autreLien": "",
     "tier": "S"
   },
   {
-    "nom": "Jeu 20",
-    "categorie": "RPG",
-    "image": "images/jeux/jeu20.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "A"
-  },
-  {
-    "nom": "Jeu 21",
-    "categorie": "Shooter-Looter",
-    "image": "images/jeux/jeu21.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "B"
-  },
-
-  {
-    "nom": "Jeu 22",
+    "nom": "Sun Haven",
     "categorie": "Simulation",
-    "image": "images/jeux/jeu22.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "A"
-  },
-  {
-    "nom": "Jeu 23",
-    "categorie": "Horreur",
-    "image": "images/jeux/jeu23.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
+    "image": "images/jeux/sunhaven.jpg",
+    "synopsis": "Construisez votre ferme et vos relations avec les habitants, ou avancez dans une quête de magie, de monstres et de dragons. Montez de niveau à travers un arbre de compétences en multijoueur à 8 personnes, ou partez à l'aventure en solo !",
+    "steam": "https://store.steampowered.com/app/1432860/Sun_Haven/",
     "autreLien": "",
     "tier": "S"
   },
   {
-    "nom": "Jeu 24",
-    "categorie": "Gestion",
-    "image": "images/jeux/jeu24.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "B"
-  },
-
-  {
-    "nom": "Jeu 25",
-    "categorie": "MMORPG",
-    "image": "images/jeux/jeu25.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "A"
-  },
-  {
-    "nom": "Jeu 26",
-    "categorie": "RPG",
-    "image": "images/jeux/jeu26.jpg",
-    "synopsis": "Description du jeu.",
-    "steam": "",
-    "autreLien": "",
-    "tier": "S"
-  },
-  {
-    "nom": "Jeu 27",
+    "nom": "Warframe",
     "categorie": "Shooter-Looter",
-    "image": "images/jeux/jeu27.jpg",
+    "image": "images/jeux/warframe.jpg",
     "synopsis": "Description du jeu.",
-    "steam": "",
+    "steam": "Réveillez-vous en tant que guerrier implacable et combattez aux côtés de vos amis dans ce jeu d'action en ligne gratuit basé sur un scénario original.",
     "autreLien": "",
-    "tier": "C"
+    "tier": "A"
   }
 ]
