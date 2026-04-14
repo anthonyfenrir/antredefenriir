@@ -274,6 +274,8 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 58px;
+  width: 100%;
+  max-width: 260px;
   border-radius: 999px;
   border: 1px solid rgba(11, 201, 231, 0.45);
   background: rgba(8, 26, 34, 0.85);
