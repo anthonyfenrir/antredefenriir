@@ -510,28 +510,44 @@ a {
 }
 
 .monthly-games-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.monthly-game-card {
-  padding: 22px 18px;
+/* Carte */
+.monthly-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  transition: 0.25s ease;
+}
+
+/* Image */
+.monthly-game img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+
   border: 1px solid rgba(11, 201, 231, 0.4);
-  border-radius: 22px;
-  background: rgba(8, 26, 34, 0.78);
-  box-shadow: var(--shadow);
+  box-shadow: 0 0 12px rgba(0, 217, 255, 0.12);
+  transition: 0.25s ease;
+}
+
+/* Hover stylé */
+.monthly-game:hover img {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.25);
+}
+
+/* Nom du jeu */
+.monthly-game p {
+  margin-top: 10px;
   text-align: center;
-}
-
-.monthly-game-card h3 {
-  margin: 0 0 10px;
-  color: var(--accent);
-  font-size: 1.2rem;
-}
-
-.monthly-game-card p {
-  margin: 0;
+  font-size: 0.95rem;
   color: var(--text);
 }
 
