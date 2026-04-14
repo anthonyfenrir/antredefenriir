@@ -625,4 +625,9 @@ a {
   .monthly-games-grid {
     grid-template-columns: 1fr;
   }
+
+    .social-btn {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
 }
