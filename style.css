@@ -263,8 +263,10 @@ a {
 
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
 }
 
 .social-btn {
@@ -284,6 +286,26 @@ a {
   transform: translateY(-2px);
   box-shadow: var(--shadow);
   border-color: var(--accent);
+}
+
+/* Positionnement custom */
+.social-btn.twitch {
+  grid-column: 2;
+}
+
+.social-btn.youtube {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.social-btn.tiktok {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.social-btn.discord {
+  grid-column: 2;
+  grid-row: 3;
 }
 
 .youtube { color: #ff4d4d; }
