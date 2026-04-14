@@ -267,6 +267,8 @@ a {
   gap: 16px;
   justify-items: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .social-btn {
@@ -282,6 +284,20 @@ a {
   color: white;
   font-weight: bold;
   transition: 0.25s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.social-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: url("images/banner/rune.gif") center / 140px no-repeat;
+
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .social-btn:hover {
