@@ -295,7 +295,7 @@ a {
 
   background: url("images/banner/rune2.gif") center / 140px no-repeat;
 
-  opacity: 0.60;
+  opacity: 1.00;
   pointer-events: none;
   z-index: 0;
 }
