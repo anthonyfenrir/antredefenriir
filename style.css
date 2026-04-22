@@ -588,11 +588,17 @@ a {
   color: var(--text);
 }
 
-.ig-banner iframe,
-.ig-banner img {
+.ig-wrapper {
+  width: 100%;
+  max-width: 1200px; /* cohérent avec ton site */
+  height: 200px; /* clé du problème */
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.ig-banner {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
   
