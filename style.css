@@ -592,7 +592,7 @@ a {
   width: 100%;
   max-width: 1200px; /* cohérent avec ton site */
   height: 200px; /* clé du problème */
-  margin: 40px auto;
+  margin: 50px auto;
   overflow: hidden;
 }
 
