@@ -588,6 +588,12 @@ a {
   color: var(--text);
 }
 
+.ig-banner {
+  width: 100%;
+  aspect-ratio: 16 / 4;
+  overflow: hidden;
+}
+
   
 
 @media (max-width: 980px) {
