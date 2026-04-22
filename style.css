@@ -588,10 +588,11 @@ a {
   color: var(--text);
 }
 
-.ig-banner {
-  width: 800px;
-  height: 300px; /* ajuste ici */
-  overflow: hidden;
+.ig-banner iframe,
+.ig-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
   
