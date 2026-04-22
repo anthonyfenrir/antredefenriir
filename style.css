@@ -590,7 +590,7 @@ a {
 
 .ig-banner {
   width: 100%;
-  aspect-ratio: 16 / 4;
+  height: 200px; /* ajuste ici */
   overflow: hidden;
 }
 
