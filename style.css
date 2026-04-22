@@ -589,7 +589,7 @@ a {
 }
 
 .ig-banner {
-  width: 100%;
+  width: 800px;
   height: 200px; /* ajuste ici */
   overflow: hidden;
 }
