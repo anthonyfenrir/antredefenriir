@@ -590,7 +590,7 @@ a {
 
 .ig-wrapper {
   width: 100%;
-  max-width: 1000px; /* cohérent avec ton site */
+  max-width: 1200px; /* cohérent avec ton site */
   height: 200px; /* clé du problème */
   margin: 40px auto;
   overflow: hidden;
