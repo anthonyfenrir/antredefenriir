@@ -47,3 +47,16 @@ a {
   width: min(100% - 32px, var(--max-width));
   margin: 0 auto;
 }
+
+.hero {
+  padding: 48px 0 24px;
+  text-align: center;
+}
+
+.hero-banner {
+  display: block;
+  width: min(100%, 900px);
+  height: auto;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 18px rgba(0, 217, 255, 0.25));
+}
