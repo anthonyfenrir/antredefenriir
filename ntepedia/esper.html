@@ -165,22 +165,46 @@ function renderSkillCards(competences) {
     `;
   }
 
-  function renderTeams(teams) {
-    const teamData = teams?.[0];
+function renderTeams(teams, allCharacters) {
+  const teamData = teams?.[0];
 
-    if (!teamData) {
-      return "<p>Équipes à venir.</p>";
-    }
-
-    return Object.entries(teamData)
-      .map(([teamName, members]) => `
-        <div class="sheet-subcard">
-          <h3>${teamName}</h3>
-          <p>${members}</p>
-        </div>
-      `)
-      .join("");
+  if (!teamData) {
+    return "<p>Équipes à venir.</p>";
   }
+
+  return Object.entries(teamData)
+    .map(([teamName, members]) => {
+      const memberNames = members.split(",").map(name => name.trim());
+
+      const memberCards = memberNames.map(memberName => {
+        const member = allCharacters.find(char =>
+          char.nom.toLowerCase() === memberName.toLowerCase() ||
+          char.nom_en.toLowerCase() === memberName.toLowerCase()
+        );
+
+        if (!member) {
+          return `<span class="team-member-missing">${memberName}</span>`;
+        }
+
+        return `
+          <a href="esper.html?id=${member.id}" class="team-member rarity-${member.rarete.toLowerCase()}">
+            <img src="img/${member.id}.png" alt="${member.nom}">
+            <span>${member.nom}</span>
+          </a>
+        `;
+      }).join("");
+
+      return `
+        <div class="sheet-subcard team-card">
+          <h3>${teamName}</h3>
+          <div class="team-members">
+            ${memberCards}
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+}
 
   fetch("data/characters_full.json")
     .then(response => response.json())
@@ -268,7 +292,7 @@ function renderSkillCards(competences) {
 
           <section class="sheet-card">
             <h2>Équipe(s) recommandée(s)</h2>
-            ${renderTeams(character.team_recommandee)}
+            ${renderTeams(character.team_recommandee, data.characters)}
           </section>
 
         </div>
