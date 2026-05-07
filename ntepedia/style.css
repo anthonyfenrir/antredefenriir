@@ -631,9 +631,12 @@ a {
 }
 
 .tag-icon {
-  width: 10px;
-  height: 10px;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+
   object-fit: contain;
+  display: block;
 }
 
 .sheet-main-info h1 {
@@ -660,6 +663,7 @@ a {
   border: 1px solid rgba(0, 217, 255, 0.22);
   color: var(--text);
   font-size: 0.9rem;
+  width: fit-content;
 }
 
 .character-description {
