@@ -770,24 +770,20 @@ a {
 }
 
 .team-member {
-  width: 82px;
-  text-align: center;
-  transition: 0.25s ease;
+  width: 78px;
 }
 
+
 .team-member img {
-  width: 72px;
-  height: 72px;
+  width: 42px;
+  height: 42px;
   object-fit: cover;
   border-radius: 18px;
   border: 1px solid rgba(0, 217, 255, 0.25);
 }
 
 .team-member span {
-  display: block;
-  margin-top: 6px;
-  font-size: 0.78rem;
-  color: var(--text);
+  font-size: 0.72rem;
 }
 
 .team-member:hover {
