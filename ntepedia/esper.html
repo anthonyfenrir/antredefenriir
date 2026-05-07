@@ -74,8 +74,9 @@ function renderSkillCards(competences) {
 
         <div class="skill-header">
           <h3>${skill.nom || "Sans nom"}</h3>
-          <span class="skill-type">${getSkillTypeLabel(key)}</span>
-        </div>
+          <span class="skill-type ${getSkillTypeClass(key)}">
+            ${getSkillTypeLabel(key)}
+          </span>
 
         <p>${skill.description || "Description à venir."}</p>
 
@@ -98,8 +99,27 @@ function renderSkillCards(competences) {
     passif: "Passif"
   };
 
-  return labels[key] || "Compétence";
-}
+   return labels[key] || "Compétence";
+}  
+
+  function getSkillTypeClass(key) {
+  const classes = {
+    attaque_base: "skill-cyan",
+    attaque_base2: "skill-cyan",
+    attaque_base3: "skill-cyan",
+    attaque_base4: "skill-cyan",
+    attaque_saute: "skill-cyan",
+    attaque_riposte: "skill-cyan",
+
+    skill: "skill-yellow",
+    ultimate: "skill-red",
+    passif: "skill-white"
+  };
+
+  return classes[key] || "skill-cyan";
+}  
+
+
   
   function renderAwakening(eveil) {
     return eveil
