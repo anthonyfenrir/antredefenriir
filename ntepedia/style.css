@@ -121,6 +121,14 @@ a {
   margin-bottom: 10px;
 }
 
+.codes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .reward {
   color: var(--muted);
   margin-bottom: 10px;
