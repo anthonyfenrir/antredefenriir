@@ -538,14 +538,17 @@ a {
 
 .espers-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 26px;
+  grid-template-columns: repeat(5, 180px);
+  justify-content: center;
+  gap: 38px 76px;
+  margin: 0 auto;
 }
 
 .esper-card {
   display: block;
   border-radius: 18px;
   transition: 0.25s ease;
+  width: 180px;
 }
 
 .esper-card img {
