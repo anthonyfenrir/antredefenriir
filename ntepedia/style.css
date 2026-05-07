@@ -716,13 +716,12 @@ a {
 .skill-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 12px;
+  gap: 10px;
 }
 
 .skill-header h3 {
   margin: 0;
+  display: inline;
 }
 
 .skill-type {
