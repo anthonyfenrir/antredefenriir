@@ -1,0 +1,1698 @@
+{
+  "version": "1.0.11",
+  "last_update": "2026-05-05",
+  "characters": [
+	{
+	  "id": "adler",
+	  "nom": "Adler",
+	  "nom_en": "Adler",
+	  "anniversaire": "25 Septembre",
+	  "faction": "Magasin d'Antiquité Eibon",
+	  "description": "Le majordome parfait, qui apporte la tranquilité d'esprit à tout Eibon et au voisinage",
+	  "rarete": "A",
+	  "attribut": "Incantation",
+	  "role": "Survie",
+	  "tier_list": "T1",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Parapluie",
+		"type2": "Arc - Alt",
+		"nom": "Le Grand Voleur"
+	  },
+	  "console": {
+		"cartouche": "Gardien du Royaume",
+		"module": "",
+		"cartouche2": "Hérisson Rapide",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Délivrance",
+		  "description": "Brandit son arme et effectue jusqu'à 5 attaques consécutives, infligeant DEG d'incantation"
+		},
+		"attaque_base2": {
+		  "nom": "Libération",
+		  "description": "Vise, infligeant 1 attaque de DEG d'incantion à cible unique à l'ennemi dans le champ de vision"
+		},
+		"attaque_base3": {
+		  "nom": "Ignorance",
+		  "description": "Plonge, infligeant 1 attaque de DEG d'Incantation à une zone au moment de l'impact. Augment les DEG basés sur la hauteur de chute, jusqu'à 100%"
+		},		
+		"attaque_base4": {
+		  "nom": "Révélation",
+		  "description": "Se déclenche en lançant Délivrance après une Esquive critique. Esquive une attaque avec une course rapide, saisit l'ouverture de l'ennemi et balance rapidement son arme, infligeant 1 attaque de DEG d'Incantation à une zone, réduisant leur Rupture"
+		},
+		"skill": {
+		  "nom": "Fléau du mal",
+		  "description": "Invoque des Sunyas fantômes pour frapper les ennemis, inflgeant 1 attaque de DEG d'Incantation sur une zone, puis appliquant des DEG d'Incantation sur la durée aux ennemis et accordant aux personnages actifs un bouclier avec l'effet Bénédiction. Consomme tout les Karma, 2% de DEG de compétence par cumul"
+		},
+		"ultimate": {
+		  "nom": "Tranquilité",
+		  "description": "Invoque Rupa, Vedana, Sanna, Vinnana et Sankhara, 5 Sunyas au total, pour frapper toutes les cibles. Chaque cible subit 5 attaques de DEG d'Incantation. Si il reste que un ennemi, les Sunyas effectue une seconde attaque, infligeant un total de 10 attaques de DEG d'Incantation"
+		},
+		"passif": {
+		"nom": "Karma",
+		"description": "Confère à Adler 1 cumul de Karma lorque Délivrance ou Ignorance touche un ennemi. Confère à Adler 2 cumuls de Karma lorsque Libération touche un ennemi. Nombre de Karma max : 20"
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Forme",
+		  "description": "Confère à Adler 20 cumuls de karma lors du lancement de la compétence Tranquilité"
+		},
+		{
+		  "rang": 2,
+		  "titre": "Sensation",
+		  "description": "Chaque sticker de karma confère à Adler 3% de bonus de DEG"
+		},
+		{
+		  "rang": 3,
+		  "titre": "Perception",
+		  "description": "Augmente la protection du bouclier Bénédiction de 20%"
+		},
+		{
+		  "rang": 4,
+		  "titre": "Formation",
+		  "description": "Lorsque le bouclier de Bénédiction se brise, il absorbe une partie des DEGats excédentaires équivalent à 50% de la Défense d'Adler"
+		},
+		{
+		  "rang": 5,
+		  "titre": "Discernement",
+		  "description": "Confère à Adler 20 points d'énergie d'Ultime lorsqu'il lance Tranquilité"
+		},
+		{
+		  "rang": 6,
+		  "titre": "Toutes les formes sont vides",
+		  "description": "Allonge la durée de Bénédiction de 12 secondes"
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Purification - 3 éveils",
+		  "description": "Augment le niveau des compétences Délivrance, Fléeau du mal et Tranquilité de 1"
+		},
+		{
+		  "rang": 2,
+		  "titre": "Gardien éclairé - 6 éveils",
+		  "description": "Augmente les DEG d'Incantation de l'équipe de 10% lorsqu'elle est protégée par Bénédiction"
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "DEF % > DEF > Intensité de Rupture > DEG %",
+			"Stats Secondaires": "DEF % > DEF > Intensité de Rupture > DEG %"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Scorch": "Adler, Jonquille, Baicang, Sakiri",
+			"Hypercarry Aurelia": "Adler, Menthe, Sakiri, Jiuyuan"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "aurelia",
+	  "nom": "Aurelia",
+	  "nom_en": "Aurelia",
+	  "anniversaire": "09 Mars",
+	  "faction": "Association des habitants de la Rue de Tamamochi",
+	  "description": "Un fait amusant sur Hethereau, que je dois ç ma rencontre avec AUrelia : se balader dans les rues à dos de méduse n'est pas une infraction au code de la route",
+	  "rarete": "A",
+	  "attribut": "Psyché",
+	  "role": "DPS",
+	  "tier_list": "T1",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Prépa-Prépa",
+		"type2": "Arc - Alt",
+		"nom": "Voile Stellaire"
+	  },
+	  "console": {
+		"cartouche": "Sang du diable: Malédiction",
+		"module": "",
+		"cartouche2": "Perte d'éclat",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Legato",
+		  "description": "Chant avec fluidité et naturel ! Manie son arme et effectue jusqu'à 4 attaques consécutives infligeant des DEG de psyché"
+		},
+		"attaque_base2": {
+		  "nom": "Staccato",
+		  "description": "Chant à tue-tête ! Maintenez la touche d'esquive enfoncée tout en vous déplaçant pour chevaucher une méduse, ce qui vous permettra de sprinter à grande vitesse. Génère une explosion de méduse à intervalles réguliers, infligeant des DEG de psyché"
+		},
+		"attaque_base3": {
+		  "nom": "Portamento",
+		  "description": "Chante d'une voix claire et mélodieuse ! Inflige 1 attaque de DEG de psyché en zone avec une augmentation des dégats en fonction de la hauteur de chute"
+		},		
+		"attaque_base4": {
+		  "nom": "Syncope",
+		  "description": "Se déclenche en lançant Legato après une esquive critique. Inflige 1 attaque de DEG de psyché dans une zone et réduire  la Rupture"
+		},
+		"skill": {
+		  "nom": "Aria de Cadence",
+		  "description": "Composez une mélodie arc-en-ciel à partir des éléments du quotidien qui vous entourent. Inflige 1 attaque de DEG de psyché en zone et entre dans l'état Cadence pendant 12 secondes"
+		},
+		"ultimate": {
+		  "nom": "Canon",
+		  "description": "Rassemble les méduses à priximité, infligeant 6 attaques de DEG de psyché dans une zone en regroupant les ennemis"
+		},
+		"passif": {
+		"nom": "Cadence",
+		"description": "Inflige 70% de dégats supplémentaires avec les explosions de méduses et inflige des dégats de zone aux ennemis autour de la cible"
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Prélude Futuriste",
+		  "description": "Augmente les chances de CRIT de 15% dans l'état Cadence"
+		},
+		{
+		  "rang": 2,
+		  "titre": "Mélodie unique",
+		  "description": "Entre dans l'état Cadence pendant 5 secondes après une esquive critique réussie ou après avoir lancé Dissonacne. Prolonge l'effet de 5 secondes si l'état est déjà actif"
+		},
+		{
+		  "rang": 3,
+		  "titre": "Pause du Trio",
+		  "description": "Augmente les DEG de Canon de 20% dans l'état Cadence"
+		},
+		{
+		  "rang": 4,
+		  "titre": "Interligne",
+		  "description": "Augmente la DEF d'Aurelia de 20% lorsque Staccato est lancé"
+		},
+		{
+		  "rang": 5,
+		  "titre": "Mélodie simple",
+		  "description": "Augmente les chances de CRIT de Canon de 15%"
+		},
+		{
+		  "rang": 6,
+		  "titre": "Fugue d'Antan",
+		  "description": "Porte le nombre maximal de charges de Crescendo à 20. COnfère 10 charges après avoir lancé Aria de Cadence"
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Harmonie Universelle - 3 éveils",
+		  "description": "Augmente les niveaux des compétences A Capella, Aria de Cadence et Canon de 1"
+		},
+		{
+		  "rang": 2,
+		  "titre": "Mélodie Partagée - 6 éveils",
+		  "description": "Augmente les DEG de psyché de tous les alliées de 8% pendant 15 secondes en entrant dans l'état Cadence ou quand sa durée est prolongée"
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "CRIT > ATK % > DMG psyché > DMG critique",
+			"Stats Secondaires": "DMG critique > CRIT > ATK % > DMG % > ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Nova": "Aurelia, Jonquille, Haniel, Fadia",
+			"Hypercarry Aurelia": "Aurelia, Hathor, Zero, Jiuyuan"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "baicang",
+	  "nom": "Baicang",
+	  "nom_en": "Baicang",
+	  "anniversaire": "23 Novembre",
+	  "faction": "Bureau de contrôle des anomalies DTE-4",
+	  "description": "Le 'Capitaine qui n'en a pas l'air', mais qui est reconnu de tous au sein de DTE-4",
+	  "rarete": "S",
+	  "attribut": "Incantation",
+	  "role": "DPS",
+	  "tier_list": "T0.5",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Société des Camellia",
+		"type2": "Arc - Alt",
+		"nom": "L'heure viendra"
+	  },
+	  "console": {
+		"cartouche": "Crimson - Papillons Jumeaux",
+		"module": "",
+		"cartouche2": "Credo de l'Ombre",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Joindre le geste à la parole",
+		  "description": "Utilise les arts martiaux pour faire jusqu'à 5 attaques de DEG d'Incantation."
+		},
+		"attaque_base2": {
+		  "nom": "Paroles Informes",
+		  "description": "Maintenir l'Attaque de base après la 2ème attaque pour déclencher Paroles informes. Lance 3 attaques horizontales, après un bref délai, les mots de puissance explosent, infligeant des DEG d'Incantation en zone."
+		},
+		"attaque_base3": {
+		  "nom": "Paroles Libérées",
+		  "description": "Maintenir l'Attaque de base après la 3ème attaque pour déclencher Paroles Libérées. Lance 3 attaques verticales qui explosent en infligeant des DEG d'Incantation en zone."
+		},		
+		"attaque_saute": {
+		  "nom": "Dans le vent",
+		  "description": "Saute et frappe, infligeant des DEG d'Incatation en zone à l'impact. Augmente les DEG en fonction de la hauteur"
+		},
+		"attaque_riposte": {
+		  "nom": "Vérité exposée",
+		  "description": "Se déclanche en exécutant Joindre le geste à la parole après une esquive critique. Effectue un coup de genou sur la cible, infligeant des DEG d'Incantation en zone, réduisant sa Rupture. Génère une Bénédiction."
+		},
+		"skill": {
+		  "nom": "Des conseils généreux",
+		  "description": "Inflige des DEG d'Incantation. Après une esquive, attaque la cible et lui inflige Silence. Après Paroles Informes et Paroles Libérées, Augmente la portée des dégats en zone et génère le Mot de Pouvoir : Réprimande. Réprimande: Inflige des dégats en zone pendant l'effet de Jugement d'Automne."
+		},
+		"ultimate": {
+		  "nom": "Jugement d'Automne",
+		  "description": "Inflige des DEG d'Incantation sur la durée aux cibles. Si la cible à moins de 10% de PV, il est exécuté. Déclenche les effets de Bénédiction, Silence et Réprimande si ils sont posés."
+		},
+		"passif": {
+		"nom": "Poursuite Ombragée",
+		"description": "Après avoir lancé 3 fois Joindre le geste à la paroles, Bénédiction est appliqué sur l'ennemi pendant 15 secondes et jusqu'à 3 fois, consomme 3% des PV de Baicang. Bénédiction: Après 3 attaques de base pendant Jugement d'Automne, inflige des dégats et restaure les PV de Baicang."
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Eh, capitaine !",
+		  "description": "Augmente les dégâts de la prochaine compétence de Baicang de 30% quand Silence est déclenché pendant le Jugement d'Automne. Réduit le temps de recharge des compétences de Baicang de 4s quand Subjuguer est déclenché"
+		},
+		{
+		  "rang": 2,
+		  "titre": "Appel des Âmes",
+		  "description": "A l'image des chaînes de montagnes, couche après couche. Chaque mot de puissance généré augmente l'ATK de Baicang de 6%, jusqu'à 4 stacks. Chaque stack dure 10 secondes"
+		},
+		{
+		  "rang": 3,
+		  "titre": "Manifestation de Malédiction",
+		  "description": "Augmente la limite de génération de mot de Pouvoir à 4."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Ou de bénédiction",
+		  "description": "Restaure un 5% d'HP en plus quand un mot de puissance se déclanche pendant le Jugement d'Abondantutomne."
+		},
+		{
+		  "rang": 5,
+		  "titre": "En l'honneur du clair de lune",
+		  "description": "Ce n'est pas encore fini. Augmente la durée du Jugement d'Automne à 16 secondes."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Aspect Blanc",
+		  "description": "Augmente le taux CRIT de Baicang de 30% pendant le Jugement d'Automne."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Séquence Terrestre - 3 éveils",
+		  "description": "Augmente les niveaux de compétence de Walk the Talk, Generous Guidance et Judgment of Autumn en 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Est resté - 6 éveils",
+		  "description": "Capitaine, parfois. Accorde tous les alliés au sein du domaine 20% ATK et l'effet d'exécution lors du jugement d'automne."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "DMG d'incantation % > Taux de critique % > DMG de critique % = ATK % = Intensité de rupture",
+			"Stats Secondaires": "Taux de critique % > DMG critique % > ATK % = DMG % > ATK > Intensité de rupture"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Scorch": "Baicang, Jonquille, Sakiri, Adler",
+			"Équipe Hex": "Baicang, Nanally, Sakiri, Jiuyuan"
+	  }
+	  ],
+	  "image": ""
+	},	
+	{
+	  "id": "chiz",
+	  "nom": "Chiz",
+	  "nom_en": "Chiz",
+	  "anniversaire": "28 Février",
+	  "faction": "Famille Dvorak",
+	  "description": "Même si elle paraît un peu timide, c'est la gestionnaire la plus fiable de la Bnaque des pattes roses",
+	  "rarete": "S",
+	  "attribut": "Cosmos",
+	  "role": "DPS",
+	  "tier_list": "T0",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Chat Pensif",
+		"type2": "Arc - Alt",
+		"nom": ""
+	  },
+	  "console": {
+		"cartouche": "Radiance perdue",
+		"module": "",
+		"cartouche2": "Credo de l'ombre",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Jeu d'épée éxilé",
+		  "description": "Effectue jusqu'à 5 attaques, infligeant des DEG de Cosmos. COnfère Céréales à l'impact."
+		},
+		"attaque_base2": {
+		  "nom": "Vallée désolée",
+		  "description": "Inflige 2 attaque de DEG Cosmos et accorde une certaine quantité de Céréales et de Fons. Se déclenche une fois toutes les 2,5 secondes. Octroie des Céréales et des Fons supplémentaires si l'ennemi meurt. Permet de gagner jusqu'à 250 000 fons et si le niveau de Magnat est à 25 augmente le plafond à 500 000."
+		},
+		"attaque_saute": {
+		  "nom": "Céréales Abondantes",
+		  "description": "Plonge et inflique des DEG de Cosmos en zone au moment de l'impact et octroie une certaines quantité de Céréales. Augmentation des DEG selon la hauteur de chute."
+		},		
+		"attaque_riposte": {
+		  "nom": "Moment Minsky",
+		  "description": "Après une esquive critique, Utilise le bâton pour envoyer Boba au sucre roux sur la cible, infligeant des DEG de Cosmos, réduisant la Rupture et octroie Céréales"
+		},
+		"skill": {
+		  "nom": "Priorité des Pattes roses",
+		  "description": "3 charges. Appuyez plusieurs fois pour lancer 3 attaques infligeant des DEG Cosmos d'affilé :Absence de Cérélaes, Moitié de Céréales et Céréales complet. Maintenez pour utiliser 2 charges. Dans l'état Surplus : Inflige des DEG Cosmos supplémentaires en fonction du nombre de Céréales."
+		},
+		"ultimate": {
+		  "nom": "Ultime",
+		  "description": "Inflige des DEG de Cosmos en zone et entre en état Marché de Céréales pendant 7 secondes. Les premiers DEG de Règlement des Céréales sont critiques "
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Soleil, Soleil - Parle-moi !",
+		  "description": "Augmente la limite de stockage de Céréales et Prêt céréalier par 10%."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Feux d'artifice en silence",
+		  "description": "Accorde 10% de la quantité de Céréales comme intérêt par seconde pendant que Chiz est dans l'état Surplus."
+		},
+		{
+		  "rang": 3,
+		  "titre": "S'il n'y avait pas de jours de pluie",
+		  "description": "Augmente les chances de 50% que le prix des Céréales augmente."
+		},
+		{
+		  "rang": 4,
+		  "titre": "A Riceball, Bandage, Fons",
+		  "description": "Augmente l'efficacité d'acquisition des Céréales de 20%."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Pages de journal vierges",
+		  "description": "Accorde à Chiz une quantité de Céréales égale à 100% de la limte de stockage au début du combat."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Trente-trois jours",
+		  "description": "Augmente les DEG Cosmos bonus des Céréales de 15%."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Camarades et famille - 3 éveils",
+		  "description": "Augmente l'efficacité d'acquisition des Céréales de 50% pendant que dans l'état Dette."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Retour au Bercail - 6 éveils",
+		  "description": "Réduit la résistance aux DEG Cosmos de la cible de 10% quand Chiz lui inflige des dégâts."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Cosmos DMG > Taux de critique > Crit DMG > ATK %",
+			"Stats Secondaires": "Taux de critique > DMG critique > DMG % > ATK % > ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe de Charge": "Chiz, Jiuyuan, Hathor, Zero",
+			"Hypercarry Chiz": "Chiz, Jiuyuan, Hathor, Haniel"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "sakiri",
+	  "nom": "Sakiri",
+	  "nom_en": "Sakiri",
+	  "anniversaire": "7 Novembre",
+	  "faction": "Magasin d'antiquités Eibon",
+	  "description": "Inégalée à Eibon et aussi effrayant qu'elle en a l'air",
+	  "rarete": "S",
+	  "attribut": "Incantation",
+	  "role": "Buff",
+	  "tier_list": "T0",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Grande aventure d'un bon chien",
+		"type2": "Arc - Alt",
+		"nom": ""
+	  },
+	  "console": {
+		"cartouche": "Hérisson rapide",
+		"module": "",
+		"cartouche2": "Crimson: Papillons jumeaux",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Coup",
+		  "description": "Sakiri balance Kiroumaru et joue jusqu'à 5 attaques consécutives, attaque de DEG d'Incantation."
+		},
+		"attaque_base2": {
+		  "nom": "Mode affamé",
+		  "description": "Maintenir pour activer le Mode Affamé avec Kiroumaru. Sakiri saute dessus et se déplace. Quand il a faim, Kiroumaru ouvre la bouche pour attier les cibles proches en cône. 1 seule cible peut être digérée à la fois et ce pendant 180 secondes."
+		},
+		"attaque_saute": {
+		  "nom": "À Table",
+		  "description": "Brandit Kiroumaru en l'air et plonge pour infliger des DEG d'Incantation en zone, Augmentation des dégats en focntion de la hauteur de chute."
+		},		
+		"attaque_riposte": {
+		  "nom": "Malice",
+		  "description": "Se déclanche avec la première attaque de base après une esquive critique. Bondit en l'air et frappe violemment avec Kiroumaru infligeant des DEG d'Incantation en zone et réduit la Rupture."
+		},
+		"skill": {
+		  "nom": "Manger tout cru",
+		  "description": "Appuis pour activer : Kiroumaru ouvre la bouche et attique les ennemis à proximité puis les renversent. Maintenir : Kiroumaru ouvre la bouche et attire les ennemis. Kiroumaru mord ensuite le sol, faisant léviter les ennemis qui s'y trouvent."
+		},
+		"ultimate": {
+		  "nom": "Festin Gourmand",
+		  "description": "Kiroumaru recrache une grande quantité de bouillie gravitationnelle depuis les airs, infligeant 6 attaques de DEG d'Incantation en zone. Augmente la gravité, empéchant les ennemis de se déplacer pendant un certain temps. Augmente l'ATQ de l'équipe (Sauf Sakiri)."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Brume de diffusion",
+		  "description": "Porte la durée de l'effet d'immobilisation infligé par Festin Gourmand à 6 secondes."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Séparation Agile",
+		  "description": "Inflige des dégâts supplémentaires avec Festin Gourmand aux ennemis dans les airs, en fonction de la masse de la cible avec une limite à 600% de ATK."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Poigne adhésive",
+		  "description": "Augmente les dégâts de Manger tout Cru et de Festin Gourmand de 6% pour chaque ennemi vaincu par l'équipe au cours des 15 secondes, jusqu'à 60%. Réinitialise en dehors du combat."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Confiance Illusoire",
+		  "description": "Augmente l'ATK de l'équipe (hors Sakiri) de 30% de l'ATK de base de Sakiri pour 20 secondes après avoir lancé Festin Gourmand."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Effondrement sensoriel",
+		  "description": "Restaure entièrement l'énergie ultime de Festing Gourmand et réinitialise immédiatement son temps de recharge lorsque Manger tout Cru fait décoller la cible."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Dissolution goulue",
+		  "description": "Permet à Kiroumaru de dévorer et de digérer jusqu'à 3 ennemis à la fois en Mode Affamé, avec le temps de digestion de chaque ennemi calculé indépendamment."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Appétit insatiable - 3 éveils",
+		  "description": "Augmente le niveau de compétence de coup de tête de Kiroumaru, Manger tout Cru et Festin Gourmand de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Pénétration du brouillard - 6 éveils",
+		  "description": "Pour chaque effet négatif sur la cible, Sakiri inflige 3% de dégâts supplémentaires à la cible, jusqu'à 12%."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Taux critique % = DMG critique % > ATK % > DMG d'incantation % > Intensité du cycle = Intensité de rupture",
+			"Stats Secondaires": "Crit DMG % = Crit Rate % > ATK % > ATK > Break Intensity = Cycle Intensity"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Scroch": "Sakiri, Jonquille, Baicang, Adler",
+			"Équipe AOE Hex": "Sakiri, Nanally, Jiuyuan, Baicang"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "edgar",
+	  "nom": "Edgar",
+	  "nom_en": "Edgar",
+	  "anniversaire": "07 Octobre",
+	  "faction": "Magasin d'antiquités Eibon",
+	  "description": "Réfléchit vite, il a l'air d'un gosse. C'en est un, en fait",
+	  "rarete": "A",
+	  "attribut": "Cosmos",
+	  "role": "Healer",
+	  "tier_list": "T2",
+	  "arme": {
+		"type": "Arc",
+		"nom": "L'appel de la ville distordue",
+		"type2": "Arc - Alt",
+		"nom": "Mind Royale"
+	  },
+	  "console": {
+		"cartouche": "La Taverne nocturne de Théa",
+		"module": "",
+		"cartouche2": "Hérisson Rapide",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Entrainement au combat",
+		  "description": "Applique ses leçons à l'Académie Lumiprojecteur pour effectuer 5 attaques consécutives qui infligent des DEG Cosmos."
+		},
+		"attaque_saute": {
+		  "nom": "Atterrissage calculé",
+		  "description": "En l'air, attaquer pour plonger et infliger des DEG Cosmos en zone. DEG augmentés en fonction de la hauteur de chute."
+		},
+		"attaque_riposte": {
+		  "nom": "Toute crise recèle une opportunité",
+		  "description": "Après une esquive critique. Attaque en allant vers la cible et utilise son sac à dos pour déclencher une attaque de Rupture en zone infligeant des DEG Cosmos."
+		},		
+		"skill": {
+		  "nom": "Courant Déchaîné",
+		  "description": "Maintenez pour démarrer la canalisation et attaquer en continu la cible, infligeant des DEG cosmos et soignant le membre ayant le moins de PV."
+		},
+		"ultimate": {
+		  "nom": "Réveil de Finnegan",
+		  "description": "Plonge dans ses propres pensées et libène un domaine labyrinthique pendant 10 secondes. Inflige des DEG Cosmos en zone et soigne le personnage actif dans la zone."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Observateur amoureux des anomalies",
+		  "description": "Confère à Edgar 1 Clé de la vérité chaque fois qu'un coéquipier lance une compétence de soutien."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Chasseur d'anomalies stagiaire",
+		  "description": "Plafonne l'extension maximale de temps de recharge de Courant Déchaîné à 3 secondes."
+		},
+		{
+		  "rang": 3,
+		  "titre": "L'un des détectives d'Eibon",
+		  "description": "Augmente l'efficacité de guérison de Courant Déchaîné pour les alliés dont les PV actuels sont inférieurs 30% par 15%."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Stratège aguerri",
+		  "description": "DMG à Courant Déchaîné +50%."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Gardien de la lumière du Magasin d'antiquités",
+		  "description": "Max HP d'Edgar +20%."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Visiteur de la planète Curiosity",
+		  "description": "Confère 15% DEF à tous les alliés à portée du Réveil de Finnegan."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Quête de savoir - 3 éveils",
+		  "description": "Augmente le niveau de compétence de Courant Déchaîné, Réveil de Finnegan et Poids du Savoir de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Intuition affûtée - 6 éveils",
+		  "description": "Les pensées d’Edgar sont agités par la sécurité de ses alliés. Convertit 3% des Max HP d'un coéquipiers perdus en 1 Charge pour Vigile de Finnegan, jusqu'à 20 charges. Réinitialise après avoir lancé Vigile de Finnegan."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Bonus de soins > % de PV > Intensité du cycle > Intensité de la pause",
+			"Stats Secondaires": "HP % > HP > Intensité du cycle > Intensité de la rupture"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe de Charge F2P": "Edgar, Skia, Menthe, Zero"
+			
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "fadia",
+	  "nom": "Fadia",
+	  "nom_en": "Fadia",
+	  "anniversaire": "31 Octobre",
+	  "faction": "Bureau de contrôle des anomalies DTE-4",
+	  "description": "Une membre dangeureuse, mais captivante de la DTE qui incarne les critères d'embauche imprévisibles du directeur",
+	  "rarete": "S",
+	  "attribut": "Psyché",
+	  "role": "Sub DPS",
+	  "tier_list": "T1",	
+	  "arme": {
+		"type": "Arc",
+		"nom": "Valse éternelle",
+		"type2": "Arc - Alt",
+		"nom": "Le grand Voleur"
+	  },
+	  "console": {
+		"cartouche": "Petite grande aventure",
+		"module": "",
+		"cartouche2": "Manoir tranquille",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Rejet Muet",
+		  "description": "Balance son bouclier et effectue jusqu'à 5 attaques consécutives, infligeant des DMG Psyché."
+		},
+		"attaque_passif": {
+		  "nom": "Sous le feu des projecteurs",
+		  "description": "Lorsque les PV de Fadia sont supérieurs à 1, redirige une partie des dégats subis des autres vers elle avant application des réductions par bouclier."
+		},
+		"attaque_saute": {
+		  "nom": "Outrage de chute",
+		  "description": "Balance son bouclier en l'air et plonge, infligeant des DEG Psyché en zone. Augmentation jusqu'à 100% en fonction de la hauteur de chute."
+		},		
+		"attaque_riposte": {
+		  "nom": "Déclencheur d'évasion",
+		  "description": "Se déclanche après une esquive critique en attanquant. Charge vers la cible à grande vitesse et inflige des DEG Psyché en zone, réduisant la Rupture"
+		},
+		"skill": {
+		  "nom": "Existence",
+		  "description": "Inflige des DEG de Psyché en zone et inflige Exprérience destructive ( + % dégats subis par Fadia pendant la durée de l'effet) à l'ennemi ayant le plus de PV max. Pendant cette période Fadia partage un pourcentage de ses dégats subis."
+		},
+		"ultimate": {
+		  "nom": "De l'Agonie à l'euphorie",
+		  "description": "Passe en état Lilith. infligeant 6 attaques de DEG Psyché et restaurant ses PV. Relance aussi Rejet Muet en état de Lilith. Restaure entièrement l'énergie de l'Agonie de l'Euphorie quand les PV atteignent le seuil de destruction."
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Apostate",
+		  "description": "Le ratio des dégâts redirigés de Fadia est augmenté à 75%."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Instinct",
+		  "description": "Augmente le taux de dégâts infligés aux ennemis par Expérience destructrice sont augmentés jusqu'à 600% et la limite est augmentée à 25% du Max HP de Fadia. Inflige des dommages immédiats égaux à la différence entre les dommages déjà subis et le plafond de dommages lorsque Expérience destructrice est supprimé."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Malédiction des bénédictions",
+		  "description": "En entrant en combat, Fadia augmente ses Max HP de 30%. Après avoir quitté le combat, elle perd le Max HP bonus."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Briseuse de tabous",
+		  "description": "Augmente le taux de guérison de Fadia à 30% de Max HP pendant que vous êtes en Lilith. Augmente encore le taux de guérison à 60% de Max HP lorsque ses HP perdus sont supérieurs ou égaux au Seuil de destruction."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Survivante de la mort",
+		  "description": "Augmente le taux CRIT de Fadia de 50% alors qu'elle est dans l'état de Lilith."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Porteur d'amour et de mort",
+		  "description": "Inflige Expérience destructrice jusqu'à 10 cibles à portée. La durée et limite de dégats de chaque Expérience destructrice calculés individuellement."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Sainteté irrespectueuse - 3 éveils",
+		  "description": "Augmente le niveau des compétences Rejet Muet, Existence et De l'agonie à l'euphorie à 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Sainteté Unifié - 6 éveils",
+		  "description": "Accorde à tous les membres de l'équipe 10% ATK pendant que Fadia est dans l'équipe."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "HP % > Dommages mentaux > Dommages psychiques",
+			"Stats Secondaires": "% HP > HP > DMG > Taux de critique > DMG critique"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Nova": "Fadia, Haniel, Jonquille, Aurelia"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "haniel",
+	  "nom": "Haniel",
+	  "nom_en": "Haniel",
+	  "anniversaire": "27 Mars",
+	  "faction": "Sterry Express",
+	  "description": "Mon rêve est de devenir une belle lycéenne qui sauve le monde !",
+	  "rarete": "A",
+	  "attribut": "Psyché",
+	  "role": "Buff",
+	  "tier_list": "T0.5",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Enflammer la foule",
+		"type2": "Arc - Alt",
+		"nom": "Gardien d'Hethereau"
+	  },
+	  "console": {
+		"cartouche": "Hérisson Rapide",
+		"module": "Les lucioles et la forêt",
+		"cartouche2": "",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Technique de Genesse",
+		  "description": "Tire des projectiles magiques et effectue jusqu'à 5 attaques infligeant DEG Psyché."
+		},
+		"attaque_base2": {
+		  "nom": "Canon paranormal",
+		  "description": "Maintenir l'attque de base pendant le premier coup pour charger, puis tirer a canon chargé vers l'avant."
+		},
+		"attaque_saute": {
+		  "nom": "Entrée paranormale",
+		  "description": "En l'air, plong infligeant des DEG Psyché en zone. Augmentation des dégats jusqu'à 100% selon hauteur de chute."
+		},		
+		"attaque_riposte": {
+		  "nom": "Balayage d'élite",
+		  "description": "Se déclenche après une attaque normale lors d'une esquive critqieu. Lance un missile infligeant des DEG Psyché et réduisant la Rupture."
+		},
+		"skill": {
+		  "nom": "Gardien de la forêt silencieuse au clair de lune",
+		  "description": "Lance son haut-parleur portable Hootie et inflige des DEG Psyché en zone. Tant que Hootie est actif, confère à l'équipe un bonus d'ATQ. Confère une charge de Harmonie à quatre voix à Hootie toutes les 0.5 secondes en attaquant. 4 charges : Hootie déclenche Ensemble et ingle des DEG Psyché en zone aux ennemis autour de lui. 1 seul Hootie en simultané."
+		},
+		"ultimate": {
+		  "nom": "Une mélodie nommée Haniel",
+		  "description": "Créer une zome donnant un bonus d'ATQ à l'équope et déclenche un effet supplémentaire de Ensemble avec des DEG et une portée améliorée, la prochaine attaque du personnage actif inflige des dégats supplémentaires pendant 3 secondes, non cumulable."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Nouveau ici ! Un étudiant génial transféré qui se présente !",
+		  "description": "Augmente les cumul max de Armure scénaritique à 6 et augmente la limite de ricochet du canon paranormal à 6."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Légendaire ! Le bon vieux siège au fond de la fénètre !",
+		  "description": "Augmente la durée de Hootie de 4s."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Assemblé ! L'équipe de héros est formée !",
+		  "description": "Augmente les chances de critique de Haniel de 20% quand elle est dans l'état As Paranormal."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Au bord de la mer! Épisode de plage !",
+		  "description": "Dans l'état As Paranormal, si Haniel se déclenche Ensemble, les DMG supplémentaire de sa prochaine attaque augmente de 100%."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Crise ! Briser la confiance !",
+		  "description": "Augmente les DMG Psyché de Haniel de 30% alors qu'elle est dans l'état de As Paranormal."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Finale ! Pour l'Aube à venir !",
+		  "description": "Réduit le colldown de Hootie de 4s."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Préquelle - 3 éveils",
+		  "description": "Augmente le niveau de compétence de Technique Genesse, Gardien de la forêt silencieuse au clair de lune et Une mélodie nommée Haniel de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Suite - 6 éveils",
+		  "description": "Augmente le Crit DMG de l'équipe de 12% alors qu'il est dans l'état Paranormal Ace."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Taux de critique > DMG psyché > DMG critique > Intensité de rupture",
+			"Stats Secondaires": "DMG critique > DMG % > Taux critique > ATK % > Intensité de rupture > ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Nova": "Haniel, Jonquille, Fadia, Hathor"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "menthe",
+	  "nom": "Menthe",
+	  "nom_en": "Mint",
+	  "anniversaire": "01 Juin",
+	  "faction": "Bureau de contrôle des anomalies, UCC-2",
+	  "description": "S'il existait un tel classement, je détiendrais probablement le record de 'La personne trompée le plus grand nombre de fois par des anomalies' au sein des unités de confinement...",
+	  "rarete": "A",
+	  "attribut": "Anima",
+	  "role": "DPS",
+	  "tier_list": "T1",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Duvet de rapidité",
+		"type2": "Arc - Alt",
+		"nom": "Mind Royale"
+	  },
+	  "console": {
+		"cartouche": "Les lucioles et la forêt",
+		"module": "",
+		"cartouche2": "Credo de l'ombre",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Confinement parfait",
+		  "description": "Manie son arme et effectue jusqu'à 5 attaques consécutives infligeant des DÉG d'anima."
+		},
+		"attaque_base2": {
+		  "nom": "Tourbillong Mentholé",
+		  "description": "Maintenez l'attaque de base pour que Menthe danse et tourne sur elle-même, formant une tornade qui draine l'endurance et inflige des DÉG d'anima en continu aux ennemis environnants."
+		},		
+		"attaque_saute": {
+		  "nom": "+Justice du Firmament",
+		  "description": "Manie son arme dans les airs et plonge, infligeant 1 attaque de DÉG d'anima sur une zone à l'impact. Une augmentation de DÉG pouvant aller jusqu'à 100 % est appliquée en fonction de la hauteur de chute."
+		},
+		"attaque_riposte": {
+		  "nom": "Caramel Croustillant",
+		  "description": "Se déclenche lors de l'utilisation de Confinement parfait après une esquive critique. Bondit pour esquiver une attaque, profite de l'ouverture laissée par l'ennemi et balance rapidement son arme, infligeant 1 attaque de DÉG d'anima sur une zone et réduisant la rupture."
+		},		
+		"skill": {
+		  "nom": "Super Griffes",
+		  "description": "Il est temps de calmer le jeu ! Se précipite vers l'avant puis revient à sa position initiale, infligeant 2 attaques de DÉG d'anima aux ennemis se trouvant dans une zone sur son chemin."
+		},
+		"ultimate": {
+		  "nom": "Tourbillon de lames tonnantes",
+		  "description": "Vous êtes prêts ?! Canalise le vent environnant dans ses lames jumelles, les transformant en lames de vent qui infligent plusieurs attaques de DÉG d'anima sur une zone. Atterrit en assénant le coup final qui inflige d'énormes DÉG d'anima sur une zone."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Opération spéciale",
+		  "description": "Réinitialise le temps de recharge de l'Ultime: Super griffes lorsque Croustillant au caramel touche unennemi. Se déclenche une fois toutes les 3 secondes."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Seconde analyse",
+		  "description": "Les dégats de l'Ultime : Super Griffes augmentent de 40%."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Bonus de présence",
+		  "description": "Lorsqu'un personnage déclenche Fleuraison ou Malédiction contre un ennemi, l'ATQ de Menthe augmente de 15 % pendant 15 s."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Pause repas",
+		  "description": "Augmente les chances de critique de Mint de 12% lorsqu'elle inflige des dégâts au dernier ennemi sur le terrain."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Instinct primaire",
+		  "description": "Après avoir lancé l'Ultime : Super Griffes, les DMG critiques de Menthe augmente de 25% pour 6 secondes."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Membre d'élite",
+		  "description": "Menthe inflige 15% de dégâts sur les cibles situées en dessous 40% HP."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Bubble Tea à la menthe - 3 éveils",
+		  "description": "Augmente le niveau des compétences Confinement parfait, Ultime : Super griffes et Ultime : tourbillon de lames tonnantes de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Mousse légère - 6 éveils",
+		  "description": "Confère 2 points d'énergie de cycle après avoir lancé avec succès l'Ultime : Super Griffes."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Anima DMG % > Taux de critique % > Crit DMG % > ATK % ",
+			"Stats Secondaires": "Taux de critique % > DMG critique % > ATK % = DMG % > ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Jiuyuan": "Menthe, Jiuyuan, Haniel, Edgar",
+			"Hypercarry Menthe": "Menthe, Sakiri, Jiuyuan, Zero"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "skia",
+	  "nom": "Skia",
+	  "nom_en": "Skia",
+	  "anniversaire": "10 Janvier",
+	  "faction": "Bureau de contrôle des anomalies, DTE-4",
+	  "description": "Souvent confondu avec le capitaine de l'escouade 4, bien qu'il soit lieutenant",
+	  "rarete": "A",
+	  "attribut": "Lakshana",
+	  "role": "DPS",
+	  "tier_list": "T2",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Attention la têtes",
+		"type2": "Arc - Alt",
+		"nom": ""
+	  },
+	  "console": {
+		"cartouche": "Boxeur de rue",
+		"module": "",
+		"cartouche2": "Credo de l'Ombre",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Technique d'arrestation",
+		  "description": "Utilise des techniques martiales précises pour effectuer jusqu'à 5 áttaques consécutives infligeant des DÉG de Lakshana. Sépare 1 Crocs à tête chercheuse de son ombre et poursuit chaque cible touchée. Chaque cible peut être visée par jusqu'à 3 Crocs à tête chercheuse simultanément."
+		},
+		"attaque_saute": {
+		  "nom": "Contrôle du territoire",
+		  "description": "Lance une frappe dans les airs et plonge, infligeant 1 attaque de DÉG de lakshana sur une zone à l'impact. Une augmentation de DÉG pouvant aller jusqu'à 100% est appliquée en fonction de la hauteur de chute."
+		},
+		"attaque_riposte": {
+		  "nom": "Du crayon au papier",
+		  "description": "Se déclenche lors de l'utilisation de Technique d'arrestation après une esquive critique. Frappe les ennemis avec des ombres d'encre, infligeant 1 attaque de DÉG de Lakshana sur une zone et réduisant la rupture."
+		},		
+		"attaque_passif": {
+		  "nom": "Crocs à tête chercheuse",
+		  "description": "Des ombres brisées se détachent de l'ombre de Skia, tels les crocs d'une bête géante. Elles traquent et s'attachent automatiquement aux cibles verrouillées, disparaissant après avoir infligé 1 attaque de DÉG de Lakshana."
+		},
+		"skill": {
+		  "nom": "Chasse du molosse de l'ombre",
+		  "description": "Un enchaînement conçu pour traquer ses proies. Entre dans l'état Pédoncule caudal, bondit dans sa propre ombre et inflige 6 attaques de DÉG de lakshana sur une zone. Sépare 3 Crocs à tête chercheuse de l'ombre pour chaque cible touchée, puis passe en mode Feinte du molosse de l'ombre. Pédoncule caudal: Empêche les Crocs à tête chercheuse de disparaître après avoir infligé des dégâts aux cibles pendant cet état. Feinte du molosse de l'ombre: Permet de se déplacer sur le sol ou les murs, comme en mode Molosse de l'ombre. Reste indétectable lors de l'approche des cibles ennemies. Confère une immunité à certaines attaques, mais annule le mode lorsque vous subissez des dégâts au sol. Déclenche des attaques supplémentaires de Crocs à tête chercheuse chaque fois que vous touchez un ennemi déjà marqué par l'un d'eux. Effectuez une attaque de base ou changez de personnage pour quitter ce mode avant la fin de sa durée. Avancez au bord d'un endroit surélevé pour mettre fin à ce mode. Inflige 1 attaque de DÉG de lakshana sur une zone à la sortie du mode."
+		},
+		"ultimate": {
+		  "nom": "Meute",
+		  "description": "Un enchaînement conçu pour la suppression. Lance un briquet tournoyant, étendant son ombre dans toutes les directions au sol et infligeant 1 attaque de DÉG de lakshana sur une zone. Concentre plusieurs ombres en un seul endroit, tels des chiens bien dressés, infligeant 3 attaques de DÉG de Lakshana sur une zone. Augmente les dégâts de Crocs à tête chercheuse après avoir lancé Meute (y compris les dégâts de collision en mode Feinte du molosse de l'ombre) et inflige un effet de contrôle aux cibles à chaque attaque."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Processus d'élimination",
+		  "description": "Augmente le retion de DEG d'attaque automatique de Crocs à tête chercheuse de 60%."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Loi et ordre",
+		  "description": "Augmente les chences de CRT de Skia de 10% et sa résistance aux interruptions de 50% pendant 15 secondes après avoir lancé Chasse du molosse de l'ombre."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Solution",
+		  "description": "Les dégâts infligés par Skia aux cibles verrouillées par Crocs à tête chercheuse augmentent de 4 %. Si une seule cible est verrouillée par Crocs à tête chercheuse sur le terrain, les dégâts infligés par Skia à cette cible augmentent de 4 % supplémentaires."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Résolution",
+		  "description": "Porte la durée de Pédoncule caudal à 12 secondes. Augmente les DEG d'attachement de 2% chaque seconde où la cible est attachée, jusqu'à 40%."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Contrat social",
+		  "description": "Augmente la masse de la cible de 50 et réduit sa vitesse de déplacement de 20% pour chaque Croc à tête chercheuse verrouillé sur elle."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Apparence indifférente",
+		  "description": "En mode Feinte du molosse de l'ombre, augmente le ratio de DEG supplémentaires de Crocs à tête chercheuse de 20% lorsque vous touchez des cibles ennemies déjà verrouillées par Crocs à tête chercheuse."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Manuel de survie cubique - 3 éveils",
+		  "description": "Augmente le niveau de Technique d'arrestation, Chasse du molosse de l'ombre et Meute de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Employé du mois - 6 éveils",
+		  "description": "Réduit la RES au Lakshana de la cible verrouillée de 2% pour chaque Crocs à tête chercheuse, jusqu'à 6%."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Lakshana DMG > Crit DMG > Crit Rate > ATK %",
+			"Stats Secondaires": "Taux de critique > DMG critique > DMG % > ATK % > ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Skia Stain": "Skia, Zero, Hanel, Hathor",
+			"Hypercarry Skia": "Skia, Hanel, Zero, Jiuyuan"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "hathor",
+	  "nom": "Hathor",
+	  "nom_en": "Hathor",
+	  "anniversaire": "29 Août",
+	  "faction": "Sterry Express",
+	  "description": "Une messagère efficace qui aime créer des calendriers de tâches complets et les exécuter rigoureusement jusqu'à leur achèvement",
+	  "rarete": "S",
+	  "attribut": "Lakshana",
+	  "role": "Sub Carry",
+	  "tier_list": "T0.5",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Flammes Déchaînées",
+		"type2": "Arc - Alt",
+		"nom": "Duvet de fortitude"
+	  },
+	  "console": {
+		"cartouche": "Boxeur de rue",
+		"module": "",
+		"cartouche2": "Sang du diable: Malédiction",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Livraison Rapide",
+		  "description": "Démontre des arts martiaux supérieurs, effectuant jusqu'à 5 attaques consécutives, infligeant DÉG de lakshana."
+		},
+		"attaque_saute": {
+		  "nom": "Ultime envoi",
+		  "description": "Effectue une attaque en piqué, infligeant 1 attaque de DÉG de Lakshana sur une zone à l'impact. Une augmentation de DÉG pouvant aller jusqu'à 100 % est appliquée en fonction de la hauteur de chute."
+		},
+		"attaque_base2": {
+		  "nom": "Vers les cieux",
+		  "description": "Se déclenche en maintenant la touche d'attaque de base enfoncée. Balaie la cible à grande vitesse pour la projeter dans les airs, puis la retient et plonge, infligeant 1 attaque de DÉG de Lakshana à une zone au moment de l'impact. Effectue un Ultime envoi si la cible ne peut pas être projetée dans les airs."
+		},		
+		"attaque_riposte": {
+		  "nom": "Opération Zéro Erreur",
+		  "description": "Se déclenche lors de l'utilisation de Livraison rapide après une Esquive critique. Lance une contre-attaque rapide comme l'éclair, infligeant 1 attaque de DÉG de Lakshana à une zone, réduisant la rupture, et gagnant Puissance de Livraison express à l'impact (jusqu'à 1 cumul toutes les 5 secondes)."
+		},
+		"skill": {
+		  "nom": "Ordre Aérienne",
+		  "description": "Cible verrouillée, il est temps d'en finir. Bondit en l'air et entaille la cible en face avec ses ailes, gagnant 2 montants de Puissance de livraison express. Tenir pour entrer en état de charge, augmentant la puissance de l'Ordre aérien et infligeant aux cibles à portée l'effet de Pistage 5 étoiles. La charge dure jusqu'à 5s, pendant laquelle Hathor inflige constamment des DÉG de lakshana de zone tandis que la portée de la compétence s'étend progressivement. L'effet s'efface lorsque le bouton de la compétence est relâché, mettant fin à la phase de charge. Pistage 5 étoiles: Dure 5 secondes. Confère 3 montants de Puissance de livraison express lorsque la cible attaque ou touche Hathor ou un allié pendant cette durée."
+		},
+		"ultimate": {
+		  "nom": "Motard Express",
+		  "description": "Dégagez le passage. Invoque une moto faite d'épines et tourne autour des cibles, chargeant les ennemis devant avec une vitesse accrue. S'élance dans les airs et bombarde le sol en piqué, infligeant 1 attaque de DÉG de Lakshana à une zone. Entre dans l'état Livraison d'urgence pendant une durée après l'activation de la compétence et arrête de gagner Puissance de livraison express. Améliore l'Ordre aérien en Frappe de cyclone dans cet état. Augmente la Vitesse de déplacement et accorde un bonus d'ATQ basé sur les montants de Puissance de livraison express. Échappe immédiatement à l'état Livraison d'urgence en changeant de personnage pendant cette durée."
+		},
+		"passif": {
+		"nom": "Frappe de cyclone",
+		"description": "Consomme des cumuls de Puissance de livraison express pour lancer cette compétence dans l'état Livraison d'urgence. Invoque une moto faite d'épines et lance des attaques combo rapides sur la cible. Augmente la DÉF tant que la compétence est active."
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Messager d'élite",
+		  "description": "Maintenir la compétence pour la première fois après l'entrée en combat pour gagner immédiatement 6 cumuls de Puissance de livraison express."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Domination épineuse",
+		  "description": "Confère à Hathor des cumuls de Puissance de libraison express lorsque Verrou de classement d'excellence et Pistage 5 étoiles expirent naturellement."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Ailes perdues",
+		  "description": "Hathor inflige 15% de dégats supplémentaires aux cibles qui ne sont pas des boss."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Résonance motrice",
+		  "description": "Augmente les chances de CRT de la prochaine Frappe de cyclone de 25 % à chaque lancement réussi de Frappe de cyclone dans l'état Livraison d'urgence. Cet effet disparaît à la fin de l'état Livraison d'urgence actuel."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Sandwich classique",
+		  "description": "Augmente les dégâts infligés aux cibles de 1% pour chaque cumul de Puissance de livraison express obtenu. Cet effet est cumulable jusqu'à un maximum de 15 % et est supprimé à la sortie du combat."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Guide de la vie quotidienne",
+		  "description": "Augmente les DEG CRT de 30% dans l'état Livraison d'urgence."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Capacité doublée - 3 éveils",
+		  "description": "Augmente le niveau de compétence de Livraison rapide, Ordre aérien et Motard Express de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Passage désencombré - 6 éveils",
+		  "description": "Ignore 10% de la DEF de la cible dans l'état Livraison d'urgence."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Lakshana DMG > Crit DMG > Crit Rate > ATK %",
+			"Stats Secondaires": "Taux de critique > DMG critique > DMG % > ATK % > ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Remora": "Hathor, Zero, Haniel, Edgar",
+			"Hypercarry Hathor": "Hathor, Jiuyuan, Zero, Haniel"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "jonquille",
+	  "nom": "Jonquille",
+	  "nom_en": "Daffodil",
+	  "anniversaire": "19 Janvier",
+	  "faction": "Magasin d'antiquités Eibon",
+	  "description": "Un garde du corps impitoyable et taciturne, travaillant exclusivement pour Eibon",
+	  "rarete": "S",
+	  "attribut": "Chaos",
+	  "role": "Sub Carry",
+	  "tier_list": "T1",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Fantaisie Juvénile",
+		"type2": "Arc - Alt",
+		"nom": "Duvet de rapidité"
+	  },
+	  "console": {
+		"cartouche": "Diabolos",
+		"module": "",
+		"cartouche2": "",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Eaux calmes",
+		  "description": "Son cœur est aussi calme que les eaux calmes, habitué depuis longtemps au combat. Brandit ses lames jumelles pour effectuer jusqu'à 5 attaques consécutives, infligeant DÉG de chaos."
+		},
+		"attaque_base2": {
+		  "nom": "Miroir sur l'eau",
+		  "description": "Je suis là. Maintenir Attaque de base pour déclencher. Courir vers l'avant, effectuer un Tourbillon de lames et laisser des marques, infligeant DÉG de chaos."
+		},
+		"attaque_saute": {
+		  "nom": "Verrouillage du réticule",
+		  "description": "Brandit son arme en l'air et plonge, infligeant 1 attaque de DÉG de chaos à une zone au moment de l'impact. Augmente les DÉG en fonction de la hauteur de la chute, jusqu'à 100%."
+		},		
+		"attaque_riposte": {
+		  "nom": "Bord déplacé",
+		  "description": "Appuyer sur la touche d'esquive pour déclencher l'action spéciale Bord déplacé pendant Eaux calmes. Vous devenez invincible pendant l'action et le combo en cours n'est pas interrompu."
+		},
+		"skill": {
+		  "nom": "Résonance",
+		  "description": "Résonance avec la lame. Dégâts subis par la cible. Confère des charges de Résonance et augmente les dégâts lorsqu'un membre de l'équipe lance une Compétence de soutien. Augmente les DÉG et de la Rupture de Résonance par compétence de Soutien lancée, jusqu'à 2 charges. Améliore Résonance et la remplace par Échos lorsque les charges sont au maximum. Échos:&nbsp;<span style="font-size: 1rem;">La Résonance porte le son, l'Écho y répond. Elle change rapidement de position et balance sa lame avec la corde pour infliger DÉG de chaos à la cible.</span>"
+		},
+		"ultimate": {
+		  "nom": "Final",
+		  "description": "Lance Chaos, infligeant DÉG de chaos aux ennemis dans la zone. Scelle son œil gauche, augmentant les dégâts et infligeant Clairvoyance aux ennemis proches pour la durée. Déverrouille la compétence Pas fantôme, qui peut être utilisée jusqu'à 2 fois. L'incantation de Pas à pas réinitialise les charges de Pas fantôme."
+		},
+		"passif": {
+		"nom": "Prisme de lumière",
+		"description": "La lumière et l'ombre appartiennent à deux mondes distincts. La contribution aux dégats de rupture de Jonquille est augmentée de 20%"
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Oeil",
+		  "description": "Augmente les DEG de Résonance de 100% et de Rupture de 250% par compétence de Soutien lancée."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Marche mécanique",
+		  "description": "Inflige des dégats important à la cible, provoque une rupture et charge complètement Final avec l'attaque final si Pas fantôme ne parvient pas à effectuer une parade d'attaque sur la cible."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Multitude de créatures",
+		  "description": "Empêche clairvoyance d'être retirée une fois appliquée, sauf si la cible est neutralisée ou quitte le combat. Permet de cumuler les applications successives, jusqu'à 2 cumuls."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Mode dissimulation",
+		  "description": "Si une cible entre en état de rupture alors qu'elle est sous l'effet de Clairvoyance, les DEG de rupture de Jonquille augmentent de 15% pour chaque cumul de Cliarvoyance."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Vérité absolue",
+		  "description": "Inflige 1 attaque supplémentaire de dégats de rupture pour chaque cumul de Clairvoyance si la cible entre en rupture alors qu'elle est affectée par Clairvoyance."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Fleurir au centre du lac",
+		  "description": "Ignore 15% de la DEF de la cible lorsque des dégats sont infligés."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Opération secrète - 3 éveils",
+		  "description": "Augmente de 1 le niveau de compétence d'Eaux calmes, de Résonance et de Final."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Lumière du Soleil et sanctuaire - 6 éveils",
+		  "description": "Réduit la RES au chaos d'une cible de 15% lorsqu'elle entre en Rupture."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Taux de critique > DMG critique > Intensité de rupture* > DMG chaos %",
+			"Stats Secondaires": "Taux de critique > DMG critique > ATK % > DMG % > ATK plat > Intensité de rupture"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Nova": "Jonquille, Sakiri, Baicang, Haniel",
+			"Hypercarry Aurelia": "Jonquille, Sakiri, Baicang, Adler"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "jiuyuan",
+	  "nom": "Jiuyuan",
+	  "nom_en": "Jiuyuan",
+	  "anniversaire": "24 Juillet",
+	  "faction": "Sterry Express",
+	  "description": "Un Messager d'élite de Sterry, au parler charmeur et énigmatique, qui fait aussi office de directeur par intérim",
+	  "rarete": "S",
+	  "attribut": "Anima",
+	  "role": "Burst",
+	  "tier_list": "T0.5",		
+	  "arme": {
+		"type": "Arc",
+		"nom": "Échappatoire au réel",
+		"type2": "Arc - Alt",
+		"nom": "Duvet d'intrépidité"
+	  },
+	  "console": {
+		"cartouche": "Les lucioles et la forêt",
+		"module": "",
+		"cartouche2": "Sang du diable: Malédiction",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Quand les secrets prennent forme",
+		  "description": "Manie deux armes pour effectuer jusqu'à 5 attaques consécutives, infligeant des DÉG d'anima. Confère 2 balles du pacte de Rose. Conclut un Pacte mortel de Rose avec la cible lorsque le dernier coup touche."
+		},
+		"attaque_base2": {
+		  "nom": "Arts guidés par l'information",
+		  "description": "Se déclenche en maintenant la touche d'attaque de base enfoncée. Tire une balle à ciblage automatique, infligeant 1 attaque de DÉG d'anima. Consomme des balles du pacte de Rose pour un tir continu et donne la priorité aux cibles affectées par Pacte mortel de Rose lorsque des balles du pacte de Rose sont disponibles."
+		},
+		"attaque_base3": {
+		  "nom": "Verrouillage d'opportunité",
+		  "description": "Appuyer sur Viser pour entrer en mode visée. Tire une balle qui inflige 1 attaque de DEG d'Anima à l'ennemi dans le viseur."
+		},		
+		"attaque_saute": {
+		  "nom": "Vue aérienne",
+		  "description": "Brandit son arme en l'air et plonge, infligeant 1 attaque de DÉG d'anima à une zone au moment de l'impact. Augmente les DÉG en fonction de la hauteur de la chute, jusqu'à 100%."
+		},
+		"attaque_riposte": {
+		  "nom": "Revirement de situation",
+		  "description": "Se déclenche lors de l'utilisation de Quand les secrets prennent forme après une esquive critique. Balance les deux bras et tire en croix sur les cibles à l'avant, les liant avec Pacte mortel de Rose, infligeant 1 attaque de DÉG d'anima, réduisant la rupture et conférant 2 balles du pacte de Rose."
+		},
+		"skill": {
+		  "nom": "Chasseuse d'infos",
+		  "description": "S'élance à travers le champ de bataille, attire la cible dans son rayon d'action et l'attaque, infligeant plusieurs attaques de DÉG d'anima et gagnant 4 balles du pacte de Rose tout en concluant un Pacte mortel de Rose."
+		},
+		"ultimate": {
+		  "nom": "Règlement de comptes",
+		  "description": "Traverse le champ de bataille à grande vitesse, tirant continuellement sur les cibles environnantes avant de terminer par une explosion à grande échelle qui inflige des DÉG d'anima. Déclenche Règlement de comptes, qui fait entrer toutes les cibles du Pacte mortel de Rose à portée dans une phase où le Règlement de pacte peut être déclenché, puis exécute tous les règlements simultanément lors du coup final."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Connaissance et équilibre",
+		  "description": "Augmente l'ATQ de Jiuyuan de 5% pour chaque cible sur le terrain soumise au Pacter mortel de Rose, jusqu'à 15%."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Les infos sont comme des lames aiguisées",
+		  "description": "Augmente le Ratio de DÉG de Pacte mortel de Rose de 100 %. Restaure les PV de toute l'équipe à hauteur de 5 % des dégâts totaux accumulés par ce Pacte de Rose chaque fois que Règlement de pacte est déclenché par l'utilisation de Règlement de comptes."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Avantage établi",
+		  "description": "Déduit 4 points de rupture de la cible du règlement lorsque Règlement de pacte est déclenché par l'utilisation de Règlement de comptes."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Frappe pour tuer",
+		  "description": "Augmente le ration de DEG de 50% et affecte les cibles à portée lorsque Règlement de pacte est activement déclenché."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Supériorité due aux infos",
+		  "description": "Les DEG infligés par Jiuyuan aux cibles liées par le Pacte mortel de Rose augmentent de 8%."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Connaître tout les secret",
+		  "description": "Inflige 200% de ratio de DEG aux cibles affectées par le Pacte mortel de Rose chaque fois qu'elles lancent une compétence. Cet effet a un temps de recharge de 5 secondes."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Capacité doublée - 3 éveils",
+		  "description": "Augmente le niveau de ocmpétence de Quand les secrets prennent forme, Chasseuse d'infos et Règlement de comptes de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Passage désencombré - 6 éveils",
+		  "description": "Réduit la RES Anima des cibles affectées par le Pacte mortel de Rose."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Taux de critique % > DMG critique % > ATK % > DMG Anima %",
+			"Stats Secondaires": "Taux de critique % > DMG critique % > ATK % = DMG % >> ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Jiuyuan": "Jiuyuan, Zero, Menthe, Edgar",
+			"Équipe de charge de Jiuyuan": "Jiuyuan, Zero, Nanally, Hathor"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "nanally",
+	  "nom": "Nanally",
+	  "nom_en": "Nanally",
+	  "anniversaire": "20 Août",
+	  "faction": "Magasin d'antiquités Eibon",
+	  "description": "L'Ichi-daime de la famille Colucci, actuellement à la recherche de nouvelles recrues.",
+	  "rarete": "S",
+	  "attribut": "Anima",
+	  "role": "DPS",
+	  "tier_list": "T0",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Prépa-Prépa",
+		"type2": "Arc - Alt",
+		"nom": "Duvet de fortitude"
+	  },
+	  "console": {
+		"cartouche": "Les lucioles et la forêt",
+		"module": "",
+		"cartouche2": "Credo de l'ombre",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Compétence secrète des Colucci",
+		  "description": "Montre les crocs et sort ses griffes, effectuant jusqu'à 5 attaques consécutives qui infligent des DÉG d'anima. Les esquives n'interrompent pas le combo."
+		},
+		"attaque_base2": {
+		  "nom": "Coup de massue !",
+		  "description": "Se déclenche en maintenant l'attaque de base. Effectue jusqu'à 3 attaques puissantes, infligeant des DÉG d'anima. Ces attaques peuvent être enchaînées après une riposte critique et la 1re, 2e, 3e et 5e attaque de la Compétence secrète des Colucci. Les esquives n'interrompent pas le combo."
+		},
+		"attaque_base3": {
+		  "nom": "Gundo secret des Colucci",
+		  "description": "Entre en mode visée, infligeant 1 attaque de DEG d'Anima à l'ennemi dans le viseur."
+		},		
+		"attaque_saute": {
+		  "nom": "Entrée fracassante !",
+		  "description": "Fait tournoyer ses griffes dans les airs et plonge, infligeant 1 attaque de DÉG d'anima sur une zone à l'impact. Une augmentation de DÉG pouvant aller jusqu'à 100 % est appliquée en fonction de la hauteur de chute."
+		},
+		"attaque_riposte": {
+		  "nom": "Pas touche !",
+		  "description": "Se déclenche lors de l'utilisation de la Compétence secrète des Colucci après une esquive critique. Charge à toute vitesse vers la cible, pose une main au sol et assène un coup de pied circulaire infligeant 1 attaque de DÉG d'anima sur une zone et réduisant la rupture."
+		},		
+		"skill": {
+		  "nom": "Hurlement des Colocci",
+		  "description": "Hé hé, c'est l'heure de la surprise! Inflige 5 attaques de DÉG d'anima sur une zone autour d'elle et s'enveloppe d'Esper d'anima, entrant dans l'état Autorité de l'ichi-daime. Cet état est supprimé lorsque Nanally quitte le combat ou après 12 secondes. Lancez à nouveau la capacité pendant Autorité de l'ichi-daime pour mettre fin à l'état."
+		},
+		"ultimate": {
+		  "nom": "Technique ultime des Colucci",
+		  "description": "Je suis bien plus forte qu'eux ! Inflige immédiatement 7 attaques de DÉG d'anima aux ennemis proches et invoque le Sous-chef pour qu'il combatte à ses côtés. Les attaques de Nanally créent un petit effet d'attraction sur les ennemis environnants lorsque le sous-chef est actif, et celui-ci coordonne toutes ses attaques avec celles de Nanally pour lancer des frappes infligeant des DÉG d'anima qui comptent également comme des dégâts d'attaque de suivi."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Formation de gangs",
+		  "description": "Confère à Nanally 2,5 points d'énergie d'ultime pour chaque attaque de suivi qu'elle effectue. Se déclenche au maximum une fois par seconde."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Deuxième membre",
+		  "description": "La compétence Sous-chef dure 3 secondes de plus."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Appelez-moi Cheffe",
+		  "description": "Applique 1 attaque de suivi à un seul ennemi, infligeant des DÉG d'anima équivalents à 50 % de l'ATQ à chaque fois que Nanally inflige des dégâts à un ennemi dans l'état Autorité de l'ichi- daime. Le Ratio de DÉG augmente en fonction du niveau de compétence d'Attaque de base, jusqu'à atteindre 107,9 % au Niv. 11. Se déclenche jusqu'à une fois par seconde."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Pas une perturbatrice",
+		  "description": "Augmente les dégats du sous-chef de 100%."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Foisonnement de fidèles",
+		  "description": "Augmente l'ATQ de Nanally de 2% pour chaque attaque de suivi qu'elle effectue, jusqu'à un maximum de 20 %. Disparaît lorsque Nanally quitte le combat."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Liens de famille",
+		  "description": "La durée de la compétence Autorité de l'ichi-daime est portée à 15 secondes, puis à 20 secondes hors combat."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Les secrets de Colucci, Partie 1",
+		  "description": "Augmente le niveau des ocmpétences Compétence secrète des Colucci, Hurlement des Colucci et Technique ultime des Colucci de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Les secrets de Colucci, Partie 2",
+		  "description": "Augmente les dégats infligés de 15%."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Anima DMG % > Crit DMG % > ATK % > Crit Rate %",
+			"Stats Secondaires": "Taux de critique % > DMG critique % > ATK % = DMG % >> ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe Jiuyuan": "Nanally, Jiuyuan, Zero, Haniel",
+			"Équipe Hex": "Nanally, Sakiri, Jiuyuan, Adler"
+	  }
+	  ],
+	  "image": ""
+	},
+	{
+	  "id": "zero",
+	  "nom": "Zero",
+	  "nom_en": "Zero",
+	  "anniversaire": "Inconnu",
+	  "faction": "Maison d'antiquités Eibon",
+	  "description": "Le seul Esper de l'histoire sans l'indice de Wertheimer détectable",
+	  "rarete": "S",
+	  "attribut": "Cosmos",
+	  "role": "Sub Carry",
+	  "tier_list": "T0",
+	  "arme": {
+		"type": "Arc",
+		"nom": "Congés",
+		"type2": "Arc - Alt",
+		"nom": "Duvet d'intépidité"
+	  },
+	  "console": {
+		"cartouche": "Hérisson rapide",
+		"module": "",
+		"cartouche2": "Radiance perdue",
+		"module2": ""
+	  },
+	  "competences": {
+		"attaque_base": {
+		  "nom": "Évaluation - Interruption",
+		  "description": "Manie l'arme pour canaliser l'énergie, effectuant jusqu'à 5 attaques consécutives, infligeant DÉG de Cosmos."
+		},
+		"attaque_saute": {
+		  "nom": "Évaluation - Rupture",
+		  "description": "Brandit son arme dans les airs et plonge, infligeant 1 attaque de DÉG de cosmos sur une zone à l'impact. Une augmentation de DÉG pouvant aller jusqu'à 100% est appliquée en fonction de la hauteur de chute."
+		},
+		"attaque_riposte": {
+		  "nom": "Flash d'inspiration",
+		  "description": "Se déclenche lors de l'utilisation d'Évaluation - Interruption après une Esquive critique. Saisit l'ouverture de l'attaque manquée de l'ennemi et balance l'arme pour contrer, infligeant 1 attaque de DÉG de cosmos à une zone et réduisant la Rupture."
+		},
+		"skill": {
+		  "nom": "Évalueation et gravure",
+		  "description": "Ouverture, à découvert ! Effectue 3 frappes d'arme consécutives. Bondit en l'air pour charger. Tire un Canon d'Esper qui inflige 1 attaque de DÉG de Cosmos à une zone. Inflige 1 attaque supplémentaire de DÉG de cosmos au premier ennemi touché dont le niveau est inférieur à celui de Zéro."
+		},
+		"ultimate": {
+		  "nom": "Diviser par zéro",
+		  "description": "En dansant, je balaie les Lignes qui relient les Nexus que je suis la seule à voir. Inflige plusieurs attaques de DÉG de cosmos sur une zone."
+		},
+		"passif": {
+		"nom": "",
+		"description": ""
+		}
+	  },
+	  "eveil": [
+		{
+		  "rang": 1,
+		  "titre": "Regard rayonnant",
+		  "description": "Inflige 1 coup supplémentaire égal à 200 % de l'ATQ aux ennemis de niveau inférieur au premier coup. Ces dégâts ignorent 75% de la DÉF de la cible."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Trouver la voie",
+		  "description": "Confère 8 points d'énergie d'ultime supplémentaires après avoir lancé Évaluation et gravure avec succès."
+		},
+		{
+		  "rang": 3,
+		  "titre": "Archive sur les anomalies",
+		  "description": "Les chances de CRT de l'ultime Diviser par Zéro augmentent de 50 %."
+		},
+		{
+		  "rang": 4,
+		  "titre": "Facteurs incertains",
+		  "description": "1 point d'ATQ de base de Zéro augmente .les dégâts de l'ultime Diviser par Zéro de 0,1 %, jusqu'à un maximum de 25%."
+		},
+		{
+		  "rang": 5,
+		  "titre": "Théopneustos",
+		  "description": "Augmente l'ATQ de Zéro de 10 % pendant 20s en déclenchant Compétence de Soutien."
+		},
+		{
+		  "rang": 6,
+		  "titre": "Libération trompeuse",
+		  "description": "Augmente le Ratio de DÉG supplémentaires d'Évaluation et gravure à 300 % de l'ATQ."
+		}
+	  ],
+	  "resonance": [
+		{
+		  "rang": 1,
+		  "titre": "Discernement - 3 éveils",
+		  "description": "Augmente le niveau des compétences Évaluation - Interruption, Évaluation et gravure et Diviser par Zéro de 1."
+		},
+		{
+		  "rang": 2,
+		  "titre": "Affichage zéro - 6 éveils",
+		  "description": "L'équipe gagne 12 % d'ATQ pendant 20 s Lorsque Zéro déclenche un cycle d'Esper de cosmos."
+		}
+	  ],
+	  "build": {
+		"stats_prioritaires": [
+		{
+			"Stats Principales": "Intensité du cycle > Taux critique > DMG critique > % ATK",
+			"Stats Secondaires": "Intensité du cycle > Taux critique > DMG critique > DMG % > ATK % > ATK"
+		}	
+	  ],
+	  },
+	  "team_recommandee": [
+	  {
+			"Équipe de charge": "Zero, Menthe, Hathor, Haniel"
+	  }
+	  ],
+	  "image": ""
+	}
+]
+}
