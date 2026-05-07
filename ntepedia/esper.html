@@ -74,9 +74,11 @@ function renderSkillCards(competences) {
 
         <div class="skill-header">
           <h3>${skill.nom || "Sans nom"}</h3>
+        
           <span class="skill-type ${getSkillTypeClass(key)}">
             ${getSkillTypeLabel(key)}
           </span>
+        </div>
 
         <p>${skill.description || "Description à venir."}</p>
 
