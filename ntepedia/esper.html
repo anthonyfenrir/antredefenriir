@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>NTEPedia - Guide FR Neverness to Everness</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="annex/favicon.png">
+  <link rel="shortcut icon" href="annex/favicon.png">
+  <link rel="apple-touch-icon" href="annex/favicon.png">
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="container">
+      <img
+        src="annex/ntepedia-banner2.png"
+        alt="NTEPedia - Guide FR Neverness to Everness"
+        class="hero-banner"
+      >
+    </div>
+  </section>
+
+  <section class="quick-access">
+    <div class="container">
+      <div class="quick-grid">
+        <a href="index.html" class="quick-card">Accueil</a>
+        <a href="guides.html" class="quick-card">Guides</a>            
+      </div>
+    </div>
+  </section>
+
+<section id="character-page" class="section">
+  <div class="container">
+    <div id="character-sheet"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      NTEPedia est un site communautaire non officiel dédié à Neverness to Everness.
+      Neverness to Everness™, ses personnages, logos et ressources visuelles
+      appartiennent à Perfect World Games et Hotta Studio.
+    </p>
+  </div>
+</footer>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const characterId = params.get("id");
+
+  fetch("data/characters_full.json")
+    .then(response => response.json())
+    .then(data => {
+      const character = data.characters.find(char => char.id === characterId);
+      const container = document.getElementById("character-sheet");
+
+      if (!character) {
+        container.innerHTML = "<p>Personnage introuvable.</p>";
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="character-profile">
+
+          <div class="character-visual">
+            <img src="portrait/${character.id}.png" alt="${character.nom}">
+          </div>
+
+          <div class="character-info">
+            <h1>${character.nom}</h1>
+            <p class="character-en">${character.nom_en}</p>
+
+            <div class="character-tags">
+              <span>Rareté : ${character.rarete}</span>
+              <span>Attribut : ${character.attribut}</span>
+              <span>Rôle : ${character.role}</span>
+              <span>Tier : ${character.tier_list}</span>
+            </div>
+
+            <p>${character.description}</p>
+
+            <h2>Arme</h2>
+            <p>${character.arme.type} : ${character.arme.nom}</p>
+
+            <h2>Console</h2>
+            <p>Cartouche : ${character.console.cartouche || "—"}</p>
+            <p>Module : ${character.console.module || "—"}</p>
+          </div>
+
+        </div>
+
+        <section class="character-block">
+          <h2>Compétences</h2>
+          ${Object.values(character.competences).map(skill => `
+            <div class="skill-card">
+              <h3>${skill.nom || "Sans nom"}</h3>
+              <p>${skill.description || "Description à venir."}</p>
+            </div>
+          `).join("")}
+        </section>
+
+        <section class="character-block">
+          <h2>Éveil</h2>
+          ${character.eveil.map(eveil => `
+            <div class="skill-card">
+              <h3>Rang ${eveil.rang} — ${eveil.titre}</h3>
+              <p>${eveil.description}</p>
+            </div>
+          `).join("")}
+        </section>
+
+        <section class="character-block">
+          <h2>Résonance</h2>
+          ${character.resonance.map(res => `
+            <div class="skill-card">
+              <h3>${res.titre}</h3>
+              <p>${res.description}</p>
+            </div>
+          `).join("")}
+        </section>
+      `;
+    });
+</script>  
+  
+</body>
+</html>
