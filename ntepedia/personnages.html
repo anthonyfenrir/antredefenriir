@@ -47,6 +47,43 @@
     >
 
     <div id="espers-grid" class="espers-grid"></div>
+    <div class="esper-filters">
+      <button class="filter-btn active" data-filter-type="all" data-filter-value="all">Tous</button>
+    
+      <button class="filter-btn" data-filter-type="rarete" data-filter-value="S">
+        <img src="annex/s_rarity.png" alt="S">
+      </button>
+    
+      <button class="filter-btn" data-filter-type="rarete" data-filter-value="A">
+        <img src="annex/a_rarity.png" alt="A">
+      </button>
+    
+      <button class="filter-btn" data-filter-type="attribut" data-filter-value="Anima">
+        <img src="annex/anima.png" alt="Anima">
+      </button>
+    
+      <button class="filter-btn" data-filter-type="attribut" data-filter-value="Cosmos">
+        <img src="annex/cosmos.png" alt="Cosmos">
+      </button>
+    
+      <button class="filter-btn" data-filter-type="attribut" data-filter-value="Psyché">
+        <img src="annex/psyche.png" alt="Psyché">
+      </button>
+    
+      <button class="filter-btn" data-filter-type="attribut" data-filter-value="Incantation">
+        <img src="annex/incantation.png" alt="Incantation">
+      </button>
+    
+      <button class="filter-btn" data-filter-type="attribut" data-filter-value="Lakshana">
+        <img src="annex/lakshana.png" alt="Lakshana">
+      </button>
+    
+      <button class="filter-btn" data-filter-type="attribut" data-filter-value="Chaos">
+        <img src="annex/chaos.png" alt="Chaos">
+      </button>
+    </div>
+
+<div id="espers-grid" class="espers-grid"></div>
   </div>
 </section>
 
@@ -59,6 +96,63 @@
     </p>
   </div>
 </footer>
+
+<script>
+  let allEspers = [];
+  let activeFilter = {
+    type: "all",
+    value: "all"
+  };
+
+  function normalizeIconName(value) {
+    return value
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+  }
+
+  function renderEspers() {
+    const grid = document.getElementById("espers-grid");
+    grid.innerHTML = "";
+
+    const filteredEspers = activeFilter.type === "all"
+      ? allEspers
+      : allEspers.filter(esper => esper[activeFilter.type] === activeFilter.value);
+
+    filteredEspers.forEach(esper => {
+      const card = document.createElement("a");
+      card.href = `personnage.html?id=${esper.id}`;
+      card.className = `esper-card rarity-${esper.rarete.toLowerCase()}`;
+
+      card.innerHTML = `
+        <img src="portrait/${esper.id}.png" alt="${esper.nom}">
+      `;
+
+      grid.appendChild(card);
+    });
+  }
+
+  fetch("data/characters_full.json")
+    .then(response => response.json())
+    .then(data => {
+      allEspers = data.characters;
+      renderEspers();
+    });
+
+  document.querySelectorAll(".filter-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      activeFilter = {
+        type: button.dataset.filterType,
+        value: button.dataset.filterValue
+      };
+
+      renderEspers();
+    });
+  });
+</script>  
 
 </body>
 </html>   
