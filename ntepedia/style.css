@@ -118,20 +118,6 @@ a {
   gap: 24px;
 }
 
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  min-width: 0;
-}
-
-.brand-logo {
-  width: 371px;
-  height: 200px;
-  object-fit: contain;
-  display: block;
-  filter: drop-shadow(0 0 10px rgba(0, 217, 255, 0.18));
-}
 
 .brand-text {
   font-family: "Cinzel", serif;
@@ -151,7 +137,7 @@ a {
   flex-wrap: wrap;
 }
 
-.nav-link {
+.hero-actions {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -172,28 +158,6 @@ a {
     border-color 0.25s ease,
     box-shadow 0.25s ease,
     transform 0.25s ease;
-}
-
-.nav-link:hover {
-  color: #ffffff;
-  background: rgba(0, 217, 255, 0.08);
-  border-color: rgba(0, 217, 255, 0.24);
-  box-shadow: 0 0 14px rgba(0, 217, 255, 0.12);
-  transform: translateY(-1px);
-}
-
-.nav-link.active {
-  color: #ffffff;
-  background: linear-gradient(180deg, rgba(0, 217, 255, 0.16), rgba(0, 217, 255, 0.08));
-  border-color: rgba(0, 217, 255, 0.38);
-  box-shadow:
-    0 0 18px rgba(0, 217, 255, 0.12),
-    inset 0 0 10px rgba(0, 217, 255, 0.04);
-}
-
-.hero,
-.games-hero {
-  padding: 40px 0 24px;
 }
 
 .hero-card {
