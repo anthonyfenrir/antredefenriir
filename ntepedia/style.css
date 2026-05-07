@@ -770,7 +770,13 @@ a {
 }
 
 .team-member {
-  width: 78px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 
@@ -784,6 +790,14 @@ a {
 
 .team-member span {
   display: none;
+}
+
+.team-member:hover,
+.team-member:focus,
+.team-member:active {
+  background: transparent;
+  box-shadow: none;
+  outline: none;
 }
 
 .team-member:hover {
