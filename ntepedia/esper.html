@@ -63,18 +63,45 @@
     return value && value.trim() !== "" ? value : "À venir";
   }
 
-  function renderSkillCards(competences) {
-    return Object.values(competences)
-      .filter(skill => skill && (skill.nom || skill.description))
-      .map(skill => `
-        <div class="sheet-subcard">
-          <h3>${valueOrDash(skill.nom)}</h3>
-          <p>${valueOrDash(skill.description)}</p>
-        </div>
-      `)
-      .join("");
-  }
+function renderSkillCards(competences) {
+  return Object.entries(competences)
+    .filter(([key, skill]) =>
+      skill && (skill.nom || skill.description)
+    )
 
+    .map(([key, skill]) => `
+      <div class="skill-card">
+
+        <div class="skill-type">
+          ${getSkillTypeLabel(key)}
+        </div>
+
+        <h3>${skill.nom || "Sans nom"}</h3>
+
+        <p>${skill.description || "Description à venir."}</p>
+
+      </div>
+    `)
+
+    .join("");
+}
+
+  function getSkillTypeLabel(key) {
+  const labels = {
+    attaque_base: "Attaque normale",
+    attaque_base2: "Combo",
+    attaque_base3: "Combo",
+    attaque_base4: "Combo",
+    attaque_saute: "Attaque sautée",
+    attaque_riposte: "Riposte",
+    skill: "Compétence",
+    ultimate: "Ultime",
+    passif: "Passif"
+  };
+
+  return labels[key] || "Compétence";
+}
+  
   function renderAwakening(eveil) {
     return eveil
       .map(item => `
