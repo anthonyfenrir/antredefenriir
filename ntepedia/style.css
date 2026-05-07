@@ -2,12 +2,17 @@
   --bg: #03070b;
   --bg-soft: #07131a;
   --card: #081a22;
+
   --border: #0bc9e7;
+
   --text: #eafcff;
   --muted: #9ccdd3;
+
   --accent: #00d9ff;
   --accent-soft: rgba(0, 217, 255, 0.12);
+
   --shadow: 0 0 20px rgba(0, 217, 255, 0.12);
+
   --radius: 18px;
   --max-width: 1200px;
 }
@@ -22,11 +27,22 @@ html {
 
 body {
   margin: 0;
+
   font-family: "Merriweather", serif;
   color: var(--text);
+
   background:
-    radial-gradient(circle at 50% 35%, rgba(0, 217, 255, 0.10), transparent 45%),
-    linear-gradient(180deg, #020508 0%, #03070b 100%);
+    radial-gradient(
+      circle at 50% 35%,
+      rgba(0, 217, 255, 0.10),
+      transparent 45%
+    ),
+    linear-gradient(
+      180deg,
+      #020508 0%,
+      #03070b 100%
+    );
+
   background-attachment: fixed;
 }
 
@@ -34,7 +50,9 @@ body {
 .section-title,
 .game-title,
 .logo,
-.nav-link {
+.nav-link,
+.quick-card,
+.code {
   font-family: "Cinzel", serif;
 }
 
@@ -48,6 +66,10 @@ a {
   margin: 0 auto;
 }
 
+/* =========================
+   HERO
+========================= */
+
 .hero {
   padding: 48px 0 24px;
   text-align: center;
@@ -55,11 +77,35 @@ a {
 
 .hero-banner {
   display: block;
+
   width: min(100%, 900px);
   height: auto;
+
   margin: 0 auto;
-  filter: drop-shadow(0 0 18px rgba(0, 217, 255, 0.25));
+
+  filter:
+    drop-shadow(0 0 18px rgba(0, 217, 255, 0.25));
 }
+
+/* =========================
+   SECTION BANNER
+========================= */
+
+.section-banner {
+  display: block;
+
+  width: min(100%, 520px);
+  height: auto;
+
+  margin: 0 auto 32px;
+
+  filter:
+    drop-shadow(0 0 14px rgba(0, 217, 255, 0.18));
+}
+
+/* =========================
+   QUICK ACCESS
+========================= */
 
 .quick-access {
   padding: 32px 0;
@@ -67,90 +113,265 @@ a {
 
 .quick-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(180px, 1fr));
+
   gap: 18px;
 }
 
 .quick-card {
   display: flex;
+
   justify-content: center;
   align-items: center;
-  min-height: 54px;
+
+  min-height: 58px;
+
   padding: 0 18px;
+
   border-radius: 999px;
-  border: 1px solid rgba(0, 217, 255, 0.35);
-  background: rgba(0, 217, 255, 0.06);
+
+  border:
+    1px solid rgba(0, 217, 255, 0.35);
+
+  background:
+    rgba(0, 217, 255, 0.06);
+
   color: var(--text);
-  font-family: "Cinzel", serif;
+
   font-weight: 700;
   text-align: center;
-  transition: 0.25s ease;
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .quick-card:hover {
-  background: rgba(0, 217, 255, 0.12);
-  box-shadow: 0 0 16px rgba(0, 217, 255, 0.18);
-  transform: translateY(-2px);
+  background:
+    rgba(0, 217, 255, 0.12);
+
+  box-shadow:
+    0 0 16px rgba(0, 217, 255, 0.18);
+
+  transform:
+    translateY(-2px);
 }
 
+/* =========================
+   GENERIC SECTION
+========================= */
+
 .section {
-  padding: 40px 0;
+  padding: 56px 0;
 }
 
 .section-title {
   text-align: center;
-  margin-bottom: 24px;
+
+  margin-bottom: 32px;
+
+  font-size:
+    clamp(2rem, 4vw, 3rem);
 }
 
-.code-card {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: var(--radius);
-  background: var(--card);
-  border: 1px solid rgba(0, 217, 255, 0.2);
-  box-shadow: var(--shadow);
-  text-align: center;
-}
-
-.code {
-  font-size: 1.4rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  color: var(--accent);
-  margin-bottom: 10px;
-}
+/* =========================
+   CODES
+========================= */
 
 .codes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(240px, 1fr));
+
+  gap: 20px;
+
   max-width: 1100px;
+
   margin: 0 auto;
 }
 
-.reward {
+.code-card {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 320px;
+
+  padding: 24px 18px;
+
+  border-radius: var(--radius);
+
+  background: var(--card);
+
+  border:
+    1px solid rgba(0, 217, 255, 0.22);
+
+  box-shadow: var(--shadow);
+
+  text-align: center;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.code-card:hover {
+  transform: translateY(-4px);
+
+  border-color:
+    rgba(0, 217, 255, 0.45);
+
+  box-shadow:
+    0 0 22px rgba(0, 217, 255, 0.18);
+}
+
+.code {
+  margin: 0 0 10px;
+
+  font-size: 1.55rem;
+  font-weight: 800;
+
+  letter-spacing: 1px;
+
+  color: var(--accent);
+
+  word-break: break-word;
+}
+
+.reward-title {
+  margin: 10px 0 8px;
+
+  font-weight: 700;
+
+  color: var(--text);
+}
+
+.reward-list {
+  list-style: none;
+
+  padding: 0;
+  margin: 0 0 16px;
+
+  text-align: center;
+
+  line-height: 1.35;
+
   color: var(--muted);
-  margin-bottom: 10px;
+}
+
+.reward-list li {
+  margin: 5px 0;
+}
+
+.reward-list li::before {
+  content: "◆ ";
+
+  color: var(--accent);
+
+  font-size: 0.75em;
 }
 
 .date {
-  font-size: 0.9rem;
+  margin-top: auto;
+  margin-bottom: 16px;
+
+  font-size: 0.92rem;
+
   color: var(--muted);
-  margin-bottom: 15px;
 }
 
 .code-card button {
-  padding: 8px 16px;
+  padding: 9px 18px;
+
   border-radius: 999px;
+
   border: 1px solid var(--accent);
+
   background: transparent;
+
   color: var(--text);
+
   cursor: pointer;
-  transition: 0.2s ease;
+
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
 .code-card button:hover {
   background: var(--accent-soft);
-  box-shadow: 0 0 10px rgba(0, 217, 255, 0.2);
+
+  box-shadow:
+    0 0 12px rgba(0, 217, 255, 0.2);
+
+  transform: translateY(-1px);
+}
+
+/* =========================
+   GUIDES
+========================= */
+
+.guide-links {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 16px;
+}
+
+.guide-links a {
+  padding: 12px 18px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(0, 217, 255, 0.06);
+
+  border:
+    1px solid rgba(0, 217, 255, 0.22);
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.guide-links a:hover {
+  background:
+    rgba(0, 217, 255, 0.12);
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 0 14px rgba(0, 217, 255, 0.14);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding-top: 32px;
+  }
+
+  .codes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .code-card {
+    min-height: auto;
+  }
+
 }
