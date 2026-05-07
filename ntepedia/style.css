@@ -183,7 +183,7 @@ a {
 
 .codes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 300px));
   justify-content: center;
   gap: 22px;
   max-width: 1200px;
@@ -197,7 +197,7 @@ a {
   align-items: center;
   justify-content: space-between;
 
-  width: 320px;
+  width: 300px;
   min-height: 320px;
 
   padding: 24px 18px;
