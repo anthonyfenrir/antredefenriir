@@ -497,7 +497,7 @@ a {
 }
 
 /* =========================
-   PERSONNAGE
+   PERSONNAGEs
 ========================= */
 
 .esper-filters {
@@ -586,3 +586,125 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* =========================
+   ESPER
+========================= */
+
+.sheet-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.sheet-card {
+  padding: 28px;
+  border-radius: var(--radius);
+  background: rgba(8, 26, 34, 0.82);
+  border: 1px solid rgba(0, 217, 255, 0.22);
+  box-shadow: var(--shadow);
+}
+
+.sheet-main {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.sheet-portrait img {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+}
+
+.sheet-main-info h1,
+.sheet-card h2,
+.sheet-subcard h3 {
+  font-family: "Cinzel", serif;
+}
+
+.sheet-main-info h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+}
+
+.character-en {
+  color: var(--muted);
+  margin: 6px 0 20px;
+}
+
+.character-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.character-tags span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(0, 217, 255, 0.08);
+  border: 1px solid rgba(0, 217, 255, 0.22);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.character-description {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.sheet-card h2 {
+  margin: 0 0 22px;
+  color: var(--accent);
+}
+
+.sheet-inner-title {
+  margin-top: 34px !important;
+}
+
+.sheet-subcard {
+  padding: 18px;
+  margin-bottom: 16px;
+  border-radius: 14px;
+  background: rgba(0, 217, 255, 0.045);
+  border: 1px solid rgba(0, 217, 255, 0.14);
+}
+
+.sheet-subcard:last-child {
+  margin-bottom: 0;
+}
+
+.sheet-subcard h3 {
+  margin: 0 0 10px;
+  color: var(--text);
+}
+
+.sheet-subcard p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.sheet-main.rarity-s {
+  border-color: rgba(255, 180, 40, 0.45);
+  box-shadow: 0 0 24px rgba(255, 180, 40, 0.16);
+}
+
+.sheet-main.rarity-a {
+  border-color: rgba(180, 90, 255, 0.45);
+  box-shadow: 0 0 24px rgba(180, 90, 255, 0.16);
+}
+
+@media (max-width: 800px) {
+  .sheet-main {
+    grid-template-columns: 1fr;
+  }
+
+  .sheet-portrait {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
