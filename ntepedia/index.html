@@ -186,7 +186,12 @@
   const tierOrder = ["T0", "T0.5", "T1", "T2"];
 
   fetch("data/characters_full.json")
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("JSON introuvable : " + response.status);
+      }
+      return response.json();
+    })
     .then(data => {
       const container = document.getElementById("tier-list-container");
 
@@ -204,6 +209,11 @@
         const list = row.querySelector(".tier-characters");
 
         characters.forEach(char => {
+          const attrIcon = char.attribut
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
+
           const card = document.createElement("a");
           card.href = `personnage.html?id=${char.id}`;
           card.className = `tier-character rarity-${char.rarete.toLowerCase()}`;
@@ -212,7 +222,7 @@
             <div class="tier-portrait-wrap">
               <img class="tier-portrait" src="img/${char.id}.png" alt="${char.nom}">
               <img class="tier-icon tier-rarity" src="annex/${char.rarete.toLowerCase()}_rarity.png" alt="Rareté ${char.rarete}">
-              <img class="tier-icon tier-attribute" src="annex/${char.attribut.toLowerCase()}.png" alt="${char.attribut}">
+              <img class="tier-icon tier-attribute" src="annex/${attrIcon}.png" alt="${char.attribut}">
             </div>
             <span>${char.nom}</span>
           `;
@@ -222,8 +232,11 @@
 
         container.appendChild(row);
       });
+    })
+    .catch(error => {
+      console.error("Erreur Tier List :", error);
     });
-</script>  
+</script>
 
 </body>
 </html>
