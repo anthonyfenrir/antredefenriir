@@ -179,13 +179,16 @@ a {
 
 .codes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 3000px);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
   justify-content: center;
   gap: 22px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .code-card {
-  width: 300px;
+  width: 280px;
+  min-height: 320px;
 }
 
 .code-card:hover {
