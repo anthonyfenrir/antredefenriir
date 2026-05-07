@@ -120,7 +120,7 @@
 
     filteredEspers.forEach(esper => {
       const card = document.createElement("a");
-      card.href = `esper.html?id=${char.id}`;
+      card.href = `esper.html?id=${esper.id}`;
       card.className = `esper-card rarity-${esper.rarete.toLowerCase()}`;
 
       card.innerHTML = `
