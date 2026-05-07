@@ -179,11 +179,9 @@ a {
 
 .codes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+  grid-template-columns: repeat(auto-fit, 3000px);
   justify-content: center;
-  gap: 20px;
-  max-width: 1100px;
-  margin: 0 auto;
+  gap: 22px;
 }
 
 .code-card {
