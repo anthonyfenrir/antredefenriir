@@ -17,6 +17,49 @@
   <link rel="apple-touch-icon" href="annex/favicon.png">
 </head>
 
+<script>
+  const tierOrder = ["T0", "T0.5", "T1", "T2"];
+
+  fetch("data/characters_full.json")
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById("tier-list-container");
+
+      tierOrder.forEach(tier => {
+        const characters = data.characters.filter(char => char.tier_list === tier);
+
+        const row = document.createElement("div");
+        row.className = `tier-row tier-${tier.replace(".", "-").toLowerCase()}`;
+
+        row.innerHTML = `
+          <div class="tier-label">${tier}</div>
+          <div class="tier-characters"></div>
+        `;
+
+        const list = row.querySelector(".tier-characters");
+
+        characters.forEach(char => {
+          const card = document.createElement("a");
+          card.href = `personnage.html?id=${char.id}`;
+          card.className = `tier-character rarity-${char.rarete.toLowerCase()}`;
+
+          card.innerHTML = `
+            <div class="tier-portrait-wrap">
+              <img class="tier-portrait" src="img/${char.id}.png" alt="${char.nom}">
+              <img class="tier-icon tier-rarity" src="annex/${char.rarete.toLowerCase()}_rarity.png" alt="Rareté ${char.rarete}">
+              <img class="tier-icon tier-attribute" src="annex/${char.attribut.toLowerCase()}.png" alt="${char.attribut}">
+            </div>
+            <span>${char.nom}</span>
+          `;
+
+          list.appendChild(card);
+        });
+
+        container.appendChild(row);
+      });
+    });
+</script>  
+
 <body>
 
   <section class="hero">
