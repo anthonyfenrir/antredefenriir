@@ -60,3 +60,29 @@ a {
   margin: 0 auto;
   filter: drop-shadow(0 0 18px rgba(0, 217, 255, 0.25));
 }
+
+.quick-access {
+  padding: 40px 0;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.quick-card {
+  padding: 16px;
+  text-align: center;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 217, 255, 0.25);
+  background: rgba(0, 217, 255, 0.05);
+  color: var(--text);
+  transition: 0.25s ease;
+}
+
+.quick-card:hover {
+  background: rgba(0, 217, 255, 0.1);
+  box-shadow: 0 0 12px rgba(0, 217, 255, 0.15);
+  transform: translateY(-2px);
+}
