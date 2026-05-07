@@ -775,8 +775,8 @@ a {
 
 
 .team-member img {
-  width: 42px;
-  height: 42px;
+  width: 64px;
+  height: 64px;
   object-fit: cover;
   border-radius: 18px;
   border: 1px solid rgba(0, 217, 255, 0.25);
