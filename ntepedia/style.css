@@ -624,6 +624,18 @@ a {
   font-family: "Cinzel", serif;
 }
 
+.character-tags span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 .sheet-main-info h1 {
   margin: 0;
   font-size: clamp(2.2rem, 5vw, 4rem);
