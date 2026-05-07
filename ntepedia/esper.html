@@ -160,8 +160,12 @@
               </p>
 
               <div class="character-tags">
-                <span>Rareté : ${character.rarete}</span>
-                <span>Attribut : ${character.attribut}</span>
+                <span>
+                  <img src="annex/${character.rarete.toLowerCase()}_rarity.png" class="tag-icon">
+                </span>
+                <span> <img src="annex/${character.attribut.toLowerCase()}.png" class="tag-icon">
+                  ${character.attribut}
+                </span>
                 <span>Rôle : ${character.role}</span>
                 <span>Tier : ${character.tier_list}</span>
               </div>
