@@ -58,6 +58,81 @@
   const params = new URLSearchParams(window.location.search);
   const characterId = params.get("id");
 
+  function valueOrDash(value) {
+    return value && value.trim() !== "" ? value : "—";
+  }
+
+  function renderSkillCards(competences) {
+    return Object.values(competences)
+      .filter(skill => skill && (skill.nom || skill.description))
+      .map(skill => `
+        <div class="sheet-subcard">
+          <h3>${valueOrDash(skill.nom)}</h3>
+          <p>${valueOrDash(skill.description)}</p>
+        </div>
+      `)
+      .join("");
+  }
+
+  function renderAwakening(eveil) {
+    return eveil
+      .map(item => `
+        <div class="sheet-subcard">
+          <h3>Rang ${item.rang} — ${item.titre}</h3>
+          <p>${item.description}</p>
+        </div>
+      `)
+      .join("");
+  }
+
+  function renderResonance(resonance) {
+    return resonance
+      .map(item => `
+        <div class="sheet-subcard">
+          <h3>${item.titre}</h3>
+          <p>${item.description}</p>
+        </div>
+      `)
+      .join("");
+  }
+
+  function renderStats(build) {
+    const stats = build?.stats_prioritaires?.[0];
+
+    if (!stats) {
+      return "<p>Stats à venir.</p>";
+    }
+
+    return `
+      <div class="sheet-subcard">
+        <h3>Stats principales</h3>
+        <p>${stats["Stats Principales"] || "—"}</p>
+      </div>
+
+      <div class="sheet-subcard">
+        <h3>Stats secondaires</h3>
+        <p>${stats["Stats Secondaires"] || "—"}</p>
+      </div>
+    `;
+  }
+
+  function renderTeams(teams) {
+    const teamData = teams?.[0];
+
+    if (!teamData) {
+      return "<p>Équipes à venir.</p>";
+    }
+
+    return Object.entries(teamData)
+      .map(([teamName, members]) => `
+        <div class="sheet-subcard">
+          <h3>${teamName}</h3>
+          <p>${members}</p>
+        </div>
+      `)
+      .join("");
+  }
+
   fetch("data/characters_full.json")
     .then(response => response.json())
     .then(data => {
@@ -65,72 +140,91 @@
       const container = document.getElementById("character-sheet");
 
       if (!character) {
-        container.innerHTML = "<p>Personnage introuvable.</p>";
+        container.innerHTML = "<p>Esper introuvable.</p>";
         return;
       }
 
       container.innerHTML = `
-        <div class="character-profile">
+        <div class="sheet-layout">
 
-          <div class="character-visual">
-            <img src="portrait/${character.id}.png" alt="${character.nom}">
-          </div>
-
-          <div class="character-info">
-            <h1>${character.nom}</h1>
-            <p class="character-en">${character.nom_en}</p>
-
-            <div class="character-tags">
-              <span>Rareté : ${character.rarete}</span>
-              <span>Attribut : ${character.attribut}</span>
-              <span>Rôle : ${character.role}</span>
-              <span>Tier : ${character.tier_list}</span>
+          <section class="sheet-card sheet-main rarity-${character.rarete.toLowerCase()}">
+            <div class="sheet-portrait">
+              <img src="portrait/${character.id}.png" alt="${character.nom}">
             </div>
 
-            <p>${character.description}</p>
+            <div class="sheet-main-info">
+              <h1>${character.nom}</h1>
+              <p class="character-en">${character.nom_en}</p>
 
-            <h2>Arme</h2>
-            <p>${character.arme.type} : ${character.arme.nom}</p>
+              <div class="character-tags">
+                <span>Rareté : ${character.rarete}</span>
+                <span>Attribut : ${character.attribut}</span>
+                <span>Rôle : ${character.role}</span>
+                <span>Tier : ${character.tier_list}</span>
+              </div>
 
-            <h2>Console</h2>
-            <p>Cartouche : ${character.console.cartouche || "—"}</p>
-            <p>Module : ${character.console.module || "—"}</p>
-          </div>
+              <p class="character-description">${character.description}</p>
+            </div>
+          </section>
+
+          <section class="sheet-card">
+            <h2>Armes & Console</h2>
+
+            <div class="sheet-subcard">
+              <h3>Arme principale</h3>
+              <p>${valueOrDash(character.arme.type)} — ${valueOrDash(character.arme.nom)}</p>
+            </div>
+
+            <div class="sheet-subcard">
+              <h3>Arme alternative</h3>
+              <p>${valueOrDash(character.arme.type2)} — ${valueOrDash(character.arme.nom2)}</p>
+            </div>
+
+            <div class="sheet-subcard">
+              <h3>Console principale</h3>
+              <p>Cartouche : ${valueOrDash(character.console.cartouche)}</p>
+              <p>Module : ${valueOrDash(character.console.module)}</p>
+            </div>
+
+            <div class="sheet-subcard">
+              <h3>Console alternative</h3>
+              <p>Cartouche : ${valueOrDash(character.console.cartouche2)}</p>
+              <p>Module : ${valueOrDash(character.console.module2)}</p>
+            </div>
+          </section>
+
+          <section class="sheet-card">
+            <h2>Compétences</h2>
+            ${renderSkillCards(character.competences)}
+          </section>
+
+          <section class="sheet-card">
+            <h2>Éveil</h2>
+            ${renderAwakening(character.eveil)}
+
+            <h2 class="sheet-inner-title">Résonance</h2>
+            ${renderResonance(character.resonance)}
+          </section>
+
+          <section class="sheet-card">
+            <h2>Stats recommandées</h2>
+            ${renderStats(character.build)}
+          </section>
+
+          <section class="sheet-card">
+            <h2>Équipe(s) recommandée(s)</h2>
+            ${renderTeams(character.team_recommandee)}
+          </section>
 
         </div>
-
-        <section class="character-block">
-          <h2>Compétences</h2>
-          ${Object.values(character.competences).map(skill => `
-            <div class="skill-card">
-              <h3>${skill.nom || "Sans nom"}</h3>
-              <p>${skill.description || "Description à venir."}</p>
-            </div>
-          `).join("")}
-        </section>
-
-        <section class="character-block">
-          <h2>Éveil</h2>
-          ${character.eveil.map(eveil => `
-            <div class="skill-card">
-              <h3>Rang ${eveil.rang} — ${eveil.titre}</h3>
-              <p>${eveil.description}</p>
-            </div>
-          `).join("")}
-        </section>
-
-        <section class="character-block">
-          <h2>Résonance</h2>
-          ${character.resonance.map(res => `
-            <div class="skill-card">
-              <h3>${res.titre}</h3>
-              <p>${res.description}</p>
-            </div>
-          `).join("")}
-        </section>
       `;
+    })
+    .catch(error => {
+      console.error("Erreur fiche Esper :", error);
+      document.getElementById("character-sheet").innerHTML =
+        "<p>Erreur lors du chargement de la fiche.</p>";
     });
-</script>  
+</script>
   
 </body>
 </html>
