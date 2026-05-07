@@ -738,6 +738,30 @@ a {
   text-transform: uppercase;
 }
 
+.skill-cyan {
+  background: rgba(0, 217, 255, 0.10);
+  border: 1px solid rgba(0, 217, 255, 0.30);
+  color: #00d9ff;
+}
+
+.skill-yellow {
+  background: rgba(255, 180, 0, 0.10);
+  border: 1px solid rgba(255, 180, 0, 0.35);
+  color: #ffb400;
+}
+
+.skill-red {
+  background: rgba(255, 70, 70, 0.10);
+  border: 1px solid rgba(255, 70, 70, 0.35);
+  color: #ff5b5b;
+}
+
+.skill-white {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #f2f2f2;
+}
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
