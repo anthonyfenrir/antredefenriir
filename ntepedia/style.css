@@ -877,7 +877,7 @@ a {
 
 .guide-grid {
   display: grid;
-  grid-template-columns: repeat(2, 280px);
+  grid-template-columns: repeat(2, 360px);
   justify-content: center;
   gap: 38px 76px;
   margin: 0 auto;
