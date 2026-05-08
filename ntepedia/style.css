@@ -818,6 +818,24 @@ a {
   color: var(--muted);
 }
 
+.arc-content {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.arc-image {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.arc-card p {
+  font-size: 1rem;
+  color: var(--text);
+}
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
