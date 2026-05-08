@@ -1,5 +1,9 @@
 {
   "arcs": {
+	"empty": {
+      "nom": "À venir",
+      "image": "empty.png"
+    },  
     "attention-tete": {
       "nom": "Attention la tête !",
       "image": "attention-tete.png"
