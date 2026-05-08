@@ -1,5 +1,10 @@
 {
   "consoles": {
+	"empty": {
+      "nom": "À venir",
+      "image": "empty.png",
+      "modules": []
+    },  
     "herisson": {
       "nom": "Hérisson rapide",
       "image": "herisson.png",
