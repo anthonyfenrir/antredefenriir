@@ -20,9 +20,9 @@
         "nom2": "grand-voleur"
       },
       "console": {
-        "cartouche": "Gardien du Royaume",
+        "cartouche": "gardien",
         "module": "",
-        "cartouche2": "Hérisson Rapide",
+        "cartouche2": "herisson",
         "module2": ""
       },
       "competences": {
@@ -133,9 +133,9 @@
         "nom2": "voile-stellaire"
       },
       "console": {
-        "cartouche": "Sang du diable: Malédiction",
+        "cartouche": "sang",
         "module": "",
-        "cartouche2": "Perte d'éclat",
+        "cartouche2": "eclat",
         "module2": ""
       },
       "competences": {
@@ -246,9 +246,9 @@
         "nom2": "heure-viendra"
       },
       "console": {
-        "cartouche": "Crimson - Papillons Jumeaux",
+        "cartouche": "ecarlate",
         "module": "",
-        "cartouche2": "Credo de l'Ombre",
+        "cartouche2": "credo",
         "module2": ""
       },
       "competences": {
@@ -363,9 +363,9 @@
         "nom2": "empty"
       },
       "console": {
-        "cartouche": "Radiance perdue",
+        "cartouche": "eclat",
         "module": "",
-        "cartouche2": "Credo de l'ombre",
+        "cartouche2": "credo",
         "module2": ""
       },
       "competences": {
@@ -476,9 +476,9 @@
         "nom2": "empty"
       },
       "console": {
-        "cartouche": "Hérisson rapide",
-        "module": "Grande aventure d'un bon chien",
-        "cartouche2": "Crimson: Papillons jumeaux",
+        "cartouche": "herisson",
+        "module": "",
+        "cartouche2": "ecarlate",
         "module2": ""
       },
       "competences": {
@@ -589,9 +589,9 @@
         "nom2": "mind-royale"
       },
       "console": {
-        "cartouche": "La Taverne nocturne de Théa",
-        "module": "L'appel de la ville distordue",
-        "cartouche2": "Hérisson Rapide",
+        "cartouche": "taverne",
+        "module": "",
+        "cartouche2": "herisson",
         "module2": ""
       },
       "competences": {
@@ -697,9 +697,9 @@
         "nom2": "grand-voleur"
       },
       "console": {
-        "cartouche": "Petite grande aventure",
+        "cartouche": "aventure",
         "module": "",
-        "cartouche2": "Manoir tranquille",
+        "cartouche2": "manoir",
         "module2": ""
       },
       "competences": {
@@ -805,9 +805,9 @@
         "nom2": "gardien-hethereau"
       },
       "console": {
-        "cartouche": "Hérisson Rapide",
-        "module": "Les lucioles et la forêt",
-        "cartouche2": "",
+        "cartouche": "herisson",
+        "module": "",
+        "cartouche2": "lucioles",
         "module2": ""
       },
       "competences": {
@@ -917,9 +917,9 @@
         "nom2": "mind-royale"
       },
       "console": {
-        "cartouche": "Les lucioles et la forêt",
+        "cartouche": "lucioles",
         "module": "",
-        "cartouche2": "Credo de l'ombre",
+        "cartouche2": "credo",
         "module2": ""
       },
       "competences": {
@@ -1030,9 +1030,9 @@
         "nom2": "empty"
       },
       "console": {
-        "cartouche": "Boxeur de rue",
+        "cartouche": "boxeur",
         "module": "",
-        "cartouche2": "Credo de l'Ombre",
+        "cartouche2": "credo",
         "module2": ""
       },
       "competences": {
@@ -1143,9 +1143,9 @@
         "nom2": "duvet-fortitude"
       },
       "console": {
-        "cartouche": "Boxeur de rue",
+        "cartouche": "boxeur",
         "module": "",
-        "cartouche2": "Sang du diable: Malédiction",
+        "cartouche2": "sang",
         "module2": ""
       },
       "competences": {
@@ -1256,7 +1256,7 @@
         "nom2": "duvet-rapidite"
       },
       "console": {
-        "cartouche": "Diabolos",
+        "cartouche": "diabolos",
         "module": "",
         "cartouche2": "",
         "module2": ""
@@ -1369,9 +1369,9 @@
         "nom2": "duvet-intrepidite"
       },
       "console": {
-        "cartouche": "Les lucioles et la forêt",
+        "cartouche": "lucioles",
         "module": "",
-        "cartouche2": "Sang du diable: Malédiction",
+        "cartouche2": "sang",
         "module2": ""
       },
       "competences": {
@@ -1486,9 +1486,9 @@
         "nom2": "duvet-fortitude"
       },
       "console": {
-        "cartouche": "Les lucioles et la forêt",
+        "cartouche": "lucioles",
         "module": "",
-        "cartouche2": "Credo de l'ombre",
+        "cartouche2": "credo",
         "module2": ""
       },
       "competences": {
@@ -1603,9 +1603,9 @@
         "nom2": "duvet-intrepidite"
       },
       "console": {
-        "cartouche": "Hérisson rapide",
+        "cartouche": "herisson",
         "module": "",
-        "cartouche2": "Radiance perdue",
+        "cartouche2": "eclat",
         "module2": ""
       },
       "competences": {
