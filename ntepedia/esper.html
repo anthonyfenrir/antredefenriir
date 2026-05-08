@@ -233,15 +233,68 @@ function renderArcCard(title, arcId, arcs) {
       </div>
     </div>
   `;
+}
+
+function getConsoleData(consoleId, consoles) {
+  if (!consoleId || !consoles[consoleId]) {
+    console.warn("Console introuvable :", consoleId);
+    return consoles["empty"];
+  }
+
+  return consoles[consoleId];
+}
+
+function renderModuleList(modules) {
+  if (!modules || modules.length === 0) {
+    return `<p class="module-empty">Modules à venir</p>`;
+  }
+
+  return `
+    <div class="module-list">
+      ${modules.map(module => `
+        <img
+          src="consoles/modules/${module}.png"
+          alt="${module}"
+          title="${module}"
+          class="module-image"
+        >
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderConsoleCard(title, consoleId, consoles) {
+  const consoleData = getConsoleData(consoleId, consoles);
+
+  return `
+    <div class="sheet-subcard console-card">
+      <h3>${title}</h3>
+
+      <div class="console-content">
+        <img
+          src="consoles/${consoleData.image}"
+          alt="${consoleData.nom}"
+          class="console-image"
+        >
+
+        <div class="console-info">
+          <p>${consoleData.nom}</p>
+          ${renderModuleList(consoleData.modules)}
+        </div>
+      </div>
+    </div>
+  `;
 }  
 
 Promise.all([
   fetch("data/characters_full.json").then(response => response.json()),
-  fetch("data/arcs.json").then(response => response.json())
+  fetch("data/arcs.json").then(response => response.json()),
+  fetch("data/consoles.json").then(response => response.json())
 ])
   .then(([data, arcsData]) => {
     const character = data.characters.find(char => char.id === characterId);
     const arcs = arcsData.arcs;
+    const consoles = consolesData.consoles;
     const container = document.getElementById("character-sheet");
 
     if (!character) {
@@ -284,17 +337,9 @@ Promise.all([
             ${renderArcCard("Arc principal", character.arme.nom, arcs)}
             ${renderArcCard("Arc alternatif", character.arme.nom2, arcs)}
             
-            <div class="sheet-subcard">
-              <h3>Console principale</h3>
-              <p>Cartouche : ${valueOrDash(character.console.cartouche)}</p>
-              <p>Module : ${valueOrDash(character.console.module)}</p>
-            </div>
-
-            <div class="sheet-subcard">
-              <h3>Console alternative</h3>
-              <p>Cartouche : ${valueOrDash(character.console.cartouche2)}</p>
-              <p>Module : ${valueOrDash(character.console.module2)}</p>
-            </div>
+            ${renderConsoleCard("Console principale", character.console.cartouche, consoles)}
+            ${renderConsoleCard("Console alternative", character.console.cartouche2, consoles)}
+            
           </section>
 
           <section class="sheet-card">
