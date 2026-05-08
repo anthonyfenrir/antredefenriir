@@ -30,15 +30,15 @@
           "nom": "Délivrance",
           "description": "Brandit son arme et effectue jusqu'à 5 attaques consécutives, infligeant DEG d'incantation"
         },
-        "attaque_base2": {
+        "attaque_vise": {
           "nom": "Libération",
           "description": "Vise, infligeant 1 attaque de DEG d'incantion à cible unique à l'ennemi dans le champ de vision"
         },
-        "attaque_base3": {
+        "attaque_saute": {
           "nom": "Ignorance",
           "description": "Plonge, infligeant 1 attaque de DEG d'Incantation à une zone au moment de l'impact. Augment les DEG basés sur la hauteur de chute, jusqu'à 100%"
         },
-        "attaque_base4": {
+        "attaque_riposte": {
           "nom": "Révélation",
           "description": "Se déclenche en lançant Délivrance après une Esquive critique. Esquive une attaque avec une course rapide, saisit l'ouverture de l'ennemi et balance rapidement son arme, infligeant 1 attaque de DEG d'Incantation à une zone, réduisant leur Rupture"
         },
@@ -143,15 +143,15 @@
           "nom": "Legato",
           "description": "Chant avec fluidité et naturel ! Manie son arme et effectue jusqu'à 4 attaques consécutives infligeant des DEG de psyché"
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Staccato",
           "description": "Chant à tue-tête ! Maintenez la touche d'esquive enfoncée tout en vous déplaçant pour chevaucher une méduse, ce qui vous permettra de sprinter à grande vitesse. Génère une explosion de méduse à intervalles réguliers, infligeant des DEG de psyché"
         },
-        "attaque_base3": {
+        "attaque_saute": {
           "nom": "Portamento",
           "description": "Chante d'une voix claire et mélodieuse ! Inflige 1 attaque de DEG de psyché en zone avec une augmentation des dégats en fonction de la hauteur de chute"
         },
-        "attaque_base4": {
+        "attaque_riposte": {
           "nom": "Syncope",
           "description": "Se déclenche en lançant Legato après une esquive critique. Inflige 1 attaque de DEG de psyché dans une zone et réduire  la Rupture"
         },
@@ -256,11 +256,11 @@
           "nom": "Joindre le geste à la parole",
           "description": "Utilise les arts martiaux pour faire jusqu'à 5 attaques de DEG d'Incantation."
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Paroles Informes",
           "description": "Maintenir l'Attaque de base après la 2ème attaque pour déclencher Paroles informes. Lance 3 attaques horizontales, après un bref délai, les mots de puissance explosent, infligeant des DEG d'Incantation en zone."
         },
-        "attaque_base3": {
+        "attaque_hold2": {
           "nom": "Paroles Libérées",
           "description": "Maintenir l'Attaque de base après la 3ème attaque pour déclencher Paroles Libérées. Lance 3 attaques verticales qui explosent en infligeant des DEG d'Incantation en zone."
         },
@@ -486,7 +486,7 @@
           "nom": "Coup",
           "description": "Sakiri balance Kiroumaru et joue jusqu'à 5 attaques consécutives, attaque de DEG d'Incantation."
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Mode affamé",
           "description": "Maintenir pour activer le Mode Affamé avec Kiroumaru. Sakiri saute dessus et se déplace. Quand il a faim, Kiroumaru ouvre la bouche pour attier les cibles proches en cône. 1 seule cible peut être digérée à la fois et ce pendant 180 secondes."
         },
@@ -707,10 +707,6 @@
           "nom": "Rejet Muet",
           "description": "Balance son bouclier et effectue jusqu'à 5 attaques consécutives, infligeant des DMG Psyché."
         },
-        "attaque_passif": {
-          "nom": "Sous le feu des projecteurs",
-          "description": "Lorsque les PV de Fadia sont supérieurs à 1, redirige une partie des dégats subis des autres vers elle avant application des réductions par bouclier."
-        },
         "attaque_saute": {
           "nom": "Outrage de chute",
           "description": "Balance son bouclier en l'air et plonge, infligeant des DEG Psyché en zone. Augmentation jusqu'à 100% en fonction de la hauteur de chute."
@@ -726,7 +722,11 @@
         "ultimate": {
           "nom": "De l'Agonie à l'euphorie",
           "description": "Passe en état Lilith. infligeant 6 attaques de DEG Psyché et restaurant ses PV. Relance aussi Rejet Muet en état de Lilith. Restaure entièrement l'énergie de l'Agonie de l'Euphorie quand les PV atteignent le seuil de destruction."
-        }
+        },
+        "passif": {
+          "nom": "Sous le feu des projecteurs",
+          "description": "Lorsque les PV de Fadia sont supérieurs à 1, redirige une partie des dégats subis des autres vers elle avant application des réductions par bouclier."
+        },
       },
       "eveil": [
         {
@@ -815,7 +815,7 @@
           "nom": "Technique de Genesse",
           "description": "Tire des projectiles magiques et effectue jusqu'à 5 attaques infligeant DEG Psyché."
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Canon paranormal",
           "description": "Maintenir l'attque de base pendant le premier coup pour charger, puis tirer a canon chargé vers l'avant."
         },
@@ -927,7 +927,7 @@
           "nom": "Confinement parfait",
           "description": "Manie son arme et effectue jusqu'à 5 attaques consécutives infligeant des DÉG d'anima."
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Tourbillong Mentholé",
           "description": "Maintenez l'attaque de base pour que Menthe danse et tourne sur elle-même, formant une tornade qui draine l'endurance et inflige des DÉG d'anima en continu aux ennemis environnants."
         },
@@ -1266,7 +1266,7 @@
           "nom": "Eaux calmes",
           "description": "Son cœur est aussi calme que les eaux calmes, habitué depuis longtemps au combat. Brandit ses lames jumelles pour effectuer jusqu'à 5 attaques consécutives, infligeant DÉG de chaos."
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Miroir sur l'eau",
           "description": "Je suis là. Maintenir Attaque de base pour déclencher. Courir vers l'avant, effectuer un Tourbillon de lames et laisser des marques, infligeant DÉG de chaos."
         },
@@ -1379,11 +1379,11 @@
           "nom": "Quand les secrets prennent forme",
           "description": "Manie deux armes pour effectuer jusqu'à 5 attaques consécutives, infligeant des DÉG d'anima. Confère 2 balles du pacte de Rose. Conclut un Pacte mortel de Rose avec la cible lorsque le dernier coup touche."
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Arts guidés par l'information",
           "description": "Se déclenche en maintenant la touche d'attaque de base enfoncée. Tire une balle à ciblage automatique, infligeant 1 attaque de DÉG d'anima. Consomme des balles du pacte de Rose pour un tir continu et donne la priorité aux cibles affectées par Pacte mortel de Rose lorsque des balles du pacte de Rose sont disponibles."
         },
-        "attaque_base3": {
+        "attaque_vise": {
           "nom": "Verrouillage d'opportunité",
           "description": "Appuyer sur Viser pour entrer en mode visée. Tire une balle qui inflige 1 attaque de DEG d'Anima à l'ennemi dans le viseur."
         },
@@ -1496,11 +1496,11 @@
           "nom": "Compétence secrète des Colucci",
           "description": "Montre les crocs et sort ses griffes, effectuant jusqu'à 5 attaques consécutives qui infligent des DÉG d'anima. Les esquives n'interrompent pas le combo."
         },
-        "attaque_base2": {
+        "attaque_hold": {
           "nom": "Coup de massue !",
           "description": "Se déclenche en maintenant l'attaque de base. Effectue jusqu'à 3 attaques puissantes, infligeant des DÉG d'anima. Ces attaques peuvent être enchaînées après une riposte critique et la 1re, 2e, 3e et 5e attaque de la Compétence secrète des Colucci. Les esquives n'interrompent pas le combo."
         },
-        "attaque_base3": {
+        "attaque_vise": {
           "nom": "Gundo secret des Colucci",
           "description": "Entre en mode visée, infligeant 1 attaque de DEG d'Anima à l'ennemi dans le viseur."
         },
