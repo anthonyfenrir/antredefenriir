@@ -215,8 +215,7 @@ function renderTeams(teams, allCharacters) {
 function getArcData(arcId, arcs) {
   if (!arcId || !arcs[arcId]) {
     console.warn("Arc introuvable :", arcId);
-    return arcs[arcId] || arcs["empty"];
-    };
+    return arcs["empty"];
   }
 
   return arcs[arcId];
