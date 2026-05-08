@@ -15,9 +15,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Parapluie",
+        "nom": "parapluie",
         "type2": "Arc - Alt",
-        "nom2": "Le Grand Voleur"
+        "nom2": "grand-voleur"
       },
       "console": {
         "cartouche": "Gardien du Royaume",
@@ -128,9 +128,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Prépa-Prépa",
+        "nom": "prepa-prepa",
         "type2": "Arc - Alt",
-        "nom2": "Voile Stellaire"
+        "nom2": "voile-stellaire"
       },
       "console": {
         "cartouche": "Sang du diable: Malédiction",
@@ -241,9 +241,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "Société des Camélia",
+        "nom": "societe-camelias",
         "type2": "Arc - Alt",
-        "nom2": "L'heure viendra"
+        "nom2": "heure-viendra"
       },
       "console": {
         "cartouche": "Crimson - Papillons Jumeaux",
@@ -358,7 +358,7 @@
       "tier_list": "T0",
       "arme": {
         "type": "Arc",
-        "nom": "Chat Pensif",
+        "nom": "chat-pensif",
         "type2": "Arc - Alt",
         "nom2": ""
       },
@@ -471,7 +471,7 @@
       "tier_list": "T0",
       "arme": {
         "type": "Arc",
-        "nom": "",
+        "nom": "grande-aventure-bon-chien",
         "type2": "Arc - Alt",
         "nom2": ""
       },
@@ -584,9 +584,9 @@
       "tier_list": "T2",
       "arme": {
         "type": "Arc",
-        "nom": "",
+        "nom": "ville-distordue",
         "type2": "Arc - Alt",
-        "nom2": "Mind Royale"
+        "nom2": "mind-royale"
       },
       "console": {
         "cartouche": "La Taverne nocturne de Théa",
@@ -692,9 +692,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Valse éternelle",
+        "nom": "valse-eternelle",
         "type2": "Arc - Alt",
-        "nom2": "Le grand Voleur"
+        "nom2": "grand-voleur"
       },
       "console": {
         "cartouche": "Petite grande aventure",
@@ -800,9 +800,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "Enflammer la foule",
+        "nom": "enflammer-foule",
         "type2": "Arc - Alt",
-        "nom2": "Gardien d'Hethereau"
+        "nom2": "gardien-hethereau"
       },
       "console": {
         "cartouche": "Hérisson Rapide",
@@ -912,9 +912,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Duvet de rapidité",
+        "nom": "duvet-rapidite",
         "type2": "Arc - Alt",
-        "nom2": "Mind Royale"
+        "nom2": "mind-royale"
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1025,7 +1025,7 @@
       "tier_list": "T2",
       "arme": {
         "type": "Arc",
-        "nom": "Attention la tête",
+        "nom": "attention-tete",
         "type2": "Arc - Alt",
         "nom2": ""
       },
@@ -1138,9 +1138,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "Flammes Déchaînées",
+        "nom": "flammes-dechainees",
         "type2": "Arc - Alt",
-        "nom2": "Duvet de fortitude"
+        "nom2": "duvet-fortitude"
       },
       "console": {
         "cartouche": "Boxeur de rue",
@@ -1251,9 +1251,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Fantaisie Juvénile",
+        "nom": "fantaisy-juvenile",
         "type2": "Arc - Alt",
-        "nom2": "Duvet de rapidité"
+        "nom2": "duvet-rapidite"
       },
       "console": {
         "cartouche": "Diabolos",
@@ -1364,9 +1364,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "Échappatoire au réel",
+        "nom": "echappatoire-reel",
         "type2": "Arc - Alt",
-        "nom2": "Duvet d'intrépidité"
+        "nom2": "duvet-intrepidite"
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1481,9 +1481,9 @@
       "tier_list": "T0",
       "arme": {
         "type": "Arc",
-        "nom": "Prépa-Prépa",
+        "nom": "prepa-prepa",
         "type2": "Arc - Alt",
-        "nom2": "Duvet de fortitude"
+        "nom2": "duvet-fortitude"
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1598,9 +1598,9 @@
       "tier_list": "T0",
       "arme": {
         "type": "Arc",
-        "nom": "Congés",
+        "nom": "conges",
         "type2": "Arc - Alt",
-        "nom2": "Duvet d'intépidité"
+        "nom2": "duvet-intrepidite"
       },
       "console": {
         "cartouche": "Hérisson rapide",
