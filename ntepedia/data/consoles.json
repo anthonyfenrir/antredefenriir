@@ -1,0 +1,65 @@
+{
+  "consoles": {
+    "herisson": {
+      "nom": "Hérisson rapide",
+      "image": "herisson.png",
+      "modules": ["L4", "L1", "L2", "L3"]
+    },
+	"boxeur": {
+      "nom": "Boxeur de rue",
+      "image": "boxeur.png",
+      "modules": ["1x2", "1x3", "L2", "Z2"]
+    },
+	"credo": {
+      "nom": "Crédo de l'ombre",
+      "image": "credo.png",
+      "modules": ["1x2", "2x1", "1x4", "Z1"]
+    },
+	"diabolos": {
+      "nom": "Diabolos",
+      "image": "diabolos.png",
+      "modules": ["2x1", "L1", "L3", "1x4"]
+    },
+	"ecarlate": {
+      "nom": "Écarlate : papillons jumeaux",
+      "image": "ecarlate.png",
+      "modules": ["2x1", "1x3", "L3", "Z2"]
+    },
+	"eclat": {
+      "nom": "Éclat perdu",
+      "image": "eclat.png",
+      "modules": ["1x2", "L4", "L2", "1x4"]
+    },
+	"garde": {
+      "nom": "Garde royal",
+      "image": "garde.png",
+      "modules": ["1x3", "3x1", "L2", "L3"]
+    },
+	"lucioles": {
+      "nom": "Lucioles et forêt",
+      "image": "lucioles.png",
+      "modules": ["1x2", "3x1", "L4", "Z1"]
+    },
+	"manoir": {
+      "nom": "Manoir silencieux",
+      "image": "manoir.png",
+      "modules": ["1x2", "2x1", "1x4", "Z1"]
+    },
+	"sang": {
+      "nom": "Sang du diable : malédiction",
+      "image": "sang.png",
+      "modules": ["1x2", "1x3", "L1", "Z1"]
+    },
+	"taverne": {
+      "nom": "Taverne nocturne de Théa",
+      "image": "taverne.png",
+      "modules": ["1x3", "3x1", "L4", "L1"]
+    },
+	"aventure": {
+      "nom": "Petite aventure gigantesque",
+      "image": "aventure.png",
+      "modules": ["1x2", "2x1", "1x4", "Z2"]
+    }
+	
+  }
+}
