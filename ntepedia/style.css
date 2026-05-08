@@ -903,6 +903,14 @@ a {
   margin-bottom: 100px;
 }  
 
+.guide-banner {
+  display: block;
+  height: 200px;
+  width: auto;
+  margin: 0 auto 60px;
+  object-fit: contain;
+}  
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
