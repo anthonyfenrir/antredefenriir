@@ -1,0 +1,176 @@
+{
+  "arcs": {
+    "attention-tete": {
+      "nom": "Attention la tête !",
+      "image": "attention-tete.png"
+    },
+    "bonheur-prix": {
+      "nom": "Le bonheur n'a pas de prix",
+      "image": "bonheur-prix.png"
+    },
+    "vraie-musique": {
+      "nom": "'Vraie musique'",
+      "image": "vraie-musique.png"
+    },
+	"heure-viendra": {
+      "nom": "L'heure viendra",
+      "image": "heure-viendra.png"
+    },
+	"joie-vivre": {
+      "nom": "La joie de vivre",
+      "image": "joie-vivre.png"
+    },
+	"enflammer-foule": {
+      "nom": "Enflammer la foule",
+      "image": "enflammer-foule.png"
+    },
+	"ville-distordue": {
+      "nom": "L'appel de la ville distordue",
+      "image": "ville-distordue.png"
+    },
+	"societe-camelias": {
+      "nom": "Société des camélias",
+      "image": "societe-camelias.png"
+    },
+	"ciel-degage": {
+      "nom": "Ciel dégagé",
+      "image": "ciel-degage.png"
+    },
+	"chat-pensif": {
+      "nom": "Chat pensif",
+      "image": "chat-pensif.png"
+    },
+	"confusion-cosmos": {
+      "nom": "Confusion du cosmos, Rêverie sauvage",
+      "image": "confusion-cosmos.png"
+    },
+	"jeu-dangereux": {
+      "nom": "Jeu dangereux",
+      "image": "jeu-dangereux.png"
+    },
+	"conges": {
+      "nom": "Congés",
+      "image": "conges.png"
+    },
+	"lame-dechainee": {
+      "nom": "Lame déchainée",
+      "image": "lame-dechainee.png"
+    },
+	"valse-eternelle": {
+      "nom": "Valse éternelle",
+      "image": "valse-eternelle.png"
+    },
+	"ouvrir-coeur": {
+      "nom": "Vous ouvrir mon cœur m'est difficile",
+      "image": "ouvrir-coeur.png"
+    },
+	"etape-succes": {
+      "nom": "La première étape du succès",
+      "image": "etape-succes.png"
+    },
+	"duvet-intrepide": {
+      "nom": "Duvet d'intrépidité",
+      "image": "duvet-intrepide.png"
+    },
+	"duvet-ferocite": {
+      "nom": "Duvet de férocité",
+      "image": "duvet-ferocite.png"
+    },
+	"duvet-finesse": {
+      "nom": "Duvet de finesse",
+      "image": "duvet-finesse.png"
+    },
+	"duvet-rapidite": {
+      "nom": "Duvet de rapidité",
+      "image": "duvet-rapidite.png"
+    },
+	"duvet-fortitude": {
+      "nom": "Duvet de fortitude",
+      "image": "duvet-fortitude.png"
+    },
+	"grande-aventure-bon-chien": {
+      "nom": "Grande aventure d'un bon chien",
+      "image": "grande-aventure-bon-chien.png"
+    },
+	"gardien-hethereau": {
+      "nom": "Gardien d'Hethereau",
+      "image": "gardien-hethereau.png"
+    },
+	"marche-temps": {
+      "nom": "Marche au-delà du temps",
+      "image": "marche-temps.png"
+    },
+	"mind-royale": {
+      "nom": "Mind Royale",
+      "image": "mind-royale.png"
+    },
+	"oraora": {
+      "nom": "Oraora !",
+      "image": "oraora.png"
+    },
+	"flammes-dechainees": {
+      "nom": "Flammes déchaînées",
+      "image": "flammes-dechainees.png"
+    },
+	"prepa-prepa": {
+      "nom": "Prépa-prépa",
+      "image": "prepa-prepa.png"
+    },
+	"echappatoire-reel": {
+      "nom": "Échappatoire au réel",
+      "image": "echappatoire-reel.png"
+    },
+	"journees-ensoleillees": {
+      "nom": "Journées ensoleillées",
+      "image": "journees-ensoleillees.png"
+    },
+	"chant-baleine": {
+      "nom": "Chant de la baleine",
+      "image": "chant-baleine.png"
+    },
+	"larmes-masque": {
+      "nom": "Les larmes sous le masque",
+      "image": "larmes-masque.png"
+    },
+	"printemps-imbeciles": {
+      "nom": "Printemps des imbéciles",
+      "image": "printemps-imbeciles.png"
+    },
+	"oublies": {
+      "nom": "Les oubliés",
+      "image": "oublies.png"
+    },
+	"bon-mauvais": {
+      "nom": "Le bon, le mauvais, l'amertume",
+      "image": "bon-mauvais.png"
+    },
+	"grand-voleur": {
+      "nom": "Le grand voleur",
+      "image": "grand-voleur.png"
+    },
+	"derniere-rose": {
+      "nom": "La dernière rose",
+      "image": "derniere-rose.png"
+    },
+	"voleur-temps": {
+      "nom": "Voleur de temps",
+      "image": "voleur-temps.png"
+    },
+	"parapluie": {
+      "nom": "Parapluie",
+      "image": "parapluie.png"
+    },
+	"nous": {
+      "nom": "Nous.",
+      "image": "nous.png"
+    },
+	"voile-stellaire": {
+      "nom": "Voile stellaire",
+      "image": "voile-stellaire.png"
+    },
+	"fantasy-juvenile": {
+      "nom": "Fantasy juvénile",
+      "image": "fantasy-juvenile.png"
+    }
+  }
+}
