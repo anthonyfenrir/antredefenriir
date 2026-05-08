@@ -15,9 +15,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Le Grand Voleur",
+        "nom": "Parapluie",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Le Grand Voleur"
       },
       "console": {
         "cartouche": "Gardien du Royaume",
@@ -128,9 +128,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Voile Stellaire",
+        "nom": "Prépa-Prépa",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Voile Stellaire"
       },
       "console": {
         "cartouche": "Sang du diable: Malédiction",
@@ -241,9 +241,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "L'heure viendra",
+        "nom": "Société des Camélia",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "L'heure viendra"
       },
       "console": {
         "cartouche": "Crimson - Papillons Jumeaux",
@@ -477,7 +477,7 @@
       },
       "console": {
         "cartouche": "Hérisson rapide",
-        "module": "",
+        "module": "Grande aventure d'un bon chien",
         "cartouche2": "Crimson: Papillons jumeaux",
         "module2": ""
       },
@@ -584,13 +584,13 @@
       "tier_list": "T2",
       "arme": {
         "type": "Arc",
-        "nom": "Mind Royale",
+        "nom": "",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Mind Royale"
       },
       "console": {
         "cartouche": "La Taverne nocturne de Théa",
-        "module": "",
+        "module": "L'appel de la ville distordue",
         "cartouche2": "Hérisson Rapide",
         "module2": ""
       },
@@ -692,9 +692,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Le grand Voleur",
+        "nom": "Valse éternelle",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Le grand Voleur"
       },
       "console": {
         "cartouche": "Petite grande aventure",
@@ -800,9 +800,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "Gardien d'Hethereau",
+        "nom": "Enflammer la foule",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Gardien d'Hethereau"
       },
       "console": {
         "cartouche": "Hérisson Rapide",
@@ -912,9 +912,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Mind Royale",
+        "nom": "Duvet de rapidité",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Mind Royale"
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1025,7 +1025,7 @@
       "tier_list": "T2",
       "arme": {
         "type": "Arc",
-        "nom": "",
+        "nom": "Attention la tête",
         "type2": "Arc - Alt",
         "nom2": ""
       },
@@ -1138,9 +1138,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "Duvet de fortitude",
+        "nom": "Flammes Déchaînées",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Duvet de fortitude"
       },
       "console": {
         "cartouche": "Boxeur de rue",
@@ -1251,9 +1251,9 @@
       "tier_list": "T1",
       "arme": {
         "type": "Arc",
-        "nom": "Duvet de rapidité",
+        "nom": "Fantaisie Juvénile",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Duvet de rapidité"
       },
       "console": {
         "cartouche": "Diabolos",
@@ -1364,9 +1364,9 @@
       "tier_list": "T0.5",
       "arme": {
         "type": "Arc",
-        "nom": "Duvet d'intrépidité",
+        "nom": "Échappatoire au réel",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Duvet d'intrépidité"
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1481,9 +1481,9 @@
       "tier_list": "T0",
       "arme": {
         "type": "Arc",
-        "nom": "Duvet de fortitude",
+        "nom": "Prépa-Prépa",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Duvet de fortitude"
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1598,9 +1598,9 @@
       "tier_list": "T0",
       "arme": {
         "type": "Arc",
-        "nom": "Duvet d'intépidité",
+        "nom": "Congés",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "Duvet d'intépidité"
       },
       "console": {
         "cartouche": "Hérisson rapide",
