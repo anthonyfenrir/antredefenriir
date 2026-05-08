@@ -212,16 +212,44 @@ function renderTeams(teams, allCharacters) {
     .join("");
 }
 
-  fetch("data/characters_full.json")
-    .then(response => response.json())
-    .then(data => {
-      const character = data.characters.find(char => char.id === characterId);
-      const container = document.getElementById("character-sheet");
+function getArcData(arcId, arcs) {
+  if (!arcId || !arcs[arcId]) {
+    return {
+      nom: "À venir",
+      image: "placeholder.png"
+    };
+  }
 
-      if (!character) {
-        container.innerHTML = "<p>Esper introuvable.</p>";
-        return;
-      }
+  return arcs[arcId];
+}
+
+function renderArcCard(title, arcId, arcs) {
+  const arc = getArcData(arcId, arcs);
+
+  return `
+    <div class="sheet-subcard arc-card">
+      <h3>${title}</h3>
+      <div class="arc-content">
+        <img src="arcs/${arc.image}" alt="${arc.nom}" class="arc-image">
+        <p>${arc.nom}</p>
+      </div>
+    </div>
+  `;
+}  
+
+Promise.all([
+  fetch("data/characters_full.json").then(response => response.json()),
+  fetch("data/arcs.json").then(response => response.json())
+])
+  .then(([data, arcsData]) => {
+    const character = data.characters.find(char => char.id === characterId);
+    const arcs = arcsData.arcs;
+    const container = document.getElementById("character-sheet");
+
+    if (!character) {
+      container.innerHTML = "<p>Esper introuvable.</p>";
+      return;
+    }
 
       container.innerHTML = `
         <div class="sheet-layout">
@@ -255,11 +283,9 @@ function renderTeams(teams, allCharacters) {
           <section class="sheet-card">
             <h2>Armes & Console</h2>
 
-            <div class="sheet-subcard">
-              <h3>Arme principale</h3>
-              <p>${valueOrDash(character.arme.type)} — ${valueOrDash(character.arme.nom)}</p>
-            </div>
-
+            ${renderArcCard("Arme principale", character.arme.arc1, arcs)}
+            ${renderArcCard("Arme alternative", character.arme.arc2, arcs)}
+            
             <div class="sheet-subcard">
               <h3>Arme alternative</h3>
               <p>${valueOrDash(character.arme.type2)} — ${valueOrDash(character.arme.nom2)}</p>
