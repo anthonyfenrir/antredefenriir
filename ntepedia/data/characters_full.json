@@ -726,7 +726,7 @@
         "passif": {
           "nom": "Sous le feu des projecteurs",
           "description": "Lorsque les PV de Fadia sont supérieurs à 1, redirige une partie des dégats subis des autres vers elle avant application des réductions par bouclier."
-        },
+        }
       },
       "eveil": [
         {
