@@ -198,10 +198,7 @@
         const list = row.querySelector(".tier-characters");
 
         characters.forEach(char => {
-          const attrIcon = char.attribut
-            .toLowerCase()
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "");
+          const attrIcon = char.attribut.toLowerCase();
 
           const card = document.createElement("a");
           card.href = `esper.html?id=${char.id}`;
