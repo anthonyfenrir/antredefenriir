@@ -866,6 +866,10 @@ a {
   width: 38px;
   height: 38px;
   object-fit: contain;
+  padding: 3px;
+  border: 1px solid rgba(0, 217, 255, 0.22);
+  border-radius: 8px;
+  background: rgba(0, 10, 20, 0.55);
 }
 
 .module-empty {
@@ -873,15 +877,7 @@ a {
   margin: 0;
 }
 
-.module-item {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-  padding: 3px;
-  border: 1px solid rgba(0, 217, 255, 0.22);
-  border-radius: 8px;
-  background: rgba(0, 10, 20, 0.55);
-}
+
 
 @media (max-width: 800px) {
   .sheet-main {
