@@ -291,7 +291,7 @@ Promise.all([
   fetch("data/arcs.json").then(response => response.json()),
   fetch("data/consoles.json").then(response => response.json())
 ])
-  .then(([data, arcsData]) => {
+  .then(([data, arcsData, consolesData]) => {
     const character = data.characters.find(char => char.id === characterId);
     const arcs = arcsData.arcs;
     const consoles = consolesData.consoles;
