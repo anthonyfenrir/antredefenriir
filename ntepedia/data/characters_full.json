@@ -360,7 +360,7 @@
         "type": "Arc",
         "nom": "chat-pensif",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "empty"
       },
       "console": {
         "cartouche": "Radiance perdue",
@@ -473,7 +473,7 @@
         "type": "Arc",
         "nom": "grande-aventure-bon-chien",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "empty"
       },
       "console": {
         "cartouche": "Hérisson rapide",
@@ -1027,7 +1027,7 @@
         "type": "Arc",
         "nom": "attention-tete",
         "type2": "Arc - Alt",
-        "nom2": ""
+        "nom2": "empty"
       },
       "console": {
         "cartouche": "Boxeur de rue",
