@@ -78,8 +78,8 @@ a {
 .hero-banner {
   display: block;
 
-  width: min(100%, 900px);
-  height: auto;
+  width: auto;
+  height: 200px;
 
   margin: 0 auto;
 
