@@ -93,7 +93,8 @@ a {
   height: min(100%, 200px);
 
   margin: 0 auto 32px;
-
+  margin-bottom: 50px;
+  
   filter:
     drop-shadow(0 0 14px rgba(0, 217, 255, 0.18));
 }
@@ -893,10 +894,14 @@ a {
 }
 
 .guide-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(0,217,255,.4);
-  box-shadow: 0 0 18px rgba(0,217,255,.12);
+  transform: translateY(-6px);
+  border-color: rgba(0, 217, 255, 0.35);
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.12);
 }
+
+.guide-section {
+  margin-bottom: 100px;
+}  
 
 @media (max-width: 800px) {
   .sheet-main {
