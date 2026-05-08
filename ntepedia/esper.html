@@ -284,14 +284,9 @@ Promise.all([
           <section class="sheet-card">
             <h2>Armes & Console</h2>
 
-             ${renderArcCard("Arme principale", character.arme.nom, arcs)}
+            ${renderArcCard("Arme principale", character.arme.nom, arcs)}
             ${renderArcCard("Arme alternative", character.arme.nom2, arcs)}
             
-            <div class="sheet-subcard">
-              <h3>Arme alternative</h3>
-              <p>${valueOrDash(character.arme.type2)} — ${valueOrDash(character.arme.nom2)}</p>
-            </div>
-
             <div class="sheet-subcard">
               <h3>Console principale</h3>
               <p>Cartouche : ${valueOrDash(character.console.cartouche)}</p>
