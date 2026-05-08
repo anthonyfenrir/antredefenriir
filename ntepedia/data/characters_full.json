@@ -16,7 +16,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Le Grand Voleur",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Gardien du Royaume",
@@ -128,7 +129,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Voile Stellaire",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Sang du diable: Malédiction",
@@ -240,7 +242,8 @@
       "arme": {
         "type": "Arc",
         "nom": "L'heure viendra",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Crimson - Papillons Jumeaux",
@@ -355,8 +358,9 @@
       "tier_list": "T0",
       "arme": {
         "type": "Arc",
-        "nom": "",
-        "type2": "Arc - Alt"
+        "nom": "Chat Pensif",
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Radiance perdue",
@@ -468,7 +472,8 @@
       "arme": {
         "type": "Arc",
         "nom": "",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Hérisson rapide",
@@ -580,7 +585,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Mind Royale",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "La Taverne nocturne de Théa",
@@ -687,7 +693,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Le grand Voleur",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Petite grande aventure",
@@ -794,7 +801,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Gardien d'Hethereau",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Hérisson Rapide",
@@ -905,7 +913,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Mind Royale",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1017,7 +1026,8 @@
       "arme": {
         "type": "Arc",
         "nom": "",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Boxeur de rue",
@@ -1129,7 +1139,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Duvet de fortitude",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Boxeur de rue",
@@ -1241,7 +1252,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Duvet de rapidité",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Diabolos",
@@ -1353,7 +1365,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Duvet d'intrépidité",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1469,7 +1482,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Duvet de fortitude",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Les lucioles et la forêt",
@@ -1585,7 +1599,8 @@
       "arme": {
         "type": "Arc",
         "nom": "Duvet d'intépidité",
-        "type2": "Arc - Alt"
+        "type2": "Arc - Alt",
+        "nom2": ""
       },
       "console": {
         "cartouche": "Hérisson rapide",
