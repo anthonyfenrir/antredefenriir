@@ -77,15 +77,10 @@ a {
 
 .hero-banner {
   display: block;
-
-  width: 900px;
+  width: min(100%, 900px);
   height: auto;
-
   margin: 0 auto;
-
-  filter:
-    drop-shadow(0 0 18px rgba(0, 217, 255, 0.25));
-}
+  filter: drop-shadow(0 0 18px rgba(0, 217, 255, 0.25));
 
 /* =========================
    SECTION BANNER
