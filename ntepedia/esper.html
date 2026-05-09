@@ -54,7 +54,7 @@
     </p>
   </div>
 </footer>
-
+<script src="js/auto-terms.js"></script> 
 <script>
   const params = new URLSearchParams(window.location.search);
   const characterId = params.get("id");
@@ -304,6 +304,7 @@ Promise.all([
 
       container.innerHTML = `
         <div class="sheet-layout">
+        
 
           <section class="sheet-card sheet-main rarity-${character.rarete.toLowerCase()}">
             <div class="sheet-portrait">
@@ -367,6 +368,7 @@ Promise.all([
 
         </div>
       `;
+    applyAutoTerms(container);
     })
     .catch(error => {
       console.error("Erreur fiche Esper :", error);
@@ -374,6 +376,6 @@ Promise.all([
         "<p>Erreur lors du chargement de la fiche.</p>";
     });
 </script>
-<script src="js/auto-terms.js"></script>   
+  
 </body>
 </html>
