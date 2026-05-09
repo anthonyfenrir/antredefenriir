@@ -1025,6 +1025,48 @@ a {
   box-shadow: 0 0 18px rgba(0, 217, 255, 0.08);
 }
 
+.guide-inline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 14px 18px;
+  margin: 18px 0 28px;
+
+  border-radius: 14px;
+
+  background: rgba(0, 217, 255, 0.05);
+  border: 1px solid rgba(0, 217, 255, 0.18);
+
+  transition: all 0.25s ease;
+}
+
+.guide-inline-link:hover {
+  transform: translateX(6px);
+  border-color: rgba(0, 217, 255, 0.35);
+  box-shadow: 0 0 16px rgba(0, 217, 255, 0.10);
+}
+
+.guide-inline-icon {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.guide-inline-link strong {
+  display: block;
+  color: var(--text);
+  font-family: "Cinzel", serif;
+  margin-bottom: 4px;
+}
+
+.guide-inline-link span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
