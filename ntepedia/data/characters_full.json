@@ -169,7 +169,7 @@
         },
         "tips": {
           "nom": "Meduse",
-          "description": "En utilisant Aurelia, qui chevauche une méduse, sur l'eau, il sera possible de se déplacement plus rapidement sur l'eau."
+          "description": "Sur l'eau : En utilisant Aurelia et sa méduse il sera possible de se déplacer plus rapidement."
         }
       },
       "eveil": [
