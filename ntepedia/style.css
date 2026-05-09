@@ -873,6 +873,37 @@ a {
 }
 
 /* =========================
+   COLOR-TEXT
+========================= */
+
+
+.attr-incantation {
+  color: #ff4f67;
+}
+
+.attr-psyche {
+  color: #35b8ff;
+}
+
+.attr-anima {
+  color: #35ffd0;
+}
+
+.attr-chaos {
+  color: #9b7cff;
+}
+
+.attr-cosmos {
+  color: #d7dee8;
+  text-shadow: 0 0 8px rgba(215, 222, 232, 0.25);
+}
+
+.attr-lakshana {
+  color: #ffd84a;
+}
+
+
+/* =========================
    GUIDES
 ========================= */
 
