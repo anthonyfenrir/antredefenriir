@@ -1021,9 +1021,9 @@ a {
   margin: 28px auto;
 
   border-radius: 16px;
-  border: 1px solid rgba(0, 217, 255, 0.18);
+  border: 1px solid rgba(0,217,255,.18);
 
-  box-shadow: 0 0 18px rgba(0, 217, 255, 0.08);
+  box-shadow: 0 0 20px rgba(0,217,255,.08);
 }
 
 .guide-inline-link {
@@ -1057,8 +1057,17 @@ a {
   white-space: nowrap;
 }
 
+.guide-inline-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 14px rgba(0,217,255,.12);
+}
+
 .guide-block {
   margin-bottom: 48px;
+}
+.guide-block p,
+.guide-block li {
+  line-height: 1.7;
 }
 
 @media (max-width: 800px) {
