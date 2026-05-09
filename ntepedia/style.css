@@ -1057,6 +1057,10 @@ a {
   white-space: nowrap;
 }
 
+.guide-block {
+  margin-bottom: 48px;
+}
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
