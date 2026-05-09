@@ -166,6 +166,10 @@
         "passif": {
           "nom": "Cadence",
           "description": "Inflige 70% de dégats supplémentaires avec les explosions de méduses et inflige des dégats de zone aux ennemis autour de la cible"
+        },
+        "tips": {
+          "nom": "Meduse",
+          "description": "En utilisant Aurelia, qui chevauche une méduse, sur l'eau, il sera possible de se déplacement plus rapidement sur l'eau."
         }
       },
       "eveil": [
@@ -396,6 +400,10 @@
         "passif": {
           "nom": "",
           "description": ""
+        },
+        "tips": {
+          "nom": "Céréales",
+          "description": "Le terme 'Céréales' ou 'Grain' en anglais est traduit de manière un peu bancale je pense. Il s'agit en gros d'une ressource de combat que Chiz utilise pour appliquer différents effet. Vu son univers autour de la banque, je pense qu'il faut voir ça comme des 'pièces'."
         }
       },
       "eveil": [
@@ -1523,6 +1531,10 @@
         "passif": {
           "nom": "",
           "description": ""
+        },
+        "tips": {
+          "nom": "Lève toi et marche !",
+          "description": "Nanally a la particuliarité de pouvoir se déplacer et courrir sur les murs."
         }
       },
       "eveil": [
