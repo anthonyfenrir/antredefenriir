@@ -1,57 +1,48 @@
 document.addEventListener("DOMContentLoaded", () => {
   const termMap = {
-    "Incantation": "term-attribute attr-incantation",
-    "Psyché": "term-attribute attr-psyche",
-    "Psyche": "term-attribute attr-psyche",
-    "Anima": "term-attribute attr-anima",
-    "Chaos": "term-attribute attr-chaos",
-    "Cosmos": "term-attribute attr-cosmos",
-    "Lakshana": "term-attribute attr-lakshana"
+    "incantation": "term-attribute attr-incantation",
+    "psyche": "term-attribute attr-psyche",
+    "anima": "term-attribute attr-anima",
+    "chaos": "term-attribute attr-chaos",
+    "cosmos": "term-attribute attr-cosmos",
+    "lakshana": "term-attribute attr-lakshana"
   };
 
-  const selector = "p, li, h2, h3";
-  const elements = document.querySelectorAll(selector);
+  function normalize(str) {
+    return str
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+  }
 
-  elements.forEach(element => {
+  document.querySelectorAll("p, li, h2, h3").forEach(element => {
     const walker = document.createTreeWalker(
       element,
-      NodeFilter.SHOW_TEXT,
-      null
+      NodeFilter.SHOW_TEXT
     );
 
-    const textNodes = [];
+    const nodes = [];
 
     while (walker.nextNode()) {
-      textNodes.push(walker.currentNode);
+      nodes.push(walker.currentNode);
     }
 
-    textNodes.forEach(node => {
-      let text = node.nodeValue;
+    nodes.forEach(node => {
+      const words = node.nodeValue.split(/(\s+|[,:;.!?()]+)/);
       const fragment = document.createDocumentFragment();
 
-      const regex = new RegExp(
-        `\\b(${Object.keys(termMap).join("|")})\\b`,
-        "g"
-      );
+      words.forEach(word => {
+        const normalized = normalize(word);
 
-      let lastIndex = 0;
-      let match;
-
-      while ((match = regex.exec(text)) !== null) {
-        fragment.appendChild(
-          document.createTextNode(text.slice(lastIndex, match.index))
-        );
-
-        const span = document.createElement("span");
-        span.className = termMap[match[0]];
-        span.textContent = match[0];
-
-        fragment.appendChild(span);
-
-        lastIndex = regex.lastIndex;
-      }
-
-      fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+        if (termMap[normalized]) {
+          const span = document.createElement("span");
+          span.className = termMap[normalized];
+          span.textContent = word; // garde l'accent visuellement
+          fragment.appendChild(span);
+        } else {
+          fragment.appendChild(document.createTextNode(word));
+        }
+      });
 
       node.parentNode.replaceChild(fragment, node);
     });
