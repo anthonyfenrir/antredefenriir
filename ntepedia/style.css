@@ -596,6 +596,7 @@ a {
   background: rgba(8, 26, 34, 0.82);
   border: 1px solid rgba(0, 217, 255, 0.22);
   box-shadow: var(--shadow);
+  margin-bottom: 48px;
 }
 
 .sheet-main {
