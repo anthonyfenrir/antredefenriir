@@ -944,6 +944,10 @@ a {
   object-fit: cover;
 }
 
+.guide-spacer {
+  height: 32px;
+}
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
