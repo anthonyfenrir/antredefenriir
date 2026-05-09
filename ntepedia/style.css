@@ -934,6 +934,16 @@ a {
   object-fit: contain;
 }  
 
+.guide-divider {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 4px;
+  margin: 40px auto;
+
+  object-fit: cover;
+}
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
