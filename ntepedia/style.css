@@ -1000,6 +1000,17 @@ a {
   margin: 0 auto 20px;
 }
 
+.guide-content ul {
+  padding-left: 24px;
+  margin: 0 0 22px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.guide-content li {
+  margin-bottom: 8px;
+}
+
 @media (max-width: 800px) {
   .sheet-main {
     grid-template-columns: 1fr;
