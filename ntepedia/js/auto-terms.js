@@ -22,7 +22,7 @@ function applyAutoTerms(root = document) {
     while (walker.nextNode()) nodes.push(walker.currentNode);
 
     nodes.forEach(node => {
-      const words = node.nodeValue.split(/(\s+|[,:;.!?()]+)/);
+      const words = node.nodeValue.split(/(\s+|[,:;.!?()'’]+)/);
       const fragment = document.createDocumentFragment();
 
       words.forEach(word => {
