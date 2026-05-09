@@ -266,7 +266,7 @@
         },
         "attaque_saute": {
           "nom": "Dans le vent",
-          "description": "Saute et frappe, infligeant des DEG d'Incatation en zone à l'impact. Augmente les DEG en fonction de la hauteur"
+          "description": "Saute et frappe, infligeant des DEG d'Incantation en zone à l'impact. Augmente les DEG en fonction de la hauteur"
         },
         "attaque_riposte": {
           "nom": "Vérité exposée",
@@ -371,7 +371,7 @@
       "competences": {
         "attaque_base": {
           "nom": "Jeu d'épée éxilé",
-          "description": "Effectue jusqu'à 5 attaques, infligeant des DEG de Cosmos. COnfère Céréales à l'impact."
+          "description": "Effectue jusqu'à 5 attaques, infligeant des DEG de Cosmos. Confère Céréales à l'impact."
         },
         "attaque_base2": {
           "nom": "Vallée désolée",
