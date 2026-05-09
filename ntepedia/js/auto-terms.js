@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "Incantation": "term-attribute attr-incantation",
     "Psyché": "term-attribute attr-psyche",
     "Psyche": "term-attribute attr-psyche",
+    "psyché": "term-attribute attr-psyche",
+    "psyche": "term-attribute attr-psyche",
     "Anima": "term-attribute attr-anima",
     "Chaos": "term-attribute attr-chaos",
     "Cosmos": "term-attribute attr-cosmos",
