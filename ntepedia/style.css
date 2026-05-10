@@ -97,6 +97,67 @@ a {
 }
 
 /* =========================
+   UP ARROW
+========================= */
+
+.back-to-top {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 1px solid rgba(0, 217, 255, 0.35);
+  background: rgba(5, 18, 28, 0.92);
+
+  box-shadow:
+    0 0 12px rgba(0, 217, 255, 0.15),
+    inset 0 0 18px rgba(0, 217, 255, 0.05);
+
+  cursor: pointer;
+  z-index: 9999;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(18px);
+
+  transition:
+    opacity 0.25s ease,
+    visibility 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  transform: translateY(-4px) scale(1.05);
+  border-color: rgba(255, 77, 210, 0.55);
+  box-shadow:
+    0 0 18px rgba(0, 217, 255, 0.22),
+    0 0 24px rgba(255, 77, 210, 0.12);
+}
+
+.back-to-top img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  pointer-events: none;
+  filter: drop-shadow(0 0 6px rgba(0, 217, 255, 0.25));
+}
+
+/* =========================
    QUICK ACCESS
 ========================= */
 
