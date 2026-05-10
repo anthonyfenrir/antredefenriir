@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fenriircode.com/sitemap.xml
