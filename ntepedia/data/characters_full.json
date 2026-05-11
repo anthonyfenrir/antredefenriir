@@ -841,7 +841,7 @@
         },
         "ultimate": {
           "nom": "Une mélodie nommée Haniel",
-          "description": "Créer une zone donnant un bonus d'ATQ à l'équope et déclenche un effet supplémentaire de Ensemble avec des DEG et une portée améliorée, la prochaine attaque du personnage actif inflige des dégats supplémentaires pendant 3 secondes, non cumulable."
+          "description": "Créer une zone donnant un bonus d'ATQ à l'équipe et déclenche un effet supplémentaire de Ensemble avec des DEG et une portée améliorée, la prochaine attaque du personnage actif inflige des dégats supplémentaires pendant 3 secondes, non cumulable."
         },
         "passif": {
           "nom": "",
