@@ -1238,8 +1238,9 @@ a {
   line-height: 1.7;
 }
 
-
-
+.footer-links a {
+  margin-right: 15px
+}    
 
 @media (max-width: 800px) {
   .sheet-main {
