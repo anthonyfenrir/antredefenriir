@@ -833,7 +833,7 @@
         },
         "attaque_riposte": {
           "nom": "Balayage d'élite",
-          "description": "Se déclenche après une attaque normale lors d'une esquive critqieu. Lance un missile infligeant des DEG Psyché et réduisant la Rupture."
+          "description": "Se déclenche après une attaque normale lors d'une esquive critique. Lance un missile infligeant des DEG Psyché et réduisant la Rupture."
         },
         "skill": {
           "nom": "Gardien de la forêt silencieuse au clair de lune",
