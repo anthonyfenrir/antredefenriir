@@ -1374,7 +1374,7 @@
         "type": "Arc",
         "nom": "echappatoire-reel",
         "type2": "Arc - Alt",
-        "nom2": "duvet-intrepidite"
+        "nom2": "duvet-intrepide"
       },
       "console": {
         "cartouche": "lucioles",
@@ -1612,7 +1612,7 @@
         "type": "Arc",
         "nom": "conges",
         "type2": "Arc - Alt",
-        "nom2": "duvet-intrepidite"
+        "nom2": "duvet-intrepide"
       },
       "console": {
         "cartouche": "herisson",
@@ -1720,7 +1720,7 @@
         "type": "Arc",
         "nom": "temps",
         "type2": "Arc - Alt",
-        "nom2": "duvet-intrepidite"
+        "nom2": "duvet-intrepide"
       },
       "console": {
         "cartouche": "eclat",
