@@ -175,6 +175,10 @@
 	"fantasy-juvenile": {
       "nom": "Fantasy juvénile",
       "image": "fantasy-juvenile.png"
-    }
+    },
+	"temps": {
+	  "nom": "Marche au-delà du temps",
+	  "image":"temps.png"
+  	}
   }
 }
