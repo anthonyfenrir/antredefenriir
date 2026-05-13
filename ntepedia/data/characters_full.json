@@ -1760,7 +1760,8 @@
 		"tips": {
 		  "nom": "L'horloge",
 		  "description": "Å retenir : Hotori a une énergie différente des autres, qui se charge au fil du temps, jusqu'à 120. Sa compétence l'utilise pour enregistrer les compétences des alliés, et son ultime pour cumuler des attaques et les relâcher d'un coup en plus de celles enregistrées."
-      },
+		}
+		},
       "eveil": [
         {
           "rang": 1,
@@ -1821,5 +1822,5 @@
       ],
       "image": ""
     }
-  ],
+  ]
 }
