@@ -1704,6 +1704,122 @@
         }
       ],
       "image": ""
+    },
+    {
+      "id": "hotori",
+      "nom": "Hotori",
+      "nom_en": "Hotori",
+      "anniversaire": "20 Décembre",
+      "faction": "Maison d'antiquités Eibon",
+      "description": "La cheffe d'Eibon, qui n'a pas l'air très sobre.",
+      "rarete": "S",
+      "attribut": "Cosmos",
+      "role": "Sub Carry",
+      "tier_list": "T0.5",
+      "arme": {
+        "type": "Arc",
+        "nom": "temps",
+        "type2": "Arc - Alt",
+        "nom2": "duvet-intrepide"
+      },
+      "console": {
+        "cartouche": "eclat",
+        "module": "",
+        "cartouche2": "credo",
+        "module2": ""
+      },
+      "competences": {
+        "attaque_base": {
+          "nom": "Style Lune brumeuse",
+          "description": "Manie son arme et effectue jusqu'à 5 attaques consécutives infligeant des DÉG de cosmos."
+        },
+		"attaque_hold": {
+          "nom": "Vagues ondulantes",
+          "description": "Maintenez l'attaque de base en combat pour la déclencher. Se précipite gracieusement vers l'avant et attaque, infligeant 4 instances de DÉG de cosmos sur une zone."
+        },
+        "attaque_saute": {
+          "nom": "Croissant de lune",
+          "description": "Brandit son arme dans les airs et plonge, infligeant 1 instance de DÉG de cosmos sur une zone à l'impact. Une augmentation de DÉG pouvant aller jusqu'à 100 % est appliquée en fonction de la hauteur de chute."
+        },
+        "attaque_riposte": {
+          "nom": "Bref instant",
+          "description": "Se déclenche lors de l'utilisation de Style Lune brumeuse après une Esquive critique. Lève son parapluie pour contre-attaquer instantanément ses adversaires, infligeant 1 instance de DÉG de cosmos et réduisant la rupture."
+        },
+        "skill": {
+          "nom": "Rediffusion actuelle",
+          "description": "Aucun temps de recharge nécessaire pour Rediffusion actuelle.Permet à Hotori de dépenser 60 points d'énergie d'Horloge non fermée pour lancer Rediffusion actuelle lorsque l'énergie est supérieure à 60. Inflige 7 instances de DÉG de cosmos sur une zone. Enregistre les compétences de soutien et de redirection utilisées par les alliés pendant les 5 s suivantes, 3 enregistrements et 1 enregistrement par Esper."
+        },
+        "ultimate": {
+          "nom": "Marée du monde",
+          "description": "Pas de temps de recharge ou de coùt d'énergie. Lorsque l'Horloge non fermée est complètement chargée, inflige 10 attaques de DEG de cosmos en zone. Change de posture d'attaque et fige partiellement le temps pendant une certaine durée et bloque le changement d'Esper. Supprime tout les débuffs de contrôle et confère une immunité au contrôle durant le temps figé. Reproduit tout les attaques enregistrées durant Rediffusion actuelle puis efface ces enregistrements. Pendant ce laps de temps, l'aiguillde de Horloge non fermée remonte et toutes les attaques d'Hotori sont cumulées jusqu'à 10 puis relâchées en une fois, ou au moment où l'Horloge est remontée. "
+        },
+        "passif": {
+          "nom": "Horloge non fermée",
+          "description": "Affiche une Horloge non fermée lorsque Hotori est déployée. Son aiguille tourne lentement dans le sens des aiguilles d'une montre au fil du temps, accumulant de l'énergie. Porte l'énergie maximale que l'Horloge non fermée peut accumuler à 120."
+        },
+		"tips": {
+		  "nom": "L'horloge",
+		  "description": "Å retenir : Hotori a une énergie différente des autres, qui se charge au fil du temps, jusqu'à 120. Sa compétence l'utilise pour enregistrer les compétences des alliés, et son ultime pour cumuler des attaques et les relâcher d'un coup en plus de celles enregistrées."
+      },
+      "eveil": [
+        {
+          "rang": 1,
+          "titre": "Fioriture",
+          "description": "Les dégâts infligés par Hotori pendant l'arrêt du temps augmentent de 12 % pour chaque compétence de soutien ou compétence de redirection enregistrée."
+        },
+        {
+          "rang": 2,
+          "titre": "Souvenirs distants",
+          "description": "Augmente les dégâts d'Hotori de 20% pendant Arrêt du temps."
+        },
+        {
+          "rang": 3,
+          "titre": "Regard momentané",
+          "description": "Après avoir utilisé la compétence de redirection Rediffusion actuelle et terminé l'enregistrement, l'énergie dépensée pour lancer Rediffusion actuelle est récupérée. Cet effet peut se déclencher au maximum une fois toutes les 60 s. Dépenser de l'énergie pendant la récupération interrompt la restauration."
+        },
+        {
+          "rang": 4,
+          "titre": "Reliques éparpillées",
+          "description": "Tant que l'aiguille de l'horloge ne remonte pas, pour 1 cible éliminée par l'équipe, accorde 10 points d'énergie supplémentaires à l'Horloge non fermée, jusqu'à 3 fois. Le décompte est réinitialisé lorsque Marée du monde est lancée.4"
+        },
+        {
+          "rang": 5,
+          "titre": "Omniscience",
+          "description": "Lorsque Hotori est déployée, s'il n'y a qu'un seul ennemi sur le terrain, les dégâts infligés par toute l'équipe à cette cible sont augmentés de 15 %. Cet effet disparaît lorsque Hotori est éliminée."
+        },
+        {
+          "rang": 6,
+          "titre": "Le prix du temps",
+          "description": "Pendant l'arrêt du temps, Hotori ignore 30% de la DÉF de la cible."
+        }
+      ],
+      "resonance": [
+        {
+          "rang": 1,
+          "titre": "Fracture d'éternité - 3 éveils",
+          "description": "Augmente de 1 le niveau de compétence de Style Lune brumeuse, Rediffusion actuelle et Marée du monde."
+        },
+        {
+          "rang": 2,
+          "titre": "Le trésor ultime de la compréhension suprême - 6 éveils",
+          "description": "Lorsqu'Hotori fait partie de l'équipe et est en vie, l'ATQ de tous les membres de l'équipe augmente de 30 %."
+        }
+      ],
+      "build": {
+        "stats_prioritaires": [
+          {
+            "Stats Principales": "DMG Cosmos > Taux critique > DMG critique > % ATK",
+            "Stats Secondaires": "DMG COSMOS > Taux critique > DMG critique > DMG % > ATK % > ATK"
+          }
+        ]
+      },
+      "team_recommandee": [
+        {
+          "Équipe Fleuraison": "Hotori, Nanally, Jiuyuan, Edgar",
+		  "Équipe Charge": "Hotori, Skia, Jiuyuan, Edgar"
+        }
+      ],
+      "image": ""
     }
   ]
 }
