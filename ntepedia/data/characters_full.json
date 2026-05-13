@@ -1720,7 +1720,7 @@
         "type": "Arc",
         "nom": "temps",
         "type2": "Arc - Alt",
-        "nom2": "duvet-intrepide"
+        "nom2": "duvet-intrepidite"
       },
       "console": {
         "cartouche": "eclat",
@@ -1810,7 +1810,7 @@
         "stats_prioritaires": [
           {
             "Stats Principales": "DMG Cosmos > Taux critique > DMG critique > % ATK",
-            "Stats Secondaires": "DMG COSMOS > Taux critique > DMG critique > DMG % > ATK % > ATK"
+            "Stats Secondaires": "DMG Cosmos > Taux critique > DMG critique > DMG % > ATK % > ATK"
           }
         ]
       },
