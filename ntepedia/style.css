@@ -1338,9 +1338,9 @@ a {
 
 .arc-filter.active,
 .arc-level-toggle button.active {
-  border-color: #00eaff;
-  color: #00eaff;
-  box-shadow: 0 0 14px rgba(0, 234, 255, 0.35);
+  background: rgba(0, 217, 255, 0.14);
+  box-shadow: 0 0 16px rgba(0, 217, 255, 0.18);
+  transform: translateY(-2px);
 }
 
 .arc-grid {
