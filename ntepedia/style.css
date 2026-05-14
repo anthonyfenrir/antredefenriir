@@ -1365,7 +1365,7 @@ a {
   box-shadow: 0 0 18px rgba(255, 62, 165, 0.35);
 }
 
-.arc-image-wrap {
+.codex-arc-card-image-wrap {
   position: relative;
   height: 120px;
   display: flex;
@@ -1373,7 +1373,7 @@ a {
   justify-content: center;
 }
 
-.arc-image {
+.codex-arc-card-image {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
