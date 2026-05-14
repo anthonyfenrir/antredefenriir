@@ -127,8 +127,8 @@
 	"enflammer-foule": {
       "nom": "Enflammer la foule",
       "image": "enflammer-foule.png",
-	  "rarete": "",
-	  "type": "",
+	  "rarete": "S",
+	  "type": "solide",
 	  "effects": {
 		"level1": {
 		  "label": "Niveau 1 - T1",
