@@ -1060,5 +1060,6 @@
 		  "description": "La compétence et l'ultime du porteur infligent 42% de DEG de cosmos supplémentaires. Augmente l'intensité de cycle du porteur de 72 pendant 15 secondes après avoir lancé une compétence. La durée est réinitialisée quand l'effet est de nouveau déclenché."
 		}
 	  }
+ 	}
   }
 }
