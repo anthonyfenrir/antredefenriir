@@ -176,7 +176,10 @@ function renderArcFilters() {
 
   typeBox.innerHTML = typeOrder.map(t => `
     <button class="arc-filter ${arcState.type === t ? "active" : ""}" data-filter="type" data-value="${t}">
-      ${t === "all" ? "Tous types" : capitalize(t)}
+      ${t === "all"
+        ? "Tous types"
+        : `<img src="annex/${t}.png" alt="${capitalize(t)}">`
+      }
     </button>
   `).join("");
 
