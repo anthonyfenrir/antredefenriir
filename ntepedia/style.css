@@ -1393,20 +1393,24 @@ a {
   right: 4px;
 }
 
-.codex-arc-card:hover .arc-rarity {
-  transition: filter 0.2s ease;
+.codex-arc-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.codex-arc-card:hover img[src*="s_rarity"] {
-  filter: drop-shadow(0 0 18px rgba(255, 180, 40, 0.65));
+.codex-arc-card:hover {
+  transform: translateY(-4px) scale(1.02);
 }
 
-.codex-arc-card:hover img[src*="a_rarity"] {
-  filter: drop-shadow(0 0 18px rgba(180, 90, 255, 0.65));
+.codex-arc-card.rarity-s:hover {
+  box-shadow: 0 0 18px rgba(255, 180, 40, 0.35);
 }
 
-.codex-arc-card:hover img[src*="b_rarity"] {
-  filter: drop-shadow(0 0 18px rgba(40, 160, 255, 0.65));
+.codex-arc-card.rarity-a:hover {
+  box-shadow: 0 0 18px rgba(180, 90, 255, 0.35);
+}
+
+.codex-arc-card.rarity-b:hover {
+  box-shadow: 0 0 18px rgba(40, 160, 255, 0.35);
 }
 
 .arc-type {
