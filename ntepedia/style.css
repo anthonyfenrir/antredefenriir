@@ -1465,10 +1465,12 @@ a {
 }
 
 .arc-level-toggle {
-  display: flex;
-  gap: 12px;
-  justify-content: flex-start;
-  margin-top: 14px;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-top: 14px !important;
+  width: auto !important;
 }
 
 .arc-detail-tags span {
