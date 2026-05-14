@@ -1343,7 +1343,7 @@ a {
   box-shadow: 0 0 14px rgba(0, 234, 255, 0.35);
 }
 
-.codex-arc-card-grid {
+.arc-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
   gap: 18px;
