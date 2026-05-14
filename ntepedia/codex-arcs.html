@@ -208,8 +208,8 @@ function renderArcGrid() {
 
   grid.innerHTML = filtered.map(arc => `
     <button class="codex-arc-card ${arcState.selectedArc?.id === arc.id ? "active" : ""}" data-id="${arc.id}">
-      <div class="arc-image-wrap">
-        <img class="arc-image" src="arcs/${arc.image}" alt="${arc.nom}">
+      <div class="codex-arc-card-image-wrap">
+        <img class="codex-arc-card-image" src="arcs/${arc.image}" alt="${arc.nom}">
         <img class="arc-icon arc-rarity" src="annex/${arc.rarete.toLowerCase()}_rarity.png" alt="Rareté ${arc.rarete}">
         <img class="arc-icon arc-type" src="annex/${arc.type}.png" alt="${arc.type}">
       </div>
