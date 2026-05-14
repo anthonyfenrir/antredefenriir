@@ -245,18 +245,17 @@ function renderArcDetail() {
 
       <div class="arc-detail-main">
         <h2>${arc.nom}</h2>
-
+      
         <div class="arc-detail-tags">
           <img src="annex/${arc.rarete.toLowerCase()}_rarity.png" alt="Rareté ${arc.rarete}">
           <img src="annex/${arc.type}.png" alt="${capitalize(arc.type)}">
           <span>${capitalize(arc.type)}</span>
         </div>
-
+      
         <div class="arc-level-toggle">
           <button class="${arcState.selectedLevel === "level1" ? "active" : ""}" data-level="level1">
             Niv. 1 - T1
           </button>
-
           <button class="${arcState.selectedLevel === "level80" ? "active" : ""}" data-level="level80">
             Niv. 80 - T5
           </button>
