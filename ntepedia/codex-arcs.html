@@ -127,6 +127,154 @@
   <img src="annex/up-arrow.png" alt="">
 </button>
 
+<script>
+const arcState = {
+  arcs: [],
+  selectedArc: null,
+  selectedLevel: "level1",
+  rarity: "all",
+  type: "all",
+  search: ""
+};
+
+const rarityOrder = ["all", "S", "A", "B"];
+const typeOrder = ["all", "solide", "liquide", "gazeux", "connexion", "emotion"];
+
+fetch("data/arcs.json")
+  .then(res => {
+    if (!res.ok) throw new Error("arcs.json introuvable");
+    return res.json();
+  })
+  .then(data => {
+    arcState.arcs = Object.entries(data.arcs)
+      .filter(([id]) => id !== "empty")
+      .map(([id, arc]) => ({ id, ...arc }))
+      .filter(arc => arc.effects && arc.effects.level1 && arc.effects.level80);
+
+    arcState.selectedArc = arcState.arcs[0];
+
+    renderArcFilters();
+    renderArcGrid();
+    renderArcDetail();
+  })
+  .catch(err => console.error("Erreur Codex Arcs :", err));
+
+document.getElementById("arcSearch").addEventListener("input", e => {
+  arcState.search = e.target.value.toLowerCase().trim();
+  renderArcGrid();
+});
+
+function renderArcFilters() {
+  const rarityBox = document.getElementById("rarityFilters");
+  const typeBox = document.getElementById("typeFilters");
+
+  rarityBox.innerHTML = rarityOrder.map(r => `
+    <button class="arc-filter ${arcState.rarity === r ? "active" : ""}" data-filter="rarity" data-value="${r}">
+      ${r === "all" ? "Toutes raretés" : r}
+    </button>
+  `).join("");
+
+  typeBox.innerHTML = typeOrder.map(t => `
+    <button class="arc-filter ${arcState.type === t ? "active" : ""}" data-filter="type" data-value="${t}">
+      ${t === "all" ? "Tous types" : capitalize(t)}
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".arc-filter").forEach(btn => {
+    btn.addEventListener("click", () => {
+      arcState[btn.dataset.filter] = btn.dataset.value;
+      renderArcFilters();
+      renderArcGrid();
+    });
+  });
+}
+
+function renderArcGrid() {
+  const grid = document.getElementById("arcGrid");
+
+  const filtered = arcState.arcs.filter(arc => {
+    const matchSearch = arc.nom.toLowerCase().includes(arcState.search);
+    const matchRarity = arcState.rarity === "all" || arc.rarete === arcState.rarity;
+    const matchType = arcState.type === "all" || arc.type === arcState.type;
+    return matchSearch && matchRarity && matchType;
+  });
+
+  grid.innerHTML = filtered.map(arc => `
+    <button class="arc-card ${arcState.selectedArc?.id === arc.id ? "active" : ""}" data-id="${arc.id}">
+      <div class="arc-image-wrap">
+        <img class="arc-image" src="arcs/${arc.image}" alt="${arc.nom}">
+        <img class="arc-icon arc-rarity" src="annex/${arc.rarete.toLowerCase()}_rarity.png" alt="Rareté ${arc.rarete}">
+        <img class="arc-icon arc-type" src="annex/${arc.type}.png" alt="${arc.type}">
+      </div>
+      <span>${arc.nom}</span>
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".arc-card").forEach(card => {
+    card.addEventListener("click", () => {
+      arcState.selectedArc = arcState.arcs.find(arc => arc.id === card.dataset.id);
+      renderArcGrid();
+      renderArcDetail();
+    });
+  });
+}
+
+function renderArcDetail() {
+  const detail = document.getElementById("arcDetail");
+  const arc = arcState.selectedArc;
+  if (!arc) {
+    detail.innerHTML = "<p>Aucun arc sélectionné.</p>";
+    return;
+  }
+
+  const effect = arc.effects[arcState.selectedLevel];
+
+  detail.innerHTML = `
+    <div class="arc-detail-header">
+      <img class="arc-detail-img" src="arcs/${arc.image}" alt="${arc.nom}">
+
+      <div class="arc-detail-meta">
+        <h2>${arc.nom}</h2>
+        <p>
+          <span class="arc-badge rarity-${arc.rarete.toLowerCase()}">${arc.rarete}</span>
+          <span class="arc-badge">${capitalize(arc.type)}</span>
+        </p>
+      </div>
+
+      <div class="arc-level-toggle">
+        <button class="${arcState.selectedLevel === "level1" ? "active" : ""}" data-level="level1">Niv. 1 - T1</button>
+        <button class="${arcState.selectedLevel === "level80" ? "active" : ""}" data-level="level80">Niv. 80 - T5</button>
+      </div>
+    </div>
+
+    <div class="arc-stats">
+      ${effect.stats.map(stat => `
+        <div class="arc-stat">
+          <span>${stat.nom}</span>
+          <strong>${stat.valeur || "?"}</strong>
+        </div>
+      `).join("")}
+    </div>
+
+    <div class="arc-description">
+      <h3>${effect.label}</h3>
+      <p>${effect.description}</p>
+    </div>
+  `;
+
+  document.querySelectorAll(".arc-level-toggle button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      arcState.selectedLevel = btn.dataset.level;
+      renderArcDetail();
+    });
+  });
+}
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+</script>
+  
 <script src="js/main.js"></script>    
 </body>
 </html>
