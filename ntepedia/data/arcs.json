@@ -6,179 +6,1059 @@
     },  
     "attention-tete": {
       "nom": "Attention la tête !",
-      "image": "attention-tete.png"
+      "image": "attention-tete.png",
+	  "rarete": "A",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "DEG CRIT", "valeur": "16%" }
+		  ],
+		  "description": "Augmente l'ATQ de 10% et les DEG de lakshana infligés aux cibles affectées par Rémora et Tache de 10% pendant 15 secondes après que le porteur a lancé une compétence. Non cumulable."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "DEG CRIT", "valeur": "40%" }
+		  ],
+		  "description": "Augmente l'ATQ de 18% et des DEG de lakshana infligés aux cibles affectées par Rémora et Tache de 18% pendant 15 secondes après que le porteur a lancé une compétence. Non cumulable."
+		}
+	  }
     },
     "bonheur-prix": {
       "nom": "Le bonheur n'a pas de prix",
-      "image": "bonheur-prix.png"
+      "image": "bonheur-prix.png",
+	  "rarete": "S",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "DEF%", "valeur": "15.40%" }
+		  ],
+		  "description": "Augmente les PV de 24%. Lorsque l'ultime est lancé, accorde un effet aléatoire entre : le membre de l'équipe avec les PV le plus bas récupère 20% de ses PV. Confère un bouclier équivalent à 20% des PV max du porteur pendant 15 secondes. Tout les membres de l'équipe récupèrent 10% PV. Une fois toutes les 30 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "DEF%", "valeur": "38.50%" }
+		  ],
+		  "description": "Augmente les PV de 40%. Lorsque l'ultime est lancé, accorde un effet aléatoire entre : le membre de l'équipe avec les PV le plus bas récupère 40% de ses PV. Confère un bouclier équivalent à 40% des PV max du porteur pendant 15 secondes. Tout les membres de l'équipe récupèrent 20% PV. Une fois toutes les 30 secondes."
+		}
+	  }
     },
     "vraie-musique": {
       "nom": "'Vraie musique'",
-      "image": "vraie-musique.png"
-    },
+      "image": "vraie-musique.png",
+	  "rarete": "B",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "24" },
+			{ "nom": "ATQ%", "valeur": "8%" }
+		  ],
+		  "description": "Confère au porteur un bonus de DEG de compétence de 12%."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "380" },
+			{ "nom": "ATQ%", "valeur": "20%" }
+		  ],
+		  "description": "Confère au porteur une bonus de DEG de compétence de 16%."
+		}
+	  }
+	},
 	"heure-viendra": {
       "nom": "L'heure viendra",
-      "image": "heure-viendra.png"
+      "image": "heure-viendra.png",
+	  "rarete": "A",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "CRIT", "valeur": "8%" }
+		  ],
+		  "description": "Le porteur gagne 10% d'ATQ, 10% de DEF et 10% de PV lorsque l'équipe compte au moins 3 types d'Espers différents."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "CRIT", "valeur": "20%" }
+		  ],
+		  "description": "Le porteur gagne 18% d'ATQ, 18% de DEF et 18% de PV lorsque l'équipe compte au moins 3 types d'Espers différents."
+		}
+	  }
     },
 	"joie-vivre": {
-      "nom": "La joie de vivre",
-      "image": "joie-vivre.png"
-    },
+	  "nom": "La joie de vivre",
+	  "image": "joie-vivre.png",
+	  "rarete": "B",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "21" },
+			{ "nom": "PV%", "valeur": "12%" }
+		  ],
+		  "description": "Rend 12% des PV au porteur lorsqu'il élimine un ennemi. Se déclenche au maximum une fois toutes les 20 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "316" },
+			{ "nom": "PV%", "valeur": "30%" }
+		  ],
+		  "description": "Rend 20% des PV au porteur lorsqu'il élimine un ennemi. Se déclenche au maximum une fois toutes les 20 secondes."
+		}
+	  }
+	},
 	"enflammer-foule": {
       "nom": "Enflammer la foule",
-      "image": "enflammer-foule.png"
-    },
+      "image": "enflammer-foule.png",
+	  "rarete": "",
+	  "type": "",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Augmente l'ATQ du personnage actif de 10% lorsque le porteur est hors du terrain, et augmente l'ATQ du personnage actif de 2% lorsque le porteur inflige des dégâts, cumulable jusqu'à 4 fois ; se déclenche au maximum une fois toutes les 2 s. Réinitialise l'effet lorsque le porteur devient le personnage actif. Augmente les DÉG de psyché de 12% lorsque le porteur est le personnage actif, et augmente les DÉG de psyché de 2% lorsqu'il inflige des DÉG de psyché avec des attaques de base, cumulable jusqu'à 10 fois. Se déclenche au maximum un fois toutes les 0,3 s. Réinitialise l'effet lors d'un changement de personnage."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Augmente l'ATQ du personnage actif de 14% lorsque le porteur est hors du terrain, et augmente l'ATQ du personnage actif de 3.2% lorsque le porteur inflige des dégâts, cumulable jusqu'à 4 fois ; se déclenche au maximum une fois toutes les 2 s. Réinitialise l'effet lorsque le porteur devient le personnage actif. Augmente les DÉG de psyché de 20% lorsque le porteur est le personnage actif, et augmente les DÉG de psyché de 3.2% lorsqu'il inflige des DÉG de psyché avec des attaques de base, cumulable jusqu'à 10 fois. Se déclenche au maximum un fois toutes les 0,3 s. Réinitialise l'effet lors d'un changement de personnage"
+		}
+	  }
+	},
 	"ville-distordue": {
       "nom": "L'appel de la ville distordue",
-      "image": "ville-distordue.png"
+      "image": "ville-distordue.png",
+	  "rarete": "A",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "25" },
+			{ "nom": "PV%", "valeur": "15%" }
+		  ],
+		  "description": "Augmente le bonus de soins de 12% pendant 10 secondes après que le porteur a lancé une compétence. Non cumulable."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "395" },
+			{ "nom": "PV%", "valeur": "37,50%" }
+		  ],
+		  "description": "Augmente le bonus de soins de 20% pendant 10 secondes après que le porteur a lancé une compétence. Non cumulable."
+		}
+	  }
     },
 	"societe-camelias": {
       "nom": "Société des camélias",
-      "image": "societe-camelias.png"
+      "image": "societe-camelias.png",
+	  "rarete": "S",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "43" },
+			{ "nom": "CRIT", "valeur": "4.80%" }
+		  ],
+		  "description": "Augmente les DÉG CRT de 12% pendant 5 secondes lorsque les PV du porteur sont réduits sans subir de dégâts, cumulable jusqu'à 4 fois. Déverrouille l'Arc: Jardin silencieux. Consomme 5% des PV actuels et effectue de manière aléatoire l'une des attaques suivantes (TdR: 25 secondes) avec Arc : Jardin silencieux : Représailles sévères : Des représailles impitoyables tombent comme des feuilles dans la tempête, infligeant 5 attaques de DÉG d'incantation d'une valeur de 24% d'ATQ. Réflexions incessantes : Des mots tranchants et acérés transpercent les cibles comme des épines, infligeant 6 attaques de DÉG d'incantation d'une valeur de 18% de l'attaque; la dernière attaque inflige le double de dégâts."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "666" },
+			{ "nom": "CRIT", "valeur": "12%" }
+		  ],
+		  "description": "Augmente les DÉG CRT de 20% pendant 5 secondes lorsque les PV du porteur sont réduits sans subir de dégâts, cumulable jusqu'à 4 fois. Déverrouille l'Arc: Jardin silencieux. Consomme 5% des PV actuels et effectue de manière aléatoire l'une des attaques suivantes (TdR: 25 secondes) avec Arc : Jardin silencieux : Représailles sévères : Des représailles impitoyables tombent comme des feuilles dans la tempête, infligeant 5 attaques de DÉG d'incantation d'une valeur de 40% d'ATQ. Réflexions incessantes : Des mots tranchants et acérés transpercent les cibles comme des épines, infligeant 6 attaques de DÉG d'incantation d'une valeur de 30% de l'attaque; la dernière attaque inflige le double de dégâts."
+		}
+	  }
     },
 	"ciel-degage": {
       "nom": "Ciel dégagé",
-      "image": "ciel-degage.png"
+      "image": "ciel-degage.png",
+	  "rarete": "A",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "ATQ%", "valeur": "10%" }
+		  ],
+		  "description": "Augmente les DEG d'anima infligés par la compétence et l'ultime du porteur de 20%."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "ATQ%", "valeur": "25%" }
+		  ],
+		  "description": "Augmente les DEG d'anima infligés par la compétence et l'ultime du porteur de 35%."
+		}
+	  }
     },
 	"chat-pensif": {
       "nom": "Chat pensif",
-      "image": "chat-pensif.png"
+      "image": "chat-pensif.png",
+	  "rarete": "S",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "" },
+			{ "nom": "DEG CRIT", "valeur": "" }
+		  ],
+		  "description": "Augmente les DEG de cosmos de 2.50% par tranche de 100 000 Fons détenus par le porteur, cumulable jusquà 10 fois."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "DEG CRIT", "valeur": "44%" }
+		  ],
+		  "description": "Augmente les DEG de cosmos de 4.50% par tranche de 100 000 Fons détenus par le porteur, cumulable jusqu'à 10 fois."
+		}
+	  }
     },
 	"confusion-cosmos": {
       "nom": "Confusion du cosmos, Rêverie sauvage",
-      "image": "confusion-cosmos.png"
+      "image": "confusion-cosmos.png",
+	  "rarete": "A",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "ATQ%", "valeur": "10%" }
+		  ],
+		  "description": "Augmente les dégâts du porteur de 18% pendant 10 secondes après le lancement d'une compétence de soutien. Se déclenche au maximum une fois toutes les 20 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "ATQ%", "valeur": "25%" }
+		  ],
+		  "description": "Augmente les dégâts du porteur de 30% pendant 10 secondes après le lancement d'une compétence de soutien. Se déclenche au maximum une fois toutes les 20 secondes."
+		}
+	  }
     },
 	"jeu-dangereux": {
       "nom": "Jeu dangereux",
-      "image": "jeu-dangereux.png"
-    },
+      "image": "jeu-dangereux.png",
+	  "rarete": "B",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "24" },
+			{ "nom": "Intensité rupture", "valeur": "38" }
+		  ],
+		  "description": "Augmente l'intensité de rupture du porteur de 60 pendant 10 secondes lors de la réduction de la rupture. Se déclenche au maximum une fois toutes les 20 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "380" },
+			{ "nom": "Intensité rupture", "valeur": "96" }
+		  ],
+		  "description": "Augmente l'intensité de rupture du porteur de 84 pendant 10 secondes lors de la réduction de la rupture. Se déclenche au maximum une fois toutes les 20 secondes."
+		}
+	  }
+	},
 	"conges": {
       "nom": "Congés",
-      "image": "conges.png"
+      "image": "conges.png",
+	  "rarete": "S",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "Efficacité charge", "valeur": "13.20%" }
+		  ],
+		  "description": "Augmente l'ATQ du porteur de 30%. Déverrouille Éclipse : Le porteur crée une éclipse qui dure 40 secondes. Pendant l'éclipse, chaque ennemi tué restaure 6 points d'énergie d'ultime, jusqu'à 5 fois (temps de recharge : 300 secondes)."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "Efficacité charge", "valeur": "33%" }
+		  ],
+		  "description": "Augmente l'ATQ du porteur de 50%. Déverrouille Éclipse : Le porteur crée une éclipse qui dure 40 secondes. Pendant l'éclipse, chaque ennemi tué restaure 10 points d'énergie d'ultime, jusqu'à 5 fois (temps de recharge : 300 secondes)."
+		}
+	  }
     },
 	"lame-dechainee": {
-      "nom": "Lame déchainée",
-      "image": "lame-dechainee.png"
+      "nom": "Lame dégainée",
+      "image": "lame-dechainee.png",
+	  "rarete": "A",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "25" },
+			{ "nom": "ATQ%", "valeur": "15%" }
+		  ],
+		  "description": "Inflige des DEG d'incantation supplémentaires équivalents à 200% de l'ATQ chaque fois que le porteur déclenche une riposte."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "395" },
+			{ "nom": "ATQ%", "valeur": "37,50%" }
+		  ],
+		  "description": "Inflige des DEG d'incantation supplémentaires équivalents à 320% de l'ATQ chaque fois que le porteur déclenche une riposte."
+		}
+	  }
     },
 	"valse-eternelle": {
       "nom": "Valse éternelle",
-      "image": "valse-eternelle.png"
+      "image": "valse-eternelle.png",
+	  "rarete": "S",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "28" },
+			{ "nom": "PV%", "valeur": "16.50%" }
+		  ],
+		  "description": "Augmente les PV max de 20%. Augmente les DEG psyché infligés de 10% pendant 10 secondes après que le porteur a lancé un ultime."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "424" },
+			{ "nom": "PV%", "valeur": "41.25%" }
+		  ],
+		  "description": "Augmente les PV max de 32%. Augmente les DEG psyché infligés de 18% pendant 10 secondes après que le porteur a lancé un ultime."
+		}
+	  }
     },
 	"ouvrir-coeur": {
       "nom": "Vous ouvrir mon cœur m'est difficile",
-      "image": "ouvrir-coeur.png"
+      "image": "ouvrir-coeur.png",
+	  "rarete": "A",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "Intensité de rupture", "valeur": "48" }
+		  ],
+		  "description": "Confère au porteur 1 cumul d'Araignée du savoir lorsqu'il inflige des dégâts avec des attaques de base, jusqu'à 8 cumuls (max. 1 cumul toutes les 0,5 s). Tous les cumuls sont consommés lors du lancement de l'ultime. Augmente l'ATQ de toute l'équipe de 1% pendant 10 secondes par cumul consommé. Augmente l'ATQ de 2% supplémentaires lorsque 8 cumuls sont consommés."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "Intensité de rupture", "valeur": "120" }
+		  ],
+		  "description": "Confère au porteur 1 cumul d'Araignée du savoir lorsqu'il inflige des dégâts avec des attaques de base, jusqu'à 8 cumuls (max. 1 cumul toutes les 0,5 s). Tous les cumuls sont consommés lors du lancement de l'ultime. Augmente l'ATQ de toute l'équipe de 1.60% pendant 10 secondes par cumul consommé. Augmente l'ATQ de 3.20% supplémentaires lorsque 8 cumuls sont consommés."
+		}
+	  }
     },
 	"etape-succes": {
       "nom": "La première étape du succès",
-      "image": "etape-succes.png"
-    },
+      "image": "etape-succes.png",
+	  "rarete": "B",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "24" },
+			{ "nom": "ATQ%", "valeur": "8%" }
+		  ],
+		  "description": "Augmente l'ATQ du porteur de 12% pendant 10 secondes après avoir lancé une compétence. Se déclenche au maximum une fois toues les 20 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "380" },
+			{ "nom": "ATQ%", "valeur": "20%" }
+		  ],
+		  "description": "Augmente l'ATQ du porteur de 16% pendant 10 secondes après avoir lancé une compétence. Se déclenche au maximum une fois toutes les 20 secondes."
+		}
+	  }
+	},
 	"duvet-intrepide": {
       "nom": "Duvet d'intrépidité",
-      "image": "duvet-intrepide.png"
+      "image": "duvet-intrepide.png",
+	  "rarete": "S",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "CRIT", "valeur": "8.8%" }
+		  ],
+		  "description": "Augmente l'ATQ de 25% pendant 10 secondes après que le porteur a lancé un ultime. Non cumulable."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "CRIT", "valeur": "22%" }
+		  ],
+		  "description": "Augmente l'ATQ de 45% pendant 10 secondes après que le porteur a lancé un ultime. Non cumulable."
+		}
+	  }
     },
 	"duvet-ferocite": {
       "nom": "Duvet de férocité",
-      "image": "duvet-ferocite.png"
+      "image": "duvet-ferocite.png",
+	  "rarete": "S",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Augmente les DEG CRIT de 4% pendant 10 secondes après un coup critique réussi, cumulable jusqu'à 10 fois. La durée est réinitialisée lorsque l'effet se déclenche à nouveau."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Augmente les DEG CRIT de 7.50% pendant 10 secondes après un coup critique réussi, cumulable jusqu'à 10 fois. La durée est réinitialisée lorsque l'effet se déclenche à nouveau."
+		}
+	  }
     },
 	"duvet-finesse": {
       "nom": "Duvet de finesse",
-      "image": "duvet-finesse.png"
+      "image": "duvet-finesse.png",
+	  "rarete": "S",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Augmente les dégâts infligés par le porteur de 8% pendant 10 secondes après une esquive critique réussie, cumulable jusqu'à 3 fois. La durée est réinitialisée lorsque l'effet se déclenche à nouveau."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Augmente les dégâts infligés par le porteur de 14.40% pendant 10 secondes après une esquive critique réussie, cumulable jusqu'à 3 fois. La durée est réinitialisée lorsque l'effet se déclenche à nouveau."
+		}
+	  }
     },
 	"duvet-rapidite": {
       "nom": "Duvet de rapidité",
-      "image": "duvet-rapidite.png"
+      "image": "duvet-rapidite.png",
+	  "rarete": "S",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "DEG CRIT", "valeur": "17.60%" }
+		  ],
+		  "description": "Augmente l'ATQ de 5% toutes les 1 secondes lorsque le porteur est le personnage actif, cumulable jusqu'à 5 fois. Se réinitialise lorsque le porteur quitte le champ de bataille."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "DEG CRIT", "valeur": "44%" }
+		  ],
+		  "description": "Augmente l'ATQ de 9% toutes les 1 secondes lorsque le porteur est le personnage actif, cumulable jusqu'à 5 fois. Se réinitialise lorsque le porteur quitte le champ de bataille."
+		}
+	  }
     },
 	"duvet-fortitude": {
       "nom": "Duvet de fortitude",
-      "image": "duvet-fortitude.png"
+      "image": "duvet-fortitude.png",
+	  "rarete": "S",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Augmente les DEG infligés par le porteur de 22%. Augmente cet effet à 28% contre les ennemis dont les PV sont inférieurs à 50%."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Augmente les DEG infligés p ar le porteur de 38%. Augmente cet effet à 52% contre les ennemis dont les PV sont inférieurs à 50%."
+		}
+	  }
     },
 	"grande-aventure-bon-chien": {
       "nom": "Grande aventure d'un bon chien",
-      "image": "grande-aventure-bon-chien.png"
+      "image": "grande-aventure-bon-chien.png",
+	  "rarete": "S",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "ATQ%", "valeur": "18%" }
+		  ],
+		  "description": "Augmente l'efficacité de charge de 18%. Augmente l'ATQ de l'équipe de 10% pendant 20 secondes après l'utilisation de l'ultime. Augmente l'ATQ de l'équipe de 6% supplémentaires si les ennemis sont contrôlés par l'ultime. Les effets portant le même nom ne se cumulent pas."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "474" },
+			{ "nom": "ATQ%", "valeur": "45%" }
+		  ],
+		  "description": "Augmente l'efficacité de charge de 30%. Augmente l'ATQ de l'équipe de 16% pendant 20 secondes après l'utilisation de l'ultime. Augmente l'ATQ de l'équipe de 10% supplémentaires si les ennemis sont contrôlés par l'ultime. Les effets portant le même nom ne se cumulent pas."
+		}
+	  }
     },
 	"gardien-hethereau": {
       "nom": "Gardien d'Hethereau",
-      "image": "gardien-hethereau.png"
-    },
-	"marche-temps": {
-      "nom": "Marche au-delà du temps",
-      "image": "marche-temps.png"
+      "image": "gardien-hethereau.png",
+	  "rarete": "S",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Augmente l'ATQ de 15% et les dégâts infligés aux boos de 15%. Déverrouille Officier Moustaches : Invoque l'officier Moustaches qui, pendant 30 secondes, attaque les ennemis infligeant des dégâts équivalent à 100% de l'attaque du porteur. Temps de recharge de 60 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Augmente l'ATQ de 25% et les dégâts infligés aux boos de 25%. Déverrouille Officier Moustaches : Invoque l'officier Moustaches qui, pendant 30 secondes, attaque les ennemis infligeant des dégâts équivalent à 200% de l'attaque du porteur. Temps de recharge de 60 secondes."
+		}
+	  }
     },
 	"mind-royale": {
       "nom": "Mind Royale",
-      "image": "mind-royale.png"
+      "image": "mind-royale.png",
+	  "rarete": "A",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "36" },
+			{ "nom": "Intensité de rupture", "valeur": "24" }
+		  ],
+		  "description": "Le porteur gagne 10 points d'énergie d'ultime lorsqu'il utilise une compétence. Se déclenche au maximum une fois toutes les 20 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "555" },
+			{ "nom": "Intensité de rupture", "valeur": "60" }
+		  ],
+		  "description": "Le porteur gagne 18 points d'énergie d'ultime lorsqu'il utilise une compétence. Se déclenche au maximum une fois toutes les 20 secondes."
+		}
+	  }
     },
 	"oraora": {
       "nom": "Oraora !",
-      "image": "oraora.png"
+      "image": "oraora.png",
+	  "rarete": "A",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "25" },
+			{ "nom": "ATQ%", "valeur": "15" }
+		  ],
+		  "description": "Augmente les DEG d'attaque de base du porteur de 2% pendant 10 secondes après chaque attaque de base, cumulable jusqu'à 10 fois. Chaque cumul a une durée indépendante."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "395" },
+			{ "nom": "ATQ%", "valeur": "37,50%" }
+		  ],
+		  "description": "Augmente les DEG d'attaque de base du porteur de 3,60% pendant 10 secondes après chaque attaque de base, cumulable jusqu'à 10 fois. Chaque cumul a une durée indépendante."
+		}
+	  }
     },
 	"flammes-dechainees": {
       "nom": "Flammes déchaînées",
-      "image": "flammes-dechainees.png"
+      "image": "flammes-dechainees.png",
+	  "rarete": "S",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "43" },
+			{ "nom": "DEG CRIT", "valeur": "9.60%" }
+		  ],
+		  "description": "Augmente les DEG de lakshana de 15%. Augmente les DÉG de Compétence de redirection et les DÉG Finaux du porteur de 10% pendant 10 secondes après avoir lancé l'ultime. Augmente les DÉG de Compétence de redirection du porteur de 5% par lancer lorsque la compétence est active, cumulable jusqu'à 2 fois."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "666" },
+			{ "nom": "DEG CRIT", "valeur": "24%" }
+		  ],
+		  "description": "Augmente les DEG de lakshana de 25%. Augmente les DÉG de Compétence de redirection et les DÉG Finaux du porteur de 20% pendant 10 secondes après avoir lancé l'ultime. Augmente les DÉG de Compétence de redirection du porteur de 9% par lancer lorsque la compétence est active, cumulable jusqu'à 2 fois."
+		}
+	  }
     },
 	"prepa-prepa": {
       "nom": "Prépa-prépa",
-      "image": "prepa-prepa.png"
+      "image": "prepa-prepa.png",
+	  "rarete": "S",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "CRIT", "valeur": "9.60%" }
+		  ],
+		  "description": "Augmente l'ATQ de 15%. Augmente les dégâts de l'attaque de base et de la riposte critique de 15% pendant 15 secondes lorsque vous lancez une compétence de redirection ou un ultime, cumulable jusqu'à 2 fois. Confère un talisman du tigre gauche lorsque vous lancez une compétence de redirection et un talisman du tigre droit lorsque vous lancez un ultime. Si le porteur obtient l'autre type de talisman dans les 15 secondes suivant l'obtention du premier, il déverrouille Talisman du tigre commandant. Arc: Talisman du tigre commandant : augmente les dégâts infligés par le porteur aux boss de 10% pendant 10 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "CRIT", "valeur": "24%" }
+		  ],
+		  "description": "Augmente l'ATQ de 30%. Augmente les dégâts de l'attaque de base et de la riposte critique de 30% pendant 15 secondes lorsque vous lancez une compétence de redirection ou un ultime, cumulable jusqu'à 2 fois. Confère un talisman du tigre gauche lorsque vous lancez une compétence de redirection et un talisman du tigre droit lorsque vous lancez un ultime. Si le porteur obtient l'autre type de talisman dans les 15 secondes suivant l'obtention du premier, il déverrouille Talisman du tigre commandant. Arc: Talisman du tigre commandant : augmente les dégâts infligés par le porteur aux boss de 20% pendant 10 secondes."
+		}
+	  }
     },
 	"echappatoire-reel": {
       "nom": "Échappatoire au réel",
-      "image": "echappatoire-reel.png"
+      "image": "echappatoire-reel.png",
+	  "rarete": "S",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "ATQ%", "valeur": "12%" }
+		  ],
+		  "description": "Augmente les DEG d'anima de 15%. Augmente les DEG d'accessoires du porteur de 10%. Porte le bonus de DEG d'accessoires à 20% pendant 6 secondes après un ultime. Non cumulable."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "ATQ%", "valeur": "30%" }
+		  ],
+		  "description": "Augmente les DEG d'anima de 25%. Augmente les DEG d'accessoires du porteur de 15%. Porte le bonus de DEG d'accessoires à 30% pendant 6 secondes après un ultime. Non cumulable."
+		}
+	  }
     },
 	"journees-ensoleillees": {
       "nom": "Journées ensoleillées",
-      "image": "journees-ensoleillees.png"
+      "image": "journees-ensoleillees.png",
+	  "rarete": "A",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "ATQ%", "valeur": "10%" }
+		  ],
+		  "description": "Augmente l'intensité de rupture de 48. Augmente les DEG de 10% contre les unités brisées."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "ATQ%", "valeur": "25%" }
+		  ],
+		  "description": "Augmente l'intensité de rupture de 84. Augmente les DEG de 18% contre les unités brisées."
+		}
+	  }
     },
 	"chant-baleine": {
       "nom": "Chant de la baleine",
-      "image": "chant-baleine.png"
+      "image": "chant-baleine.png",
+	  "rarete": "S",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Augmente l'ATQ de 12%. Augmente les dégâts infligés par le porteur aux ennemis brisés de 12%. Rend 30% de PV au porteur si un ennemi brisé est vaincu. Se déclenche au maximum une fois toutes les 30 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Augmente l'ATQ de 20%. Augmente les dégâts infligés par le porteur aux ennemis brisés de 20%. Rend 30% de PV au porteur si un ennemi brisé est vaincu. Se déclenche au maximum une fois toutes les 30 secondes."
+		}
+	  }
     },
 	"larmes-masque": {
       "nom": "Les larmes sous le masque",
-      "image": "larmes-masque.png"
+      "image": "larmes-masque.png",
+	  "rarete": "S",
+	  "type": "gazeux",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Applique Regard menaçant aux ennemis touchés par l'ultime du porteur. Les ennemis marqués ingligent 18% de dégâts en moins pendant 20 secondes. Cet effet n'est pas cumulable."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Applique Regard menaçant aux ennemis touchés par l'ultime du porteur. Les ennemis marqués infligent 30% de dégâts en moins pendant 20 secondes. Cet effet n'est pas cumulable."
+		}
+	  }
     },
 	"printemps-imbeciles": {
       "nom": "Printemps des imbéciles",
-      "image": "printemps-imbeciles.png"
+      "image": "printemps-imbeciles.png",
+	  "rarete": "A",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "25" },
+			{ "nom": "DEF%", "valeur": "21%" }
+		  ],
+		  "description": "Augmente l'ATQ de 18% lorsque le porteur bénéficie d'un bouclier."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "395" },
+			{ "nom": "DEF%", "valeur": "52.50%" }
+		  ],
+		  "description": "Augmente l'ATQ de 30% lorsque le porteur bénéficie d'un bouclier."
+		}
+	  }
     },
 	"oublies": {
       "nom": "Les oubliés",
-      "image": "oublies.png"
+      "image": "oublies.png",
+	  "rarete": "A",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "PV%", "valeur": "10%" }
+		  ],
+		  "description": "Lorsque les PV du porteur sont supérieurs à 50%, son ATQ augmente de 20%; lorsque ses PV sont inférieurs à 50%, sa DEF augmente de 20%."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "PV%", "valeur": "25%" }
+		  ],
+		  "description": "Lors que les pV du porteur sont supérieurs à 50%, son ATQ augmente de 36%; lorsque ses PV sont inférieurs à 50%, sa DEF augemente de 36%."
+		}
+	  }
     },
 	"bon-mauvais": {
       "nom": "Le bon, le mauvais, l'amertume",
-      "image": "bon-mauvais.png"
+      "image": "bon-mauvais.png",
+	  "rarete": "A",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "PV%", "valeur": "10%" }
+		  ],
+		  "description": "Augmente la DEF du porteur de 26% pendant 10 secondes lorsqu'il subit des dégâts. Se déclenche au maximum une fois toutes les 20 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "PV%", "valeur": "25%" }
+		  ],
+		  "description": "Augmente la DEF du porteur de 45% pendant 10 secondes lorsqu'il subit des dégâts. Se déclenche au maximum une fois toutes les 20 secondes."
+		}
+	  }
     },
 	"grand-voleur": {
       "nom": "Le grand voleur",
-      "image": "grand-voleur.png"
+      "image": "grand-voleur.png",
+	  "rarete": "A",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "Intensité de rupture", "valeur": "48" }
+		  ],
+		  "description": "Lorsque l'équipe comporte au moins 3 Espers du même type que le porteur dont le porteur, tous les Espers de ce type voient leur intensité de rupture augmenter de 70. Non cumulable"
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "Intensité de rupture", "valeur": "120" }
+		  ],
+		  "description": "Lorsque l'équipe comporte au moins 3 Espers du même type que le porteur dont le porteur, tous les Espers de ce type voient leur intensité de rupture augmenter de 126. Non cumulable."
+		}
+	  }
     },
 	"derniere-rose": {
       "nom": "La dernière rose",
-      "image": "derniere-rose.png"
+      "image": "derniere-rose.png",
+	  "rarete": "",
+	  "type": "",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "CRIT", "valeur": "9.60%" }
+		  ],
+		  "description": "Augmente l'ATQ de 14%. Confère 1 charge d'Épine du chaos chaque fois que le porteur inflige des dégâts sur la durée. Augmente les DÉG CRT de 6% par cumul pendant 3 s. Se déclenche au maximum une fois toutes les 0,3 s, jusqu'à 10 cumuls, et la durée est réinitialisée lorsque l'effet se redéclenche. Confère immédiatement 10 cumuls d'Épine du chaos lorsque le porteur lance une compétence de redirection. Prolonge l'état Brisé d'un ennemi brisé de 3 secondes lorsque le porteur lui inflige des dégâts (se déclenche au maximum une fois par effet de rupture)."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "CRIT", "valeur": "24%" }
+		  ],
+		  "description": "Augmente l'ATQ de 28%. Confère 1 charge d'Épine du chaos chaque fois que le porteur inflige des dégâts sur la durée. Augmente les DÉG CRT de 12% par cumul pendant 3 s. Se déclenche au maximum une fois toutes les 0,3 s, jusqu'à 10 cumuls, et la durée est réinitialisée lorsque l'effet se redéclenche. Confère immédiatement 10 cumuls d'Épine du chaos lorsque le porteur lance une compétence de redirection. Prolonge l'état Brisé d'un ennemi brisé de 3 secondes lorsque le porteur lui inflige des dégâts (se déclenche au maximum une fois par effet de rupture)."
+		}
+	  }
+	  
     },
 	"voleur-temps": {
       "nom": "Voleur de temps",
-      "image": "voleur-temps.png"
+      "image": "voleur-temps.png",
+	  "rarete": "A",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "31" },
+			{ "nom": "PV%", "valeur": "10%" }
+		  ],
+		  "description": "Augmente l'intensité de rupture de 90 pendant 10 secondes après que le porteur a lancé une compétence. Cet effet n'est pas cumulable. Déverouille Crochet : verrouille tous les objets possible à proximité."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "475" },
+			{ "nom": "PV%", "valeur": "25%" }
+		  ],
+		  "description": "Augmente l'intensité de rupture de 162 pendant 10 secondes après que le porteur a lancé une compétence. Cet effet n'est pas cumulable. Déverrouille Crochet : Verouille tous les objets possible à proximité."
+		}
+	  }
     },
 	"parapluie": {
       "nom": "Parapluie",
-      "image": "parapluie.png"
+      "image": "parapluie.png",
+	  "rarete": "A",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "25" },
+			{ "nom": "DEF%", "valeur": "21%" }
+		  ],
+		  "description": "Augmente les PV de 10%. Les boucliers gagnent 10% de puissance tant que les pV du porteur sont au-dessus de 50%."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "395" },
+			{ "nom": "DEF%", "valeur": "52.50%" }
+		  ],
+		  "description": "Augmente les PV de 18%. Les boucliers gagnent 18% de puissance tant que les PV du porteur sont au-dessus de 50%"
+		}
+	  }
     },
 	"nous": {
       "nom": "Nous.",
-      "image": "nous.png"
-    },
+      "image": "nous.png",
+	  "rarete": "B",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "24" },
+			{ "nom": "ATQ%", "valeur": "8%" }
+		  ],
+		  "description": "Augmente les dégâts des attaques de base du porteur de 12%."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "380" },
+			{ "nom": "ATQ%", "valeur": "20%" }
+		  ],
+		  "description": "Augmente les dégâts des attaques de base du porteur de 16%."
+		}
+	  }
+	},
 	"voile-stellaire": {
       "nom": "Voile stellaire",
-      "image": "voile-stellaire.png"
+      "image": "voile-stellaire.png",
+	  "rarete": "S",
+	  "type": "emotion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "ATQ%", "valeur": "11%" }
+		  ],
+		  "description": "Augmente les DEG de psyché du porteur de 12%. Augmente les DEG CRIT infligés de 2% pendant 5 secondes lorsque le porteur inflige des DEG de psyché, cumulable jusqu'à 10 fois. Se déclenche au maximum une fois toutes les 0,1 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "ATQ%", "valeur": "27.50%" }
+		  ],
+		  "description": "Augmente les DEG de psyché du porteur de 21%. Augmente les DEG CRIT infligés de 3.60% pendant 5 secondes lorsque le porteur inflige des DEG de psyché, cumulable jusqu'à 10 fois. Se déclenche au maximum une fois toutes les 0,1 secondes."
+		}
+	  }
     },
 	"fantasy-juvenile": {
       "nom": "Fantasy juvénile",
-      "image": "fantasy-juvenile.png"
+      "image": "fantasy-juvenile.png",
+	  "rarete": "S",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "ATQ%", "valeur": "12%" }
+		  ],
+		  "description": "Augmente l'intensité de rupture de 60. Scelle l'Arc: Sombre tome avec deux chaînes par défaut. Libère 1 chaîne chaque fois qu'un personnage de l'équipe lance une compétence de soutien. Lorsque les deux chaînes sont libérées, l'Arc: Sombre tome devient disponible. Arc: Sombre tome: Invoque le Sombre tome pendant 20 s. Désigne un ennemi toutes les 5 s. Augmente les DÉG de chaos infligés par le porteur aux ennemis désignés de 20%. Inflige des DÉG de chaos équivalents à 200% de l'ATQ du porteur aux ennemis désignés lorsqu'ils subissent des dégâts de rupture."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "ATQ%", "valeur": "30%" }
+		  ],
+		  "description": "Augmente l'intensité de rupture de 88. Scelle l'Arc: Sombre tome avec deux chaînes par défaut. Libère 1 chaîne chaque fois qu'un personnage de l'équipe lance une compétence de soutien. Lorsque les deux chaînes sont libérées, l'Arc: Sombre tome devient disponible. Arc: Sombre tome: Invoque le Sombre tome pendant 20 s. Désigne un ennemi toutes les 5 s. Augmente les DÉG de chaos infligés par le porteur aux ennemis désignés de 36%. Inflige des DÉG de chaos équivalents à 320% de l'ATQ du porteur aux ennemis désignés lorsqu'ils subissent des dégâts de rupture."
+		}
+	  }
     },
 	"temps": {
 	  "nom": "Marche au-delà du temps",
-	  "image":"temps.png"
-  	}
+	  "image":"temps.png",
+	  "rarete": "S",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "CRIT", "valeur": "9.60%" }
+		  ],
+		  "description": "Augmente l'ATQ de 16%. Entre dans l'état Labyrinthe de désolation et efface le Temps de désolation actuel lorsque le porteur lance une compétence de redirection. Tant que Labyrinthe de désolation est actif, les alliés gagnent 1 charge de Temps de désolation chaque fois qu'ils utilisent une compétence de redirection ou de soutien, jusqu'à 3 charges. Lorsque le porteur utilise son ultime dans l'état Labyrinthe de désolation, il quitte cet état et consomme tout son Temps de désolation, ce qui augmente les dégâts critiques de l'ultime de 24%, plus 8% supplémentaires par charge de Temps de désolation consommé. Consommer 3 charges de Temps de désolation d'un coup permet d'ignorer 12% de DEF en plus pendant 70 secondes."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "CRIT", "valeur": "24%" }
+		  ],
+		  "description": "Augmente l'ATQ de 32%. Entre dans l'état Labyrinthe de désolation et efface le Temps de désolation actuel lorsque le porteur lance une compétence de redirection. Tant que Labyrinthe de désolation est actif, les alliés gagnent 1 charge de Temps de désolation chaque fois qu'ils utilisent une compétence de redirection ou de soutien, jusqu'à 3 charges. Lorsque le porteur utilise son ultime dans l'état Labyrinthe de désolation, il quitte cet état et consomme tout son Temps de désolation, ce qui augmente les dégâts critiques de l'ultime de 48%, plus 16% supplémentaires par charge de Temps de désolation consommé. Consommer 3 charges de Temps de désolation d'un coup permet d'ignorer 24% de DEF en plus pendant 70 secondes."
+		}
+	  }
+	},
+	"pluie": {
+	  "nom": "La pluie qui a boulversé le monde",
+	  "image":"pluie.png",
+	  "rarete": "S",
+	  "type": "solide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "33" },
+			{ "nom": "CRIT", "valeur": "8.80%" }
+		  ],
+		  "description": "La compétence et l'ultime du porteur infligent 30% de DEG de cosmos supplémentaires. Augmente l'intensité de cycle du porteur de 36 pendant 15 secondes après avoir lancé une compétence. La durée est réinitialisée  quand l'effet est de nouveau déclenché."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "512" },
+			{ "nom": "CRIT", "valeur": "22%" }
+		  ],
+		  "description": "La compétence et l'ultime du porteur infligent 42% de DEG de cosmos supplémentaires. Augmente l'intensité de cycle du porteur de 72 pendant 15 secondes après avoir lancé une compétence. La durée est réinitialisée quand l'effet est de nouveau déclenché."
+		}
+	  }
   }
 }
