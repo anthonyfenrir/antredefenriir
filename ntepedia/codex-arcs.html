@@ -168,14 +168,15 @@ function renderArcFilters() {
   const rarityBox = document.getElementById("rarityFilters");
   const typeBox = document.getElementById("typeFilters");
 
-  rarityBox.innerHTML = rarityOrder.map(r => `
-    <button class="arc-filter ${arcState.rarity === r ? "active" : ""}" data-filter="rarity" data-value="${r}">
-      ${t === "all"
-        ? "Tous raretés"
-        : `<img src="annex/${t}.png" alt="${capitalize(t)}">`
-      }
-    </button>
-  `).join("");
+rarityBox.innerHTML = rarityOrder.map(r => `
+  <button class="arc-filter ${arcState.rarity === r ? "active" : ""}" data-filter="rarity" data-value="${r}">
+    ${
+      r === "all"
+        ? "Toutes raretés"
+        : `<img src="annex/${r.toLowerCase()}_rarity.png" alt="Rareté ${r}">`
+    }
+  </button>
+`).join("");
 
   typeBox.innerHTML = typeOrder.map(t => `
     <button class="arc-filter ${arcState.type === t ? "active" : ""}" data-filter="type" data-value="${t}">
