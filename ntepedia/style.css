@@ -1314,6 +1314,13 @@ a {
   justify-content: center;
 }
 
+.arc-filter img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+}
+
 .arc-filter,
 .arc-level-toggle button,
 .arc-card {
