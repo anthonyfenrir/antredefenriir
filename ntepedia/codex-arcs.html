@@ -242,10 +242,12 @@ function renderArcDetail() {
 
       <div class="arc-detail-meta">
         <h2>${arc.nom}</h2>
-        <p>
-          <span class="arc-badge rarity-${arc.rarete.toLowerCase()}">${arc.rarete}</span>
-          <span class="arc-badge">${capitalize(arc.type)}</span>
-        </p>
+      
+        <div class="arc-detail-tags">
+          <img src="annex/${arc.rarete.toLowerCase()}_rarity.png" alt="Rareté ${arc.rarete}">
+          <img src="annex/${arc.type}.png" alt="${capitalize(arc.type)}">
+          <span>${capitalize(arc.type)}</span>
+        </div>
       </div>
 
       <div class="arc-level-toggle">
