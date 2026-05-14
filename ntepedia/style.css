@@ -1467,8 +1467,8 @@ a {
 .arc-level-toggle {
   display: flex;
   gap: 12px;
-  margin-top: 14px;
   justify-content: flex-start;
+  margin-top: 14px;
 }
 
 .arc-detail-tags span {
