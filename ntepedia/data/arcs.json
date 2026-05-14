@@ -871,8 +871,8 @@
 	"derniere-rose": {
       "nom": "La dernière rose",
       "image": "derniere-rose.png",
-	  "rarete": "",
-	  "type": "",
+	  "rarete": "S",
+	  "type": "liquide",
 	  "effects": {
 		"level1": {
 		  "label": "Niveau 1 - T1",
