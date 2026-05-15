@@ -1651,7 +1651,143 @@ a {
   }
 }
 
+.gestion-slider-section {
+  margin: 36px 0;
+}
 
+.gestion-slider {
+  border: 1px solid rgba(0, 234, 255, 0.28);
+  border-radius: 24px;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(0, 20, 32, 0.92), rgba(12, 3, 25, 0.92));
+  box-shadow: 0 0 28px rgba(0, 234, 255, 0.12);
+}
+
+.gestion-header {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-bottom: 24px;
+}
+
+.gestion-header h3 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  color: #00eaff;
+}
+
+.gestion-rewards {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.gestion-rewards strong {
+  color: #ff3ea5;
+}
+
+.gestion-rewards ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+.gestion-objectifs {
+  display: grid;
+  gap: 12px;
+}
+
+.gestion-objectif-card {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 14px;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(0, 234, 255, 0.16);
+}
+
+.gestion-objectif-number {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #00eaff;
+  border: 1px solid rgba(0, 234, 255, 0.55);
+  font-weight: 800;
+}
+
+.gestion-objectif-card p {
+  margin: 0 0 6px;
+}
+
+.gestion-objectif-card small {
+  color: #00eaff;
+}
+
+.gestion-slider-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.gestion-slider-nav button {
+  cursor: pointer;
+  border: 1px solid rgba(0, 234, 255, 0.35);
+  background: rgba(0, 25, 40, 0.75);
+  color: #fff;
+  border-radius: 999px;
+  padding: 9px 14px;
+}
+
+.gestion-slider-nav button:hover {
+  border-color: #00eaff;
+  box-shadow: 0 0 14px rgba(0, 234, 255, 0.35);
+}
+
+.gestion-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.gestion-dot {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.gestion-dot.active {
+  background: #00eaff;
+  box-shadow: 0 0 12px rgba(0, 234, 255, 0.75);
+}
+
+@media (max-width: 800px) {
+  .gestion-header {
+    grid-template-columns: 1fr;
+  }
+
+  .gestion-header h3 {
+    text-align: center;
+  }
+
+  .gestion-objectif-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .gestion-objectif-number {
+    margin: 0 auto;
+  }
+}
 
 @media (max-width: 800px) {
   .sheet-main {
