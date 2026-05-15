@@ -1770,6 +1770,145 @@ a {
   box-shadow: 0 0 12px rgba(0, 234, 255, 0.75);
 }
 
+.esper-life-section {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 28px;
+  margin: 36px 0;
+  align-items: start;
+}
+
+.esper-life-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.esper-life-portrait {
+  cursor: pointer;
+  border: 1px solid rgba(0, 234, 255, 0.25);
+  border-radius: 18px;
+  padding: 10px;
+  background: rgba(0, 18, 30, 0.72);
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.esper-life-portrait:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: #00eaff;
+  box-shadow: 0 0 18px rgba(0, 234, 255, 0.3);
+}
+
+.esper-life-portrait.active {
+  border-color: #ff3ea5;
+  box-shadow: 0 0 18px rgba(255, 62, 165, 0.35);
+}
+
+.esper-life-portrait img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.esper-life-portrait span {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.esper-life-card {
+  border: 1px solid rgba(0, 234, 255, 0.28);
+  border-radius: 24px;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(0, 20, 32, 0.92), rgba(12, 3, 25, 0.92));
+  box-shadow: 0 0 28px rgba(0, 234, 255, 0.12);
+}
+
+.esper-life-card-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.esper-life-card-header img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.esper-life-card-header h3 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.esper-life-card-header p {
+  margin: 8px 0;
+  color: #00eaff;
+  font-weight: 700;
+}
+
+.esper-life-rating {
+  display: flex;
+  gap: 4px;
+  font-size: 1.2rem;
+}
+
+.esper-life-rating span {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.esper-life-rating span.filled {
+  color: #ff3ea5;
+  text-shadow: 0 0 10px rgba(255, 62, 165, 0.6);
+}
+
+.esper-life-levels {
+  display: grid;
+  gap: 12px;
+}
+
+.esper-life-level {
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(0, 234, 255, 0.14);
+}
+
+.esper-life-level strong {
+  color: #00eaff;
+  font-family: 'Cinzel', serif;
+}
+
+.esper-life-level p {
+  margin: 8px 0 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .esper-life-section {
+    grid-template-columns: 1fr;
+  }
+
+  .esper-life-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .esper-life-card-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .esper-life-rating {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 800px) {
   .gestion-header {
     grid-template-columns: 1fr;
