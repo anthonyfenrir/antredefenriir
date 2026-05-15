@@ -1,0 +1,566 @@
+{
+  "guidegestion": [
+    {
+	  "etape": "1",
+	  "recompense": [
+			"20 Annulith",
+			"4 Graines sans rêves"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Réclamer des récompenses 1 fois au Café par Origen",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Réapprovisionner le Café par Origen (hors réapprovisionnement rapide) 1 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Déployer un employé 1 fois au Café par Origen",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Atteindre le niv. 1 d'une capacité d'Esper urbaine (gestion) x 1",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Déployer des plats 1 fois au Café par Origen",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "2",
+	  "recompense": [
+			"20 Annulith",
+			"1 Recharge de refraîchissement",
+			"Siège deux places en fer noir",
+			"Géométrie ursine",
+			"Gigaflanelle - Myologie"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Déverrouiller un plat Croissant à la tomate et oeuf au plat",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Déverrouiller Le café par Origine 2 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Gagner un total de 50 Fons au Café par Origen",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Déverrouiller un plat Mocaccino glacé",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Déverrouiller un plat Tarte aux pommes",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "3",
+	  "recompense": [
+			"20 Annulith",
+			"6 Graines sans rêves"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Vendre Glamour ambré x 10 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Changer les tables et les chaises 1 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Changer les objets décoratifs 1 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Changer les tableaux muraux 1 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Terminer le mode Sélection du propriétaire 1 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero6": {
+			"description": "Gagner un total de 2 étoiles dans le mode Sélection du propriétaire",
+			"recompense": "4500 Fons"
+			},
+		"numero7": {
+			"description": "Gagner un total de 2000 Fons au Café par Origen",
+			"recompense": "4500 Fons"
+			},
+		"numero8": {
+			"description": "Vendre Sandwich au thon x 10 au total",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "4",
+	  "recompense": [
+			"20 Annulith",
+			"6 Graines sans rêves"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Vendre Café latte glacé x 20 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Atteindre le niv. 3 d'une capacité d'Esper urbaine (gestion) x 1",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Terminer le mode Sélection du propriétaire 3 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Gagner un total de 3 étoiles dans le mode Sélection du propriétaire",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Atteindre l'objectif de revenus avec un combo parfait en mode Sélection du propriétaire 1 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero6": {
+			"description": "Terminer le mode Sélection du propriétaire 1 fois avec des employés déployés",
+			"recompense": "4500 Fons"
+			},
+		"numero7": {
+			"description": "Déverrouiller Le café par Origen 3 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero8": {
+			"description": "Vendre Moelleux au chocolat et au matcha x 20 au total",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "5",
+	  "recompense": [
+			"20 Annulith",
+			"7 Graines sans rêves"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Vendre Croissant beurre-haricots x 30 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Vendre Gâteau à la fraise x 30 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Atteindre le niv. 3 d'une capacité d'Esper urbaine (gestion) x 3",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Gagner un total de 20 000 Fons au Café par Origen",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Vendre Sandwich au steak de boeuf frais et épais x 30 au total",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "6",
+	  "recompense": [
+			"20 Annulith",
+			"7 Graines sans rêve"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Terminer le mode Sélection du propriétaire 6 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Consommer un total de 300 points d'endurance urbaine dans le mode Sélection du propriétaire",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Vendre Macchiato à la noix de coco x 50 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Gagne un total de 4 étoiles dans le mode Sélection du propriétaire",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Gagner 1000 Fons en une seule partie du mode Sélection du propriétaire",
+			"recompense": "4500 Fons"
+			},
+		"numero6": {
+			"description": "Vendre Sandwich au steak de porc x 50 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero7": {
+			"description": "Déverrouiller Le café par Origen 4 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero8": {
+			"description": "Vendre Café chaud à l'orange x 50 au total",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "7",
+	  "recompense": [
+			"20 Annulith",
+			"8 Graines sans rêve"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Gagner un total de 8 étoiles dans le mode Sélection du propriétaire",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Vendre Café au matcha et nuage de lait x 75 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Gagner un total de 70 000 Fons au Café par Origen",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Terminer le mode Sélection du propriétaire 6 fois avec des employés déployés",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Vendre Tiramisu x 75 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero6": {
+			"description": "Vendre Croissant au jambon-fromage x 75 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero7": {
+			"description": "Atteindre l'objectif de revenus avec un combo parfait en mode Sélection du propriétaire 6 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero8": {
+			"description": "Terminer le mode Sélection du propriétaire 12 fois",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "8",
+	  "recompense": [
+			"20 Annulith",
+			"8 Graines sans rêve"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Vendre niv. 2 Café latte à la noix de coco x 100 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Vendre niv. 2 Mocaccino glacé x 100 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Vendre niv. 2 Tarte aux pommes x 100 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Atteindre le niv. 5 d'une capacité d'Esper urbaine (gestion) x 3",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Déverrouiller Le café par Origen 5 fois",
+			"recompense": "4500 Fons"
+			},
+		"numero6": {
+			"description": "Vendre Mille-feuille caramel-coco x 100 au total",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "9",
+	  "recompense": [
+			"20 Annulith",
+			"9 Graines sans rêve"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Vendre niv. 2 Sandwich au thon x 125 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Vendre niv. 2 Glamour ambré x 125 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Vendre niv. 2 Moelleux au chocolat et au matcha x 125 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Vendre niv. 2 Café latte glacé x 125 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Gagner un total de 250 000 Fons au Café par Origen",
+			"recompense": "4500 Fons"
+			},
+		"numero6": {
+			"description": "Vendre niv. 2 Croissant à la tomate et oeuf au plat x 125 au total",
+			"recompense": "4500 Fons"
+			}
+		}
+	},
+	{
+	  "etape": "10",
+	  "recompense": [
+			"20 Annulith",
+			"10 Graines sans rêve"
+		],
+	  "objectifs": {
+		"numero1": {
+			"description": "Vendre niv. 2 Macchiato à la noix de coco x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero2": {
+			"description": "Vendre niv. 2 Croissant beurre-haricots x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero3": {
+			"description": "Vendre niv. 2 Gâteaux à la fraise x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero4": {
+			"description": "Vendre niv. 2 Café chaud à l'orange x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero5": {
+			"description": "Vendre niv. 2 Sandwich au steak de porc x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero6": {
+			"description": "Vendre niv. 2 Sandwich au steak de boeuf frais et épais x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero7": {
+			"description": "Vendre niv. 2 Café au matcha et nuage de lait x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero8": {
+			"description": "Vendre niv. 2 Tiramisu x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero9": {
+			"description": "Vendre niv. 2 Croissant au jambon-fromage x 150 au total",
+			"recompense": "4500 Fons"
+			},
+		"numero10": {
+			"description": "Vendre niv. 2 Mille-feuille caramel-coco x 150 au total",
+			"recompense": "4500 Fons"
+			}
+		}
+	}
+  ],
+  "cafe": [
+    {
+	  "ordre": "1",
+	  "image": "guide-cafe-ordre1.png",
+	  "adresse": "182 route de Barbe bleue, Croisée des ponts",
+	  "prix": "5 000 Fons",
+	  "levelgestion": "1"
+	},
+	{
+	  "ordre": "2",
+	  "image": "guide-cafe-ordre2.png",
+	  "adresse": "106 avenue des Fiscus, Rivages inconnus",
+	  "prix": "20 000 Fons",
+	  "levelgestion": "5"
+	},
+	{
+	  "ordre": "3",
+	  "image": "guide-cafe-ordre3.png",
+	  "adresse": "1122 avenue de Davidia nord, Croisée des ponts",
+	  "prix": "40 000 Fons",
+	  "levelgestion": "10"
+	},
+	{
+	  "ordre": "4",
+	  "image": "guide-cafe-ordre4.png",
+	  "adresse": "88 rue de Moonin, Croisée des ponts",
+	  "prix": "75 000 Fons",
+	  "levelgestion": "17"
+	},
+	{
+	  "ordre": "5",
+	  "image": "guide-cafe-ordre5.png",
+	  "adresse": "199 place de la rue d'Hankaku, Croisée des ponts",
+	  "prix": "100 000 Fons",
+	  "levelgestion": "25"
+	}
+  ],
+  "espersvie": [
+  {
+    "id": "baicang",
+    "rating": 5,
+    "competence": {
+		"nom": "Floraison prospère",
+		"levels": {
+			"level1": "Baicang augmente la fréquentation de 18.",
+			"level2": "Baicang réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans la Sélection du propriétaire, les combos persistent lorsque les clients perdent patience ou sont frappés par des marteaux.",
+			"level4": "Baicang réduit la consommation d'ingrédients de 1%.",
+			"level5": "Baicang augmente la fréquentation de 27."
+		}
+    }
+  },
+  {
+	"id": "sakiri",
+	"rating": 5,
+	"competence": {
+		"nom": "Toute récompense se mérite",
+		"levels": {
+			"level1": "Sakiri augmente le prix des plats de 0,12 Fons supplémentaires.",
+			"level2": "Sakiri réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans la Sélection du propriétaire, Kiroumaru attaque activement et chasse Danzanburou.",
+			"level4": "Sakiri réduit la consommation d'ingrédients de 1%.",
+			"level5": "Sakiri augmente le prix de tous les plats de 0,3 Fons lorsqu'un plat contient 3 étiquettes identiques."
+		}
+    }
+  },
+  {
+	"id": "skia",
+	"rating": 4,
+	"competence": {
+		"nom": "Cadre intermédiaire",
+		"levels": {
+			"level1": "Skia augmente la fréquentation de 18.",
+			"level2": "Skia réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans le Sélection du propriétaire, la patience du client est boostée de 50%.",
+			"level4": "Skia réduit la consommation d'ingrédients de 1%.",
+			"level5": "Skia augmente la fréquentation de 27."
+		}
+    }
+  },
+  {
+	"id": "chiz",
+	"rating": 4,
+	"competence": {
+		"nom": "Responsable d'accueil",
+		"levels": {
+			"level1": "Chiz augmente la fréquentation de 18.",
+			"level2": "Chiz réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans la Sélection du propriétaire, chaque plat correct () part Danzanburou) augmente les prix. Jusque 15 fois par round.",
+			"level4": "Chiz réduit la consommation d'ingrédients de 1%.",
+			"level5": "Chiz augmente la fréquentation de 27."
+		}
+    }
+  },
+  {	
+	"id": "adler",
+	"rating": 4,
+	"competence": {
+		"nom": "Maître du café",
+		"levels": {
+			"level1": "Adler augmente le prix des plats de 0,12 Fons supplémentaires.",
+			"level2": "Adler réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans la Sélection du propriétaire, le café est préparé automatiquement.",
+			"level4": "Adler réduit la consommation d'ingrédients de 1%.",
+			"level5": "Adler augmente le prix des plats de 0,18 Fons supplémentaires."
+		}
+    }
+  },
+  {	
+	"id": "nanally",
+	"rating": 4,
+	"competence": {
+		"nom": "Entreprise familiale",
+		"levels": {
+			"level1": "Nanally augmente le prix des plats de 0,2 Fons pour chaque étiquette Plat principal sur les plats.",
+			"level2": "Nanally réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans la Sélection du propriétaire, frapper les clients avec le marteau octroie 115% du prix actuel du plat.",
+			"level4": "Nanally réduit la consommation d'ingrédients de 1%.",
+			"level5": "Nanally augmente le prix des plats de 0,3 Fons toutes les 2 étiquettes Plat principal sur les plats."
+		}
+    }
+  },
+  {
+	"id": "jonquille",
+	"rating": 3,
+	"competence": {
+		"nom": "L'art de l'hospitalié",
+		"levels": {
+			"level1": "Jonquille augmente la fréquentation de 18.",
+			"level2": "Jonquille réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans la Sélection du propriétaire, les clients sont plus susceptibles de choisir les plats les plus chers.",
+			"level4": "Jonquille réduit la consommation d'ingrédients de 1%.",
+			"level5": "Jonquille augmente la fréquentation de 27."
+		}
+    }
+  },
+  {
+	"id": "menthe",
+	"rating": 3,
+	"competence": {
+		"nom": "Tornade de Menthe",
+		"levels": {
+			"level1": "Menthe augmente le prix des plats de 0,12 Fons supplémentaires.",
+			"level2": "Menthe réduit la consommation d'ingrédients de 1%.",
+			"level3": "Dans la Sélectiond u propriétaire, les pourboires augmentent à chaque combo. Jusqu'à 5 fois par combo.",
+			"level4": "Menthe réduit la consommation d'ingrédients de 1%.",
+			"level5": "Menthe augmente le prix des plats de 0,18 Fons supplémentaires."
+		}
+    }
+  },
+  {
+	"id": "aurelia",
+	"rating": 3,
+	"competence": {
+		"nom": "Parfairement adapté",
+		"levels": {
+			"level1": "Aurelia augmente le prix des plats de 0,12 Fons supplémentaires.",
+			"level2": "Aurelia augmente la fréquentation de 1% toutes les 2 étiquettes Boisson sur les plats.",
+			"level3": "Dans la Sélection du propriétaire, les clients laissent des pourboires supplémentaires à leur départ.",
+			"level4": "Aurelia réduit la consommation d'ingrédients de 1%.",
+			"level5": "Aurelia augmente la fréquentation de 1,5% toutes les 2 étiquettes Boisson sur les plats"
+		}
+    }
+  },
+  {
+	"id": "edgar",
+	"rating": 2,
+	"competence": {
+		"nom": "Mise en pratique des connaisances",
+		"levels": {
+			"level1": "Edgard augmente la frénquentation de 18.",
+			"level2": "Edgar réduit la consommation d'ingrédients de 1%",
+			"level3": "Edgar augmente la fréquentation de 18.",
+			"level4": "Edgar réduit la consommationd d'ingrédients de 1%.",
+			"level5": "Edgar augmente la fréquentation de 27."
+		}
+    }
+  },
+  {
+	"id": "haniel",
+	"rating": 2,
+	"competence": {
+		"nom": "Un pro à l'oeuvre",
+		"levels": {
+			"level1": "Haniel augmente le prix des plats de 0,12 Fons supplémentaires.",
+			"level2": "Haniel réduit la consommation d'ingrédients de 1%.",
+			"level3": "Haniel augmente le prix des plats de 0,12 Fons supplémentaires.",
+			"level4": "Haniel réduit la consommation d'ingrédients de 1%.",
+			"level5": "Haniel augmente le prix des plats de 0,18 Fons supplémentaires."
+		}
+    }
+  }
+  ]
+}
