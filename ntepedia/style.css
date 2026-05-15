@@ -1893,6 +1893,13 @@ a {
   line-height: 1.6;
 }
 
+.cafe-slider,
+.gestion-slider,
+.esper-life-card,
+.esper-life-section {
+  border-color: rgba(0, 217, 255, 0.28);
+}
+
 @media (max-width: 900px) {
   .esper-life-section {
     grid-template-columns: 1fr;
