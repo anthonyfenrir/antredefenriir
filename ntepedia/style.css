@@ -1654,6 +1654,9 @@ a {
 .gestion-slider-section {
   margin: 36px 0;
 }
+.gestion-slider {
+  min-height: 820px;
+}
 
 .gestion-slider {
   border: 1px solid rgba(0, 234, 255, 0.28);
