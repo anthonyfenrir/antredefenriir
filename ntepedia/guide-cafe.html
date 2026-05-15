@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Guide Fons Neverness to Everness FR | NTEPedia</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="annex/favicon-np.png">
+  <link rel="shortcut icon" href="annex/favicon-np.png">
+  <link rel="apple-touch-icon" href="annex/favicon-np.png">
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="container">
+    <img
+      src="annex/ntepedia-banner.png"
+      alt="NTEPedia - Guide FR Neverness to Everness"
+      class="hero-banner"
+    >
+  </div>
+</section>
+  
+<section class="hero-subtitle-section">
+  <div class="container">
+    <h1 class="hero-subtitle">
+      Ta base de données FR dédiée à Neverness to Everness
+    </h1>
+
+    <p class="hero-subline">
+      Tous les outils qu'il te faut pour évoluer dans le jeu !
+    </p>
+  </div>
+</section>  
+
+<section class="main-nav">
+  <div class="container">
+    <div class="nav-grid">
+
+      <a href="index.html" class="nav-card">
+        <img src="annex/icon-home.png" alt="Accueil" class="nav-icon">
+        <span>Accueil</span>
+      </a>
+
+      <a href="guides.html" class="nav-card">
+        <img src="annex/icon-guide.png" alt="Guides" class="nav-icon">
+        <span>Guides</span>
+      </a>
+
+      <a href="personnages.html" class="nav-card">
+        <img src="annex/icon-perso.png" alt="Espers" class="nav-icon">
+        <span>Espers</span>
+      </a>
+
+      <a href="codex.html" class="nav-card">
+        <img src="annex/icon-codex.png" alt="Codex" class="nav-icon">
+        <span>Codex</span>
+      </a>
+
+      <a href="bot.html" class="nav-card">
+        <img src="annex/icon-discord.png" alt="Bot Discord" class="nav-icon">
+        <span>Bot Discord</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="section guide-page">
+  <div class="container">
+    <img
+      src="annex/guide-banner-cafe.png"
+      alt="guide-cafe"
+      class="guide-banner"
+    >
+
+    <div class="sheet-card guide-block">
+      <h2>VOUS PRENDREZ BIEN UN CAFÉ ?</h2>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <img src="guides/guide-cafe-intro.png" alt="Café by Origen" class="guide-image">
+      <p>Une des façons d'obtenir des Fons dans le jeu est en autre le mini-jeu de gestion des cafés.</p>
+      <p>Vous aurez la possibilité d'acheter et de gérer jusqu'à 5 café, vous permettant de générer des Fons même hors connexion.</p>
+      <p>Le but sera d'amélioré le rendement des gains de Fons / H afin d'avoir une rentrée passive de Fons facilement et tout les jours.</p>
+      <p>Pour débloquer les cafés il vous faudra atteindre le niveau 4 de Magnat de la ville.</p>
+      <img src="guides/guide-cafe-magnat.png" alt="Café by Origen" class="guide-image">
+    </div>  
+    
+    <div class="sheet-card guide-block">  
+      <h2>OK MAIS COMMENT JE LES DÉBLOQUE ?</h2>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <p>Pour acquérir les cafés, vous avez deux solutions, soit aller directement sur place, soit aller dans une agence immobilière pour acheter l'un des 5 cafés disponible.</p>
+      <div class="guide-spacer"></div>
+      <p>Vous ne pourrez pas tous les acheter tout de suite car ils se débloquent au fur et à mesure que vous augmenter le niveau de gestion.</p>
+      <img src="guides/guide-cafe-ordre.png" alt="Immo Cafés" class="guide-image">
+      <div class="guide-spacer"></div>
+      <section class="cafe-slider-section">
+        <div class="cafe-slider" id="cafeSlider"></div>
+      
+        <div class="cafe-slider-nav">
+          <button id="cafePrev" type="button">←</button>
+          <div id="cafeDots" class="cafe-dots"></div>
+          <button id="cafeNext" type="button">→</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="sheet-card guide-block">
+      <h2>OK JE FAIT QUOI MAINTENANT ?</h2>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <p>Bien joué ! Vous avez au moins votre premier café. Maintenant il faut le gérer.</p>
+      <p>Pour accéder au menu gestion, ouvrez le magnat (F5) et cliquez sur Le Café par Origen.</p>
+      <p>Vous devriez donc arriver ici.</p>
+      <img src="guides/guide-cafe-gestion.png" alt="Gestion des cafés" class="guide-image">
+      <p>Dans ce menu plusieurs choses :</p>
+      <ul>
+        <li>Réapprivionner : Pour acheter les ressources nécessaires aux recettes.</li>
+        <li>Gestion : Permet de gérer les recettes ainsi que le décoration des cafés.</li>
+        <li>Collecter les gains : Permet de récuperer les Fons accumulés</li>
+        <li>Employé : Vous pourrez ici gérer quel Esper assigner pour quel café.</li>
+        <li>Objet : Permet de sélectionner les recettes que vous voulez vendre (5 maximum).</li>
+        <li>Guide de gestion : Objectifs et récompenses pour la gestion de vos cafés.</li>
+      </ul>
+      <p>Je vous détaille tout ça juste en dessous, mais en gros c'est ici que tout ce passe.</p>
+      <p> Au fur et à mesure que vous collecterez vos gains vous gagnez des niveaux de gestion, qui permettent de débloquer des recettes, des cafés ou d'autres options</p>
+      <ul>
+        <li>Au niveau 2 : La livraison du réapprovisionnement est débloquée, vous aurez 80% de frais de livraison (80% de ce que vous coûte les ressources).</li>
+        <li>Au niveau 15 : Réduction à 60% de frais de livraison.</li>
+        <li>Au niveau 20 : Réduction à 40% de frais de livraison. Centre de mode déverrouillé.</li>
+        <li>Au niveau 25 : Réduction à 20% de frais de livraison.</li>
+        <li>Au niveau 30 : Livraison gratuite.</li>
+        <li>Au niveau 40 : Réapprovisionnement automatique déverrouillé.</li>
+      </ul>
+      <p>En ce qui concerne le guide de gestion, il sert surtout de ligne de conduite / objectifs pour faire évoluer vos cafés. Je vous met le détail ici mais vous y accèdez facilement en jeu.</p>
+      <section class="gestion-slider-section">
+        <div id="gestionSlider" class="gestion-slider"></div>
+      
+        <div class="gestion-slider-nav">
+          <button id="gestionPrev" type="button">←</button>
+          <div id="gestionDots" class="gestion-dots"></div>
+          <button id="gestionNext" type="button">→</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="sheet-card guide-block">
+      <h2>BAH ALORS ? C'EST QUOI LA SUITE ?</h2>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <p>La suite ? il faut améliorer vos café et choisir les bonnes recettes afin d'augmenter les gains.</p>
+      <p>Alors comment ça ce passe ?</p>
+      <div class="guide-spacer"></div>
+      <h3>1 - CHOISIR LES EMPLOYÉS</h3>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <p>Selon l'Esper que vous choisissez, différent effects de compétence de vie quotidienne s'applique. Certains sont mieux que d'autres pour le gains passif de Fons. Chaque café peut accueillir 2 employés (10 en tout).</p>
+      <p>Pas tout les Espers possèdent ces compétences et chaque compétence possède 5 niveaux</p>
+      <img src="guides/guide-cafe-espers.png" alt="Compétences vie espers" class="guide-image">
+      <p>Je vous met ici le détail des compétences des Espers possédants actuellement ces compétences de vie quotidienne.</p>
+      <section class="esper-life-section">
+        <div id="esperLifeList" class="esper-life-list"></div>
+        <div id="esperLifeDetail" class="esper-life-detail"></div>
+      </section>
+      <div class="guide-spacer"></div>
+      <h3>2 - LES RECETTES</h3>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <p>Maintenant que vos escla... employés sont choisis, vous pouvez vous choisir les recettes à mettre en vente dans la partie object.</p>
+      <p>Vous pouvez choisir jusqu'à 5 recettes (1 par restaurant) qui se débloqueront et évolueront en fonction de votre niveau de gestion.</p>
+      <p>Chacune des recette rapporte une certaine quantité de Fons par heure qui est modifiée en fonction de vos employés, du niveau de la recette mais aussi des meubles (on voit ça après).</p>
+      <p>Vous avez la possibilité de voir toutes les recettes à partir du menu gestion.</p>
+      <img src="guides/guide-cafe-gestion-recettes.png" alt="Recettes" class="guide-image">
+      <p>Attention toute fois ! Å partir du niveau 20 de gestion, vous débloquerez les recettes à la mode ou tendance.</p>
+      <p>Selon la tendance du jour (boisson, dessert etc), certaines recettes verront leur gains par heure augmenté de manière non négligeable.</p>
+      <p>Donc choisissez bien !</p>
+      <img src="guides/guide-cafe-tendance.png" alt="Tendance recettes" class="guide-image">
+      <div class="guide-spacer"></div>
+      <h3>3 - RÉAPPROVISIONNEMENT</h3>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <p>Maintenant que vos employés sont au travail et que vous avez choisis vos recettes, il faut ce faire livrer en matières premières (bah oui, ça va pas ce faire par magie voyons...dommage).</p>
+      <p>Pas d'inquiétude la liste de course se fait toute seule comme une grande, votre boulot sera de choisir quantité, ou du moins la durée durant laquelle vendre les recettes sélectionnées.</p>
+      <ul>
+        <li>4 heures</li>
+        <li>24 heures</li>
+        <li>72 heures</li>
+      </ul>
+      <p>Et voilà, vous allez commencer à générer des Fons de manière passive sans rien faire ou presque.</p>
+    </div>  
+
+    <div class="sheet-card guide-block">
+      <h2>C'EST QUI LE PATRON ?</h2>
+      <img src="annex/separator.png" alt="" class="guide-divider">
+      <p>Une dernière fonctionnalité existe pour les café.</p>
+      <p>Vous pouvez à tout moment jouer le boss avec une petite activité barist : La Sélection du Propriétaire.</p>
+      <p>Cette activité vous permet de vous retrouver derrière le comptoir et de préparer vous-même les commandes des clients sur une durée limité. Å l'instar de certains jeux de cuisine.</p>
+      <img src="guides/guide-cafe-selection.png" alt="Selection du propriétaire" class="guide-image">
+      <p>Comme pour la gestion de café passive, les Espers ici pourront vous aider</p>
+      <p>Ce mini-jeu permettra également de gagner des Fons en fonction des combos et de la satisfaction des clients, mais aussi quelques Annulith en fonction des étoiles gagnées. Elle vous coûtera de l'endurance urbaine.</p>
+    </div>
+
+</section>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+          <a href="/ntepedia/index.html">Accueil</a>
+          <a href="/ntepedia/personnages.html">Personnages</a>
+          <a href="https://discord.gg/2fXaeCDmq5">Discord Support</a>
+          <a href="/ntepedia/tos.html">Conditions d’utilisation</a>
+          <a href="/ntepedia/privacy.html">Confidentialité</a>
+      </div>
+      
+      <div class="footer-credits">
+          <p>Webmaster : <strong>FenriirCode</strong></p>
+          <p>
+            NTEPedia est un site communautaire non officiel dédié à Neverness to Everness.
+            Neverness to Everness™, ses personnages, logos et ressources visuelles
+            appartiennent à Perfect World Games et Hotta Studio.
+          </p>
+      </div>
+    </div>
+  </footer>
+<script src="js/auto-terms.js"></script>
+<button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+  <img src="annex/up-arrow.png" alt="">
+</button>
+
+<script>
+let cafes = [];
+let currentCafeIndex = 0;
+
+fetch("data/guide-cafe.json")
+  .then(res => {
+    if (!res.ok) throw new Error("guide-cafe.json introuvable");
+    return res.json();
+  })
+  .then(data => {
+    cafes = data.cafe || [];
+    renderCafeSlider();
+  })
+  .catch(err => console.error("Erreur chargement cafés :", err));
+
+function renderCafeSlider() {
+  const slider = document.getElementById("cafeSlider");
+  const dots = document.getElementById("cafeDots");
+
+  if (!cafes.length) {
+    slider.innerHTML = "<p>Aucun café disponible.</p>";
+    return;
+  }
+
+  const cafe = cafes[currentCafeIndex];
+
+  slider.innerHTML = `
+    <article class="cafe-slide">
+      <div class="cafe-slide-image-wrap">
+        <img src="guides/${cafe.image}" alt="Café ${cafe.ordre}" class="cafe-slide-image">
+      </div>
+
+      <div class="cafe-slide-content">
+        <h3>Café ${cafe.ordre}</h3>
+
+        <p><strong>Adresse :</strong> ${cafe.adresse}</p>
+        <p><strong>Prix :</strong> ${cafe.prix}</p>
+        <p><strong>Niveau Gestion requis :</strong> ${cafe.levelgestion}</p>
+      </div>
+    </article>
+  `;
+
+  dots.innerHTML = cafes.map((_, index) => `
+    <button
+      type="button"
+      class="cafe-dot ${index === currentCafeIndex ? "active" : ""}"
+      data-index="${index}"
+      aria-label="Afficher le café ${index + 1}">
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".cafe-dot").forEach(dot => {
+    dot.addEventListener("click", () => {
+      currentCafeIndex = Number(dot.dataset.index);
+      renderCafeSlider();
+    });
+  });
+}
+
+document.getElementById("cafePrev").addEventListener("click", () => {
+  currentCafeIndex = (currentCafeIndex - 1 + cafes.length) % cafes.length;
+  renderCafeSlider();
+});
+
+document.getElementById("cafeNext").addEventListener("click", () => {
+  currentCafeIndex = (currentCafeIndex + 1) % cafes.length;
+  renderCafeSlider();
+});
+</script>
+
+<script>
+let gestionSteps = [];
+let currentGestionIndex = 0;
+
+fetch("data/guidegestion.json")
+  .then(res => {
+    if (!res.ok) throw new Error("guidegestion.json introuvable");
+    return res.json();
+  })
+  .then(data => {
+    gestionSteps = data.guidegestion || [];
+    renderGestionSlider();
+  })
+  .catch(err => console.error("Erreur chargement guide gestion :", err));
+
+function renderGestionSlider() {
+  const slider = document.getElementById("gestionSlider");
+  const dots = document.getElementById("gestionDots");
+
+  if (!gestionSteps.length) {
+    slider.innerHTML = "<p>Aucune étape disponible.</p>";
+    return;
+  }
+
+  const step = gestionSteps[currentGestionIndex];
+  const objectifs = Object.values(step.objectifs || {});
+
+  slider.innerHTML = `
+    <article class="gestion-slide">
+      <div class="gestion-header">
+        <h3>Étape ${step.etape}</h3>
+
+        <div class="gestion-rewards">
+          <strong>Récompense d’étape :</strong>
+          <ul>
+            ${(step.recompense || []).map(item => `<li>${item}</li>`).join("")}
+          </ul>
+        </div>
+      </div>
+
+      <div class="gestion-objectifs">
+        ${objectifs.map((objectif, index) => `
+          <div class="gestion-objectif-card">
+            <span class="gestion-objectif-number">${index + 1}</span>
+
+            <div>
+              <p>${objectif.description}</p>
+              <small>Récompense : ${objectif.recompense}</small>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    </article>
+  `;
+
+  dots.innerHTML = gestionSteps.map((_, index) => `
+    <button
+      type="button"
+      class="gestion-dot ${index === currentGestionIndex ? "active" : ""}"
+      data-index="${index}"
+      aria-label="Afficher l'étape ${index + 1}">
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".gestion-dot").forEach(dot => {
+    dot.addEventListener("click", () => {
+      currentGestionIndex = Number(dot.dataset.index);
+      renderGestionSlider();
+    });
+  });
+}
+
+document.getElementById("gestionPrev").addEventListener("click", () => {
+  currentGestionIndex = (currentGestionIndex - 1 + gestionSteps.length) % gestionSteps.length;
+  renderGestionSlider();
+});
+
+document.getElementById("gestionNext").addEventListener("click", () => {
+  currentGestionIndex = (currentGestionIndex + 1) % gestionSteps.length;
+  renderGestionSlider();
+});
+</script>
+
+<script>
+let espersVie = [];
+let selectedEsperVieIndex = 0;
+
+fetch("data/guidegestion.json")
+  .then(res => {
+    if (!res.ok) throw new Error("guidegestion.json introuvable");
+    return res.json();
+  })
+  .then(data => {
+    espersVie = data.espersvie || [];
+    renderEsperLifeList();
+    renderEsperLifeDetail();
+  })
+  .catch(err => console.error("Erreur chargement compétences Espers :", err));
+
+function renderEsperLifeList() {
+  const list = document.getElementById("esperLifeList");
+
+  list.innerHTML = espersVie.map((esper, index) => `
+    <button
+      type="button"
+      class="esper-life-portrait ${index === selectedEsperVieIndex ? "active" : ""}"
+      data-index="${index}"
+    >
+      <img src="img/${esper.id}.png" alt="${formatEsperName(esper.id)}">
+      <span>${formatEsperName(esper.id)}</span>
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".esper-life-portrait").forEach(btn => {
+    btn.addEventListener("click", () => {
+      selectedEsperVieIndex = Number(btn.dataset.index);
+      renderEsperLifeList();
+      renderEsperLifeDetail();
+    });
+  });
+}
+
+function renderEsperLifeDetail() {
+  const detail = document.getElementById("esperLifeDetail");
+  const esper = espersVie[selectedEsperVieIndex];
+
+  if (!esper) {
+    detail.innerHTML = "<p>Aucun Esper disponible.</p>";
+    return;
+  }
+
+  const levels = esper.competence?.levels || {};
+
+  detail.innerHTML = `
+    <article class="esper-life-card">
+      <div class="esper-life-card-header">
+        <img src="img/${esper.id}.png" alt="${formatEsperName(esper.id)}">
+
+        <div>
+          <h3>${formatEsperName(esper.id)}</h3>
+          <p>${esper.competence.nom}</p>
+          <div class="esper-life-rating">
+            ${renderEsperLifeStars(esper.rating)}
+          </div>
+        </div>
+      </div>
+
+      <div class="esper-life-levels">
+        ${Object.entries(levels).map(([level, description]) => `
+          <div class="esper-life-level">
+            <strong>${level.replace("level", "Niveau ")}</strong>
+            <p>${description}</p>
+          </div>
+        `).join("")}
+      </div>
+    </article>
+  `;
+}
+
+function renderEsperLifeStars(rating, max = 5) {
+  let html = "";
+
+  for (let i = 1; i <= max; i++) {
+    html += `<span class="${i <= rating ? "filled" : ""}">★</span>`;
+  }
+
+  return html;
+}
+
+function formatEsperName(id) {
+  return id
+    .split("-")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+</script>
+
+<script src="js/main.js"></script>    
+</body>
+</html>
