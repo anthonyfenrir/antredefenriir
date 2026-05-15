@@ -302,9 +302,9 @@ document.getElementById("cafeNext").addEventListener("click", () => {
 let gestionSteps = [];
 let currentGestionIndex = 0;
 
-fetch("data/guidegestion.json")
+fetch("data/guide-cafe.json")
   .then(res => {
-    if (!res.ok) throw new Error("guidegestion.json introuvable");
+    if (!res.ok) throw new Error("guide-cafe.json introuvable");
     return res.json();
   })
   .then(data => {
@@ -385,9 +385,9 @@ document.getElementById("gestionNext").addEventListener("click", () => {
 let espersVie = [];
 let selectedEsperVieIndex = 0;
 
-fetch("data/guidegestion.json")
+fetch("data/guide-cafe.json")
   .then(res => {
-    if (!res.ok) throw new Error("guidegestion.json introuvable");
+    if (!res.ok) throw new Error("guide-cafe.json introuvable");
     return res.json();
   })
   .then(data => {
