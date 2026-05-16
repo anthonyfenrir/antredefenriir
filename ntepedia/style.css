@@ -1963,7 +1963,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 550px;
+  min-height: 580px;
   background: linear-gradient(135deg, rgba(0, 20, 32, 0.92), rgba(12, 3, 25, 0.92));
   box-shadow: 0 0 28px rgba(0, 217, 255, 0.12);
 }
@@ -1991,6 +1991,12 @@ a {
 .console-bonus {
   display: grid;
   gap: 10px;
+}
+
+.console-bonus h3 {
+  font-family: 'Cinzel', serif;
+  color: #ff3ea5;
+  margin-bottom: 16px;
 }
 
 .console-bonus p {
