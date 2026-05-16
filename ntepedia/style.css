@@ -1901,6 +1901,167 @@ a {
   border-color: rgba(0, 217, 255, 0.28);
   }
 
+/* =========================
+   CODEX-CONSOLES
+========================= */
+
+.console-codex-section {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 28px;
+  margin: 36px 0;
+  align-items: start;
+}
+
+.console-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.console-card {
+  cursor: pointer;
+  border: 1px solid rgba(0, 217, 255, 0.25);
+  border-radius: 18px;
+  padding: 10px;
+  background: rgba(0, 18, 30, 0.72);
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.console-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: #00d9ff;
+  box-shadow: 0 0 18px rgba(0, 217, 255, 0.3);
+}
+
+.console-card.active {
+  border-color: #ff3ea5;
+  box-shadow: 0 0 18px rgba(255, 62, 165, 0.35);
+}
+
+.console-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.console-card span {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  line-height: 1.25;
+}
+
+.console-detail-card {
+  border: 1px solid rgba(0, 217, 255, 0.28);
+  border-radius: 24px;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(0, 20, 32, 0.92), rgba(12, 3, 25, 0.92));
+  box-shadow: 0 0 28px rgba(0, 217, 255, 0.12);
+}
+
+.console-detail-header {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.console-detail-header img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.console-detail-header h2 {
+  margin: 0 0 16px;
+  font-family: 'Cinzel', serif;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.console-bonus {
+  display: grid;
+  gap: 10px;
+}
+
+.console-bonus p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.console-bonus strong {
+  color: #00d9ff;
+}
+
+.console-modules {
+  margin-top: 28px;
+}
+
+.console-modules h3 {
+  font-family: 'Cinzel', serif;
+  color: #ff3ea5;
+  margin-bottom: 16px;
+}
+
+.console-module-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.console-module {
+  border: 1px solid rgba(0, 217, 255, 0.18);
+  border-radius: 16px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.045);
+  text-align: center;
+}
+
+.console-module img {
+  width: 100%;
+  max-width: 90px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.console-module span {
+  display: block;
+  margin-top: 8px;
+  color: #00d9ff;
+  font-weight: 700;
+}
+
+/* =========================
+   CODEX-LOGEMENTS
+========================= */
+
+/* =========================
+   CODEX-VEHICULES
+========================= */
+
+@media (max-width: 900px) {
+  .console-codex-section {
+    grid-template-columns: 1fr;
+  }
+
+  .console-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .console-detail-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .console-module-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 900px) {
   .esper-life-section {
     grid-template-columns: 1fr;
