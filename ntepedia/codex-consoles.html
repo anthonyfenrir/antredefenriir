@@ -172,17 +172,15 @@ function renderConsoleDetail() {
     <article class="console-detail-card">
       <div class="console-detail-header">
         <img src="consoles/${console.image}" alt="${console.nom}">
-
-        <div>
-          <h2>${console.nom}</h2>
-
-          <div class="console-bonus">
-            <p><strong>Bonus 2 pièces :</strong> ${console.bonusset.set2}</p>
-            <p><strong>Bonus 4 pièces :</strong> ${console.bonusset.set4}</p>
-          </div>
-        </div>
+        <h2>${console.nom}</h2>
       </div>
-
+      
+      <div class="console-bonus">
+          <h3>Bonus de Set</h3>
+          <p><strong>Bonus 2 pièces :</strong> ${console.bonusset.set2}</p>
+          <p><strong>Bonus 4 pièces :</strong> ${console.bonusset.set4}</p>
+      </div>
+      
       <div class="console-modules">
         <h3>Modules</h3>
 
