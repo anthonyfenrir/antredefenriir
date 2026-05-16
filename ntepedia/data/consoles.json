@@ -3,66 +3,114 @@
 	"empty": {
       "nom": "À venir",
       "image": "empty.png",
-      "modules": []
+	  "modules": []
     },  
     "herisson": {
       "nom": "Hérisson rapide",
       "image": "herisson.png",
+	  "bonusset": {
+		  "set2": "Efficacité de la charge +12%",
+		  "set4": "Augmente l'ATQ de tous les alliés de 15% pendant 20 secondes après que le porteur a lancé son ultime. Non cumulable."
+	  },
       "modules": ["L4", "L1", "L2", "L3"]
     },
 	"boxeur": {
       "nom": "Boxeur de rue",
       "image": "boxeur.png",
+	  "bonusset": {
+		  "set2": "DEG de lakshana +10%.",
+		  "set4": "Augmente les chances de CRT de 14%. Le déclenchement de Rémora ou de Tache par l'équipe porte le bonus à 14% pendant 20 secondes."
+	  },
       "modules": ["1x2", "1x3", "L2", "Z2"]
     },
 	"credo": {
       "nom": "Crédo de l'ombre",
       "image": "credo.png",
+	  "bonusset": {
+		  "set2": "ATQ +10%.",
+		  "set4": "Augmente l'ATQ du porteur de 25% pendant 20 secondes après l'utilisation d'une compétence."
+	  },
       "modules": ["1x2", "2x1", "1x4", "Z1"]
     },
 	"diabolos": {
       "nom": "Diabolos",
       "image": "diabolos.png",
+	  "bonusset": {
+		  "set2": "DEG de chaos +10%.",
+		  "set4": "Ignore 12% de la RES au chaos des ennemis. Ignore 24% de la RES des ennemis pendant 20 secondes après que le porteur a participé à des réactions Nova ou Brûlure."
+	  },
       "modules": ["2x1", "L1", "L3", "1x4"]
     },
 	"ecarlate": {
       "nom": "Écarlate : papillons jumeaux",
       "image": "ecarlate.png",
+	  "bonusset": {
+		  "set2": "DEG d'incantation +10%.",
+		  "set4": "Augmente l'ATQ du porteur de 6% lorsqu'un ennemi à prixmité subit des DEG d'incantation de la part de l'équipe, jusqu'à 6 cumuls. Chaque cumul dure 10 secondes. L'effet reste actif même lorsque le personnage est hors du terrain."
+	  },
       "modules": ["2x1", "1x3", "L3", "Z2"]
     },
 	"eclat": {
       "nom": "Éclat perdu",
       "image": "eclat.png",
+	  "bonusset": {
+		  "set2": "DEG de cosmos +10%.",
+		  "set4": "Ignore 25% de la DEF des ennemis pendant 20 secondes après que le porteur a lancé son ultime. Non cumulable."
+	  },
       "modules": ["1x2", "L4", "L2", "1x4"]
     },
 	"garde": {
       "nom": "Garde royal",
       "image": "garde.png",
+	  "bonusset": {
+		  "set2": "DEF +15%",
+		  "set4": "Augmente les boucliers du porteur de 20%."
+	  },
       "modules": ["1x3", "3x1", "L2", "L3"]
     },
 	"lucioles": {
       "nom": "Lucioles et forêt",
       "image": "lucioles.png",
+	  "bonusset": {
+		  "set2": "DEG d'anima +10%.",
+		  "set4": "Augmente les DEG CRT du porteur de 8% lorsqu'un ennemi à proximité subit des DEG d'anima de la part de l'équipe, jusqu'à 7 cumuls. Chaque cumul du 10 secondes. L'effet reste actif même lorsque le personnage est hors du terrain."
+	  },
       "modules": ["1x2", "3x1", "L4", "Z1"]
     },
 	"manoir": {
       "nom": "Manoir silencieux",
       "image": "manoir.png",
+	  "bonusset": {
+		  "set2": "DEG psyché +10%.",
+		  "set4": "Confère au porteur un boost de DEG psyché de 12% par attaque de base, cumulable 3 fois. Chaque cumul dure 6 secondes."
+	  },
       "modules": ["1x2", "2x1", "1x4", "Z1"]
     },
 	"sang": {
       "nom": "Sang du diable : malédiction",
       "image": "sang.png",
+	  "bonusset": {
+		  "set2": "DEG de psyché +10%.",
+		  "set4": "Augmente les DEG du porteur de 18%. Le bonus est porté à 36% contre les unités affectées par Nova ou Tache."
+	  },
       "modules": ["1x2", "1x3", "L1", "Z1"]
     },
 	"taverne": {
       "nom": "Taverne nocturne de Théa",
       "image": "taverne.png",
+	  "bonusset": {
+		  "set2": "PV +10%.",
+		  "set4": "Augmente le bonus de soins du porteur de 20%."
+	  },
       "modules": ["1x3", "3x1", "L4", "L1"]
     },
 	"aventure": {
       "nom": "Petite aventure gigantesque",
       "image": "aventure.png",
+	  "bonusset": {
+		  "set2": "PV +10%.",
+		  "set4": "Augmente les PV max du porteur de 4% lorsqu'il subit des dégâts, cumulable jusqu'à 10 fois. Chaque cumul dure 10 secondes. Lance l'ultime génère instantanément 10 cumuls."
+	  },
       "modules": ["1x2", "2x1", "1x4", "Z2"]
     }
 	
