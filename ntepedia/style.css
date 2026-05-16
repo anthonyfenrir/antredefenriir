@@ -1925,7 +1925,6 @@ a {
   border: 1px solid rgba(0, 217, 255, 0.25);
   border-radius: 18px;
   padding: 10px;
-  min-height: 600px;
   background: rgba(0, 18, 30, 0.72);
   color: #fff;
   font-family: 'Cinzel', serif;
@@ -1961,6 +1960,7 @@ a {
   border: 1px solid rgba(0, 217, 255, 0.28);
   border-radius: 24px;
   padding: 24px;
+  min-height: 600px;
   background: linear-gradient(135deg, rgba(0, 20, 32, 0.92), rgba(12, 3, 25, 0.92));
   box-shadow: 0 0 28px rgba(0, 217, 255, 0.12);
 }
