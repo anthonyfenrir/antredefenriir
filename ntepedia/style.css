@@ -1924,6 +1924,7 @@ a {
   border: 1px solid rgba(0, 217, 255, 0.25);
   border-radius: 18px;
   padding: 10px;
+  min-height: 600px;
   background: rgba(0, 18, 30, 0.72);
   color: #fff;
   font-family: 'Cinzel', serif;
