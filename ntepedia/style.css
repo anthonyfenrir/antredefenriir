@@ -1663,7 +1663,7 @@ a {
   border-radius: 24px;
   padding: 24px;
   background: linear-gradient(135deg, rgba(0, 20, 32, 0.92), rgba(12, 3, 25, 0.92));
-  box-shadow: 0 0 28px rgba(0, 234, 255, 0.12);
+  box-shadow: 0 0 28px rgba(0, 217, 255, 0.12);
 }
 
 .gestion-header {
