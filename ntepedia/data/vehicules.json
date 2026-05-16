@@ -1,0 +1,852 @@
+{
+  "vehicules": [
+    {
+      "id": "rover",
+      "nom": "Rover A1",
+      "image": "rover.png",
+      "garage": "Terminer Prologue",
+      "prix": "Gratuit",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "40"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "2"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "Infinie"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "0"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "30"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "30"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "60"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "50"
+        }
+      ]
+    },
+    {
+      "id": "c2000",
+      "nom": "C2000",
+      "image": "c2000.png",
+      "garage": "Novus",
+      "prix": "50 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "130"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "3"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "17 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "40"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "50"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "60"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "30"
+        }
+      ]
+    },
+    {
+      "id": "novis",
+      "nom": "Novis ST-X 950",
+      "image": "novis.png",
+      "garage": "Regalia",
+      "prix": "250 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "140"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "6"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "4 400"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "80"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "50"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "50"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "80"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "60"
+        }
+      ]
+    },
+    {
+      "id": "k01",
+      "nom": "K01",
+      "image": "k01.png",
+      "garage": "Boutique",
+      "prix": "6 100 Annulith",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "80"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "8"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "Infinie"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "100"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "20"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "90"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "90"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "70"
+        }
+      ]
+    },
+    {
+      "id": "m1000",
+      "nom": "M1000",
+      "image": "m1000.png",
+      "garage": "Novus",
+      "prix": "350 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "146"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "5"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "18 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "50"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "50"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "60"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "40"
+        }
+      ]
+    },
+    {
+      "id": "st79",
+      "nom": "ST79",
+      "image": "st79.png",
+      "garage": "Novus",
+      "prix": "600 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "155"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "5"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "19 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "50"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "50"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "50"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "40"
+        }
+      ]
+    },
+    {
+      "id": "enforcer",
+      "nom": "Enforcer",
+      "image": "enforcer.png",
+      "garage": "Novus",
+      "prix": "1 720 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "172"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "6"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "18 700"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "60"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "70"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "30"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "80"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "60"
+        }
+      ]
+    },
+    {
+      "id": "griffon",
+      "nom": "Griffon",
+      "image": "griffon.png",
+      "garage": "Regalia",
+      "prix": "1 500 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "170"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "6"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "16 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "60"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "40"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "60"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "40"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        }
+      ]
+    },
+    {
+      "id": "griffonv",
+      "nom": "Griffon Volante",
+      "image": "griffonv.png",
+      "garage": "Regalia",
+      "prix": "1 800 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "170"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "6"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "16 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "60"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "40"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "60"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "40"
+        }
+      ]
+    },
+    {
+      "id": "lavelox",
+      "nom": "LaVelox",
+      "image": "lavelox.png",
+      "garage": "Regalia",
+      "prix": "10 800 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "191"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "8"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "15 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "90"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "40"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "80"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        }
+      ]
+    },
+    {
+      "id": "pouruite",
+      "nom": "Poursuite V8",
+      "image": "poursuite.png",
+      "garage": "Regalia",
+      "prix": "4 000 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "180"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "7"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "16 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "60"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "60"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "60"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "70"
+        }
+      ]
+    },
+    {
+      "id": "pendragon",
+      "nom": "Pendragon",
+      "image": "pendragon.png",
+      "garage": "Regalia",
+      "prix": "12 000 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "202"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "9"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "13 850"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "80"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "50"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "50"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "80"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "70"
+        }
+      ]
+    },
+    {
+      "id": "blizzard",
+      "nom": "Blizzard-V4",
+      "image": "blizzard.png",
+      "garage": "Regalia",
+      "prix": "2 450 000 Fons",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "180"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "7"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "5 400"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "100"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "50"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "40"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "90"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "70"
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "nom": "G3",
+      "image": "g3.png",
+      "garage": "TerraX",
+      "prix": "200 000",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "138"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "4"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "36 650"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "30"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "70"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "60"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "0"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "50"
+        }
+      ]
+    },
+    {
+      "id": "b100",
+      "nom": "B100",
+      "image": "b100.png",
+      "garage": "Novus",
+      "prix": "20 000 Pièces Papatte",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "132"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "4"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "17 000"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "50"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "40"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "70"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "40"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "40"
+        }
+      ]
+    },
+    {
+      "id": "ruee",
+      "nom": "Ruée du futur",
+      "image": "ruee.png",
+      "garage": "Boutique des Papatte Rose",
+      "prix": "30 000 Pièces Papatte",
+      "base": [
+        {
+          "nom": "Vitesse maximale",
+          "valeur": "50"
+        },
+        {
+          "nom": "Accélération",
+          "valeur": "2"
+        },
+        {
+          "nom": "Durabilité",
+          "valeur": "Infinie"
+        }
+      ],
+      "avancees": [
+        {
+          "nom": "Rapidité de passage de vitesses",
+          "min": "Lent",
+          "max": "Rapide",
+          "percent": "0"
+        },
+        {
+          "nom": "Hauteur de suspension",
+          "min": "Basse",
+          "max": "Élevée",
+          "percent": "10"
+        },
+        {
+          "nom": "Amortisseurs",
+          "min": "Doux",
+          "max": "Difficiles",
+          "percent": "90"
+        },
+        {
+          "nom": "Frein à main",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "70"
+        },
+        {
+          "nom": "Force de freinage",
+          "min": "Faible",
+          "max": "Fort",
+          "percent": "50"
+        }
+      ]
+    }
+  ]
+}

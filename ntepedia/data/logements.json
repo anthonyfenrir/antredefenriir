@@ -1,0 +1,164 @@
+{
+  "logements": [
+    {
+      "id": "wiener",
+      "levelmagnat": 5,
+      "image": "wiener.png",
+      "nom": "Appartements Wiener",
+      "taille": "L",
+      "prix": "200 000 Fons",
+      "quartier": "Ville Chimérique",
+      "meubles": ["flan", "boxeur", "mecano", "avion", "mammon", "numero", "alerte"]
+    },
+    {
+      "id": "eden",
+      "levelmagnat": 7,
+      "image": "eden.png",
+      "nom": "Appartements d'Éden",
+      "taille": "LL",
+      "prix": "1 000 000 Fons",
+      "quartier": "Croisée des ponts",
+      "meubles": ["flan", "majordome", "numero", "casque", "boite", "noeud", "alerte", "mecano", "hamster"]
+    },
+    {
+      "id": "panoramique",
+      "levelmagnat": 9,
+      "image": "panoramique.png",
+      "nom": "Halls avec vue panoramique",
+      "taille": "LL",
+      "prix": "1 400 000 Fons",
+      "quartier": "Quartier de Miguel",
+      "meubles": ["caisse", "hamster", "lame", "skateboard", "numero", "majordome", "alerte", "coquille", "mecano"]
+    },
+    {
+      "id": "dore",
+      "levelmagnat": 11,
+      "image": "dore.png",
+      "nom": "Capital doré",
+      "taille": "LLL",
+      "prix": "2 000 000 Fons",
+      "quartier": "Quartier de New Herland",
+      "meubles": ["caisse", "noeud", "alerte", "numero", "boite", "boxeur", "majordome", "mecano", "casque"]
+    },
+    {
+      "id": "fenglin",
+      "levelmagnat": 13,
+      "image": "fenglin.png",
+      "nom": "Villa de Fenglin",
+      "taille": "LLL",
+      "prix": "8 000 000 Fons",
+      "quartier": "Croisée des ponts",
+      "meubles": ["flan", "numero", "lame", "replique", "avion", "mammon", "coquille", "alerte", "skateboard", "poissons"]
+    }
+  ],
+  "meubles": {
+    "flan": {
+      "id": "flan",
+      "nom": "Flan",
+      "image": "flan.png",
+      "effet": "Recevez 1 Coton Flanelle toutes les X heures."
+    },
+    "boxeur": {
+      "id": "boxeur",
+      "nom": "Boxeur se reposant",
+      "image": "boxeur.png",
+      "effet": "Augmente les DEG CRT des personnages déployés."
+    },
+    "mecano": {
+      "id": "mecano",
+      "nom": "Mécano",
+      "image": "mecano.png",
+      "effet": "Permet la réparation de véhicules."
+    },
+    "avion": {
+      "id": "avion",
+      "nom": "Avion en papier",
+      "image": "avion.png",
+      "effet": "Réduit le coût en endurance de l'action Escalader des personnages déployés."
+    },
+    "mammon": {
+      "id": "mammon",
+      "nom": "Mammon",
+      "image": "mammon.png",
+      "effet": "Déverrouille le Royaume de la cupidité."
+    },
+    "numero": {
+      "id": "numero",
+      "nom": "Numéro inconnu",
+      "image": "numero.png",
+      "effet": "Active la téléportation rapide vers la propriété."
+    },
+    "alerte": {
+      "id": "alerte",
+      "nom": "Alerte Hou-Hou",
+      "image": "alerte.png",
+      "effet": "Alerte hou-hou supprime votre mandat lorsque vous entrez dans la propriété."
+    },
+    "majordome": {
+      "id": "majordome",
+      "nom": "Majordome Or",
+      "image": "majordome.png",
+      "effet": "Service d'achèvement rapide des zones d'anomalies. Tentative X/X."
+    },
+    "casque": {
+      "id": "casque",
+      "nom": "Casque oublié",
+      "image": "casque.png",
+      "effet": "Réduit la perte de durabilité du véhicule pendant les courses."
+    },
+    "boite": {
+      "id": "boite",
+      "nom": "Vieille boîte aux lettres",
+      "image": "boite.png",
+      "effet": "Accepter la livraison spéciale en ville dans la Boîte aux lettres une fois par semaine."
+    },
+    "noeud": {
+      "id": "noeud",
+      "nom": "Noeud du Tisseur de rêves",
+      "image": "noeud.png",
+      "effet": " Augmente la limite de pixels de personnages."
+    },
+    "hamster": {
+      "id": "hamster",
+      "nom": "Boulette de hamster",
+      "image": "hamster.png",
+      "effet": "Nourrisez les Boulettes de hamster pour obtenir des modules de différentes raretés."
+    },
+    "caisse": {
+      "id": "caisse",
+      "nom": "Caisse endommagée",
+      "image": "caisse.png",
+      "effet": "Contient des pièces coléoptères. Limite quotidienne : X/X."
+    },
+    "lame": {
+      "id": "lame",
+      "nom": "Lame innommable",
+      "image": "lame.png",
+      "effet": "Augmente l'ATQ des personnages déployés."
+    },
+    "skateboard": {
+      "id": "skateboard",
+      "nom": "Vieux Skateboard",
+      "image": "skateboard.png",
+      "effet": "Réduit le co^t en endurance des actions Courir et Esquiver des personnages déployés."
+    },
+    "coquille": {
+      "id": "coquille",
+      "nom": "Coquille vide",
+      "image": "coquille.png",
+      "effet": "Augmente le DEF des personnages déployés."
+    },
+    "replique": {
+      "id": "replique",
+      "nom": "Réplique de la voiture fantôme",
+      "image": "replique.png",
+      "effet": "Réduit la perte de Durabilité du béhicule des personnages déployés."
+    },
+    "poissons": {
+      "id": "poissons",
+      "nom": "Bannière de poissons jumeaux",
+      "image": "poissons.png",
+      "effet": "Réduit le coût en endurance de l'action Nager des personnages déployés."
+    }
+  }
+}
