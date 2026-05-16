@@ -694,7 +694,7 @@
       "nom": "G3",
       "image": "g3.png",
       "garage": "TerraX",
-      "prix": "200 000",
+      "prix": "200 000 Fons",
       "base": [
         {
           "nom": "Vitesse maximale",
