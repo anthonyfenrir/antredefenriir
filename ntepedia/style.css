@@ -2070,9 +2070,11 @@ a {
 .housing-img {
   display: block;
   width: 100%;
-  max-width: 760px;
-  max-height: 360px;
-  object-fit: contain;
+  max-width: 900px;
+  aspect-ratio: 1312 / 784;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
   margin: 0 auto 24px;
   border-radius: 18px;
   border: 1px solid rgba(0, 217, 255, 0.22);
