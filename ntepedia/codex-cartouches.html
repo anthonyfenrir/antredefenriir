@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Codex des Consoles - Neverness to Everness FR | NTEPedia</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="annex/favicon-np.png">
+  <link rel="shortcut icon" href="annex/favicon-np.png">
+  <link rel="apple-touch-icon" href="annex/favicon-np.png">
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="container">
+    <img
+      src="annex/ntepedia-banner.png"
+      alt="NTEPedia - Guide FR Neverness to Everness"
+      class="hero-banner"
+    >
+  </div>
+</section>
+  
+<section class="hero-subtitle-section">
+  <div class="container">
+    <h1 class="hero-subtitle">
+      Ta base de données FR dédiée à Neverness to Everness
+    </h1>
+
+    <p class="hero-subline">
+      Tous les outils qu'il te faut pour évoluer dans le jeu !
+    </p>
+  </div>
+</section>  
+
+<section class="main-nav">
+  <div class="container">
+    <div class="nav-grid">
+
+      <a href="index.html" class="nav-card">
+        <img src="annex/icon-home.png" alt="Accueil" class="nav-icon">
+        <span>Accueil</span>
+      </a>
+
+      <a href="guides.html" class="nav-card">
+        <img src="annex/icon-guide.png" alt="Guides" class="nav-icon">
+        <span>Guides</span>
+      </a>
+
+      <a href="personnages.html" class="nav-card">
+        <img src="annex/icon-perso.png" alt="Espers" class="nav-icon">
+        <span>Espers</span>
+      </a>
+
+      <a href="codex.html" class="nav-card">
+        <img src="annex/icon-codex.png" alt="Codex" class="nav-icon">
+        <span>Codex</span>
+      </a>
+
+      <a href="bot.html" class="nav-card">
+        <img src="annex/icon-discord.png" alt="Bot Discord" class="nav-icon">
+        <span>Bot Discord</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="section guide-page">
+  <div class="container">
+    <img
+      src="annex/banner-guide-consoles.png"
+      alt="Codex - Consoles"
+      class="guide-banner"
+    >
+    
+    <section class="console-codex-section">
+      <div id="consoleList" class="console-list"></div>
+      <div id="consoleDetail" class="console-detail"></div>
+    </section>
+    
+  </div>
+</section>
+
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+          <a href="/ntepedia/index.html">Accueil</a>
+          <a href="/ntepedia/personnages.html">Personnages</a>
+          <a href="https://discord.gg/2fXaeCDmq5">Discord Support</a>
+          <a href="/ntepedia/tos.html">Conditions d’utilisation</a>
+          <a href="/ntepedia/privacy.html">Confidentialité</a>
+      </div>
+      
+      <div class="footer-credits">
+          <p>Webmaster : <strong>FenriirCode</strong></p>
+          <p>
+            NTEPedia est un site communautaire non officiel dédié à Neverness to Everness.
+            Neverness to Everness™, ses personnages, logos et ressources visuelles
+            appartiennent à Perfect World Games et Hotta Studio.
+          </p>
+      </div>
+    </div>
+  </footer>
+<script src="js/auto-terms.js"></script>   
+<button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+  <img src="annex/up-arrow.png" alt="">
+</button>
+
+<script>
+let consoles = [];
+let selectedConsoleIndex = 0;
+
+fetch("data/consoles.json")
+  .then(res => {
+    if (!res.ok) throw new Error("consoles.json introuvable");
+    return res.json();
+  })
+  .then(data => {
+    consoles = Object.entries(data.consoles)
+      .filter(([id]) => id !== "empty")
+      .map(([id, console]) => ({ id, ...console }));
+
+    renderConsoleList();
+    renderConsoleDetail();
+  })
+  .catch(err => console.error("Erreur Codex Consoles :", err));
+
+function renderConsoleList() {
+  const list = document.getElementById("consoleList");
+
+  list.innerHTML = consoles.map((console, index) => `
+    <button
+      type="button"
+      class="console-card ${index === selectedConsoleIndex ? "active" : ""}"
+      data-index="${index}"
+    >
+      <img src="consoles/${console.image}" alt="${console.nom}">
+      <span>${console.nom}</span>
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".console-card").forEach(card => {
+    card.addEventListener("click", () => {
+      selectedConsoleIndex = Number(card.dataset.index);
+      renderConsoleList();
+      renderConsoleDetail();
+    });
+  });
+}
+
+function renderConsoleDetail() {
+  const detail = document.getElementById("consoleDetail");
+  const console = consoles[selectedConsoleIndex];
+
+  if (!console) {
+    detail.innerHTML = "<p>Aucune console sélectionnée.</p>";
+    return;
+  }
+
+  detail.innerHTML = `
+    <article class="console-detail-card">
+      <div class="console-detail-header">
+        <img src="consoles/${console.image}" alt="${console.nom}">
+
+        <div>
+          <h2>${console.nom}</h2>
+
+          <div class="console-bonus">
+            <p><strong>Bonus 2 pièces :</strong> ${console.bonusset.set2}</p>
+            <p><strong>Bonus 4 pièces :</strong> ${console.bonusset.set4}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="console-modules">
+        <h3>Modules</h3>
+
+        <div class="console-module-grid">
+          ${console.modules.map(module => `
+            <div class="console-module">
+              <img src="consoles/modules/${module}.png" alt="Module ${module}">
+              <span>${module}</span>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+    </article>
+  `;
+}
+</script>
+  
+<script src="js/main.js"></script>    
+</body>
+</html>
