@@ -1898,7 +1898,7 @@ a {
 .gestion-slider,
 .esper-life-card,
 .esper-life-section {
-  border-color: rgba(0, 217, 255, 0.28);
+  border-color: rgba(0, 200, 255, 0.28);
 }
 
 @media (max-width: 900px) {
