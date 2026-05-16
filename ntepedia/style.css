@@ -1146,7 +1146,7 @@ a {
   height: auto;
   max-height: 200px;
   margin: 0 auto 32px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   object-fit: contain;
   filter: drop-shadow(0 0 14px rgba(0, 217, 255, 0.18));
 }
