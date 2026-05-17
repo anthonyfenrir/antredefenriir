@@ -10,63 +10,63 @@
 	"gemme": {
 	  "rang": "2",
       "nom": "Gemme pourpre",
-	  "image": "gemme",
+	  "image": "gemme.png",
       "fons": "131 400",
 	  "pieces": "480"
     },
 	"jade": {
 	  "rang": "3",
       "nom": "Jade brillante",
-	  "image": "jade",
+	  "image": "jade.png",
       "fons": "88 888",
 	  "pieces": "360"
     },
 	"statue": {
 	  "rang": "4",
       "nom": "Statue dorée de Giovanni",
-	  "image": "statue",
+	  "image": "statue.png",
       "fons": "50 000",
 	  "pieces": "288"
     },
 	"goutte": {
 	  "rang": "5",
       "nom": "Goutte de rosée océanique",
-	  "image": "goutte",
+	  "image": "goutte.png",
       "fons": "40 000",
 	  "pieces": "240"
     },
 	"planetaire": {
 	  "rang": "6",
       "nom": "Planétaire",
-	  "image": "planetaire",
+	  "image": "planetaire.png",
       "fons": "27 500",
 	  "pieces": "180"
     },
 	"trembletoile": {
 	  "rang": "7",
       "nom": "Tremblétoile",
-	  "image": "trembletoile",
+	  "image": "trembletoile.png",
       "fons": "20 000",
 	  "pieces": "180"
     },
 	"vase": {
 	  "rang": "8",
       "nom": "Vase en porcelaine bleue et blanche",
-	  "image": "vase",
+	  "image": "vase.png",
       "fons": "15 000",
 	  "pieces": "120"
     },
 	"emeraude": {
 	  "rang": "9",
       "nom": "Émeraude des neiges",
-	  "image": "emeraude",
+	  "image": "emeraude.png",
       "fons": "15 000",
 	  "pieces": "120"
     },
 	"antalgique": {
 	  "rang": "10",
       "nom": "Super méga antalgique",
-	  "image": "antalgique",
+	  "image": "antalgique.png",
       "fons": "12 000",
 	  "pieces": "120"
     }
