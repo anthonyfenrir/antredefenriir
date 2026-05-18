@@ -63,4 +63,44 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://fenriircode.com/ntepedia/guide-fons.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fenriircode.com/ntepedia/guide-cafe.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fenriircode.com/ntepedia/guide-braquage.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fenriircode.com/ntepedia/codex.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://fenriircode.com/ntepedia/codex-arcs.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fenriircode.com/ntepedia/codex-consoles.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fenriircode.com/ntepedia/codex-logements.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://fenriircode.com/ntepedia/codex-vehicules.html</loc>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
