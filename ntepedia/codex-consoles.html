@@ -82,9 +82,9 @@
       class="guide-banner"
     >
     
-    <section class="console-codex-section">
-      <div id="consoleList" class="console-list"></div>
-      <div id="consoleDetail" class="console-detail"></div>
+    <section class="cartouche-codex-section">
+      <div id="consoleList" class="cartouche-list"></div>
+      <div id="consoleDetail" class="cartouche-detail"></div>
     </section>
     
   </div>
@@ -142,7 +142,7 @@ function renderConsoleList() {
   list.innerHTML = consoles.map((console, index) => `
     <button
       type="button"
-      class="console-card ${index === selectedConsoleIndex ? "active" : ""}"
+      class="cartouche-card ${index === selectedConsoleIndex ? "active" : ""}"
       data-index="${index}"
     >
       <img src="consoles/${console.image}" alt="${console.nom}">
@@ -150,7 +150,7 @@ function renderConsoleList() {
     </button>
   `).join("");
 
-  document.querySelectorAll(".console-card").forEach(card => {
+  document.querySelectorAll(".cartouche-card").forEach(card => {
     card.addEventListener("click", () => {
       selectedConsoleIndex = Number(card.dataset.index);
       renderConsoleList();
@@ -169,24 +169,24 @@ function renderConsoleDetail() {
   }
 
   detail.innerHTML = `
-    <article class="console-detail-card">
-      <div class="console-detail-header">
+    <article class="cartouche-detail-card">
+      <div class="cartouche-detail-header">
         <img src="consoles/${console.image}" alt="${console.nom}">
         <h2>${console.nom}</h2>
       </div>
       
-      <div class="console-bonus">
+      <div class="cartouche-bonus">
           <h3>Bonus de Set</h3>
           <p><strong>Bonus 2 pièces :</strong> ${console.bonusset.set2}</p>
           <p><strong>Bonus 4 pièces :</strong> ${console.bonusset.set4}</p>
       </div>
       
-      <div class="console-modules">
+      <div class="cartouche-modules">
         <h3>Modules</h3>
 
-        <div class="console-module-grid">
+        <div class="cartouche-module-grid">
           ${console.modules.map(module => `
-            <div class="console-module">
+            <div class="cartouche-module">
               <img src="consoles/modules/${module}.png" alt="Module ${module}">
             </div>
           `).join("")}
