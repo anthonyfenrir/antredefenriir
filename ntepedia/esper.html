@@ -334,16 +334,40 @@ function renderConsoleCard(title, consoleId, consoles) {
   `;
 }  
 
+function renderFavoriteGifts(character, ressources) {
+  const gifts = ressources.filter(item =>
+    Array.isArray(item.favoris) &&
+    item.favoris.includes(character.id)
+  );
+
+  if (gifts.length === 0) {
+    return "<p>Cadeaux favoris à venir.</p>";
+  }
+
+  return `
+    <div class="favorite-gifts">
+      ${gifts.map(gift => `
+        <div class="favorite-gift">
+          <img src="ressources/${gift.image}" alt="${gift.nom}">
+          <span>${gift.nom}</span>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
 Promise.all([
   fetch("data/characters_full.json").then(response => response.json()),
   fetch("data/arcs.json").then(response => response.json()),
-  fetch("data/consoles.json").then(response => response.json())
+  fetch("data/consoles.json").then(response => response.json()),
+  fetch("data/ressources.json").then(response => response.json())
 ])
-  .then(([data, arcsData, consolesData]) => {
+  .then(([data, arcsData, consolesData, ressourcesData]) => {
     const character = data.characters.find(char => char.id === characterId);
     const arcs = arcsData.arcs;
     const consoles = consolesData.consoles;
     const container = document.getElementById("character-sheet");
+    const ressources = ressourcesData.ressources;
 
     if (!character) {
       container.innerHTML = "<p>Esper introuvable.</p>";
@@ -412,6 +436,11 @@ Promise.all([
           <section class="sheet-card">
             <h2>Équipe(s) recommandée(s)</h2>
             ${renderTeams(character.team_recommandee, data.characters)}
+          </section>
+
+          <section class="sheet-card">
+            <h2>Cadeaux favoris</h2>
+            ${renderFavoriteGifts(character, ressources)}
           </section>
 
         </div>
