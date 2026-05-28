@@ -69,8 +69,6 @@ function renderRessources() {
         </div>
 
         <div class="ressource-card-back">
-          <h3>${item.nom}</h3>
-
           <div>
             <strong>Obtention</strong>
             <p>${cleanList(item.obtention)}</p>
