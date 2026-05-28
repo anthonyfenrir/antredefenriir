@@ -88,6 +88,11 @@
     <priority>0.7</priority>
   </url>
 
+   <url>
+    <loc>https://fenriircode.com/ntepedia/codex-ressources.html</loc>
+    <priority>0.7</priority>
+  </url>
+
   <url>
     <loc>https://fenriircode.com/ntepedia/codex-consoles.html</loc>
     <priority>0.7</priority>
