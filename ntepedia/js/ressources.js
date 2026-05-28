@@ -70,7 +70,9 @@ function renderRessources() {
         <div class="ressource-card-back">
           <div>
             <strong>Obtention</strong>
-            <p>${cleanList(item.obtention)}</p>
+            <ul>
+              ${cleanBulletList(item.obtention)}
+            </ul>
           </div>
 
           <div>
@@ -83,6 +85,9 @@ function renderRessources() {
   `).join("");
 }
 
-function cleanList(list) {
-  return (list || []).filter(Boolean).join(" / ") || "—";
+function cleanBulletList(list) {
+  return (list || [])
+    .filter(Boolean)
+    .map(item => `<li>${item}</li>`)
+    .join("");
 }
