@@ -65,7 +65,6 @@ function renderRessources() {
         <div class="ressource-card-front">
           <img src="ressources/${item.image}" alt="${item.nom}">
           <h3>${item.nom}</h3>
-          <p>${item.categorie.join(" / ")}</p>
         </div>
 
         <div class="ressource-card-back">
