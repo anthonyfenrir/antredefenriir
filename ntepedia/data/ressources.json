@@ -54,9 +54,9 @@
       "locations": []
     },
 	{
-      "id": "guidechasseurdelite",
+      "id": "guidedechasseurdelite",
       "nom": "Guide de chasseur d'élite",
-      "image": "guidechasseurdelite.png",
+      "image": "guidedechasseurdelite.png",
       "categorie": ["Amélioration d'Espers"],
       "tag": ["XP"],
       "obtention": [
@@ -660,9 +660,9 @@
       "locations": []
     },
 	{
-      "id": "fragmentdugardiendunid",
+      "id": "fragmentdegardiendunid",
       "nom": "Fragment du gardien du nid",
-      "image": "fragmentdugardiendunid.png",
+      "image": "fragmentdegardiendunid.png",
       "categorie": ["Matériel d'ascension d'Espers"],
       "tag": ["Ascension"],
       "obtention": [
@@ -2234,7 +2234,7 @@
 	{
       "id": "gigaflanelle-pouvoirabsolu",
       "nom": "Gigaflanelle - Pouvoir absolu",
-      "image": "Gigaflanelle-pouvoirabsolu.png",
+      "image": "gigaflanelle-pouvoirabsolu.png",
       "categorie": ["Cadeaux", "Figurine"],
       "tag": ["Amitié"],
       "obtention": [
@@ -2638,9 +2638,9 @@
       "locations": []
     },
 	{
-      "id": "refraichissementfruite",
+      "id": "rafraichissementfruite",
       "nom": "Rafraîchissement fruité",
-      "image": "refraichissementfruite.png",
+      "image": "rafraichissementfruite.png",
       "categorie": ["Cadeaux", "Nourriture"],
       "tag": ["Amitié"],
       "obtention": [
