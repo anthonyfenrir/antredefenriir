@@ -2564,7 +2564,8 @@ a {
 
 .ressource-card-front h3,
 .ressource-card-back h3 {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+  line-height: 1.05;
   color: #fff;
   margin: 0 0 8px;
 }
@@ -2579,8 +2580,23 @@ a {
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   gap: 12px;
+}
+
+.ressource-card-back div:first-child {
+  margin-top: 12px;
+}
+
+.ressource-card-back div:last-child {
+  margin-bottom: 12px;
+}
+
+.ressource-card-back p {
+  margin: 5px 0 0;
+  font-size: 0.75rem;
+  line-height: 1.15;
+  color: #e8faff;
 }
 
 .ressource-card-back strong {
