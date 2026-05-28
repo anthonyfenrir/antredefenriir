@@ -2477,6 +2477,145 @@ a {
   color: #00d9ff;
 }
 
+/* =========================
+   CODEX-RESSOURCES
+========================= */
+.ressources-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.ressources-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 35px;
+}
+
+.ressources-filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ressource-filter {
+  border: 1px solid rgba(0, 217, 255, 0.45);
+  background: rgba(5, 15, 25, 0.8);
+  color: #e8faff;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: 0.2s ease;
+}
+
+.ressource-filter:hover,
+.ressource-filter.active {
+  background: rgba(0, 217, 255, 0.18);
+  box-shadow: 0 0 14px rgba(0, 217, 255, 0.35);
+  color: #00d9ff;
+}
+
+.ressources-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 18px;
+}
+
+.ressource-card {
+  perspective: 1000px;
+  min-height: 220px;
+}
+
+.ressource-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  transform-style: preserve-3d;
+  transition: transform 0.55s ease;
+}
+
+.ressource-card:hover .ressource-card-inner {
+  transform: rotateY(180deg);
+}
+
+.ressource-card-front,
+.ressource-card-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border: 1px solid rgba(0, 217, 255, 0.35);
+  border-radius: 18px;
+  background: rgba(8, 18, 30, 0.88);
+  box-shadow: 0 0 18px rgba(0, 217, 255, 0.16);
+  padding: 14px;
+  text-align: center;
+}
+
+.ressource-card-front img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.ressource-card-front h3,
+.ressource-card-back h3 {
+  font-size: 0.95rem;
+  color: #fff;
+  margin: 0 0 8px;
+}
+
+.ressource-card-front p {
+  font-size: 0.78rem;
+  color: #00d9ff;
+  margin: 0;
+}
+
+.ressource-card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.ressource-card-back strong {
+  color: #00d9ff;
+  font-size: 0.8rem;
+}
+
+.ressource-card-back p {
+  margin: 5px 0 0;
+  font-size: 0.78rem;
+  color: #e8faff;
+}
+
+@media (max-width: 1200px) {
+  .ressources-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .ressources-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ressources-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
 @media (max-width: 700px) {
   .valuable-card {
     grid-template-columns: 54px 70px 1fr;
