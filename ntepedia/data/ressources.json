@@ -1,0 +1,3019 @@
+{
+  "ressources": [
+    {
+      "id": "appatuniversel",
+      "nom": "Appât universel",
+      "image": "appartuniversel.png",
+      "categorie": ["Divers"],
+      "tag": ["Pêche"],
+      "obtention": [
+        "Boutique Pêche",
+        ""
+      ],
+      "effet": "Appât de pêche",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "guidedechasseurendevenir",
+      "nom": "Guide de chasseur en devenir",
+      "image": "guidedechasseurendevenir.png",
+      "categorie": ["Amélioration Espers"],
+      "tag": ["XP"],
+      "obtention": [
+        "Scène Magique de Houdini",
+        "Exploration",
+		"Échange du chasseur"
+      ],
+      "effet": "+ 1 000 XP d'Esper",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "guidedechasseursenior",
+      "nom": "Guide de chasseur senior",
+      "image": "guidedechasseursenior.png",
+      "categorie": ["Amélioration Espers"],
+      "tag": ["XP"],
+      "obtention": [
+        "Scène Magique de Houdini",
+        "Exploration",
+		"Échange du chasseur"
+      ],
+      "effet": "+ 5 000 XP d'Esper",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "guidechasseurdelite",
+      "nom": "Guide de chasseur d'élite",
+      "image": "guidechasseurdelite.png",
+      "categorie": ["Amélioration d'Esper"],
+      "tag": ["XP"],
+      "obtention": [
+        "Scène Magique de Houdini",
+        "Exploration",
+		"Échange de chasseur"
+      ],
+      "effet": "+ 20 000 XP d'Esper",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "noyaudexpansion",
+      "nom": "Noyau d'expansion",
+      "image": "noyaudexpansion.png",
+      "categorie": ["Amélioration d'Espers"],
+      "tag": ["Boîte"],
+      "obtention": [
+        "Échange du chasseur",
+        ""
+      ],
+      "effet": "Substitut matériel d'amélioration",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "grainesansreve",
+      "nom": "Graine sans rêve",
+      "image": "grainesansreve.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Activité journalière",
+        "Échange du chasseur"
+      ],
+      "effet": "Augmente le niveau du skill de vie",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "desirdoisillon",
+      "nom": "Désir d'oisillon",
+      "image": "desirdoisillon.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Boîte de sélection",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "fng",
+      "nom": "FNG",
+      "image": "fng.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Boîte de sélection",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "hesitationdesvagues",
+      "nom": "Hésitation des vagues",
+      "image": "hesitationdesvagues.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Boîte de sélection",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "premieresattentes",
+      "nom": "Premières attentes",
+      "image": "premieresattentes.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Boîte de sélection",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "synchronicitedepensee",
+      "nom": "Synchronicité de pensée",
+      "image": "synchronicitedepensee.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Boîte de sélection",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "envoldecolombe",
+      "nom": "Envol de colombe",
+      "image": "envoldecolombe.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "commandant",
+      "nom": "Commandant",
+      "image": "commandant.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "lassitudeconnue",
+      "nom": "Lassitude connue",
+      "image": "lassitudeconnue.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "murmuressuspendus",
+      "nom": "Murmures suspendus",
+      "image": "murmuressuspendus.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "resonancedelafoi",
+      "nom": "Résonance de la foi",
+      "image": "resonancedelafoi.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "rameaudolivier",
+      "nom": "Rameau d'olivier",
+      "image": "rameaudolivier.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "chapeaunoir",
+      "nom": "Chapeau noir",
+      "image": "chapeaunoir.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "lesecondsoi",
+      "nom": "Le second soi",
+      "image": "lesecondsoi.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "nuitpalpitante",
+      "nom": "Nuit palpitante",
+      "image": "nuitpalpitante.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "roseblanche",
+      "nom": "Rose blanche",
+      "image": "roseblanche.png",
+      "categorie": ["Amélioration Skill d'Espers"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Fabrication",
+        "Les complots d'Houdini",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "murmuresperdus",
+      "nom": "Murmures perdus",
+      "image": "murmuresperdus.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "silhouettedisparaissante",
+      "nom": "Silhouette disparaissante",
+      "image": "silhouettedisparaissante.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "chiffreflou",
+      "nom": "Chiffre flou",
+      "image": "chiffreflou.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "illusionssuspendues",
+      "nom": "Illusions suspendues",
+      "image": "illusionssuspendues.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "murmuresobscures",
+      "nom": "Murmures obscures",
+      "image": "murmuresobscures.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "silhouettefloue",
+      "nom": "Silhouette floue",
+      "image": "silhouettefloue.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "chiffrenonresolu",
+      "nom": "Chiffre non résolu",
+      "image": "chiffrenonresolu.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "illusionsnostalgiques",
+      "nom": "Illusions nostalgiques",
+      "image": "illusionsnostalgiques.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "murmuresparadoxaux",
+      "nom": "Murmures paradoxaux",
+      "image": "murmuresparadoxaux.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "silhouettechaotique",
+      "nom": "Silhouette chaotique",
+      "image": "silhouettechaotique.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "chiffredistordu",
+      "nom": "Chiffre distordu",
+      "image": "chiffredistordu.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "illusionstranscendantes",
+      "nom": "Illusions transcendantes",
+      "image": "illusionstranscendantes.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Fabrication",
+        "Drop sur anomalie",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "grainedefleurdeconfession",
+      "nom": "Graine de fleur de confession",
+      "image": "grainedefleurdeconfession.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Anomalie Serenetti"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "bougiedallumageduchevalierchargeant",
+      "nom": "Bougie d'allumage du chevalier chargeant",
+      "image": "bougiedallumageduchevalierchargeant.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Anomalie motard sans tête"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "unepagetireedurivageillusoire",
+      "nom": "Une page tirée du rivage illusoire",
+      "image": "unepagetireedurivageillusoire.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Anomalie Grimoire noir"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "mediatordeaulunaire",
+      "nom": "Mediator d'eau lunaire",
+      "image": "mediatordeaulunaire.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Anomalie Roi du Rythme"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "fragmentdugardiendunid",
+      "nom": "Fragment du gardien du nid",
+      "image": "fragmentdugardiendunid.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Anomalie Oiseau du Nid"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "boutdeticketcolore",
+      "nom": "Bout de ticket coloré",
+      "image": "boutdeticketcolore.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Anomalie Swallowtail"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "larmedemer",
+      "nom": "Larme de mer",
+      "image": "larmedemer.png",
+      "categorie": ["Matériel d'ascension d'Espers"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Boîte de sélection",
+        "Anomalie Prisonnier de la mer"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "tamponbonchien",
+      "nom": "Tampon bon chien",
+      "image": "tamponbonchien.png",
+      "categorie": ["Matériel d'amélioration de skill"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Pelerinage d'anomalie Morphix",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "manchederobedevanite",
+      "nom": "Manche de robe de vanité",
+      "image": "manchederobedevanite.png",
+      "categorie": ["Matériel d'amélioration de skill"],
+      "tag": ["Skill"],
+      "obtention": [
+        "Pelerinage d'anomalie Arachnide sans fin",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "teinturelegere",
+      "nom": "Teinture légère",
+      "image": "teinturelegere.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Arc XP"],
+      "obtention": [
+        "Scène magique d'Houdini",
+        "Exploration",
+		"Échange du chasseur"
+      ],
+      "effet": "+ 500 XP d'Arc",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "teintureincolore",
+      "nom": "Teinture incolore",
+      "image": "teintureincolore.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Arc XP"],
+      "obtention": [
+        "Scène magique d'Houdini",
+        "Exploration",
+		"Échange du chasseur"
+      ],
+      "effet": "+ 2 500 XP d'Arc",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "teinturechaotique",
+      "nom": "Teinture chaotique",
+      "image": "teinturechaotique.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Arc XP"],
+      "obtention": [
+        "Scène magique d'Houdini",
+        "Exploration",
+		"Échange du chasseur",
+		"Boîte de sélection"
+      ],
+      "effet": "+ 500 XP d'Arc",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "coeurdramatiquededemarrage",
+      "nom": "Coeur dramatique de démarrage",
+      "image": "coeurdramatiquededemarrage.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "dessertfroidinsipide",
+      "nom": "Dessert froid insipide",
+      "image": "dessertfroidinsipide.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "kitdessayagedereveliquide",
+      "nom": "Kit d'essayage de rêve liquide",
+      "image": "kitdessayagedereveliquide.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "pepindepommeenfer",
+      "nom": "Pépin de pomme en fer",
+      "image": "pepindepommeenfer.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "rythme",
+      "nom": "Rythme",
+      "image": "rythme.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "coeurdramatiquedemaitre",
+      "nom": "Coeur dramatique de maître",
+      "image": "coeurdramatiquedemaitre.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "dessertfroidsimple",
+      "nom": "Dessert froid simple",
+      "image": "dessertfroidsimple.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "kitdevoyagedereveliquide",
+      "nom": "Kit de voyage de rêve liquide",
+      "image": "kitdevoyagedereveliquide.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "pepindepommeenargent",
+      "nom": "Pépin de pomme en argent",
+      "image": "pepindepommeenargent.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "vers",
+      "nom": "Vers",
+      "image": "vers.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Boîte de sélection",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "coeurdramatiquedecollection",
+      "nom": "Coeur dramatique de collection",
+      "image": "coeurdramatiquedecollection.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "dessertfroidspecial",
+      "nom": "Dessert froid spécial",
+      "image": "dessertfroidspecial.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "canettedereveliquide",
+      "nom": "Canette de rêve liquide",
+      "image": "canettedereveliquide.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "pepindepommeenor",
+      "nom": "Pépin de pomme en or",
+      "image": "pepindepommeenor.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "harmonie",
+      "nom": "Harmonie",
+      "image": "harmonie.png",
+      "categorie": ["Matériel d'amélioration d'arc"],
+      "tag": ["Ascension"],
+      "obtention": [
+        "Usine de fabrication de canette",
+        "Exploration",
+		"Fabrication"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "filoudesegouts",
+      "nom": "Filou des égouts",
+      "image": "filoudesegouts.png",
+      "categorie": ["Matériel d'amélioration des consoles"],
+      "tag": ["Cartouche", "Module"],
+      "obtention": [
+        "Trou du lapin",
+        ""
+      ],
+      "effet": "+ 1 000 XP cartouche ou module",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "voyoudesegouts",
+      "nom": "Voyou des égouts",
+      "image": "voyoudesegouts.png",
+      "categorie": ["Matériel d'amélioration des consoles"],
+      "tag": ["Cartouche", "Module"],
+      "obtention": [
+        "Trou du lapin",
+        ""
+      ],
+      "effet": "+ 5 000 XP cartouche ou module",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "bagoudesegouts",
+      "nom": "Bagou des égouts",
+      "image": "bagoudesegouts.png",
+      "categorie": ["Matériel d'amélioration des consoles"],
+      "tag": ["Cartouche", "Module"],
+      "obtention": [
+        "Trou du lapin",
+        ""
+      ],
+      "effet": "+ 20 000 XP cartouche ou module",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "fons",
+      "nom": "Fons",
+      "image": "fons.png",
+      "categorie": ["Devise"],
+      "tag": ["Monnaie"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "piecescoleoptere",
+      "nom": "Pièces coléoptère",
+      "image": "piecescoleoptere.png",
+      "categorie": ["Devise"],
+      "tag": ["Monnaie"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "journalferroviere",
+      "nom": "Journal ferrovière",
+      "image": "journalferroviere.png",
+      "categorie": ["Devise"],
+      "tag": ["Monnaie"],
+      "obtention": [
+        "Au-delà des rails",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "pieceperdue",
+      "nom": "Pièce perdue",
+      "image": "pieceperdue.png",
+      "categorie": ["Devise"],
+      "tag": ["Monnaie Pity"],
+      "obtention": [
+        "Tirage",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "piecedefaille",
+      "nom": "Pièce de faille",
+      "image": "piecedefaille.png",
+      "categorie": ["Devise"],
+      "tag": ["Monnaie Pity"],
+      "obtention": [
+        "Tirage",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "U-00NE",
+      "nom": "U-00NE",
+      "image": "U-00NE.png",
+      "categorie": ["Devise"],
+      "tag": ["Échange Arcs"],
+      "obtention": [
+        "Drop Anomalie",
+        "Commission d'Anomalie"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "tri-cle",
+      "nom": "Tri-Clé",
+      "image": "tri-cle.png",
+      "categorie": ["Devise"],
+      "tag": ["Tirage"],
+      "obtention": [
+        "Tirage",
+        "Annulith",
+		"Échange du chasseur"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "medailledechasseperilleuse",
+      "nom": "Médaille de chasse périlleuse",
+      "image": "medailledechasseperilleuse.png",
+      "categorie": ["Devise"],
+      "tag": ["Chasse"],
+      "obtention": [
+        "Commission d'Anomalie",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "deconfectionne",
+      "nom": "Dé confectionné",
+      "image": "deconfectionne.png",
+      "categorie": ["Devise"],
+      "tag": ["Tirage"],
+      "obtention": [
+        "Event",
+        "Annulith"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "desolide",
+      "nom": "Dé solide",
+      "image": "desolide.png",
+      "categorie": ["Devise"],
+      "tag": ["Tirage"],
+      "obtention": [
+        "Event",
+        "Annulith"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "carrotaenbronze",
+      "nom": "Carrota en bronze",
+      "image": "carrotaenbronze.png",
+      "categorie": ["Devise"],
+      "tag": ["Tirage module"],
+      "obtention": [
+        "Trou du lapin",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "carrotaargentee",
+      "nom": "Carrota argentée",
+      "image": "carrotaargentee.png",
+      "categorie": ["Devise"],
+      "tag": ["Tirage module"],
+      "obtention": [
+        "Trou du lapin",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "carrotadoree",
+      "nom": "Carrota dorée",
+      "image": "carrotadoree.png",
+      "categorie": ["Devise"],
+      "tag": ["Tirage module"],
+      "obtention": [
+        "Trou du lapin",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "pierredoracle",
+      "nom": "Pierre d'Oracle",
+      "image": "pierredoracle.png",
+      "categorie": ["Devise"],
+      "tag": ["Important"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "annulith",
+      "nom": "Annulith",
+      "image": "annulith.png",
+      "categorie": ["Devise"],
+      "tag": ["Important"],
+      "obtention": [
+        "Quêtes",
+        "Achat",
+		"Event"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "cristaldefaille",
+      "nom": "Cristal de faille",
+      "image": "cristaldefaille.png",
+      "categorie": ["Devise"],
+      "tag": ["Important"],
+      "obtention": [
+        "Achat",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "xpdechasseur",
+      "nom": "XP de chasseur",
+      "image": "xpdechasseur.png",
+      "categorie": ["Devise"],
+      "tag": ["Important"],
+      "obtention": [
+        "Exploration",
+        "Quêtes",
+		"Event"
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "uniteheterogene",
+      "nom": "Unité hétérogène",
+      "image": "uniteheterogene.png",
+      "categorie": ["Devise"],
+      "tag": ["Important"],
+      "obtention": [
+        "Niveau de chasseur",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "solutionantibruit",
+      "nom": "Solution Antibruit",
+      "image": "solutionantibruit.png",
+      "categorie": ["Devise"],
+      "tag": ["Important"],
+      "obtention": [
+        "Niveau de chasseur",
+        ""
+      ],
+      "effet": "Recharge 60 pixels",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "filarcanique",
+      "nom": "Fil arcanique",
+      "image": "filarcanique.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Utilisation Pixels",
+        ""
+      ],
+      "effet": "Amélioration Majordome Or",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "filmagique",
+      "nom": "Fil magique",
+      "image": "filmagique.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Utilisation Pixels",
+        ""
+      ],
+      "effet": "Amélioration Majordome Argent",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "peinturedufutur",
+      "nom": "Peinture du futur",
+      "image": "peinturedufutur.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Anomalie Bopp",
+        ""
+      ],
+      "effet": "Amélioration Vieux Skateboard",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "fragmentdeplume",
+      "nom": "Fragment de plume",
+      "image": "fragmentdeplume.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Anomalie Escadron en papier",
+        ""
+      ],
+      "effet": "Amélioration Avion en papier",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "motifecaille",
+      "nom": "Motif écaille",
+      "image": "motifecaille.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Anomalie Bannière de poisson céleste",
+        ""
+      ],
+      "effet": "Amélioration Bannière de poisson jumeaux",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "petitegrainedemelon",
+      "nom": "Petite graine de melon",
+      "image": "petitegrainedemelon.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Anomalie Distributeur automatique hanté",
+        ""
+      ],
+      "effet": "Amélioration Boulette de hamster",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "pierredeforgedelame",
+      "nom": "Pierre de forge de lame",
+      "image": "pierredeforgedelame.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Anomalie Lame maudite",
+        ""
+      ],
+      "effet": "Amélioration Lame innommable",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "pieceenvieuse",
+      "nom": "Pièce envieuse",
+      "image": "pieceenvieuse.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Achat aux enchères",
+        ""
+      ],
+      "effet": "Amélioration Mammon",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "skateboarddebopp",
+      "nom": "Skateboard de Bopp",
+      "image": "skateboarddebopp.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Commission d'Anomalie : Taggeur éclair",
+        ""
+      ],
+      "effet": "Activation Vieux Skateboard",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "unecompassionvenuedailleurs",
+      "nom": "Une compassion venue d'ailleurs",
+      "image": "unecompassionvenuedailleurs.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Commission d'Anomalie : Où est mon foyer ?",
+        ""
+      ],
+      "effet": "Activation Lame innommable",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "espritdecompetitiondumotardsanstete",
+      "nom": "Esprit de compétition du motard sans tête",
+      "image": "espritdecompetitiondumotardsanstete.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Commission d'Anomalie : Assaut à moto",
+        ""
+      ],
+      "effet": "Activation Casque oublié",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "armureperdue",
+      "nom": "Armure perdue",
+      "image": "armureperdue.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Commission d'Anomalie : Un ours triste ne pleure pas",
+        ""
+      ],
+      "effet": "Activation Coquille vide",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "armuredecailleinextinguible",
+      "nom": "Armure d'écaille inextinguible",
+      "image": "armuredecailleinextinguible.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Anomalie : Ourson triste",
+        ""
+      ],
+      "effet": "Amélioration Coquille vide",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "boisarachneen",
+      "nom": "Bois arachnéen",
+      "image": "boisarachneen.png",
+      "categorie": ["Matériel de meuble d'anomalie"],
+      "tag": ["Meuble Anomalie"],
+      "obtention": [
+        "Échange du chasseur",
+        ""
+      ],
+      "effet": "Amélioration Caisse endommagée",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "clefdecasierperdue",
+      "nom": "Clef de casier perdue",
+      "image": "clefdecasierperdue.png",
+      "categorie": ["Objets"],
+      "tag": ["Exploration"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "Permet d'ouvrir des casiers de rangements",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "rechargederafraichissement",
+      "nom": "Recharge de rafraîchissement",
+      "image": "rechargederafraichissement.png",
+      "categorie": ["Objets"],
+      "tag": ["Énergie"],
+      "obtention": [
+        "",
+        ""
+      ],
+      "effet": "Recharge 100 endurance urbaine",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "cookiesouriscroustillantdevertu",
+      "nom": "Cookie souris croustillant de vertu",
+      "image": "cookiesouriscroustillantdevertu.png",
+      "categorie": ["Objets"],
+      "tag": ["Recherche"],
+      "obtention": [
+        "Remettre objets perdus",
+        "Résoudre des infractions en ville"
+      ],
+      "effet": "Réduit de 500 point l'avis de recherche",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "portefeuilleperdu",
+      "nom": "Portefeuille perdu",
+      "image": "portefeuilleperdu.png",
+      "categorie": ["Objets"],
+      "tag": ["Recherche"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "Ouvrir pour obtenir des fons ou remettre pour réduire avis de recherche",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "boitedeselectiondemateriauxdechassedanomalies",
+      "nom": "Boîte de sélection de matériaux de chasse d'Anomalies",
+      "image": "boitedeselectiondemateriauxdechassedanomalies.png",
+      "categorie": ["Boîte de sélection"],
+      "tag": ["Materiaux"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "boitedeselectiondxpdedeveloppement1",
+      "nom": "Boîte de sélection d'xp de developpement 1",
+      "image": "boitedeselectiondxpdedeveloppement1.png",
+      "categorie": ["Boîte de sélection"],
+      "tag": ["Materiaux"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "boitedeselectiondemateriauxdanomalie1",
+      "nom": "Boîte de sélection de matériaux d'Anomalie 1",
+      "image": "boitedeselectiondemateriauxdanomalie1.png",
+      "categorie": ["Boîte de sélection"],
+      "tag": ["Materiaux"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "boitedeselectiondecapacitedesperdepersonnage1",
+      "nom": "Boîte de sélection de capacité d'esper de personnage 1",
+      "image": "boitedeselectiondecapacitedesperdepersonnage1.png",
+      "categorie": ["Boîte de sélection"],
+      "tag": ["Materiaux"],
+      "obtention": [
+        "Exploration",
+        ""
+      ],
+      "effet": "",
+      "favoris": [
+        "",
+        ""
+      ],
+      "locations": []
+    },
+	{
+      "id": "unelettreecritealamain",
+      "nom": "Une lettre écrite à la main",
+      "image": "unelettreecritealamain.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Échange de la foire",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe", "skia", "fadia", "hotori", "adler", "jonquille", "sakiri", "edgar", "haniel", "chiz", "baicang", "aurelia", "nanally", "jiuyuan", "hathor"],
+      "locations": []
+    },
+	{
+      "id": "asahiinori-argentlunaire",
+      "nom": "Asahi Inori - Argent Lunaire",
+      "image": "asahiinori-argentlunaire.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gachapon",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe", "haniel"],
+      "locations": []
+    },
+	{
+      "id": "chantdugladiateur",
+      "nom": "Chant du gladiateur",
+      "image": "chantdugladiateur.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Bar A.R.T.P.S.",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["skia"],
+      "locations": []
+    },
+	{
+      "id": "auplusprofonddesoi",
+      "nom": "Au plus profond de soi",
+      "image": "auplusprofonddesoi.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gachapon",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["fadia"],
+      "locations": []
+    },
+	{
+      "id": "defenseursupreme",
+      "nom": "Défenseur suprême !",
+      "image": "defenseursupreme.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Pharmacie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["adler"],
+      "locations": []
+    },
+	{
+      "id": "banjolevoyageur",
+      "nom": "Banjo le voyageur",
+      "image": "banjolevoyageur.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Bar A.R.T.P.S.",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["adler"],
+      "locations": []
+    },
+	{
+      "id": "editionspecialedelliechocolatspuka",
+      "nom": "Edition spéciale d'Ellie Chocolats Puka",
+      "image": "editionspecialedelliechocolatspuka.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Distributeur Puka",
+        "Puka"
+      ],
+      "effet": "",
+      "favoris": ["haniel"],
+      "locations": []
+    },
+	{
+      "id": "gigaflanelle-regnedestenebres",
+      "nom": "Gigaflanelle - Règne des ténèbres",
+      "image": "gigaflanelle-regnedestenebres.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gachapon",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "kokorolemotardl1-competenceultime",
+      "nom": "Kokoro le motard L1 - Compétence ultime",
+      "image": "asahiinori-argentlunaire.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gachapon",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "ticketpourlecinemadefloe",
+      "nom": "Ticket pour le cinema de Floe",
+      "image": "ticketpourlecinemadefloe.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe", "skia", "fadia", "hotori", "adler", "jonquille", "sakiri", "edgar", "haniel", "chiz", "baicang", "aurelia", "nanally", "jiuyuan", "hathor"],
+      "locations": []
+    },
+	{
+      "id": "superramentonkontsu",
+      "nom": "Super ramen tonkontsu",
+      "image": "superramentonkontsu.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Restaurants Izakaya",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe"],
+      "locations": []
+    },
+	{
+      "id": "lampedejadeblanc",
+      "nom": "Lampe de jade blanc",
+      "image": "lampedejadeblanc.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin d'electronique Marron",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["skia"],
+      "locations": []
+    },
+	{
+      "id": "sourcedoree",
+      "nom": "Source dorée",
+      "image": "sourcedoree.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["fadia", "hotori"],
+      "locations": []
+    },
+	{
+      "id": "glacescintillante",
+      "nom": "Glace scintillante",
+      "image": "glacescintillante.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["fadia"],
+      "locations": []
+    },
+	{
+      "id": "trioclassique",
+      "nom": "Trio classique",
+      "image": "trioclassique.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Restaurant Marigny Pizza",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["fadia"],
+      "locations": []
+    },
+	{
+      "id": "rafraichissementmysterieux",
+      "nom": "Rafraîchissement mystérieux",
+      "image": "rafraichissementmysterieux.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Distributeur automatique de rafraîchissement",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["fadia"],
+      "locations": []
+    },
+	{
+      "id": "tourroyaledebisu",
+      "nom": "Tour royale d'Ebisu",
+      "image": "tourroyaledebisu.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Mode histoire",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["hotori", "aurelia", "jiuyuan"],
+      "locations": []
+    },
+	{
+      "id": "zhuvitamines",
+      "nom": "Zhu ! Vitamines !",
+      "image": "zhuvitamines.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Pharmacie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["hotori"],
+      "locations": []
+    },
+	{
+      "id": "decorationinterieure",
+      "nom": "Décoration intérieure",
+      "image": "decorationinterieure.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["adler"],
+      "locations": []
+    },
+	{
+      "id": "moisdessaintesglaces",
+      "nom": "Mois des Saintes glaces",
+      "image": "moisdessaintesglaces.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["chiz"],
+      "locations": []
+    },
+	{
+      "id": "supermegarafraichissement",
+      "nom": "Super mega rafraîchissement",
+      "image": "supermegarafraichissement.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Pharmacie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jonquille", "hathor"],
+      "locations": []
+    },
+	{
+      "id": "chamallowrevesenchantespuka",
+      "nom": "Chamallow rêves enchantés Puka",
+      "image": "chamallowrevesenchantespuka.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Puka",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jonquille", "chiz"],
+      "locations": []
+    },
+	{
+      "id": "boitealapin",
+      "nom": "Boîte à lapin",
+      "image": "boitealapin.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin d'electronique Marron",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["sakiri", "chiz"],
+      "locations": []
+    },
+	{
+      "id": "fablebleue",
+      "nom": "Fable bleue",
+      "image": "fablebleue.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["sakiri", "edgar", "aurelia"],
+      "locations": []
+    },
+	{
+      "id": "sonnonenregistre",
+      "nom": "Son non enregistré",
+      "image": "sonnonenregistre.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar"],
+      "locations": []
+    },
+	{
+      "id": "asahiinori-illusionflorale",
+      "nom": "Asahi Inori - Illusion florale",
+      "image": "asahiinori-illusionflorale.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gachapon",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["haniel"],
+      "locations": []
+    },
+	{
+      "id": "gateauaulitchietalarose",
+      "nom": "Gâteau au litchi et à la rose",
+      "image": "gateauaulitchietalarose.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Pâtisserie d'Alice",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["chiz"],
+      "locations": []
+    },
+	{
+      "id": "lumieretamiseeambiante",
+      "nom": "Lumière tamisée ambiante",
+      "image": "lumieretamiseeambiante.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin d'electronique Marron",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["aurelia"],
+      "locations": []
+    },
+	{
+      "id": "ramenvegandenekomaru",
+      "nom": "Ramen végan de Nekomaru",
+      "image": "ramenvegandenekomaru.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Ramen de Nekomaru",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "gigaflanelle-pouvoirabsolu",
+      "nom": "Gigaflanelle - Pouvoir absolu",
+      "image": "Gigaflanelle-pouvoirabsolu.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gachapon",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "defiepicechocolatspuka",
+      "nom": "Défi épicé Chocolats Puka",
+      "image": "defiepicechocolatspuka.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Puka",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "ramenonidenekomaru",
+      "nom": "Ramen Oni de Nekomaru",
+      "image": "ramenonidenekomaru.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Ramen de Nekomaru",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "kokorolemotardl1-sermentsilencieux",
+      "nom": "Kokoro le motard L1 - Serment silencieux",
+      "image": "kokorolemotardl1-sermentsilencieux.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gachapon",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "sonatederossignol",
+      "nom": "Sonate de rossignol",
+      "image": "sonatederossignol.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jiuyuan", "hathor"],
+      "locations": []
+    },
+	{
+      "id": "enbonnevoie",
+      "nom": "En bonne voie",
+      "image": "enbonnevoie.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin d'electronique Marron",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jiuyuan", "hathor"],
+      "locations": []
+    },
+	{
+      "id": "valse",
+      "nom": "Valse",
+      "image": "valse.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe"],
+      "locations": []
+    },
+	{
+      "id": "asahiinori-ecarlate",
+      "nom": "Asahi Inori - Écarlate",
+      "image": "asahiinori-ecarlate.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "BCD POP",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe", "haniel"],
+      "locations": []
+    },
+	{
+      "id": "asahiinori-clairdelune",
+      "nom": "Asahi Inori - Clair de lune",
+      "image": "asahiinori-clairdelune.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "BCD POP",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe", "haniel"],
+      "locations": []
+    },
+	{
+      "id": "letheaulaitautaroetaupuddingaunyanko",
+      "nom": "Le thé au lait au taro et au pudding au Nyanko",
+      "image": "letheaulaitautaroetaupuddingaunyanko.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de thé au lait Chat Dérangé",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe", "chiz"],
+      "locations": []
+    },
+	{
+      "id": "lavaburgerdedeclic",
+      "nom": "Lavaburger de Déclic",
+      "image": "lavaburgerdedeclic.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fast-Food Déclic",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["skia"],
+      "locations": []
+    },
+	{
+      "id": "equilibre",
+      "nom": "Équilibre",
+      "image": "equilibre.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de souvenirs Coffre Oups !",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["fadia"],
+      "locations": []
+    },
+	{
+      "id": "lunedoree",
+      "nom": "Lune dorée",
+      "image": "lunedoree.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin d'electronique Marron",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["hotori"],
+      "locations": []
+    },
+	{
+      "id": "vaseemaillejaune",
+      "nom": "Vase émaillé jaune",
+      "image": "vaseemaillejaune.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["hotori"],
+      "locations": []
+    },
+	{
+      "id": "promesse",
+      "nom": "Promesse",
+      "image": "promesse.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de souvenirs Coffre Oups !",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["adler", "jonquille", "aurelia"],
+      "locations": []
+    },
+	{
+      "id": "aubedoree",
+      "nom": "Aube dorée",
+      "image": "aubedoree.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["adler"],
+      "locations": []
+    },
+	{
+      "id": "pastillesdeprotectionpurificatrice",
+      "nom": "Pastilles de protection purificatrice",
+      "image": "pastillesdeprotectionpurificatrice.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Pharmacie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["adler"],
+      "locations": []
+    },
+	{
+      "id": "regardperdu",
+      "nom": "Regard perdu",
+      "image": "regardperdu.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de souvenirs Coffre Oups !",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jonquille"],
+      "locations": []
+    },
+	{
+      "id": "pureteeternelle",
+      "nom": "Pureté éternelle",
+      "image": "pureteeternelle.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jonquille"],
+      "locations": []
+    },
+	{
+      "id": "matchaujirelaxantdenyanko",
+      "nom": "Matcha Uji relaxant de Nyanko",
+      "image": "matchaujirelaxantdenyanko.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jonquille"],
+      "locations": []
+    },
+	{
+      "id": "revehallucinatoire",
+      "nom": "Rêve hallucinatoire",
+      "image": "revehallucinatoire.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de souvenirs Coffre Oups !",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["sakiri", "hathor"],
+      "locations": []
+    },
+	{
+      "id": "repasenergetiquepourenfant",
+      "nom": "Repas énergétique pour enfant",
+      "image": "repasenergetiquepourenfant.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Restaurant familiale La nourriture d'abord",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["sakiri", "baicang"],
+      "locations": []
+    },
+	{
+      "id": "dirtychaiauxperlesdetapiocaetausucrenoirdenyanko",
+      "nom": "Dirty chai aux perles de tapioca et au sucre noir de Nyanko",
+      "image": "dirtychaiauxperlesdetapiocaetausucrenoirdenyanko.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de thé au lait Chat Dérangé",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["sakiri"],
+      "locations": []
+    },
+	{
+      "id": "boucheesdudesiraulait",
+      "nom": "Bouchées de désir au lait",
+      "image": "boucheesdudesiraulait.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["sakiri"],
+      "locations": []
+    },
+	{
+      "id": "puddingdetofuenneige",
+      "nom": "Pudding de tofu en neige",
+      "image": "puddingdetofuenneige.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Tofu de Shigezou",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar"],
+      "locations": []
+    },
+	{
+      "id": "geometrieursine",
+      "nom": "Géométrie ursine",
+      "image": "geometrieursine.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de souvenirs Coffre Oups !",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar"],
+      "locations": []
+    },
+	{
+      "id": "painaumelondesakai",
+      "nom": "Pain au melon de Sakai",
+      "image": "painaumelondesakai.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["haniel"],
+      "locations": []
+    },
+	{
+      "id": "fantasia",
+      "nom": "Fantasia",
+      "image": "fantasia.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["chiz", "aurelia"],
+      "locations": []
+    },
+	{
+      "id": "beaurose",
+      "nom": "Beau rose",
+      "image": "beaurose.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["chiz"],
+      "locations": []
+    },
+	{
+      "id": "refraichissementfruite",
+      "nom": "Rafraîchissement fruité",
+      "image": "refraichissementfruite.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["aurelia"],
+      "locations": []
+    },
+	{
+      "id": "gigaflanelle-puissance",
+      "nom": "Gigaflanelle - Puissance",
+      "image": "gigaflanelle-puissance.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "BCD POP",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "accordresplendissant",
+      "nom": "Accord resplendissant",
+      "image": "accordresplendissant.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "gigaflanelle-myologie",
+      "nom": "Gigaflanelle - Myologie",
+      "image": "gigaflanelle-myologie.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "BCD POP",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "9331",
+      "nom": "9331",
+      "image": "9331.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Magasin de souvenirs Coffre Oups !",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["baicang"],
+      "locations": []
+    },
+	{
+      "id": "pechesvicescrimes",
+      "nom": "Péchés, vices, crimes",
+      "image": "pechesvicescrimes.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "kokorolemotardl1-strategedemetal",
+      "nom": "Kokoro le motard L1 - Stratège de métal",
+      "image": "kokorolemotardl1-strategedemetal.png",
+      "categorie": ["Cadeaux", "Figurine"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "BCD POP",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "kokorolemotardl1-annihilateur",
+      "nom": "Kokoro le motard L1 - annihilateur",
+      "image": "kokorolemotardl1-annihilateur.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "BCD POP",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "ecarlateardent",
+      "nom": "Écarlate ardent",
+      "image": "ecarlateardent.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "chipsaugoutoriginaldegubichi",
+      "nom": "Chips au goût original de Gubichi",
+      "image": "chipsaugoutoriginaldegubichi.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "onestfreres",
+      "nom": "On est frères",
+      "image": "onestfreres.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["nanally"],
+      "locations": []
+    },
+	{
+      "id": "vaselunaire",
+      "nom": "Vase lunaire",
+      "image": "vaselunaire.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fleuriste",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jiuyuan"],
+      "locations": []
+    },
+	{
+      "id": "boissonglacee",
+      "nom": "Boisson glacée",
+      "image": "boissonglacee.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Café 9°C",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jiuyuan"],
+      "locations": []
+    },
+	{
+      "id": "painaublecompletmagiepouf",
+      "nom": "Pain au blé complet Magie-Pouf",
+      "image": "painaublecompletmagiepouf.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["jiuyuan"],
+      "locations": []
+    },
+	{
+      "id": "saladelegerecoloree",
+      "nom": "Salade légère colorée",
+      "image": "saladelegerecoloree.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Restaurant familiale La nourriture d'abord",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["hathor"],
+      "locations": []
+    },
+	{
+      "id": "secretsdusac",
+      "nom": "Secrets du sac...",
+      "image": "secretsdusac.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe", "skia"],
+      "locations": []
+    },
+	{
+      "id": "gubicrisp",
+      "nom": "gubicrisp",
+      "image": "gubicrisp.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["menthe"],
+      "locations": []
+    },
+	{
+      "id": "jardindethedebob",
+      "nom": "Jardin de thé de Bob",
+      "image": "jardindethedebob.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["skia"],
+      "locations": []
+    },
+	{
+      "id": "cri",
+      "nom": "Cri !",
+      "image": "cri.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["skia"],
+      "locations": []
+    },
+	{
+      "id": "detente",
+      "nom": "Détente",
+      "image": "detente.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["skia"],
+      "locations": []
+    },
+	{
+      "id": "ragoutfamilialedechiyo",
+      "nom": "Ragoût familiale de Chiyo",
+      "image": "ragoutfamilialedechiyo.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Brasserie Senjo Izakaya",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["hotori"],
+      "locations": []
+    },
+	{
+      "id": "haha",
+      "nom": "HAHA",
+      "image": "haha.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar"],
+      "locations": []
+    },
+	{
+      "id": "grosbaozialacremeanglaise",
+      "nom": "Gros baozi à la crème anglaise",
+      "image": "grosbaozialacremeanglaise.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Gros baozi",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar", "aurelia"],
+      "locations": []
+    },
+	{
+      "id": "fritesdedeclic",
+      "nom": "Frites de Déclic",
+      "image": "fritesdedeclic.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Fast-Food Déclic",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar"],
+      "locations": []
+    },
+	{
+      "id": "accordduchef",
+      "nom": "Accord du chef",
+      "image": "accordduchef.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar"],
+      "locations": []
+    },
+	{
+      "id": "conges",
+      "nom": "Congés",
+      "image": "conges.png",
+      "categorie": ["Cadeaux"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Librairie",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["edgar"],
+      "locations": []
+    },
+	{
+      "id": "encasepicecoollala",
+      "nom": "En-cas épicié Cool-lala",
+      "image": "encasepicecoollala.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Supérette 24H/24",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["haniel", "nanally"],
+      "locations": []
+    }
+  ]
+}
