@@ -1053,6 +1053,34 @@ a {
   margin: 0;
 }
 
+.favorite-gifts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.favorite-gift {
+  width: 92px;
+  text-align: center;
+}
+
+.favorite-gift img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border: 1px solid rgba(0, 217, 255, 0.55);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 217, 255, 0.25);
+}
+
+.favorite-gift span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.72rem;
+  line-height: 1.15;
+  color: #fff;
+}
+
 /* =========================
    COLOR-TEXT
 ========================= */
