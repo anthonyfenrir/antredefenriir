@@ -2610,6 +2610,24 @@ a {
   color: #e8faff;
 }
 
+.ressource-card-back ul {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+}
+
+.ressource-card-back li {
+  font-size: 0.72rem;
+  line-height: 1.15;
+  color: #e8faff;
+  margin-bottom: 4px;
+}
+
+.ressource-card-back li::before {
+  content: "• ";
+  color: #00d9ff;
+}
+
 @media (max-width: 1200px) {
   .ressources-grid {
     grid-template-columns: repeat(6, 1fr);
