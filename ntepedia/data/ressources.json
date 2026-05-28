@@ -21,7 +21,7 @@
       "id": "guidedechasseurendevenir",
       "nom": "Guide de chasseur en devenir",
       "image": "guidedechasseurendevenir.png",
-      "categorie": ["Amélioration Espers"],
+      "categorie": ["Amélioration d'Espers"],
       "tag": ["XP"],
       "obtention": [
         "Scène Magique de Houdini",
@@ -39,7 +39,7 @@
       "id": "guidedechasseursenior",
       "nom": "Guide de chasseur senior",
       "image": "guidedechasseursenior.png",
-      "categorie": ["Amélioration Espers"],
+      "categorie": ["Amélioration d'Espers"],
       "tag": ["XP"],
       "obtention": [
         "Scène Magique de Houdini",
@@ -57,7 +57,7 @@
       "id": "guidechasseurdelite",
       "nom": "Guide de chasseur d'élite",
       "image": "guidechasseurdelite.png",
-      "categorie": ["Amélioration d'Esper"],
+      "categorie": ["Amélioration d'Espers"],
       "tag": ["XP"],
       "obtention": [
         "Scène Magique de Houdini",
