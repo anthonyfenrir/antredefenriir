@@ -1821,6 +1821,131 @@
         }
       ],
       "image": ""
+    },
+	{
+      "id": "lacrimosa",
+      "nom": "Lacrimosa",
+      "nom_en": "Lacrimosa",
+      "anniversaire": "26 Juin",
+      "faction": "Bureau du contrôle des anomalies DTE-4",
+      "description": "Détient le record du plus grand nombre de demande de maintenance soumises par le personnel du BCA.",
+      "rarete": "S",
+      "attribut": "Chaos",
+      "role": "Main DPS",
+      "tier_list": "T0.5",
+      "arme": {
+        "type": "Arc",
+        "nom": "derniere-rose",
+        "type2": "Arc - Alt",
+        "nom2": "journees-ensoleillees"
+      },
+      "console": {
+        "cartouche": "diabolos",
+        "module": "",
+        "cartouche2": "credo",
+        "module2": ""
+      },
+      "competences": {
+        "attaque_base": {
+          "nom": "Tomate métalleuse",
+          "description": "Brandit sa poêle à frire et effectue jusqu'à 5 attaques consécutives, infligeant des DÉG de chaos. Le projectile généré par la 2e attaque peut être détruit par les attaques suivantes, provoquant une explosion et infligeant des DÉG de chaos supplémentaires."
+        },
+		"attaque_hold": {
+          "nom": "Percussion à la tomate",
+          "description": "Manipule la gelée rouge, effectuant jusqu'à 5 attaques consécutives qui infligent des DÉG de chaos."
+        },
+        "attaque_saute": {
+          "nom": "Meteorum Lycopersicum",
+          "description": "Lance un attaque dans les airs et plonge, infligeant 1 instance de DÉG de chaos sur une zone à l'impact. Une augmentation de DÉG pouvant aller jusqu'à 100% est appliquée en fonction de la hauteur de chute."
+        },
+		"attaque_vise": {
+          "nom": "Variation des saveurs",
+          "description": "Variation de saveurs peut être utilisée à tout moment via le bouton de visée. Lance sa poêle à frire et effectue un coup de pied sauté vers l'avant lorsqu'elle utilise Tomate métalleuse, infligeant 1 instance de DÉG de chaos à chaque cible touchée. Bascule son module d'attaque vers Percussion à la tomate. Saute en l'air et frappe le sol, infligeant 1 instance de DÉG de chaos de zone lorsqu'elle utilise Percussion à la tomate. Bascule son module d'attaque vers Tomate métalleuse. Le style d'attaque de base actuel détermine le schéma d'attaque de Jugement du jour ouvrable."
+        },
+		"attaque_visehold": {
+          "nom": "Inspiration diabolique",
+          "description": "Maintenez pour entrer en mode visée. Inflige 1 instance de DÉG de chaos à un ennemi dans le réticule et permet d'apprendre sa technique de combat. Oublie temporairement Tomate matinale et utilise la compétence une fois apprise. Les compétences apprises sont stockées de manière permanente dans la mémoire de Lacrimosa. De nouvelles techniques peuvent être apprises pour remplacer celles existantes, ou Lacrimosa peut oublier d'elle-même une technique dans le menu Compétences pour restaurer Tomate matinale."
+        },  
+        "attaque_riposte": {
+          "nom": "Repos fff",
+          "description": "Se déclenche lors de l'utilisation d'attaques de base après une esquive critique. Profite de l'ouverture créée par l'attaque manquée de l'ennemi pour lancer violemment une grande quantité de gelée rouge sur sa tête, infligeant 6 instances de DÉG de chaos sur une zone et réduisant la rupture."
+        },
+        "skill": {
+          "nom": "Tomate matinale",
+          "description": "Ah... atchoum ! Lance une salve de constructions d'Esper inachevées, infligeant 1 instance de DÉG de chaos sur une zone et appliquant l'effet Cauchemar aux cibles. Après avoir lancé Tomate matinale, cette compétence peut être combinée pour former la 5e instance de Tomate métalleuse ou Percussion à la tomate."
+        },
+        "ultimate": {
+          "nom": "Jugement du jour ouvrable",
+          "description": "Contrôle le camion lorsque vous utilisez Tomate métalleuse, infligeant 10 instances de DÉG de chaos sur une zone ainsi que l'état Cauchemar à toutes les cibles à portée. Démonte la voiture lors de l'utilisation de Percussion à la tomate, infligeant 5 instances de DÉG de chaos sur une zone ainsi que l'état Cauchemar à toutes les cibles à portée."
+        },
+        "passif": {
+          "nom": "Horloge non fermée",
+          "description": "Inflige Cauchemar à la cible à chaque coup porté, jusqu'à 10 cumuls. Inflige 1 cumul de Cauchemar par instance de dégâts lorsqu'une seule attaque de base inflige plusieurs instances de dégâts."
+        },
+		"tips": {
+		  "nom": "Copie des capacités d'un ennemi",
+		  "description": "Lacrimosa... peut le faire aussi. Grâce à compétence, Lacrimosa copie et déclenche la compétence d'un ennemi, activant tous les effets supplémentaires associés. La durée de la compétence est identique à celle de son propriétaire. Pendant l'exécution, tout déplacement est impossible, il reste possible d'interrompre l'action ou de changer de personnage. Toute attaque reçue durant cette phase lui inflige des dégâts. Activer Cadeau diabolique octroie à Lacrimosa un pourcentage de l'ATQ du possesseur d'origine de la compétence."
+		}
+		},
+      "eveil": [
+        {
+          "rang": 1,
+          "titre": "Heure de clémence",
+          "description": "Augmente le ration de DEG de Cauchemar à 8% au niveau de la compétence actuel."
+        },
+        {
+          "rang": 2,
+          "titre": "Debout tout le monde",
+          "description": "Augmente les dégâts infligés par Lacrimosa de 15% pendant 15 secondes lorsqu'elle entrea via une compétence de soutien."
+        },
+        {
+          "rang": 3,
+          "titre": "Glace fondue",
+          "description": "Déclenche tous les cumuls de Cauchemar sur la cible lorsque le 5ème coup de Tomate métalleuse ou Percussion à la tomate touche sa cible."
+        },
+        {
+          "rang": 4,
+          "titre": "Seigneur tout-puissant des tomates",
+          "description": "Porte la durée de Cauchemar à 6 secondes."
+        },
+        {
+          "rang": 5,
+          "titre": "Jugement du verre trempé",
+          "description": "Réduit les PV max. de la cible de 200 % des DÉG de Cauchemar infligés lorsque des DÉG de Cauchemar sont infligés. Restaure ses PV toutes les 3 secondes en fonction des DÉG de Cauchemar infligés durant cette période, restaurant des PV équivalant à 1,5 % des DÉG de Cauchemar totaux infligés. Empêche les cumuls de Cauchemar d'être retirés lorsque la cible est soignée."
+        },
+        {
+          "rang": 6,
+          "titre": "Sort matinal",
+          "description": "Permet à Lacrimosa de lancer automatiquement sa compétence de soutien et de déclencher le cycle correspondant sans accumulation d'énergie de cycle lorsque vous passez d'un personnage pouvant déclencher le cycle d'Esper: Nova, Brûlure ou Discorde à elle dans les 5 s suivant l'utilisation de Cadeau diabolique. Se déclenche jusqu'à une fois toutes les 5 secondes."
+        }
+      ],
+      "resonance": [
+        {
+          "rang": 1,
+          "titre": "Les flammes soporifiques du cœur - 3 éveils",
+          "description": "Augmente de 1 le niveau de compétence d'Aigre-doux, Tomate matinale, Cadeau diabolique et Jugement du jour ouvrable. Réduit le coût en endurance à 85 % en vol sous forme de chauve-souris."
+        },
+        {
+          "rang": 2,
+          "titre": "Berceuse - 6 éveils",
+          "description": "Les dégâts de Lacrimosa ignorent 20 % de la DÉF de la cible. Réduit le coût en endurance à 70 % en vol sous forme de chauve-souris."
+        }
+      ],
+      "build": {
+        "stats_prioritaires": [
+          {
+            "Stats Principales": "DMG Chaos > % ATQ > Taux critique > DMG critique",
+            "Stats Secondaires": "Taux critique > DMG critique > % ATQ > Dommages bonus > ATK"
+          }
+        ]
+      },
+      "team_recommandee": [
+        {
+          "Équipe Discorde": "Lacrimosa, Hotori, Sakiri, Haniel",
+		  "Équipe Boss": "Lacrimosa, Jonquille, Sakiri, Haniel"
+        }
+      ],
+      "image": ""
     }
   ]
 }
