@@ -1836,7 +1836,7 @@
         ""
       ],
       "effet": "",
-      "favoris": ["menthe", "skia", "fadia", "hotori", "adler", "jonquille", "sakiri", "edgar", "haniel", "chiz", "baicang", "aurelia", "nanally", "jiuyuan", "hathor"],
+      "favoris": ["menthe", "skia", "fadia", "hotori", "adler", "jonquille", "sakiri", "edgar", "haniel", "chiz", "baicang", "aurelia", "nanally", "jiuyuan", "hathor", "lacrimosa"],
       "locations": []
     },
 	{
@@ -1881,6 +1881,20 @@
       "favoris": ["fadia"],
       "locations": []
     },
+	{
+      "id": "sceaufamilialedetomate",
+      "nom": "Sceau familiale de Tomate",
+      "image": "sceaufamilialedetomate.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Distributeur automatique de Tomate 100",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["lacrimosa"],
+      "locations": []
+    },  
 	{
       "id": "defenseursupreme",
       "nom": "Défenseur suprême !",
@@ -1962,7 +1976,7 @@
         ""
       ],
       "effet": "",
-      "favoris": ["menthe", "skia", "fadia", "hotori", "adler", "jonquille", "sakiri", "edgar", "haniel", "chiz", "baicang", "aurelia", "nanally", "jiuyuan", "hathor"],
+      "favoris": ["menthe", "skia", "fadia", "hotori", "adler", "jonquille", "sakiri", "edgar", "haniel", "chiz", "baicang", "aurelia", "nanally", "jiuyuan", "hathor", "lacrimosa"],
       "locations": []
     },
 	{
@@ -2092,9 +2106,9 @@
       "locations": []
     },
 	{
-      "id": "moisdessaintesglaces",
-      "nom": "Mois des Saintes glaces",
-      "image": "moisdessaintesglaces.png",
+      "id": "moisdessaintesgrace",
+      "nom": "Mois des Saintes grâce",
+      "image": "moisdessaintesgrace.png",
       "categorie": ["Cadeaux"],
       "tag": ["Amitié"],
       "obtention": [
@@ -2102,7 +2116,7 @@
         ""
       ],
       "effet": "",
-      "favoris": ["chiz"],
+      "favoris": ["chiz", "lacrimosa"],
       "locations": []
     },
 	{
@@ -2144,7 +2158,7 @@
         ""
       ],
       "effet": "",
-      "favoris": ["sakiri", "chiz"],
+      "favoris": ["sakiri", "chiz", "lacrimosa"],
       "locations": []
     },
 	{
@@ -2554,6 +2568,48 @@
       "locations": []
     },
 	{
+      "id": "jusdetomate100",
+      "nom": "Jus de Tomate 100",
+      "image": "jusdetomate100.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Distributeur automatique de Tomate 100",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["lacrimosa"],
+      "locations": []
+    },
+	{
+      "id": "milkshakedetomate100",
+      "nom": "Milkshake de Tomate 100",
+      "image": "milkshakedetomate100.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Distributeur automatique de Tomate 100",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["lacrimosa"],
+      "locations": []
+    },
+	{
+      "id": "geleedetomate100",
+      "nom": "Gelée de Tomate 100",
+      "image": "geleedetomate100.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Distributeur automatique de Tomate 100",
+        ""
+      ],
+      "effet": "",
+      "favoris": ["lacrimosa"],
+      "locations": []
+    },  
+	{
       "id": "boucheesdudesiraulait",
       "nom": "Bouchées de désir au lait",
       "image": "boucheesdudesiraulait.png",
@@ -2914,7 +2970,7 @@
         ""
       ],
       "effet": "",
-      "favoris": ["skia"],
+      "favoris": ["skia", "lacrimosa"],
       "locations": []
     },
 	{
@@ -3013,6 +3069,20 @@
       ],
       "effet": "",
       "favoris": ["haniel", "nanally"],
+      "locations": []
+    },
+	{
+      "id": "tomate100",
+      "nom": "Tomate 100",
+      "image": "tomate100.png",
+      "categorie": ["Cadeaux", "Nourriture"],
+      "tag": ["Amitié"],
+      "obtention": [
+        "Distributeur automatique de Tomate 100",
+        ""
+      ],
+      "effet": "",
+      "favoris": [""],
       "locations": []
     }
   ]
