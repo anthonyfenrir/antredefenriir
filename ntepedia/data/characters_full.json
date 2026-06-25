@@ -1946,6 +1946,123 @@
         }
       ],
       "image": ""
+    },
+	{
+      "id": "chaos",
+      "nom": "Chaos",
+      "nom_en": "Chaos",
+      "anniversaire": "01 Janvier",
+      "faction": "Bureau du contrôle des anomalies DTE-6",
+      "description": "Membre actuel de la DTE-6. Ton ami actuel le plus intègre et fiable.",
+      "rarete": "S",
+      "attribut": "Lakshana",
+      "role": "Main DPS",
+      "tier_list": "T0",
+      "arme": {
+        "type": "Arc",
+        "nom": "cequiest-desire",
+        "type2": "Arc - Alt",
+        "nom2": "duvet-de-ferocite"
+      },
+      "console": {
+        "cartouche": "boxeur",
+        "module": "",
+        "cartouche2": "credo",
+        "module2": ""
+      },
+      "competences": {
+        "attaque_base": {
+          "nom": "Poursuite",
+          "description": "Brandit son arme et exécute jusqu'à 5 attaques consécutives, infligeant des DÉG de lakshana et accumulant du Crime."
+        },
+		"attaque_hold": {
+          "nom": "Verdict final",
+          "description": "Ta culpabilité saute aux yeux. Maintenez l'attaque de base pour déclencher Verdict final. Consomme tout le Crime pour ajouter un 2e coup à Verdict final et infliger d'importants DÉG de règlement si Crime a atteint son maximum (1000). Si Crime n'a pas atteint son maximum, n'exécute que le 1er coup de Verdict final et inflige 2 lignes de dégâts."
+        },
+        "attaque_saute": {
+          "nom": "Renversement",
+          "description": "Appuyez sur l'attaque de base en l'air pour plonger, infligeant 1 fois des DÉG de lakshana sur une zone à l'impact. Augmente les DÉG en fonction de la hauteur de la chute, jusqu'à 1×. Concentre son esprit et éveille sa perception de chasseur, détectant les ennemis proches pendant une courte durée. Les cibles détectées sont mises en évidence par un contour spécial."
+        },
+	    "attaque_riposte": {
+          "nom": "Instinct",
+          "description": "Se déclenche en utilisant Poursuite après une esquive critique. Frappe la cible avec sa hachette, infligeant 1 ligne de DÉG de lakshana et réduisant la Rupture."
+        },
+        "skill": {
+          "nom": "Marque du doute",
+          "description": "Caractéristiques de la cible confirmées. Tire sur les ennemis devant lui et invoque son limier pour bondir sur la cible. Le limier mord la cible à deux reprises en aller-retour. Inflige Mandat à un maximum de 2 ennemis pendant 15 s lorsque la compétence touche sa cible. Augmente les dégâts infligés de 20 % lorsque des cibles affectées par Mandat sont attaquées."
+        },
+        "ultimate": {
+          "nom": "Châtiment",
+          "description": "Invoque son limier pour neutraliser les ennemis à proximité, infligeant Mandat à tous les ennemis à portée et entrant dans l'état Écho de l'effroi. Tant que Chaos et Écho de l'effroi sont actifs, augmente rapidement le Crime au fil du temps, ce qui permet de lancer Verdict final plus souvent et d'infliger d'importants DÉG de règlement."
+        },
+        "passif": {
+          "nom": "Écho de l'effroi",
+          "description": "Entre dans un état renforcé après avoir lancé Châtiment. Tant que cet état est actif, les cumuls de Crime augmentent rapidement au fil du temps."
+        },
+		"tips": {
+		  "nom": "Ombre cendrée",
+		  "description": "Laisse son limier derrière lui comme ancre de téléportation en monde ouvert. Maintenez le bouton de visée enfoncé pour laisser le limier à son emplacement actuel. Lors de la téléportation, le limier déchire l'espace pour ouvrir un passage, permettant à Chaos de revenir à l'emplacement de l'ancre. Appuyez sur le bouton de visée pour activer ou désactiver le masque."
+		}
+		},
+      "eveil": [
+        {
+          "rang": 1,
+          "titre": "Perspicacité perçante",
+          "description": "Confère 40% de Crime supplémentaire lorsque des ennemis affectés par Mandat sont attaqués."
+        },
+        {
+          "rang": 2,
+          "titre": "Charge / Péché",
+          "description": "Ignore 20% de la DÉF de la cible en attaquant des ennemis affectés par Mandat."
+        },
+        {
+          "rang": 3,
+          "titre": "Brasier",
+          "description": "Augmente les DÉG CRT de 30 % pendant 20 s après avoir lancé Châtiment. La durée est réinitialisée lorsque l'effet est à nouveau déclenché."
+        },
+        {
+          "rang": 4,
+          "titre": "Marée engloutissante",
+          "description": "Transfère Mandat à une cible proche non marquée et recalcule sa durée lorsqu'une cible affectée par Mandat est vaincue."
+        },
+        {
+          "rang": 5,
+          "titre": "Regard du Néant",
+          "description": "Augmente les dégâts infligés à la cible de 20% lorsqu'il ne reste qu'une seule cible affectée par Mandat sur le terrain."
+        },
+        {
+          "rang": 6,
+          "titre": "Fausse origine",
+          "description": "Restaure immédiatement le Crime à son maximum après avoir lancé Châtiment."
+        }
+      ],
+      "resonance": [
+        {
+          "rang": 1,
+          "titre": "Justice / Vérité - 3 éveils",
+          "description": "Augmente le niveau des compétences Poursuite, Marque du doute et Châtiment de 1."
+        },
+        {
+          "rang": 2,
+          "titre": "Lumière / Aube - 6 éveils",
+          "description": "Réduit la Résistance au lakshana des ennemis affectés par Mandat de 10 %."
+        }
+      ],
+      "build": {
+        "stats_prioritaires": [
+          {
+            "Stats Principales": "DMG Lakshana > Taux critique > DMG critique > % ATQ",
+            "Stats Secondaires": "Taux critique > DMG critique > % DMG > % ATQ"
+          }
+        ]
+      },
+      "team_recommandee": [
+        {
+          "Équipe Remora": "Chaos, Hathor, Zero, Haniel",
+		  "Équipe Remora Alt": "Chaos, Skia, Zero, Fadia"
+        }
+      ],
+      "image": ""
     }
   ]
 }
