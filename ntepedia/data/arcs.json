@@ -52,6 +52,30 @@
 		}
 	  }
     },
+	"cequiest-desire": {
+      "nom": "Ce qui est désiré",
+      "image": "cequiest-desire.png",
+	  "rarete": "S",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "Taux CRIT", "valeur": "9.60%" }
+		  ],
+		  "description": "Augmente les DÉG de lakshana du porteur de 20.00%.Augmente les DÉG CRT du porteur de 40.00% pendant 20 secondes lorsqu'il lance une Compétence de redirection ou un Ultime. Réinitialise la durée en cas de nouveau déclenchement."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "Taux CRIT", "valeur": "24%" }
+		  ],
+		  "description": "Augmente les DÉG de lakshana du porteur de 40.00%.Augmente les DÉG CRT du porteur de 80.00% pendant 20 secondes lorsqu'il lance une Compétence de redirection ou un Ultime. Réinitialise la durée en cas de nouveau déclenchement."
+		}
+	  }
+    },  
     "vraie-musique": {
       "nom": "'Vraie musique'",
       "image": "vraie-musique.png",
