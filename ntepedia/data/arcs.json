@@ -1061,6 +1061,30 @@
 		}
 	  }
 	},
+	"mirage": {
+	  "nom": "Mirage Rougissant",
+	  "image":"mirage.png",
+	  "rarete": "S",
+	  "type": "connexion",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "CRIT", "valeur": "9.60%" }
+		  ],
+		  "description": "Augmente l'ATQ de 20.00%. Après avoir lancé l'ultime, augmente les DÉG de cosmos infligés par le porteur de 32.00% et permet au porteur d'ignorer 12.00% de la DÉF ennemie pendant 20 s. La durée est réinitialisée lorsque l'effet se déclenche à nouveau."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "CRIT", "valeur": "24%" }
+		  ],
+		  "description": "Augmente l'ATQ de 32.00%. Après avoir lancé l'ultime, augmente les DÉG de cosmos infligés par le porteur de 51.20% et permet au porteur d'ignorer 19.20% de la DÉF ennemie pendant 20 s. La durée est réinitialisée lorsque l'effet se déclenche à nouveau."
+		}
+	  }
+	},  
 	"pluie": {
 	  "nom": "La pluie qui a boulversé le monde",
 	  "image":"pluie.png",
