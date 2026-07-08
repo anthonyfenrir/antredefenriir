@@ -2063,6 +2063,123 @@
         }
       ],
       "image": ""
-    }
+    },
+	{
+      "id": "shinku",
+      "nom": "Shinku",
+      "nom_en": "Shinku",
+      "anniversaire": "13 Août",
+      "faction": "Bureau du contrôle des anomalies UCC-2",
+      "description": "De nature froide. Habituée à tenir les autres à distance.",
+      "rarete": "S",
+      "attribut": "Cosmos",
+      "role": "Main DPS",
+      "tier_list": "T0",
+      "arme": {
+        "type": "Arc",
+        "nom": "mirage",
+        "type2": "Arc - Alt",
+        "nom2": "duvet-ferocite"
+      },
+      "console": {
+        "cartouche": "eclat",
+        "module": "",
+        "cartouche2": "boxeur",
+        "module2": ""
+      },
+      "competences": {
+        "attaque_base": {
+          "nom": "Arts martiaux spéciaux",
+          "description": "Effectue jusqu'à 5 attaques consécutives infligeant des DÉG de cosmos. Accorde l'Esprit indomptable à l'impact."
+        },
+		"attaque_hold": {
+          "nom": "Arts martiaux spéciaux (modifiés)",
+          "description": "Maintenez l'attaque de base enfoncée lors du 3e/4e/5e coup d'Arts martiaux spéciaux pour déclencher Arts martiaux spéciaux (modifiés), infligeant des DÉG de cosmos et accordant l'Esprit indomptable à l'impact."
+        },
+        "attaque_saute": {
+          "nom": "Tombe- flèches",
+          "description": "Appuyez sur l'attaque de base en l'air pour plonger, infligeant 1 fois des DÉG de cosmos à l'impact. Une augmentation de DEG pouvant aller jusqu'à 100 % est appliquée en fonction de la hauteur de chute."
+        },
+	    "attaque_riposte": {
+          "nom": "Victoire éclair",
+          "description": "Se déclenche lors de l'utilisation d'Arts martiaux spéciaux après une esquive critique. Riposte contre la cible d'un coup de pied puissant, infligeant 1 fois des DÉG de cosmos, réduisant la rupture de la cible et conférant l'Esprit indomptable."
+        },
+        "skill": {
+          "nom": "Percée à grande vitesse",
+          "description": "Caractéristiques de la cible confirmées. Tire sur les ennemis devant lui et invoque son limier pour bondir sur la cible. Le limier mord la cible à deux reprises en aller-retour. Inflige Mandat à un maximum de 2 ennemis pendant 15 s lorsque la compétence touche sa cible. Augmente les dégâts infligés de 20 % lorsque des cibles affectées par Mandat sont attaquées."
+        },
+        "ultimate": {
+          "nom": "Fureur écarlate",
+          "description": "Ne crois pas que tu puisses t'en tirer à si bon compte... Consomme tout l'Esprit indomptable pour entrer dans l'état Déferlante écarlate, puis lance plusieurs attaques, infligeant d'importants DÉG de cosmos à la cible. Remplace Arts martiaux spéciaux par Assaut des marées et Percée à grande vitesse par Descente écarlate tant que l'état Déferlante écarlate est actif.Augmente les dégâts infligés et la résistance aux interruptions, améliore considérablement la vitesse de déplacement et dure 13 s. L'état Déferlante écarlate prend fin lors d'un changement de personnage. Maintenez la touche d'esquive enfoncée tout en vous déplaçant pour libérer partiellement sa capacité d'Esper et améliorer considérablement sa vitesse de déplacement."
+        },
+        "passif": {
+          "nom": "Esprit indomptable",
+          "description": "Énergie spéciale nécessaire pour lancer Fureur écarlate. Ne s'obtient que lorsque les attaques de Shinku touchent leur cible."
+        },
+		"tips": {
+		  "nom": "Ombre cendrée",
+		  "description": "Le gameplay de Shinku lui permet de changer de forme avec son ultime et de changer ainsi ses compétences et d'augmenter sa puissance."
+		}
+		},
+      "eveil": [
+        {
+          "rang": 1,
+          "titre": "Ruelle sous une pluie battante",
+          "description": "Les dégats infligés par Shinku ignorent 12% de la DEF de la cible."
+        },
+        {
+          "rang": 2,
+          "titre": "Terrain d'entraînemement à l'aube",
+          "description": "Réduit la Résistance au cosmos de la cible de 10% pendant 20 s après que l'ultime l'a touchée."
+        },
+        {
+          "rang": 3,
+          "titre": "Plage au coucher du soleil",
+          "description": "Permet de maintenir l'effet Regard menaçant actif après un changement de personnage et permet à Shinku d'accumuler des cumuls de Regard menaçant lorsqu'elle n'est pas sur le terrain."
+        },
+        {
+          "rang": 4,
+          "titre": "Pente enneigée",
+          "description": "Augmente la limite de cumuls de Regard menaçant à 16 cumuls. Améliore la Frappe instantanée déclenchée lorsque Regard menaçant atteint 16 cumuls, en lui accordant les effets supplémentaires de la Frappe instantanée déclenchée par parade d'attaque ou riposte critique : repousse avec force la cible, l'étourdit brièvement (sans effet sur les boss) et inflige des DÉG supplémentaires équivalents à 20 % des DÉG de Frappe instantanée."
+        },
+        {
+          "rang": 5,
+          "titre": "Salle rieuse",
+          "description": "Augmente la DÉF de Shinku de 50% et sa résistance aux interruptions de 50 % pendant Déferlante écarlate, et lui permet de récupérer des PV équivalents à 300% de son ATQ de base après avoir lancer Descente écarlate."
+        },
+        {
+          "rang": 6,
+          "titre": "Trésor du dragon",
+          "description": "Shinku pour Descente écarlate, Jugement écarlate et Verdict des flammes draconiques de 30 %, et permet à Descente écarlate et Jugement écarlate d'attirer les cibles se trouvant à portée."
+        }
+      ],
+      "resonance": [
+        {
+          "rang": 1,
+          "titre": "Détermination renouvelée - 3 éveils",
+          "description": "Augmente le niveau de compétence de l'attaque de base, de la compétence de redirection et de l'ultime de 1. Augmente les dégâts infligés de 30 % supplémentaires dans l'état Déferlante écarlate."
+        },
+        {
+          "rang": 2,
+          "titre": "Héroïne écarlate - 6 éveils",
+          "description": "Augmente les chances de CRT de Shinku de 10% et permet aux dégâts qu'elle inflige d'ignorer 15 % de la DÉF de la cible."
+        }
+      ],
+      "build": {
+        "stats_prioritaires": [
+          {
+            "Stats Principales": "Taux critique > DMG critique > % ATQ > DMG Cosmos %",
+            "Stats Secondaires": "Taux critique > DMG critique > % ATQ > ATQ"
+          }
+        ]
+      },
+      "team_recommandee": [
+        {
+          "Équipe Charge": "Shinku, Hathor, Zero, Jiuyuan",
+		  "Équipe F2P": "Shinku, Skia, Zero, Menthe"
+        }
+      ],
+      "image": ""
+    }  
   ]
 }
