@@ -242,7 +242,7 @@
       "rarete": "S",
       "attribut": "Incantation",
       "role": "DPS",
-      "tier_list": "T0.5",
+      "tier_list": "T1",
       "arme": {
         "type": "Arc",
         "nom": "societe-camelias",
@@ -917,7 +917,7 @@
       "rarete": "A",
       "attribut": "Anima",
       "role": "DPS",
-      "tier_list": "T1",
+      "tier_list": "T2",
       "arme": {
         "type": "Arc",
         "nom": "duvet-rapidite",
@@ -1030,7 +1030,7 @@
       "rarete": "A",
       "attribut": "Lakshana",
       "role": "DPS",
-      "tier_list": "T2",
+      "tier_list": "T1",
       "arme": {
         "type": "Arc",
         "nom": "attention-tete",
@@ -1715,7 +1715,7 @@
       "rarete": "S",
       "attribut": "Cosmos",
       "role": "Sub Carry",
-      "tier_list": "T0.5",
+      "tier_list": "T0",
       "arme": {
         "type": "Arc",
         "nom": "temps",
