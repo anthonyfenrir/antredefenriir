@@ -91,7 +91,7 @@
         {
           "rang": 1,
           "titre": "Purification - 3 éveils",
-          "description": "Augment le niveau des compétences Délivrance, Fléeau du mal et Tranquilité de 1"
+          "description": "Augmente le niveau des compétences Délivrance, Fléeau du mal et Tranquilité de 1"
         },
         {
           "rang": 2,
@@ -2180,6 +2180,123 @@
         }
       ],
       "image": ""
-    }  
+    },
+	{
+      "id": "iroi",
+      "nom": "Iroi",
+      "nom_en": "Iroi",
+      "anniversaire": "21 Decembre",
+      "faction": "Bureau de contrôle des anomalies UCC-2",
+      "description": "Oneiroi est un enfant sage qui coche toutes les cases.",
+      "rarete": "S",
+      "attribut": "Anima",
+      "role": "Support",
+      "tier_list": "T0.5",
+      "arme": {
+        "type": "Arc",
+        "nom": "mauvaise-porte",
+        "type2": "Arc - Alt",
+        "nom2": "ville-distordue"
+      },
+      "console": {
+        "cartouche": "herisson",
+        "module": "",
+        "cartouche2": "lucioles",
+        "module2": ""
+      },
+      "competences": {
+        "attaque_base": {
+          "nom": "Collaboration",
+          "description": "Invoque des agneaux pour lancer jusqu'à 5 attaques consécutives, infligeant des DÉG d'anima. Accumule de l'Imagination lorsque les attaques touchent leur cible."
+        },
+        "attaque_hold": {
+          "nom": "Rêverie",
+          "description": "Maintenez l'attaque de base pour charger. Consomme de l'Imagination en fonction de la durée de charge pour déclencher jusqu'à 3 instances de Rêverie et infliger des DÉG d'anima. Maintenez l'attaque de base pendant Réflexe inconscient, Bang !, Continuité du soi futur ou Mirage de 3,8 milliards d'années. Consomme de l'Imagination pour déclencher la 3e instance de Rêverie et infliger des DÉG d'anima."
+        },
+		"attaque_hold": {
+          "nom": "Rêve lucide",
+          "description": "Maintenez l'attaque de base une nouvelle fois après qu'Iroi a utilisé l'Attaque de base : Rêverie pour consommer son Imagination et invoquer Morpheus pour déclencher ainsi un tir continu qui inflige des DÉG d'anima."
+        },
+        "attaque_saute": {
+          "nom": "Debout là- dedans",
+          "description": "En l'air, appuyez sur l'attaque de base pour faire plonger Iroi. À l'impact, elle inflige des DÉG d'anima dans une zone. Les DÉG augmentent avec la hauteur de chute, avec une augmentation maximale de 100 %. Si l'attaque touche, Iroi accumule de l'Imagination."
+        },
+        "attaque_riposte": {
+          "nom": "Réflexe inconscient",
+          "description": "Après une esquive critique, utilisez Attaque de base : Collaboration pour déclencher cette attaque. Iroi lance Morpheus sur la cible, inflige des DÉG d'anima et réduit la Rupture. Si l'attaque touche, Iroi accumule de I'Imagination."
+        },
+        "skill": {
+          "nom": "Continuité du soi futur",
+          "description": "Extension de l'auto-identité: Appuyez pour lancer. Soigne toute l'équipe, lui octroie un bonus d'ATQ, inflige des DÉG d'anima, attire les ennemis et accumule de l'Imagination. Continuité du soi futur: Maintenez appuyé pour lancer. En combat, fait entrer 3 alliés en Régression afin qu'ils combattent aux côtés d'Iroi. Passif: Tant qu'Iroi est dans l'équipe et en combat, tout allié mis K.O. entre en Régression. Accumule de l'Imagination chaque fois qu'un allié mis K.O. entre en Régression."
+        },
+        "ultimate": {
+          "nom": "Mirage de 3,8 milliards d'années",
+          "description": "Ouvre un rêve et déclenche différents effets en fonction de la quantité d'Imagination accumulée. En dessous du seuil : soigne toute l'équipe en continu. Seuil atteint : inflige des DÉG d'anima en continu. Passer à un personnage en << Régression » pendant le rêve le ressuscite et lui rend une partie de ses PV. Le rêve prend fin lorsque l'Imagination est épuisée. Le personnage ressuscité retourne alors en Régression. Tant que le rêve est actif, l'Imagination ne peut pas être accumulée, mais Rêverie et Rêve lucide ne consomment pas d'Imagination."
+        },
+        "passif": {
+          "nom": "Imagination",
+          "description": "Comment accumuler de l'Imagination : en utilisant Collaboration, Debout là-dedans !, Réflexe inconscient, Continuité du soi futur ou Bang!, ou lorsqu'un allié mis K.O. entre en état de Régression. Consomme de l'Imagination pour charger l'attaque, puis déclenche Rêverie et Rêve lucide. Modifie les effets de Mirage de 3,8 milliards d'années selon la quantité d'Imagination accumulée. La compétence consomme de l'Imagination en continu tant qu'elle est active."
+        }
+      },
+      "eveil": [
+        {
+          "rang": 1,
+          "titre": "Dilemme du prisonnier répété",
+          "description": "Restaure 3 points d'Imagination par seconde lorsqu'Iroi est hors terrain. Augmente les gains d'Imagination de 30% et remplit entièrement la jauge d'Imagination d'Iroi au début du combat."
+        },
+        {
+          "rang": 2,
+          "titre": "Stratégie: Oeil pour Oeil",
+          "description": "Invoque aléatoirement Morpheus, Icelos ou Phantasos lorsqu'un allié lance une compétence. L'agneau invoqué effectue 1 attaque d'assistance infligeant des DÉG équivalents à 200 % de l'ATQ d'Iroi. Restaure les PV de toute l'équipe à hauteur de 120 % de l'ATQ d'Iroi. Temps de recharge: 5 secondes."
+        },
+        {
+          "rang": 3,
+          "titre": "Caractéristique: Coopération",
+          "description": "Augmente les effets de soins d'Iroi de 36%."
+        },
+        {
+          "rang": 4,
+          "titre": "Caractéristique: Vengeresse",
+          "description": "Augmente le multiplicateur d'ATQ des agneaux qui remplacent les alliés en état de Régression. Morpheus: Beaux rêves : augmentation maximale de 30 % du multiplicateur de base Sommeil de plomb: augmentation maximale de 30 % du multiplicateur de base. Icelos: Petite piqûre: augmentation maximale de 30% du multiplicateur de base Double dose augmentation maximale de 30 % du multiplicateur de base. Phantasos: Chanson douce : augmentation maximale de 30 % du multiplicateur de base. Fausse note: augmentation maximale de 30% du multiplicateur de base."
+        },
+        {
+          "rang": 5,
+          "titre": "Caractéristique: Transparente",
+          "description": "Effet supplémentaire de « Nerfs sympathiques » : augmente l'ATQ de toute l'équipe d'un montant équivalent à 15 % de l'ATQ de base d'Iroi pendant 20 secondes"
+        },
+        {
+          "rang": 6,
+          "titre": "Caractéristique: Indulgence",
+          "description": "Le personnage ressuscité après qu'Iroi a lancé Mirage de 3,8 milliards d'années obtient 100% de ses PV, 50 points d'énergie de cycle et 50 points d'énergie d'ultime."
+        }
+      ],
+      "resonance": [
+        {
+          "rang": 1,
+          "titre": "Primate parmi toutes choses - 3 éveils",
+          "description": "Augmente de 1 le niveau de Collaboration, Continuité du soi futur et Mirage de 3,8 milliards d'années. Augmente la DÉF de toute l'équipe de 30% tant qu'Iroi fait partie de l'équipe."
+        },
+        {
+          "rang": 2,
+          "titre": "oyau de la Création autoproclamé - 6 éveils",
+          "description": "Augmente les DÉG CRT de toute l'équipe de 25% tant qu'Iroi fait partie de l'équipe. Les DÉG infligés par Iroi augmentent de 15 % et son taux de CRT de 5 % pour chaque allié en état de Régression."
+        }
+      ],
+      "build": {
+        "stats_prioritaires": [
+          {
+            "Stats Principales": "ATQ % > Soins % > DEG % Anima",
+            "Stats Secondaires": "ATQ % > Soins % > DEG % Anima > DEG % > ATQ"
+          }
+        ]
+      },
+      "team_recommandee": [
+        {
+          "Équipe Shinku Carry": "Iroi, Shinku, Chaos, Hathor",
+          "Équipe Anima Burst": "Iroi, Hotori, Nanally, Zero"
+        }
+      ],
+      "image": ""
+    }
   ]
 }
