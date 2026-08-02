@@ -1084,6 +1084,30 @@
 		  "description": "Augmente l'ATQ de 32.00%. Après avoir lancé l'ultime, augmente les DÉG de cosmos infligés par le porteur de 51.20% et permet au porteur d'ignorer 19.20% de la DÉF ennemie pendant 20 s. La durée est réinitialisée lorsque l'effet se déclenche à nouveau."
 		}
 	  }
+	},
+	"mauvaise-porte": {
+      "nom": "La Mauvaise Porte",
+      "image": "mauvaise-porte.png",
+	  "rarete": "S",
+	  "type": "liquide",
+	  "effects": {
+		"level1": {
+		  "label": "Niveau 1 - T1",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "37" },
+			{ "nom": "ATQ%", "valeur": "12%" }
+		  ],
+		  "description": "Augmente l'ATQ de 16.00%. Lorsque le porteur prodigue des soins, ses DÉG d'anima augmentent de 30.00% et les DÉG infligés par les autres membres de l'équipe augmentent de 15.00% pendant 20 secondes. La durée est réinitialisée lorsque l'effet se déclenche à nouveau. Les effets portant le même nom ne se cumulent pas."
+		},
+		"level80": {
+		  "label": "Niveau 80 - T5",
+		  "stats": [
+			{ "nom": "ATQ", "valeur": "570" },
+			{ "nom": "ATQ%", "valeur": "30%" }
+		  ],
+		  "description": "Augmente l'ATQ de 32.00%. Lorsque le porteur prodigue des soins, ses DÉG d'anima augmentent de 60.00% et les DÉG infligés par les autres membres de l'équipe augmentent de 30.00% pendant 20 secondes. La durée est réinitialisée lorsque l'effet se déclenche à nouveau. Les effets portant le même nom ne se cumulent pas."
+		}
+	  }
 	},  
 	"pluie": {
 	  "nom": "La pluie qui a boulversé le monde",
